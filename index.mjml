@@ -1,15 +1,81 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-class name="zigzag-text" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
+      <mj-class name="section" border="1px red solid" padding="20px" />
+      <mj-class name="zigzag-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" margin="0px" />
+      <mj-class name="zigzag-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" margin="0px" />
+      <mj-class name="zigzag-button" background-color="#00C2BF" margin="0px" padding="0px" align="left" border-radius="8px" height="48px" padding="14px 40px 14px 40px" />
+      <mj-class name="zigzag-image" width="265px" padding="0px" margin="0px" />
     </mj-attributes>
+    <mj-style>
+      ul,
+      li {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+      .section {
+        padding: 10px;
+        /* Define the padding for mobile */
+      }
 
+      @media (max-width: 480px) {
+        .mobile-padding {
+          padding: 10px;
+          /* Override the padding for devices with a maximum width of 480px */
+        }
+      }
+    </mj-style>
   </mj-head>
+
   <mj-body>
-    <!-- This is the ZigZag block without CTA -->
-    <mj-section>
+
+    <!-- START: This is the ZigZag block with CTA -->
+    <mj-section mj-class="section" css-class="mobile-padding">
       <mj-column>
-        <mj-image width="265px" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/612763581/900"></mj-image>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" mj-class="zigzag-image" />
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="zigzag-heading">
+          Obertauern [PLACESHOTEL] by Valamar
+        </mj-text>
+        <mj-text mj-class="zigzag-text mobile-padding">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
+          <br><strong>Top 3 beaches in Rabac:</strong>
+          <ul>
+            <li>Girandella Beach
+            <li>St Andrea Beach
+            <li>Lanterna Beach
+          </ul>
+          P.S. There is another hidden gem in Brseč which you can reach easier by boat!
+        </mj-text>
+        <mj-button mj-class="zigzag-button">
+          Click here
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section" direction="rtl">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" />
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="zigzag-text">Explore the most popular destinations on the Adriatic, such as Dubrovnik, and create lifetime moments.
+          3 things to do in Dubrovnik:
+          <ul>
+            <li>Visit Mount Srđ & descent by foot
+            <li>Walk the Dubrovnik Walls
+            <li>Take a kayak tour of the Old Town from the outside
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block with CTA -->
+
+    <!-- START: This is the ZigZag block without CTA -->
+    <!-- START: This is the ZigZag block without CTA -->
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" />
       </mj-column>
       <mj-column>
         <mj-text mj-class="zigzag-text">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
@@ -24,9 +90,9 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section direction="rtl">
+    <mj-section mj-class="section" direction="rtl">
       <mj-column>
-        <mj-image width="265px" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/612763581/900"></mj-image>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" />
       </mj-column>
       <mj-column>
         <mj-text mj-class="zigzag-text">Explore the most popular destinations on the Adriatic, such as Dubrovnik, and create lifetime moments.
@@ -39,6 +105,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <!-- END: This is the ZigZag block without CTA -->
 
   </mj-body>
 </mjml>
