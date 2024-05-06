@@ -1,0 +1,44 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="zigzag-text" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
+    </mj-attributes>
+
+  </mj-head>
+  <mj-body>
+    <!-- This is the ZigZag block without CTA -->
+    <mj-section>
+      <mj-column>
+        <mj-image width="265px" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/612763581/900"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="zigzag-text">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
+          <br>
+          <br><strong>Top 3 beaches in Rabac:</strong>
+          <ul>
+            <li>Girandella Beach
+            <li>St Andrea Beach
+            <li>Lanterna Beach
+          </ul>
+          P.S. There is another hidden gem in Brseč which you can reach easier by boat!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section direction="rtl">
+      <mj-column>
+        <mj-image width="265px" src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/612763581/900"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="zigzag-text">Explore the most popular destinations on the Adriatic, such as Dubrovnik, and create lifetime moments.
+          3 things to do in Dubrovnik:
+          <ul>
+            <li>Visit Mount Srđ & descent by foot
+            <li>Walk the Dubrovnik Walls
+            <li>Take a kayak tour of the Old Town from the outside
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
