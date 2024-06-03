@@ -1,0 +1,111 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="section" border="1px red solid" padding="20px" />
+      <mj-class name="right-column" padding-left="20px" />
+      <mj-class name="left-column" padding-right="20px" />
+      <mj-class name="zigzag-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" margin="0px" />
+      <mj-class name="zigzag-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" margin="0px" />
+      <mj-class name="zigzag-button" background-color="#00C2BF" margin="0px" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
+      <mj-class name="zigzag-image" width="265px" padding="0px" margin="0px" />
+      <mj-class name="rec-image" width="260px" padding="0px" margin="0px" />
+    </mj-attributes>
+    <mj-style>
+      ul{
+      margin-bottom: 0px;
+      }
+
+      @media (max-width: 480px) {
+      .mobile-padding {
+      padding: 0px !important;
+      /* Override the padding for devices with a maximum width of 480px */
+      }
+      .left-colummn td, .right-column td{
+      padding: 0px !important;
+      }
+
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <!-- START: 2 property recommendations -->
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td>
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" />
+            </td>
+            <td>
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" />
+            </td>
+
+          </tr>
+          <tr>
+            <td>Valamar Argosy Hotel 4*</td>
+            <td>Girandella Valamar Collection Designed for
+              Adults*</td>
+
+          </tr>
+          <tr>
+            <td>Island of Rab</td>
+            <td>Dubrovnik</td>
+
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 property recommendations -->
+    <!-- START: This is the ZigZag block with CTA -->
+    <!-- First sectiom -->
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" mj-class="zigzag-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column mj-class="right-column" css-class="right-column">
+        <mj-text mj-class="zigzag-heading">
+          Obertauern [PLACESHOTEL] by Valamar
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="zigzag-text">TOP CHOICE FOR MILLENIALS
+          <ul>
+            <li>€60 daily credit per two persons for restaurants and bars</li>
+            <li>pool with serene indoor zones</li>
+            <li>evening DJ music programme</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="zigzag-button">
+          From 225
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section mj-class="section" direction="rtl">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" mj-class="zigzag-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column mj-class="left-column" css-class="left -column">
+        <mj-text mj-class="zigzag-heading">
+          Kesselspitze Valamar Collection Hotel 4* Superiror
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="zigzag-text">PREMIUM ACCOMMODATION
+          <ul>
+            <li>Ski-in & ski-out hotel</li>
+            <li>NEW: free parking in the underground garage</li>
+            <li>NEW: upgraded gourmet offer</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="zigzag-text">P.S. Check out our exclusive V level Chalet</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="zigzag-button">
+          From 278
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block with CTA -->
