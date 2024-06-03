@@ -2,6 +2,7 @@
   <mj-head>
     <mj-attributes>
       <mj-class name="section" border="1px red solid" padding="20px" />
+      <mj-class name="sectionn" border="1px red solid" padding="0px" />
       <mj-class name="right-column" padding-left="20px" />
       <mj-class name="left-column" padding-right="20px" />
       <mj-class name="zigzag-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" margin="0px" />
@@ -23,40 +24,14 @@
       .left-colummn td, .right-column td{
       padding: 0px !important;
       }
-
+      .hide-on-mobile{
+      display: none !important;}
       }
     </mj-style>
   </mj-head>
 
   <mj-body>
-    <!-- START: 2 property recommendations -->
-    <mj-section mj-class="section">
-      <mj-column>
-        <mj-table>
-          <tr>
-            <td>
-              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" />
-            </td>
-            <td>
-              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" />
-            </td>
 
-          </tr>
-          <tr>
-            <td>Valamar Argosy Hotel 4*</td>
-            <td>Girandella Valamar Collection Designed for
-              Adults*</td>
-
-          </tr>
-          <tr>
-            <td>Island of Rab</td>
-            <td>Dubrovnik</td>
-
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <!-- END: 2 property recommendations -->
     <!-- START: This is the ZigZag block with CTA -->
     <!-- First sectiom -->
     <mj-section mj-class="section">
@@ -109,3 +84,28 @@
       </mj-column>
     </mj-section>
     <!-- END: This is the ZigZag block with CTA -->
+    <!-- START: 2 property recommendations -->
+    <mj-section mj-class="sectionn" css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="7px" line-height="100%">
+          <tr>
+            <td>
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" style="width:260px;height:200px;" height="200" width="265" />
+            </td>
+            <td>
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" style="width:260px;height:200px;" height="200" width="265" />
+            </td>
+          </tr>
+          <tr>
+            <td>Valamar Argosy Hotel 4*</td>
+            <td>Girandella Valamar Collection Designed for
+              Adults*</td>
+          </tr>
+          <tr>
+            <td>Island of Rab</td>
+            <td>Dubrovnik</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 property recommendations -->
