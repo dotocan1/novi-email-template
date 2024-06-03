@@ -3,6 +3,7 @@
     <mj-attributes>
       <mj-class name="section" border="1px red solid" padding="20px" />
       <mj-class name="sectionn" border="1px red solid" padding="0px" />
+      <mj-class name="column" border="1px blue solid" />
       <mj-class name="right-column" padding-left="20px" />
       <mj-class name="left-column" padding-right="20px" />
       <mj-class name="zigzag-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" margin="0px" />
@@ -12,28 +13,60 @@
       <mj-class name="rec-image" width="260px" padding="0px" margin="0px" />
     </mj-attributes>
     <mj-style>
+      *{
+      font-weight:400px;
+      font-family:Arial, sans-serif;
+      font-size:15px;
+      line-height: 22px;
+      }
       ul{
       margin-bottom: 0px;
       }
-th{
+      .hide-on-desktop{
+      display: none;
+      }
+
+      .button {
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      }
+
+      th{
       font-weight: 700;
       font-family: Arial, sans-serif;
       font-size: 20px;
       line-height: 24px;
-			text-align: left;
+      text-align: left;
       }
+
+      /** Mobile only **/
       @media (max-width: 480px) {
       .mobile-padding {
       padding: 0px !important;
       /* Override the padding for devices with a maximum width of 480px */
       }
-      .left-colummn td, .right-column td{
+      .left-column td,
+      .right-column td {
       padding: 0px !important;
       }
-      .hide-on-mobile{
-      display: none !important;}
+      .hide-on-desktop {
+      display: block;
       }
-      
+      .hide-on-mobile {
+      display: none !important;
+      }
+      }
+
+
     </mj-style>
   </mj-head>
 
@@ -70,7 +103,7 @@ th{
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" mj-class="zigzag-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column mj-class="left-column" css-class="left -column">
+      <mj-column mj-class="left-column" css-class="left-column">
         <mj-text mj-class="zigzag-heading">
           Kesselspitze Valamar Collection Hotel 4* Superiror
         </mj-text>
@@ -112,7 +145,41 @@ th{
             <td>Island of Rab</td>
             <td>Dubrovnik</td>
           </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;">
+              <p class="button">Book now</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;">
+              <p class="button">Book now</p>
+            </td>
+          </tr>
         </mj-table>
       </mj-column>
     </mj-section>
     <!-- END: 2 property recommendations FOR DESKTOP -->
+    <!-- START: 2 property recommendations FOR MOBILE -->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" mj-class="zigzag-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="zigzag-heading">FValamar Argosy Hotel 4*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="zigzag-text">Island of Rab</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="zigzag-button">Book now</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/testna-slika-265x200.png" mj-class="zigzag-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="zigzag-heading">FGirandella Valamar Collection Designed for
+          Adults*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="zigzag-text">Dubrovnik</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="zigzag-button">Book now</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 property recommendations FOR MOBILE -->
