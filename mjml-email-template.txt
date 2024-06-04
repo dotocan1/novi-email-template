@@ -11,6 +11,8 @@
       <mj-class name="general-button" background-color="#00C2BF" margin="0px" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
       <mj-class name="general-image" width="265px" padding="0px" margin="0px" />
       <mj-class name="rec-image" width="260px" padding="0px" margin="0px" />
+      <mj-class name="header-image" width="200px" padding="0px" margin="0px" />
+      <mj-class name="web-overview-link" font-weight="400" font-size="12px" line-height="20px" color="#FF0000" />
     </mj-attributes>
     <mj-style>
       *{
@@ -183,3 +185,15 @@
       </mj-column>
     </mj-section>
     <!-- END: 2 property recommendations FOR MOBILE -->
+
+    <!-- START: Header -->
+    <mj-section mj-class="section">
+      <mj-column width = "48%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" />
+      </mj-column>
+      <mj-column width = "26%"><mj-text></mj-text></mj-column>
+      <mj-column width = "26%">
+        <mj-text mj-class="web-overview-link"><a href="https://www.google.com">Web overview</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Header -->
