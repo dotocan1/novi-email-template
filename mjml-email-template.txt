@@ -50,6 +50,10 @@
       text-align: left;
       }
 
+      .web-overview div {
+      text-align:center !important;
+      }
+
       /** Mobile only **/
       @media (max-width: 480px) {
       .mobile-padding {
@@ -188,11 +192,13 @@
 
     <!-- START: Header -->
     <mj-section mj-class="section">
-      <mj-column width = "48%">
+      <mj-column width="48%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" />
       </mj-column>
-      <mj-column width = "26%"><mj-text></mj-text></mj-column>
-      <mj-column width = "26%">
+      <mj-column width="26%">
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column width="26%" css-class="web-overview">
         <mj-text mj-class="web-overview-link"><a href="https://www.google.com">Web overview</a></mj-text>
       </mj-column>
     </mj-section>
