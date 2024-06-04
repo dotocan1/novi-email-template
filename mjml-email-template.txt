@@ -194,6 +194,10 @@
       .hide-on-mobile {
         display: none !important;
       }
+
+      .loyalty-track {
+        width: 33% !important;
+      }
     }
   </style>
 </head>
@@ -248,7 +252,7 @@
                 <!--[if mso | IE]></td><![endif]-->
                 <!-- Card Number -->
                 <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                     <tbody>
                       <tr>
@@ -267,7 +271,7 @@
                 <!--[if mso | IE]></td><![endif]-->
                 <!-- Level -->
                 <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                     <tbody>
                       <tr>
@@ -286,7 +290,7 @@
                 <!--[if mso | IE]></td><![endif]-->
                 <!-- Wallet Credit -->
                 <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                     <tbody>
                       <tr>
