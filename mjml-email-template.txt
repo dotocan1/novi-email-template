@@ -1,38 +1,183 @@
-<mjml>
-  <mj-head>
-    <mj-attributes>
-      <mj-class name="section" border="1px red solid" padding="20px 0px 20px 0px" />
-      <mj-class name="rec-section" border="1px red solid" padding="0px" />
-      <mj-class name="loyalty-section" border-top="1px lightgrey solid" border-bottom="1px lightgrey solid" padding="0px" />
-      <mj-class name="column" border="1px blue solid" />
-      <mj-class name="right-column" padding-left="0px" />
-      <mj-class name="left-column" padding-right="0px" />
-      <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" margin="0px" />
-      <mj-class name="loyalty-track-text" padding="5px 0px 5px 0px" />
-      <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" margin="0px" />
-      <mj-class name="general-button" background-color="#00C2BF" margin="0px" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
-      <mj-class name="general-image" width="265px" padding="0px" margin="0px" />
-      <mj-class name="rec-image" width="260px" padding="0px" margin="0px" />
-      <mj-class name="header-image" width="200px " padding="0px" margin="0px" />
-      <mj-class name="main-banner" width="540px " padding="0px" margin="0px" />
-      <mj-class name="web-overview-link" font-weight="400" font-size="12px" line-height="20px" color="#FF0000" />
-    </mj-attributes>
-    <mj-style>
-      *{
-      font-weight:400px;
-      font-family:Arial, sans-serif;
-      font-size:15px;
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title>
+  </title>
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+  </style>
+  <!--[if mso]>
+        <noscript>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        </noscript>
+        <![endif]-->
+  <!--[if lte mso 11]>
+        <style type="text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+  </style>
+  <!--<![endif]-->
+  <style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-33-333333333333336 {
+        width: 33.333333333333336% !important;
+        max-width: 33.333333333333336%;
+      }
+
+      .mj-column-per-33 {
+        width: 33% !important;
+        max-width: 33%;
+      }
+
+      .mj-column-per-20 {
+        width: 20% !important;
+        max-width: 20%;
+      }
+
+      .mj-column-px-265 {
+        width: 265px !important;
+        max-width: 265px;
+      }
+
+      .mj-column-per-1 {
+        width: 1% !important;
+        max-width: 1%;
+      }
+
+      .mj-column-per-48 {
+        width: 48% !important;
+        max-width: 48%;
+      }
+
+      .mj-column-per-50 {
+        width: 50% !important;
+        max-width: 50%;
+      }
+    }
+  </style>
+  <style media="screen and (min-width:480px)">
+    .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-33-333333333333336 {
+      width: 33.333333333333336% !important;
+      max-width: 33.333333333333336%;
+    }
+
+    .moz-text-html .mj-column-per-33 {
+      width: 33% !important;
+      max-width: 33%;
+    }
+
+    .moz-text-html .mj-column-per-20 {
+      width: 20% !important;
+      max-width: 20%;
+    }
+
+    .moz-text-html .mj-column-px-265 {
+      width: 265px !important;
+      max-width: 265px;
+    }
+
+    .moz-text-html .mj-column-per-1 {
+      width: 1% !important;
+      max-width: 1%;
+    }
+
+    .moz-text-html .mj-column-per-48 {
+      width: 48% !important;
+      max-width: 48%;
+    }
+
+    .moz-text-html .mj-column-per-50 {
+      width: 50% !important;
+      max-width: 50%;
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }
+  </style>
+  <style type="text/css">
+    * {
+      font-weight: 400px;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
       line-height: 22px;
-      }
-      ul{
+    }
+
+    ul {
       margin-bottom: 0px;
-      }
-      .hide-on-desktop{
+    }
+
+    .hide-on-desktop {
       display: none;
-      overflow:hidden;
-      }
-      .button {
-      background-color: #00C2BF; /* Teal color */
+      overflow: hidden;
+    }
+
+    .button {
+      background-color: #00C2BF;
+      /* Teal color */
       margin: 0px;
       padding: 0px;
       text-align: center;
@@ -43,295 +188,1010 @@
       color: white;
       font-size: 16px;
       padding: 9px 2px 9px 2px;
-      }
+    }
 
-      th{
+    th {
       font-weight: 700;
       font-family: Arial, sans-serif;
       font-size: 20px;
       line-height: 24px;
       text-align: left;
-      }
+    }
 
+    .web-overview div {
+      text-align: center !important;
+    }
 
-
-      .web-overview div {
-      text-align:center !important;
-      }
-
-      .loyalty-track-text-bold{
+    .loyalty-track-text-bold {
       font-weight: bold;
+    }
+
+    /** Mobile only **/
+    @media (max-width: 480px) {
+      .mobile-padding {
+        padding: 0px !important;
+        /* Override the padding for devices with a maximum width of 480px */
       }
 
-      /** Mobile only **/
-      @media (max-width: 480px) {
-      .mobile-padding {
-      padding: 0px !important;
-      /* Override the padding for devices with a maximum width of 480px */
-      }
       .left-column td,
       .right-column td {
-      padding: 0px !important;
+        padding: 0px !important;
       }
+
       .hide-on-desktop {
-      display: block;
-      overflow : visible ;
+        display: block;
+        overflow: visible;
       }
+
       .hide-on-mobile {
-      display: none !important;
-      overflow:hidden;
+        display: none !important;
+        overflow: hidden;
       }
+
       .loyalty-track {
-      width: 33% !important;
+        width: 33% !important;
       }
-      }
+    }
+  </style>
+</head>
 
-
-    </mj-style>
-  </mj-head>
-  <mj-body>
+<body style="word-spacing:normal;">
+  <div style="">
+    <!-- START: Salutation text -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:20px;font-weight:700;line-height:24px;text-align:left;color:#000000;">Dear Mr. Doe,</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#000000;">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this! <br />
+                          <br /> If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" vertical-align="middle" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:50%;line-height:100%;">
+                          <tr>
+                            <td align="center" bgcolor="#00C2BF" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:48px;mso-padding-alt:10px 25px;background:#00C2BF;" valign="middle">
+                              <p style="display:inline-block;background:#00C2BF;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;"> Discover more </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Salutation text -->
     <!-- START: Header -->
-    <mj-section mj-class="section">
-      <mj-column>
-        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" />
-      </mj-column>
-      <mj-column width="33%">
-        <mj-text></mj-text>
-      </mj-column>
-      <mj-column css-class="web-overview">
-        <mj-text mj-class="web-overview-link"><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
-      </mj-column>
-    </mj-section>
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:199.33333333333337px;" ><![endif]-->
+              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:199px;">
+                                <img height="auto" src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="199" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:197.34px;" ><![endif]-->
+              <div class="mj-column-per-33 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="web-overview-outlook" style="vertical-align:top;width:199.33333333333337px;" ><![endif]-->
+              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix web-overview" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;font-weight:400;line-height:20px;text-align:left;color:#FF0000;"><a href="${clickthrough('View_onlinee')}">Web overview</a></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- END: Header -->
-
     <!-- START: Loyalty -->
-    <mj-section mj-class="loyalty-section">
-      <mj-group>
-        <!-- Valamar plus club logo -->
-        <mj-column vertical-align="middle" css-class="hide-on-mobile">
-          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" />
-        </mj-column>
-        <!-- Empty Space -->
-        <mj-column vertical-align="middle" css-class="hide-on-mobile">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <!-- Card Number -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-text">
-            Card No.
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">100105613531</mj-text>
-        </mj-column>
-        <!-- Level -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-text">
-            Your Level
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
-        </mj-column>
-        <!-- Wallet Credit -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-text">
-            Wallet credit
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
-            71.66 E
-          </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border-bottom:1px lightgrey solid;border-top:1px lightgrey solid;direction:ltr;font-size:0px;padding:0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+                <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><![endif]-->
+                <!-- Valamar plus club logo -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix hide-on-mobile" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                            <tbody>
+                              <tr>
+                                <td style="width:70px;">
+                                  <img height="auto" src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="70" />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Empty Space -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix hide-on-mobile" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Card Number -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Card No.</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">100105613531</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Level -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Your Level</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Elite</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Wallet Credit -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Wallet credit</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">71.66 E</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- START: End -->
-
     <!-- START: Main banner FOR DESKTOP FIRST VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x360.png" width="540px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
-
-    <!-- START: Main banner FOR MOBILE FIRST VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR MOBILE FIRST VARIANT-->
-
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-mobile-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-mobile" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:540px;">
+                                <img height="auto" src="https://placehold.jp/540x360.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="540" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR DESKTOP FIRST VARIANT -->
+    <!-- START: Main banner FOR MOBILE FIRST VARIANT -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-desktop-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-desktop" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                          <tbody>
+                            <tr>
+                              <td style="width:548px;" class="mj-full-width-mobile">
+                                <img height="auto" src="https://placehold.jp/280x360.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="548" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR MOBILE FIRST VARIANT -->
     <!-- START: Main banner FOR DESKTOP SECOND VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" width="540px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR DESKTOP SECOND VARIANT-->
-
-    <!-- START: Main banner FOR MOBILE SECOND VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR MOBILE SECOND VARIANT-->
-
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-mobile-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-mobile" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:540px;">
+                                <img height="auto" src="https://placehold.jp/540x270.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="540" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR DESKTOP SECOND VARIANT -->
+    <!-- START: Main banner FOR MOBILE SECOND VARIANT -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-desktop-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-desktop" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                          <tbody>
+                            <tr>
+                              <td style="width:548px;" class="mj-full-width-mobile">
+                                <img height="auto" src="https://placehold.jp/280x416.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="548" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR MOBILE SECOND VARIANT -->
     <!-- START: Main banner FOR DESKTOP THIRD VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" width="540px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR DESKTOP THIRD VARIANT-->
-
-    <!-- START: Main banner FOR MOBILE THIRD VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR MOBILE THIRD VARIANT-->
-
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-mobile-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-mobile" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:540px;">
+                                <img height="auto" src="https://placehold.jp/540x270.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="540" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR DESKTOP THIRD VARIANT -->
+    <!-- START: Main banner FOR MOBILE THIRD VARIANT -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-desktop-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-desktop" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                          <tbody>
+                            <tr>
+                              <td style="width:548px;" class="mj-full-width-mobile">
+                                <img height="auto" src="https://placehold.jp/280x270.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="548" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR MOBILE THIRD VARIANT -->
     <!-- START: Main banner FOR DESKTOP FOURTH VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" />
-      </mj-column>
-      <mj-column width="1%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR DESKTOP FOURTH VARIANT-->
-
-    <!-- START: Main banner FOR MOBILE FOURTH VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-group>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x125.png" width="135px" padding="0px" />
-        </mj-column>
-        <mj-column width="1%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x125.png" width="135px" padding="0px" />
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- END: Main banner FOR MOBILE FOURTH  VARIANT-->
-
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-mobile-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-mobile" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:265px;" ><![endif]-->
+              <div class="mj-column-px-265 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:265px;">
+                                <img height="auto" src="https://placehold.jp/265x265.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="265" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:5.98px;" ><![endif]-->
+              <div class="mj-column-per-1 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:265px;" ><![endif]-->
+              <div class="mj-column-px-265 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:265px;">
+                                <img height="auto" src="https://placehold.jp/265x265.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="265" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR DESKTOP FOURTH VARIANT -->
+    <!-- START: Main banner FOR MOBILE FOURTH VARIANT -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-desktop-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-desktop" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+                <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:287px;" ><![endif]-->
+                <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:48%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                            <tbody>
+                              <tr>
+                                <td style="width:135px;">
+                                  <img height="auto" src="https://placehold.jp/135x125.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="135" />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><td style="vertical-align:top;width:5px;" ><![endif]-->
+                <div class="mj-column-per-1 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:1%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><td style="vertical-align:top;width:287px;" ><![endif]-->
+                <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:48%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                            <tbody>
+                              <tr>
+                                <td style="width:135px;">
+                                  <img height="auto" src="https://placehold.jp/135x125.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="135" />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Main banner FOR MOBILE FOURTH  VARIANT -->
     <!-- START: This is the ZigZag block with CTA -->
     <!-- First sectiom -->
-    <mj-section mj-class="section">
-      <mj-column>
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column mj-class="right-column" css-class="right-column">
-        <mj-text mj-class="general-heading">
-          Obertauern [PLACESHOTEL] by Valamar
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">TOP CHOICE FOR MILLENIALS
-          <ul>
-            <li>€60 daily credit per two persons for restaurants and bars</li>
-            <li>pool with serene indoor zones</li>
-            <li>evening DJ music programme</li>
-          </ul>
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">
-          From 225
-        </mj-button>
-      </mj-column>
-    </mj-section>
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                          <tbody>
+                            <tr>
+                              <td style="width:265px;" class="mj-full-width-mobile">
+                                <img height="auto" src="https://placehold.jp/265x250.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="265" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="right-column-outlook" style="vertical-align:top;width:299px;" ><![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix right-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding-left:0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <div style="font-family:Arial, sans-serif;font-size:20px;font-weight:700;line-height:24px;text-align:left;color:#000000;">Obertauern [PLACESHOTEL] by Valamar</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-size:0px;word-break:break-word;">
+                                <div style="height:20px;line-height:20px;">&#8202;</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <div style="font-family:Arial, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#000000;">TOP CHOICE FOR MILLENIALS <ul>
+                                    <li>€60 daily credit per two persons for restaurants and bars</li>
+                                    <li>pool with serene indoor zones</li>
+                                    <li>evening DJ music programme</li>
+                                  </ul>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-size:0px;word-break:break-word;">
+                                <div style="height:20px;line-height:20px;">&#8202;</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" vertical-align="middle" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+                                  <tr>
+                                    <td align="center" bgcolor="#00C2BF" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:48px;mso-padding-alt:10px 25px;background:#00C2BF;" valign="middle">
+                                      <p style="display:inline-block;background:#00C2BF;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;"> From 225 </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Second section -->
-    <mj-section mj-class="section" direction="rtl">
-      <mj-column>
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column mj-class="left-column" css-class="left-column">
-        <mj-text mj-class="general-heading">
-          Kesselspitze Valamar Collection Hotel 4* Superiror
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">PREMIUM ACCOMMODATION
-          <ul>
-            <li>Ski-in & ski-out hotel</li>
-            <li>NEW: free parking in the underground garage</li>
-            <li>NEW: upgraded gourmet offer</li>
-          </ul>
-        </mj-text>
-        <mj-spacer height="10px" />
-        <mj-text mj-class="general-text">P.S. Check out our exclusive V level Chalet</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">
-          From 278
-        </mj-button>
-      </mj-column>
-    </mj-section>
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:rtl;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                          <tbody>
+                            <tr>
+                              <td style="width:265px;" class="mj-full-width-mobile">
+                                <img height="auto" src="https://placehold.jp/265x250.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="265" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="left-column-outlook" style="vertical-align:top;width:299px;" ><![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix left-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding-right:0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <div style="font-family:Arial, sans-serif;font-size:20px;font-weight:700;line-height:24px;text-align:left;color:#000000;">Kesselspitze Valamar Collection Hotel 4* Superiror</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-size:0px;word-break:break-word;">
+                                <div style="height:20px;line-height:20px;">&#8202;</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <div style="font-family:Arial, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#000000;">PREMIUM ACCOMMODATION <ul>
+                                    <li>Ski-in & ski-out hotel</li>
+                                    <li>NEW: free parking in the underground garage</li>
+                                    <li>NEW: upgraded gourmet offer</li>
+                                  </ul>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-size:0px;word-break:break-word;">
+                                <div style="height:10px;line-height:10px;">&#8202;</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <div style="font-family:Arial, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#000000;">P.S. Check out our exclusive V level Chalet</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="font-size:0px;word-break:break-word;">
+                                <div style="height:20px;line-height:20px;">&#8202;</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" vertical-align="middle" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+                                  <tr>
+                                    <td align="center" bgcolor="#00C2BF" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:48px;mso-padding-alt:10px 25px;background:#00C2BF;" valign="middle">
+                                      <p style="display:inline-block;background:#00C2BF;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;"> From 278 </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- END: This is the ZigZag block with CTA -->
-
     <!-- START: 2 property recommendations FOR DESKTOP -->
-    <mj-section mj-class="rec-section" css-class="hide-on-mobile">
-      <mj-column>
-        <mj-table align="center" cellpadding="7px" line-height="100%">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-mobile-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-mobile" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
           <tr>
-            <td>
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="265" />
-            </td>
-            <td>
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="265" />
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table cellpadding="7px" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:100%;table-layout:auto;width:100%;border:none;">
+                          <tr>
+                            <td>
+                              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="265" />
+                            </td>
+                            <td>
+                              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="265" />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>Valamar Argosy Hotel 4*</th>
+                            <th>Girandella Valamar Collection Designed for Adults*</th>
+                          </tr>
+                          <tr>
+                            <td>Island of Rab</td>
+                            <td>Dubrovnik</td>
+                          </tr>
+                          <tr>
+                            <td valign="middle" style="line-height: 40px;">
+                              <p class="button">Book now</p>
+                            </td>
+                            <td valign="middle" style="line-height: 40px;">
+                              <p class="button">Book now</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
-          <tr>
-            <th>Valamar Argosy Hotel 4*</th>
-            <th>Girandella Valamar Collection Designed for
-              Adults*</th>
-          </tr>
-          <tr>
-            <td>Island of Rab</td>
-            <td>Dubrovnik</td>
-          </tr>
-          <tr>
-            <td valign="middle" style="line-height: 40px;">
-              <p class="button">Book now</p>
-            </td>
-            <td valign="middle" style="line-height: 40px;">
-              <p class="button">Book now</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- END: 2 property recommendations FOR DESKTOP -->
     <!-- START: 2 property recommendations FOR MOBILE -->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <!-- First recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-heading">FValamar Argosy Hotel 4*</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">Island of Rab</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">Book now</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Second recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-heading">FGirandella Valamar Collection Designed for
-          Adults*</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">Dubrovnik</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">Book now</mj-button>
-      </mj-column>
-    </mj-section>
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-desktop-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="hide-on-desktop" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+              <!-- First recommendation -->
+              <!--[if mso | IE]><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                          <tbody>
+                            <tr>
+                              <td style="width:265px;" class="mj-full-width-mobile">
+                                <img height="auto" src="https://placehold.jp/260x200.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="265" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:20px;font-weight:700;line-height:24px;text-align:left;color:#000000;">FValamar Argosy Hotel 4*</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#000000;">Island of Rab</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" vertical-align="middle" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+                          <tr>
+                            <td align="center" bgcolor="#00C2BF" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:48px;mso-padding-alt:10px 25px;background:#00C2BF;" valign="middle">
+                              <p style="display:inline-block;background:#00C2BF;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;"> Book now </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><![endif]-->
+              <!-- Second recommendation -->
+              <!--[if mso | IE]><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
+              <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                          <tbody>
+                            <tr>
+                              <td style="width:265px;" class="mj-full-width-mobile">
+                                <img height="auto" src="https://placehold.jp/260x200.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="265" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:20px;font-weight:700;line-height:24px;text-align:left;color:#000000;">FGirandella Valamar Collection Designed for Adults*</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <div style="font-family:Arial, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#000000;">Dubrovnik</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size:0px;word-break:break-word;">
+                        <div style="height:20px;line-height:20px;">&#8202;</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" vertical-align="middle" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+                          <tr>
+                            <td align="center" bgcolor="#00C2BF" role="presentation" style="border:none;border-radius:8px;cursor:auto;height:48px;mso-padding-alt:10px 25px;background:#00C2BF;" valign="middle">
+                              <p style="display:inline-block;background:#00C2BF;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;"> Book now </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- END: 2 property recommendations FOR MOBILE -->
+  </div>
+</body>
+
+</html>
