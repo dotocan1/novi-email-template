@@ -65,16 +65,6 @@
   <!--<![endif]-->
   <style type="text/css">
     @media only screen and (min-width:480px) {
-      .mj-column-per-100 {
-        width: 100% !important;
-        max-width: 100%;
-      }
-
-      .mj-column-per-20 {
-        width: 20% !important;
-        max-width: 20%;
-      }
-
       .mj-column-per-50 {
         width: 50% !important;
         max-width: 50%;
@@ -89,19 +79,19 @@
         width: 33.333333333333336% !important;
         max-width: 33.333333333333336%;
       }
+
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-20 {
+        width: 20% !important;
+        max-width: 20%;
+      }
     }
   </style>
   <style media="screen and (min-width:480px)">
-    .moz-text-html .mj-column-per-100 {
-      width: 100% !important;
-      max-width: 100%;
-    }
-
-    .moz-text-html .mj-column-per-20 {
-      width: 20% !important;
-      max-width: 20%;
-    }
-
     .moz-text-html .mj-column-per-50 {
       width: 50% !important;
       max-width: 50%;
@@ -115,6 +105,16 @@
     .moz-text-html .mj-column-per-33-333333333333336 {
       width: 33.333333333333336% !important;
       max-width: 33.333333333333336%;
+    }
+
+    .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-20 {
+      width: 20% !important;
+      max-width: 20%;
     }
   </style>
   <style type="text/css">
@@ -204,118 +204,6 @@
 
 <body style="word-spacing:normal;">
   <div style="">
-    <!-- START: Loyalty -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="border-bottom:1px lightgrey solid;border-top:1px lightgrey solid;direction:ltr;font-size:0px;padding:0px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="width:600px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
-                <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><![endif]-->
-                <!-- Valamar plus club logo -->
-                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix hide-on-mobile" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                    <tbody>
-                      <tr>
-                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                            <tbody>
-                              <tr>
-                                <td style="width:70px;">
-                                  <img height="auto" src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="70" />
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!--[if mso | IE]></td><![endif]-->
-                <!-- Empty Space -->
-                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix hide-on-mobile" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                    <tbody>
-                      <tr>
-                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!--[if mso | IE]></td><![endif]-->
-                <!-- Card Number -->
-                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                    <tbody>
-                      <tr>
-                        <td align="left" style="font-size:0px;padding:5px;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Card No.</div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">100105613531</div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!--[if mso | IE]></td><![endif]-->
-                <!-- Level -->
-                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                    <tbody>
-                      <tr>
-                        <td align="left" style="font-size:0px;padding:5px;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Your Level</div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Elite</div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!--[if mso | IE]></td><![endif]-->
-                <!-- Wallet Credit -->
-                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
-                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
-                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                    <tbody>
-                      <tr>
-                        <td align="left" style="font-size:0px;padding:5px;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Wallet credit</div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px;word-break:break-word;">
-                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">71.66 E</div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!--[if mso | IE]></td></tr></table><![endif]-->
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- START: End -->
     <!-- START: This is the ZigZag block with CTA -->
     <!-- First sectiom -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
@@ -323,8 +211,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:279px;" ><![endif]-->
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -349,12 +237,12 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="right-column-outlook" style="vertical-align:top;width:279px;" ><![endif]-->
+              <!--[if mso | IE]></td><td class="right-column-outlook" style="vertical-align:top;width:299px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix right-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding-left:20px;">
+                      <td style="vertical-align:top;padding-left:0px;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
@@ -413,8 +301,8 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="border:1px red solid;direction:rtl;font-size:0px;padding:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:279px;" ><![endif]-->
+            <td style="border:1px red solid;direction:rtl;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -439,12 +327,12 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="left-column-outlook" style="vertical-align:top;width:279px;" ><![endif]-->
+              <!--[if mso | IE]></td><td class="left-column-outlook" style="vertical-align:top;width:299px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix left-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding-right:20px;">
+                      <td style="vertical-align:top;padding-right:0px;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
@@ -508,14 +396,185 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- END: This is the ZigZag block with CTA -->
+    <!-- START: Header -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:287.04px;" ><![endif]-->
+              <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:200px;">
+                                <img height="auto" src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="200" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:199.33333333333337px;" ><![endif]-->
+              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="web-overview-outlook" style="vertical-align:top;width:199.33333333333337px;" ><![endif]-->
+              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix web-overview" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;font-weight:400;line-height:20px;text-align:left;color:#FF0000;"><a href="https://www.google.com">Web overview</a></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- END: Header -->
+    <!-- START: Loyalty -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="border-bottom:1px lightgrey solid;border-top:1px lightgrey solid;direction:ltr;font-size:0px;padding:0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+                <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><![endif]-->
+                <!-- Valamar plus club logo -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix hide-on-mobile" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                            <tbody>
+                              <tr>
+                                <td style="width:70px;">
+                                  <img height="auto" src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="70" />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Empty Space -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix hide-on-mobile" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Card Number -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Card No.</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">100105613531</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Level -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Your Level</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Elite</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><![endif]-->
+                <!-- Wallet Credit -->
+                <!--[if mso | IE]><td style="vertical-align:middle;width:120px;" ><![endif]-->
+                <div class="mj-column-per-20 mj-outlook-group-fix loyalty-track" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Wallet credit</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" class="loyalty-track-text-bold" style="font-size:0px;padding:5px 0px 5px 0px;word-break:break-word;">
+                          <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">71.66 E</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- START: End -->
     <!-- START: 2 property recommendations FOR DESKTOP -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="hide-on-mobile-outlook" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div class="hide-on-mobile" style="margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:0px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:598px;" ><![endif]-->
+            <td style="border:0px red solid;direction:ltr;font-size:0px;padding:0px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -566,10 +625,10 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px;text-align:center;">
+            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px 0px 20px 0px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
               <!-- First recommendation -->
-              <!--[if mso | IE]><td class="" style="vertical-align:top;width:279px;" ><![endif]-->
+              <!--[if mso | IE]><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -632,7 +691,7 @@
               </div>
               <!--[if mso | IE]></td><![endif]-->
               <!-- Second recommendation -->
-              <!--[if mso | IE]><td class="" style="vertical-align:top;width:279px;" ><![endif]-->
+              <!--[if mso | IE]><td class="" style="vertical-align:top;width:299px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -696,65 +755,6 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- END: 2 property recommendations FOR MOBILE -->
-    <!-- START: Header -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="border:1px red solid;direction:ltr;font-size:0px;padding:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:267.84px;" ><![endif]-->
-              <div class="mj-column-per-48 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                          <tbody>
-                            <tr>
-                              <td style="width:200px;">
-                                <img height="auto" src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="200" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:186px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;"></div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><td class="web-overview-outlook" style="vertical-align:top;width:186px;" ><![endif]-->
-              <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix web-overview" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;font-weight:400;line-height:20px;text-align:left;color:#FF0000;"><a href="https://www.google.com">Web overview</a></div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- END: Header -->
   </div>
 </body>
 
