@@ -1,7 +1,9 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-class name="section" border="1px red solid" padding="20px 0px 20px 0px" />
+      <mj-column padding = "0px"></mj-column>
+      <mj-image padding = "0px"></mj-image>
+      <mj-class name="section" border="1px red solid" padding="20px 30px 20px 30px" />
       <mj-class name="rec-section" border="1px red solid" padding="0px" />
       <mj-class name="loyalty-section" border-top="1px lightgrey solid" border-bottom="1px lightgrey solid" padding="0px" />
       <mj-class name="column" border="1px blue solid" />
@@ -16,7 +18,6 @@
       <mj-class name="rec-image" width="260px" padding="0px" />
       <mj-class name="header-image" width="200px " padding="0px" />
       <mj-class name="main-banner" width="540px " padding="0px" />
-      <mj-class name="web-overview-link" font-weight="400" font-size="12px" line-height="20px" color="#FF0000" />
     </mj-attributes>
     <mj-style>
       *{
@@ -24,6 +25,7 @@
       font-family:Arial, sans-serif;
       font-size:15px;
       line-height: 22px;
+      color: #000000;
       }
       ul{
       margin-bottom: 0px;
@@ -58,6 +60,14 @@
 
       .web-overview div {
       text-align:center !important;
+      }
+      
+      .web-overview a {
+      color: #000000 !important;
+      color:inherit !important;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
       }
 
       .loyalty-track-text-bold{
@@ -100,7 +110,7 @@
         <mj-text></mj-text>
       </mj-column>
       <mj-column css-class="web-overview">
-        <mj-text mj-class="web-overview-link"><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
+        <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Header -->
@@ -110,7 +120,7 @@
       <mj-group>
         <!-- Valamar plus club logo -->
         <mj-column vertical-align="middle" css-class="hide-on-mobile">
-          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" />
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width = "55.95px" height = "31px"/>
         </mj-column>
         <!-- Empty Space -->
         <mj-column vertical-align="middle" css-class="hide-on-mobile">
@@ -145,9 +155,9 @@
     <!-- END: Loyalty -->
 
     <!-- START: Main banner FOR DESKTOP FIRST VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x360.png" width="540px" />
+    <mj-section mj-class="section" css-class="hide-on-mobile"  >
+      <mj-column  mj-class = "image-container">
+        <mj-image mj-class = "desktop-image" src="https://placehold.jp/540x360.png" width="540px" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
