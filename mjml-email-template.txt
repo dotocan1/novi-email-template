@@ -10,7 +10,8 @@
       <mj-class name="right-column" padding-left="0px" />
       <mj-class name="left-column" padding-right="0px" />
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" />
-      <mj-class name="loyalty-track-text" padding="5px 0px 5px 0px" />
+      <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
+      <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" />
       <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="24px" line-height="32px" padding="0px" />
       <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
@@ -129,21 +130,21 @@
         </mj-column>
         <!-- Card Number -->
         <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-text">
+          <mj-text mj-class="loyalty-track-heading">
             Card No.
           </mj-text>
           <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">100105613531</mj-text>
         </mj-column>
         <!-- Level -->
         <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-text">
+          <mj-text mj-class="loyalty-track-heading">
             Your Level
           </mj-text>
           <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
         </mj-column>
         <!-- Wallet Credit -->
         <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-text">
+          <mj-text mj-class="loyalty-track-heading">
             Wallet credit
           </mj-text>
           <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
