@@ -112,6 +112,155 @@
     </mj-style>
   </mj-head>
   <mj-body>
+
+    <!-- START: Header -->
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" />
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column css-class="web-overview">
+        <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Header -->
+
+    <!-- START: Loyalty -->
+    <mj-section mj-class="loyalty-section">
+      <mj-group>
+        <!-- Valamar plus club logo -->
+        <mj-column vertical-align="middle" css-class="hide-on-mobile">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width="55.95px" height="31px" />
+        </mj-column>
+        <!-- Empty Space -->
+        <mj-column vertical-align="middle" css-class="hide-on-mobile">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <!-- Card Number -->
+        <mj-column vertical-align="middle" css-class="loyalty-track">
+          <mj-text mj-class="loyalty-track-heading">
+            Card No.
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">100105613531</mj-text>
+        </mj-column>
+        <!-- Level -->
+        <mj-column vertical-align="middle" css-class="loyalty-track">
+          <mj-text mj-class="loyalty-track-heading">
+            Your Level
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
+        </mj-column>
+        <!-- Wallet Credit -->
+        <mj-column vertical-align="middle" css-class="loyalty-track">
+          <mj-text mj-class="loyalty-track-heading">
+            Wallet credit
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
+            71.66 E
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- END: Loyalty -->
+
+    <!-- START: Main banner FOR DESKTOP FIRST VARIANT -->
+    <mj-section mj-class="section" css-class="hide-on-mobile">
+      <mj-column mj-class="image-container">
+        <mj-image mj-class="desktop-image" src="https://placehold.jp/540x360.png" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE FIRST VARIANT-->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x360.png" width="280px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE FIRST VARIANT-->
+
+    <!-- START: Main banner FOR DESKTOP SECOND VARIANT -->
+    <mj-section mj-class="section" css-class="hide-on-mobile">
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP SECOND VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE SECOND VARIANT-->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x416.png" width="280px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE SECOND VARIANT-->
+
+    <!-- START: Main banner FOR DESKTOP THIRD VARIANT -->
+    <mj-section mj-class="section" css-class="hide-on-mobile">
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP THIRD VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE THIRD VARIANT-->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x270.png" width="280px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE THIRD VARIANT-->
+
+    <!-- START: Main banner FOR DESKTOP FOURTH VARIANT -->
+    <mj-section mj-class="section" css-class="hide-on-mobile">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" />
+      </mj-column>
+      <mj-column width="1%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP FOURTH VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE FOURTH VARIANT-->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x125.png" width="135px" padding="0px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x125.png" width="135px" padding="0px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE FOURTH  VARIANT-->
+
+    <!-- START: Intro -->
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-text mj-class="salutations">
+          Dear Mr. Doe,
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="general-text">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
+          If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Intro -->
+
     <!-- START: Guarantee FOR DESKTOP -->
     <!-- Images -->
     <mj-section mj-class="guarantee-section" css-class="hide-on-mobile">
@@ -203,153 +352,21 @@
     </mj-section>
     <!-- END: Guarantee FOR MOBILE -->
 
-    <!-- START: Header -->
-    <mj-section mj-class="section">
-      <mj-column>
-        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" />
-      </mj-column>
-      <mj-column width="33%">
-        <mj-text></mj-text>
-      </mj-column>
-      <mj-column css-class="web-overview">
-        <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- END: Header -->
-
-    <!-- START: Loyalty -->
-    <mj-section mj-class="loyalty-section">
-      <mj-group>
-        <!-- Valamar plus club logo -->
-        <mj-column vertical-align="middle" css-class="hide-on-mobile">
-          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width="55.95px" height="31px" />
-        </mj-column>
-        <!-- Empty Space -->
-        <mj-column vertical-align="middle" css-class="hide-on-mobile">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <!-- Card Number -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-heading">
-            Card No.
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">100105613531</mj-text>
-        </mj-column>
-        <!-- Level -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-heading">
-            Your Level
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
-        </mj-column>
-        <!-- Wallet Credit -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-heading">
-            Wallet credit
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
-            71.66 E
-          </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- END: Loyalty -->
-
-    <!-- START: Main banner FOR DESKTOP FIRST VARIANT -->
+    <!-- START: Countdown timer FOR DESKTOP -->
     <mj-section mj-class="section" css-class="hide-on-mobile">
       <mj-column mj-class="image-container">
-        <mj-image mj-class="desktop-image" src="https://placehold.jp/540x360.png" width="540px" />
+        <mj-image mj-class="desktop-image" src="https://placehold.jp/540x94.png" width="540px" />
       </mj-column>
     </mj-section>
-    <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
+    <!-- END: Countdown timer FOR DESKTOP -->
 
-    <!-- START: Main banner FOR MOBILE FIRST VARIANT-->
+    <!-- START: Countdown timer FOR MOBILE FIRST VARIANT-->
     <mj-section mj-class="section" css-class="hide-on-desktop">
       <mj-column>
-        <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
+        <mj-image src="https://placehold.jp/280x90.png" width="280px" />
       </mj-column>
     </mj-section>
-    <!-- END: Main banner FOR MOBILE FIRST VARIANT-->
-
-    <!-- START: Main banner FOR DESKTOP SECOND VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" width="540px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR DESKTOP SECOND VARIANT-->
-
-    <!-- START: Main banner FOR MOBILE SECOND VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR MOBILE SECOND VARIANT-->
-
-    <!-- START: Main banner FOR DESKTOP THIRD VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" width="540px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR DESKTOP THIRD VARIANT-->
-
-    <!-- START: Main banner FOR MOBILE THIRD VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR MOBILE THIRD VARIANT-->
-
-    <!-- START: Main banner FOR DESKTOP FOURTH VARIANT -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" />
-      </mj-column>
-      <mj-column width="1%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner FOR DESKTOP FOURTH VARIANT-->
-
-    <!-- START: Main banner FOR MOBILE FOURTH VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-group>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x125.png" width="135px" padding="0px" />
-        </mj-column>
-        <mj-column width="1%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x125.png" width="135px" padding="0px" />
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- END: Main banner FOR MOBILE FOURTH  VARIANT-->
-
-    <!-- START: Intro -->
-    <mj-section mj-class="section">
-      <mj-column>
-        <mj-text mj-class="salutations">
-          Dear Mr. Doe,
-        </mj-text>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-text mj-class="general-text">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
-          If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- END: Intro -->
+    <!-- END: Countdown timer FOR MOBILE FIRST VARIANT-->
 
     <!-- START: This is the ZigZag block with CTA -->
     <!-- First sectiom -->
