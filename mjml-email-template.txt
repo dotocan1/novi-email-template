@@ -33,13 +33,16 @@
       line-height: 22px;
       color: #000000;
       }
+
       ul{
       margin-bottom: 0px;
       }
+
       .hide-on-desktop{
       display: none;
       overflow:hidden;
       }
+
       .button {
       background-color: #00C2BF; /* Teal color */
       margin: 0px;
@@ -52,6 +55,10 @@
       color: white;
       font-size: 16px;
       padding: 9px 2px 9px 2px;
+      }
+
+      .loyalty-track-text-bold{
+      font-weight: bold;
       }
 
       th{
@@ -74,33 +81,22 @@
       line-height: 20px;
       }
 
-      .zigzag-align-left *{
-
-
-      }
-
-      .loyalty-track-text-bold{
-      font-weight: bold;
-      }
-
       /** Mobile only **/
       @media (max-width: 480px) {
-      .mobile-padding {
-      padding: 0px !important;
-      /* Override the padding for devices with a maximum width of 480px */
-      }
-      .left-column td,
-      .right-column td {
-      padding: 0px !important;
-      }
       .hide-on-desktop {
       display: block;
       overflow : visible ;
       }
+
       .hide-on-mobile {
       display: none !important;
       overflow:hidden;
       }
+
+      .intro-button table:first-child {
+      width : 100% !important;
+      }
+
       .loyalty-track {
       width: 33% !important;
       }
@@ -110,68 +106,6 @@
     </mj-style>
   </mj-head>
   <mj-body>
-    <!-- START: This is the ZigZag block with CTA -->
-    <!-- First sectiom -->
-    <mj-section mj-class="section">
-      <mj-column width="50%">
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column width="4%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column css-class="right-column" width="46%">
-        <mj-text mj-class="general-heading">
-          Obertauern [PLACESHOTEL] by Valamar
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">TOP CHOICE FOR MILLENIALS
-          <ul>
-            <li>€60 daily credit per two persons for restaurants and bars</li>
-            <li>pool with serene indoor zones</li>
-            <li>evening DJ music programme</li>
-          </ul>
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">
-          From 225
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- Second section -->
-    <mj-section mj-class="section" direction="rtl">
-      <mj-column width="50%">
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column width="4%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column css-class="left-column" width="46%">
-        <mj-text mj-class="general-heading">
-          Kesselspitze Valamar Collection Hotel 4* Superiror
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">PREMIUM ACCOMMODATION
-          <ul>
-            <li>Ski-in & ski-out hotel</li>
-            <li>NEW: free parking in the underground garage</li>
-            <li>NEW: upgraded gourmet offer</li>
-          </ul>
-        </mj-text>
-        <mj-spacer height="10px" />
-        <mj-text mj-class="general-text">P.S. Check out our exclusive V level Chalet</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">
-          From 278
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- END: This is the ZigZag block with CTA -->
-
-
     <!-- START: Header -->
     <mj-section mj-class="section">
       <mj-column>
@@ -315,12 +249,71 @@
         <mj-text mj-class="general-text">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
           If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
         <mj-spacer height="20px"></mj-spacer>
-        <mj-button mj-class="intro-button">Discover more</mj-button>
+        <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button>
       </mj-column>
     </mj-section>
     <!-- END: Intro -->
 
-
+    <!-- START: This is the ZigZag block with CTA -->
+    <!-- First sectiom -->
+    <mj-section mj-class="section">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="general-heading">
+          Obertauern [PLACESHOTEL] by Valamar
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">TOP CHOICE FOR MILLENIALS
+          <ul>
+            <li>€60 daily credit per two persons for restaurants and bars</li>
+            <li>pool with serene indoor zones</li>
+            <li>evening DJ music programme</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 225
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section mj-class="section" direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="general-heading">
+          Kesselspitze Valamar Collection Hotel 4* Superiror
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">PREMIUM ACCOMMODATION
+          <ul>
+            <li>Ski-in & ski-out hotel</li>
+            <li>NEW: free parking in the underground garage</li>
+            <li>NEW: upgraded gourmet offer</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="general-text">P.S. Check out our exclusive V level Chalet</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 278
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block with CTA -->
 
     <!-- START: 2 property recommendations FOR DESKTOP -->
     <mj-section mj-class="rec-section" css-class="hide-on-mobile">
