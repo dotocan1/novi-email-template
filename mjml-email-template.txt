@@ -85,6 +85,10 @@
 
       /** Mobile only **/
       @media (max-width: 480px) {
+      .guarantee-text div{
+      text-align: left !important;
+      }
+
       .hide-on-desktop {
       display: block;
       overflow : visible ;
@@ -152,6 +156,52 @@
       </mj-column>
     </mj-section>
     <!-- END: Guarantee FOR DESKTOP -->
+
+    <!-- START: Guarantee FOR MOBILE -->
+    <!-- First section -->
+    <mj-section mj-class="section" css-class="hide-on-desktop" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="guarantee-text">
+          <mj-text mj-class="guarantee-text">Free cancelation</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section mj-class="section" css-class="hide-on-desktop" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="guarantee-text">
+          <mj-text mj-class="guarantee-text">No prepayment needed</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Third section -->
+    <mj-section mj-class="section" css-class="hide-on-desktop" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="guarantee-text">
+          <mj-text mj-class="guarantee-text">Best price
+            guaranteed</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- END: Guarantee FOR MOBILE -->
 
     <!-- START: Header -->
     <mj-section mj-class="section">
