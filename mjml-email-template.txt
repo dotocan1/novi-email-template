@@ -15,7 +15,7 @@
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" />
-      <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="24px" line-height="32px" padding="0px" />
+      <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" padding="0px" />
       <!-- Button styling -->
       <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
