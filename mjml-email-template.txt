@@ -7,8 +7,6 @@
       <mj-class name="rec-section" border="1px red solid" padding="0px" />
       <mj-class name="loyalty-section" border-top="1px lightgrey solid" border-bottom="1px lightgrey solid" padding="0px" />
       <mj-class name="column" border="1px blue solid" />
-      <mj-class name="right-column" padding-left="0px" />
-      <mj-class name="left-column" padding-right="0px" />
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" />
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
@@ -258,7 +256,7 @@
         <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column mj-class="right-column" css-class="right-column">
+      <mj-column css-class="right-column">
         <mj-text mj-class="general-heading">
           Obertauern [PLACESHOTEL] by Valamar
         </mj-text>
@@ -282,7 +280,7 @@
         <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column mj-class="left-column" css-class="left-column">
+      <mj-column css-class="left-column">
         <mj-text mj-class="general-heading">
           Kesselspitze Valamar Collection Hotel 4* Superiror
         </mj-text>
