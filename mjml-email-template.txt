@@ -177,7 +177,7 @@
     <!-- START: Main banner FOR MOBILE FIRST VARIANT-->
     <mj-section mj-class="section" css-class="hide-on-desktop">
       <mj-column>
-        <mj-image src="https://placehold.jp/280x360.png" width="280px" />
+        <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR MOBILE FIRST VARIANT-->
@@ -193,7 +193,7 @@
     <!-- START: Main banner FOR MOBILE SECOND VARIANT-->
     <mj-section mj-class="section" css-class="hide-on-desktop">
       <mj-column>
-        <mj-image src="https://placehold.jp/280x416.png" width="280px" />
+        <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR MOBILE SECOND VARIANT-->
@@ -209,7 +209,7 @@
     <!-- START: Main banner FOR MOBILE THIRD VARIANT-->
     <mj-section mj-class="section" css-class="hide-on-desktop">
       <mj-column>
-        <mj-image src="https://placehold.jp/280x270.png" width="280px" />
+        <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR MOBILE THIRD VARIANT-->
