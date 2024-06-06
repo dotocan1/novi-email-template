@@ -18,6 +18,7 @@
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" />
       <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" padding="0px" />
+      <mj-class name="voucher-text" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" padding="0px" />
       <!-- Button styling -->
       <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
@@ -113,9 +114,15 @@
   </mj-head>
   <mj-body>
     <!-- START Voucher block FOR DESKTOP -->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column mj-class="image-container">
-        <mj-image mj-class="desktop-image" src="https://placehold.jp/540x94.png" width="540px" />
+    <mj-section mj-class="section">
+      <mj-column mj-class="image-container" width="540px" css-class="hide-on-mobile">
+        <mj-image src="https://placehold.jp/540x200.png" width="540px" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text mj-class="voucher-text">
+          Vaučer vrijedi isključivo za nove rezervacije te se ponuda ne može kombinirati s drugim promocijama. Vaučer vrijedi za sve boravke u roku od 18 mjeseci od njegova zaprimanja. Primjenjuje se na sve boravke u trajanju od najmanje pet noći. Vaučer se može iskoristiti do 6 mjeseca od njegova zaprimanja. Moguća je primjena dodatnih ograničenja. Vaučer je moguće iskoristiti isključivo na web stranici www.valamar.com
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- END Voucher block for DESKTOP -->
