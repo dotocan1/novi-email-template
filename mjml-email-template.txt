@@ -7,11 +7,13 @@
       <!-- Classes -->
       <!-- Sections and columns -->
       <mj-class name="section" border="1px red solid" padding="20px 30px 20px 30px" />
+      <mj-class name="guarantee-section" border="0px red solid" padding="0px 30px 0px 30px" />
       <mj-class name="rec-section" border="1px red solid" padding="0px" />
       <mj-class name="loyalty-section" border-top="1px lightgrey solid" border-bottom="1px lightgrey solid" padding="0px" />
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" />
+      <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" padding="0px" />
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" />
@@ -106,6 +108,51 @@
     </mj-style>
   </mj-head>
   <mj-body>
+    <!-- START: Guarantee FOR DESKTOP -->
+    <!-- Images -->
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+    </mj-section>
+    <!-- Text -->
+    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
+      <mj-column width="20%">
+        <mj-text mj-class="guarantee-text">Free cancelation</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="guarantee-text">No prepayment
+          needed</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="guarantee-text">Best price
+          guaranteed</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Guarantee FOR DESKTOP -->
+
     <!-- START: Header -->
     <mj-section mj-class="section">
       <mj-column>
