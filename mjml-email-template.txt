@@ -1,23 +1,29 @@
 <mjml>
   <mj-head>
     <mj-attributes>
+      <!-- General styles -->
       <mj-column padding="0px"></mj-column>
       <mj-image padding="0px"></mj-image>
+      <!-- Classes -->
+      <!-- Sections and columns -->
       <mj-class name="section" border="1px red solid" padding="20px 30px 20px 30px" />
       <mj-class name="rec-section" border="1px red solid" padding="0px" />
       <mj-class name="loyalty-section" border-top="1px lightgrey solid" border-bottom="1px lightgrey solid" padding="0px" />
       <mj-class name="column" border="1px blue solid" />
+      <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" />
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" />
       <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="24px" line-height="32px" padding="0px" />
+      <!-- Button styling -->
       <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
-      <mj-class name="general-image" width="265px" padding="0px" />
-      <mj-class name="rec-image" width="260px" padding="0px" />
-      <mj-class name="header-image" width="200px " padding="0px" />
-      <mj-class name="main-banner" width="540px " padding="0px" />
+      <!-- Image styling -->
+      <mj-class name="general-image" width="265px" />
+      <mj-class name="rec-image" width="260px" />
+      <mj-class name="header-image" width="200px " />
+      <mj-class name="main-banner" width="540px " />
     </mj-attributes>
     <mj-style>
       *{
@@ -56,8 +62,6 @@
       text-align: left;
       }
 
-
-
       .web-overview div {
       text-align:center !important;
       }
@@ -68,6 +72,11 @@
       font-size: 12px;
       font-weight: 400;
       line-height: 20px;
+      }
+
+      .zigzag-align-left *{
+
+
       }
 
       .loyalty-track-text-bold{
@@ -101,6 +110,68 @@
     </mj-style>
   </mj-head>
   <mj-body>
+    <!-- START: This is the ZigZag block with CTA -->
+    <!-- First sectiom -->
+    <mj-section mj-class="section">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="general-heading">
+          Obertauern [PLACESHOTEL] by Valamar
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">TOP CHOICE FOR MILLENIALS
+          <ul>
+            <li>€60 daily credit per two persons for restaurants and bars</li>
+            <li>pool with serene indoor zones</li>
+            <li>evening DJ music programme</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 225
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section mj-class="section" direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="general-heading">
+          Kesselspitze Valamar Collection Hotel 4* Superiror
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">PREMIUM ACCOMMODATION
+          <ul>
+            <li>Ski-in & ski-out hotel</li>
+            <li>NEW: free parking in the underground garage</li>
+            <li>NEW: upgraded gourmet offer</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="general-text">P.S. Check out our exclusive V level Chalet</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 278
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block with CTA -->
+
+
     <!-- START: Header -->
     <mj-section mj-class="section">
       <mj-column>
@@ -249,58 +320,7 @@
     </mj-section>
     <!-- END: Intro -->
 
-    <!-- START: This is the ZigZag block with CTA -->
-    <!-- First sectiom -->
-    <mj-section mj-class="section">
-      <mj-column>
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column css-class="right-column">
-        <mj-text mj-class="general-heading">
-          Obertauern [PLACESHOTEL] by Valamar
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">TOP CHOICE FOR MILLENIALS
-          <ul>
-            <li>€60 daily credit per two persons for restaurants and bars</li>
-            <li>pool with serene indoor zones</li>
-            <li>evening DJ music programme</li>
-          </ul>
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">
-          From 225
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- Second section -->
-    <mj-section mj-class="section" direction="rtl">
-      <mj-column>
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column css-class="left-column">
-        <mj-text mj-class="general-heading">
-          Kesselspitze Valamar Collection Hotel 4* Superiror
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">PREMIUM ACCOMMODATION
-          <ul>
-            <li>Ski-in & ski-out hotel</li>
-            <li>NEW: free parking in the underground garage</li>
-            <li>NEW: upgraded gourmet offer</li>
-          </ul>
-        </mj-text>
-        <mj-spacer height="10px" />
-        <mj-text mj-class="general-text">P.S. Check out our exclusive V level Chalet</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">
-          From 278
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- END: This is the ZigZag block with CTA -->
+
 
     <!-- START: 2 property recommendations FOR DESKTOP -->
     <mj-section mj-class="rec-section" css-class="hide-on-mobile">
