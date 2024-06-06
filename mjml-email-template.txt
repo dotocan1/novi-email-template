@@ -112,6 +112,21 @@
     </mj-style>
   </mj-head>
   <mj-body>
+    <!-- START Voucher block FOR DESKTOP -->
+    <mj-section mj-class="section" css-class="hide-on-mobile">
+      <mj-column mj-class="image-container">
+        <mj-image mj-class="desktop-image" src="https://placehold.jp/540x94.png" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!-- END Voucher block for DESKTOP -->
+
+    <!-- START: Voucher block FOR MOBILE FIRST VARIANT-->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x90.png" width="280px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Voucher block FOR MOBILE FIRST VARIANT-->
 
     <!-- START: Header -->
     <mj-section mj-class="section">
