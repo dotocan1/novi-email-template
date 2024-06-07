@@ -109,8 +109,21 @@
       width : 100% !important;
       }
 
+      .loyalty-section{
+      padding: 0 30px 0 30px;
+      }
+
+
       .loyalty-track {
-      width: 33% !important;
+      width: 30% !important;
+      }
+
+      .loyalty-padding-left{
+      padding-left: 8px;
+      }
+
+      .loyalty-padding-right{
+      padding-right: 8px;
       }
       }
 
@@ -134,7 +147,7 @@
     <!-- END: Header -->
 
     <!-- START: Loyalty -->
-    <mj-section mj-class="loyalty-section">
+    <mj-section mj-class="loyalty-section" css-class="loyalty-section">
       <mj-group>
         <!-- Valamar plus club logo -->
         <mj-column vertical-align="middle" css-class="hide-on-mobile">
@@ -146,11 +159,11 @@
           </mj-text>
         </mj-column>
         <!-- Card Number -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
+        <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-left">
           <mj-text mj-class="loyalty-track-heading">
             Card No.
           </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">100105613531</mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-left">100105613531</mj-text>
         </mj-column>
         <!-- Level -->
         <mj-column vertical-align="middle" css-class="loyalty-track">
@@ -160,11 +173,11 @@
           <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
         </mj-column>
         <!-- Wallet Credit -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
+        <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-right">
           <mj-text mj-class="loyalty-track-heading">
             Wallet credit
           </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-right">
             71.66 E
           </mj-text>
         </mj-column>
