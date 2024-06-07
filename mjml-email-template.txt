@@ -10,6 +10,7 @@
       <mj-class name="guarantee-section" border="0px red solid" padding="0px 30px 0px 30px" />
       <mj-class name="rec-section" border="1px red solid" padding="0px" />
       <mj-class name="loyalty-section" border-top="1px lightgrey solid" border-bottom="1px lightgrey solid" padding="0px" />
+      <mj-class name="voucher-section" border="1px red solid" padding="20px 30px 0px 30px" />
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" />
@@ -41,7 +42,7 @@
       margin-bottom: 0px;
       }
 
-      .hide-on-desktop{
+      .hide-on-desktop {
       display: none;
       overflow:hidden;
       }
@@ -114,11 +115,18 @@
   </mj-head>
   <mj-body>
     <!-- START Voucher block FOR DESKTOP -->
-    <mj-section mj-class="section">
-      <mj-column mj-class="image-container" width="540px" css-class="hide-on-mobile">
+    <mj-section mj-class="voucher-section" css-class="hide-on-mobile">
+      <mj-column mj-class="image-container" width="540px">
         <mj-image src="https://placehold.jp/540x200.png" width="540px" />
-        <mj-spacer height="20px" />
       </mj-column>
+    </mj-section>
+    <!--  FOR MOBILE -->
+    <mj-section mj-class="voucher-section" css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x410.png" width="280px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
       <mj-column width="100%">
         <mj-text mj-class="voucher-text">
           Vaučer vrijedi isključivo za nove rezervacije te se ponuda ne može kombinirati s drugim promocijama. Vaučer vrijedi za sve boravke u roku od 18 mjeseci od njegova zaprimanja. Primjenjuje se na sve boravke u trajanju od najmanje pet noći. Vaučer se može iskoristiti do 6 mjeseca od njegova zaprimanja. Moguća je primjena dodatnih ograničenja. Vaučer je moguće iskoristiti isključivo na web stranici www.valamar.com
@@ -127,13 +135,7 @@
     </mj-section>
     <!-- END Voucher block for DESKTOP -->
 
-    <!-- START: Voucher block FOR MOBILE FIRST VARIANT-->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x90.png" width="280px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Voucher block FOR MOBILE FIRST VARIANT-->
+
 
     <!-- START: Header -->
     <mj-section mj-class="section">
