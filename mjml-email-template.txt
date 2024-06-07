@@ -241,7 +241,7 @@
         <mj-column width="48%">
           <mj-image src="https://placehold.jp/135x125.png" width="135px" padding="0px" fluid-on-mobile="true" />
         </mj-column>
-        <mj-column width="1%">
+        <mj-column width="4%">
           <mj-text>
           </mj-text>
         </mj-column>
