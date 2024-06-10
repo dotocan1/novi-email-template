@@ -155,7 +155,7 @@
       <mj-column vertical-align="middle">
         <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
-            Facebook
+            All inclusive offer
           </mj-social-element>
         </mj-social>
       </mj-column>
@@ -164,7 +164,7 @@
       <mj-column vertical-align="middle">
         <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
-            Facebook
+            Extra spacious family suites
           </mj-social-element>
         </mj-social>
       </mj-column>
@@ -173,7 +173,7 @@
       <mj-column vertical-align="middle">
         <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
-            Facebook
+            Super Maro playrooms, indoor playground and cinema
           </mj-social-element>
         </mj-social>
       </mj-column>
