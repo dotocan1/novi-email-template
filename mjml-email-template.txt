@@ -145,6 +145,21 @@
         <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
       </mj-column>
     </mj-section>
+    <!-- MOBILE -->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+        </mj-column>
+        <mj-column width="4%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
     <!-- Content for both devices -->
     <!-- First checkmark -->
     <mj-section mj-class="checkmark-section">
@@ -179,7 +194,7 @@
     <!-- START: Header -->
     <mj-section mj-class="section" css-class="valign">
       <mj-column>
-        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width = "180px" height = "48px" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
       </mj-column>
       <mj-column width="33%">
         <mj-text></mj-text>
@@ -232,7 +247,7 @@
     <!-- START: Main banner FOR DESKTOP FIRST VARIANT -->
     <mj-section mj-class="section" css-class="hide-on-mobile">
       <mj-column mj-class="image-container">
-        <mj-image src="https://placehold.jp/540x360.png" width="540px" height = "360px" />
+        <mj-image src="https://placehold.jp/540x360.png" width="540px" height="360px" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
@@ -248,7 +263,7 @@
     <!-- START: Main banner FOR DESKTOP SECOND VARIANT -->
     <mj-section mj-class="section" css-class="hide-on-mobile">
       <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" height = "270px" width="540px" />
+        <mj-image src="https://placehold.jp/540x270.png" height="270px" width="540px" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR DESKTOP SECOND VARIANT-->
@@ -264,7 +279,7 @@
     <!-- START: Main banner FOR DESKTOP THIRD VARIANT -->
     <mj-section mj-class="section" css-class="hide-on-mobile">
       <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" width="540px" height = "270px"/>
+        <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR DESKTOP THIRD VARIANT-->
@@ -280,14 +295,14 @@
     <!-- START: Main banner FOR DESKTOP FOURTH VARIANT -->
     <mj-section mj-class="section" css-class="hide-on-mobile">
       <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" height = "265px"/>
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" height="265px" />
       </mj-column>
       <mj-column width="10px">
         <mj-text>
         </mj-text>
       </mj-column>
       <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" height = "265px"  />
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner FOR DESKTOP FOURTH VARIANT-->
@@ -303,7 +318,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x125.png" width="135px"  fluid-on-mobile="true" />
+          <mj-image src="https://placehold.jp/135x125.png" width="135px" fluid-on-mobile="true" />
         </mj-column>
       </mj-group>
     </mj-section>
