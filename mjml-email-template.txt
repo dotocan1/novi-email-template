@@ -4,9 +4,12 @@
       <!-- General styles -->
       <mj-column padding="0px"></mj-column>
       <mj-image padding="0px"></mj-image>
+      <mj-social padding="0px"></mj-social>
+      <mj-social-element padding="0px"></mj-social-element>
       <!-- Classes -->
       <!-- Sections and columns -->
       <mj-class name="section" border="1px red solid" padding="20px 30px 20px 30px" />
+      <mj-class name="checkmark-section" border="1px red solid" padding="0px 30px 0px 30px" />
       <mj-class name="guarantee-section" border="0px red solid" padding="0px 30px 0px 30px" />
       <mj-class name="rec-section" border="1px red solid" padding="0px" />
       <mj-class name="loyalty-section" border-top="1px lightgrey solid" border-bottom="1px lightgrey solid" padding="0px" />
@@ -147,10 +150,29 @@
       </mj-column>
     </mj-section>
     <!-- Content for both devices -->
-    <mj-section mj-class="section">
-      <mj-column>
+    <!-- First checkmark -->
+    <mj-section mj-class="checkmark-section">
+      <mj-column vertical-align="middle">
         <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-          <mj-social-element name="facebook" href="https://mjml.io/" padding-right="10px">
+          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+            Facebook
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="checkmark-section">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+            Facebook
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="checkmark-section">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
             Facebook
           </mj-social-element>
         </mj-social>
