@@ -133,10 +133,33 @@
   </mj-head>
   <mj-body>
 
-
+    <!-- START: 2 properties with USPs FOR DESKTOP-->
+    <mj-section mj-class="section" css-class="hide-on-mobile">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" padding="0px" />
+      </mj-column>
+      <mj-column width="1%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- Content for both devices -->
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element name="facebook" href="https://mjml.io/" padding-right="10px">
+            Facebook
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 properties with USPs FOR DESKTOP-->
 
     <!-- START: Header -->
-    <mj-section mj-class="section">
+    <mj-section mj-class="section" css-class="valign">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" />
       </mj-column>
@@ -388,7 +411,7 @@
         <mj-image src="https://placehold.jp/280x90.png" width="280px" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
-    <!-- END: Countdown timer FOR MOBILE FIRST VARIANT-->
+    <!-- END: Countdown timer FOR MOBILE -->
 
     <!-- START Voucher block FOR DESKTOP -->
     <mj-section mj-class="voucher-section" css-class="hide-on-mobile">
