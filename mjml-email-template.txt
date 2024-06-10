@@ -13,7 +13,7 @@
       <mj-class name="checkmark-section" padding="0px 30px 0px 30px" />
       <mj-class name="guarantee-section" padding="0px 30px 0px 30px" />
       <mj-class name="rec-section" padding="0px" />
-      <mj-class name="loyalty-section" padding="0px" />
+      <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
       <mj-class name="voucher-section" padding="20px 30px 0px 30px" />
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
