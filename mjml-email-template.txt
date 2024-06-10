@@ -18,6 +18,7 @@
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" />
+      <mj-class name="gift-voucher-heading" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" padding="0px" />
       <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" padding="0px" />
       <mj-class name="voucher-text" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" padding="0px" />
       <!-- Button styling -->
@@ -131,6 +132,8 @@
     </mj-style>
   </mj-head>
   <mj-body>
+
+
 
     <!-- START: Header -->
     <mj-section mj-class="section">
@@ -408,8 +411,34 @@
     </mj-section>
     <!-- END Voucher block for DESKTOP -->
 
+    <!-- START: Voucher gift block-->
+    <mj-section mj-class="section">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x265.png" fluid-on-mobile="true" width="265px" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="gift-voucher-heading">
+          Perfect gift
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">
+          This season, give the gift of travel with the Valamar Gift Voucher, redeemable at our properties in Croatia and Austria. Select the value, personalize the message and choose the delivery option!
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          Shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Voucher gift block-->
+
     <!-- START: This is the ZigZag block with CTA -->
-    <!-- First sectiom -->
+    <!-- First section -->
     <mj-section mj-class="section">
       <mj-column width="50%">
         <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
