@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-preview>This is a preheader</mj-preview>
+    <mj-preview>This is a preheader &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
     <mj-attributes>
       <!-- General styles -->
       <mj-column padding="0px"></mj-column>
@@ -529,14 +529,61 @@
         <mj-button mj-class="intro-button" css-class="intro-button" align="left">Book now</mj-button>
       </mj-column>
     </mj-section>
-
     <!-- END: 2 properties with USPs FOR DESKTOP-->
+
+    <!-- START: This is the ZigZag block without CTA -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="general-text">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
+          <br />
+          <br />
+          <strong>Top 3 beaches in Rabac:</strong>
+          <ul>
+            <li>Girandella Beach</li>
+            <li>St Andrea Beach</li>
+            <li>Lanterna Beach</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="general-text">P.S. There is another hidden gem in Brseč which you can reach easier by boat!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="general-text"><strong>3 things to do in Dubrovnik:</strong>
+          <ul>
+            <li>Visit Mount Srđ & descent by foot</li>
+            <li>Walk the Dubrovnik Walls</li>
+            <li>Take a kayak tour of the Old Town from the outside</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block without CTA -->
 
     <!-- START: This is the ZigZag block with CTA -->
     <!-- First section -->
     <mj-section>
       <mj-column width="50%">
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
       <mj-column width="4%">
@@ -564,7 +611,7 @@
     <!-- Second section -->
     <mj-section direction="rtl">
       <mj-column width="50%">
-        <mj-image src="https://placehold.jp/265x250.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
       <mj-column width="4%">
@@ -589,6 +636,54 @@
         <mj-button mj-class="general-button">
           From 278
         </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block with CTA -->
+    
+     <!-- START: This is the ZigZag block with CTA -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="general-heading">
+          Obertasty
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Enjoy a buffet breakfast and a buffet dinner. If you don’t make it to dinner, you can use €30 daily credit per person on food or drinks at our bars.
+          <br />
+          <br />
+          If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Start relaxing</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="general-heading">
+          Oberfun
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Feel the Obervibes</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- END: This is the ZigZag block with CTA -->
