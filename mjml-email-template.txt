@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-preview>This is a preview</mj-preview>
+    <mj-preview>This is a preheader</mj-preview>
     <mj-attributes>
       <!-- General styles -->
       <mj-column padding="0px"></mj-column>
@@ -112,7 +112,9 @@
       overflow : visible ;
       }
 
-
+      .no-bottom-padding td{
+      padding-bottom: 0px !important;
+      }
 
       .hide-on-mobile {
       display: none !important;
@@ -141,7 +143,7 @@
   <mj-body>
 
     <!-- START: Header -->
-    <mj-section css-class="valign" padding-bottom="40px">
+    <mj-section css-class="valign no-bottom-padding" padding-bottom="40px">
       <mj-column>
         <mj-spacer height="20px" />
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
@@ -578,31 +580,31 @@
     <!-- END: This is the ZigZag block with CTA -->
 
     <!-- START: 2 property recommendations FOR DESKTOP -->
-    <mj-section mj-class="rec-section" css-class="hide-on-mobile">
+    <mj-section css-class="hide-on-mobile">
       <mj-column>
-        <mj-table align="center" cellpadding="7px" line-height="100%">
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
           <tr>
-            <td>
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="265" />
+            <td align="left">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
             </td>
-            <td>
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="265" />
+            <td align="right">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
             </td>
           </tr>
           <tr>
-            <th>Valamar Argosy Hotel 4*</th>
-            <th>Girandella Valamar Collection Designed for
+            <th align="left">Valamar Argosy Hotel 4*</th>
+            <th align="right">Girandella Valamar Collection Designed for
               Adults*</th>
           </tr>
           <tr>
-            <td>Island of Rab</td>
-            <td>Dubrovnik</td>
+            <td align="left">Island of Rab</td>
+            <td align="left">Dubrovnik</td>
           </tr>
           <tr>
-            <td valign="middle" style="line-height: 40px;">
+            <td valign="middle" style="line-height: 40px;" align="left">
               <p class="button">Book now</p>
             </td>
-            <td valign="middle" style="line-height: 40px;">
+            <td valign="middle" style="line-height: 40px;" align="left">
               <p class="button">Book now</p>
             </td>
           </tr>
