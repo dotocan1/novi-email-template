@@ -6,16 +6,13 @@
       <mj-column padding="0px"></mj-column>
       <mj-image padding="0px"></mj-image>
       <mj-text padding="0px"></mj-text>
-      <mj-social padding="0px" padding-bottom="5px"></mj-social>
+      <mj-social padding="0px" padding-bottom="0px"></mj-social>
       <mj-social-element padding="0px"></mj-social-element>
-      <mj-section padding = "0px"></mj-section>
-      <mj-section padding = "0px 30px 0px 30px"></mj-section>
+      <mj-section padding="0px"></mj-section>
+      <mj-section padding="20px 30px 20px 30px" border="0px red solid"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
-      <mj-class name = "section-border" border-bottom="20px solid lightgrey" />
-      
       <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
-      <mj-class name="voucher-section"/>
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
@@ -144,15 +141,18 @@
   <mj-body>
 
     <!-- START: Header -->
-    <mj-section css-class="valign">
+    <mj-section css-class="valign" padding-bottom="40px">
       <mj-column>
+        <mj-spacer height="20px" />
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
       </mj-column>
       <mj-column width="33%">
         <mj-text></mj-text>
       </mj-column>
       <mj-column css-class="web-overview">
+        <mj-spacer height="20px" />
         <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
+        <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
     <!-- END: Header -->
@@ -293,7 +293,7 @@
 
     <!-- START: Guarantee FOR DESKTOP -->
     <!-- Images -->
-    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile">
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
       <mj-column width="20%">
         <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
       </mj-column>
@@ -399,13 +399,13 @@
     <!-- END: Countdown timer FOR MOBILE -->
 
     <!-- START Voucher block FOR DESKTOP -->
-    <mj-section mj-class="voucher-section" css-class="hide-on-mobile">
+    <mj-section mj-class="voucher-section" css-class="hide-on-mobile" padding-bottom="0px">
       <mj-column mj-class="image-container" width="540px">
         <mj-image src="https://placehold.jp/540x200.png" width="540px" />
       </mj-column>
     </mj-section>
     <!--  FOR MOBILE -->
-    <mj-section mj-class="voucher-section" css-class="hide-on-desktop">
+    <mj-section mj-class="voucher-section" css-class="hide-on-desktop" padding-bottom="0px">
       <mj-column>
         <mj-image src="https://placehold.jp/280x410.png" width="280px" fluid-on-mobile="true" />
       </mj-column>
@@ -480,35 +480,40 @@
     </mj-section>
     <!-- Content for both devices -->
     <!-- First checkmark -->
-    <mj-section mj-class="checkmark-section">
+    <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
             All inclusive offer
           </mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="checkmark-section">
+    <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
             Extra spacious family suites
           </mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="checkmark-section">
+    <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
             Super Maro playrooms, indoor playground and cinema
           </mj-social-element>
         </mj-social>
         <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px">
+      <mj-column>
         <mj-button mj-class="intro-button" css-class="intro-button" align="left">Book now</mj-button>
       </mj-column>
     </mj-section>
+
     <!-- END: 2 properties with USPs FOR DESKTOP-->
 
     <!-- START: This is the ZigZag block with CTA -->
