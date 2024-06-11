@@ -18,6 +18,7 @@
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
       <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
+      <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" />
@@ -99,6 +100,12 @@
       .fw400-fs28-lh32 *{
       font-weight : 400 !important;
       font-size: 28px !important;
+      line-height: 32px !important;
+      }
+
+      .fw700-fs20-lh32 *{
+      font-weight : 700 !important;
+      font-size: 20px !important;
       line-height: 32px !important;
       }
       /** Text stylings END **/
@@ -453,7 +460,7 @@
         <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Find your perfect winter holiday</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="hide-on-mobile" padding-top="0px">
+    <mj-section css-class="hide-on-mobile" padding-top="0px" padding-bottom="0px">
       <mj-column width="265px">
         <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
       </mj-column>
@@ -466,7 +473,7 @@
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop" padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
@@ -482,7 +489,14 @@
     </mj-section>
     <!-- Content for both devices -->
     <!-- First checkmark -->
-    <mj-section padding-bottom="0px">
+    <mj-section text-align="left">
+      <mj-column>
+        <mj-text mj-class="fw700-fs22-lh24" css-class="fw700-fs20-lh32">
+          Girandella Valamar Collection Maro Suites 5*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="0px">
       <mj-column vertical-align="middle">
         <mj-social mj-class="general-text" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
