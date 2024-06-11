@@ -9,8 +9,11 @@
       <mj-social padding="0px" padding-bottom="5px"></mj-social>
       <mj-social-element padding="0px"></mj-social-element>
       <mj-section padding = "0px"></mj-section>
+      <mj-section padding = "0px 30px 0px 30px"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
+      <mj-class name = "section-border" border-bottom="20px solid lightgrey" />
+      
       <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
       <mj-class name="voucher-section"/>
       <mj-class name="column" border="1px blue solid" />
@@ -129,15 +132,11 @@
 
 
       .loyalty-track {
-      width: 30% !important;
+      width: 32% !important;
       }
 
       .loyalty-padding-left{
       padding-left: 8px;
-      }
-
-      .loyalty-padding-right{
-      padding-right: 8px;
       }
       }
     </mj-style>
@@ -185,11 +184,11 @@
           <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
         </mj-column>
         <!-- Wallet Credit -->
-        <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-right">
+        <mj-column vertical-align="middle" css-class="loyalty-track">
           <mj-text mj-class="loyalty-track-heading">
             Wallet credit
           </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-right">
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
             71.66 E
           </mj-text>
         </mj-column>
