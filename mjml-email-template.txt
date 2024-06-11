@@ -17,14 +17,15 @@
       <mj-class name="voucher-section" padding="20px 30px 0px 30px" />
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
-      <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" padding="0px" />
-      <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" padding="0px" />
+      <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
+      <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
+      <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
-      <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" padding="0px" />
-      <mj-class name="gift-voucher-heading" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" padding="0px" />
-      <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" padding="0px" />
-      <mj-class name="voucher-text" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" padding="0px" />
+      <mj-class name="general-heading" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" />
+      <mj-class name="gift-voucher-heading" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
+      <mj-class name="salutations" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
+      <mj-class name="voucher-text" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" />
       <!-- Button styling -->
       <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
@@ -37,6 +38,9 @@
       line-height: 22px;
       color: #000000;
       }
+
+      /** Text stylings START **/
+      /** Text stylings END **/
 
       .align-left *{
       text-align: left !important;
@@ -90,7 +94,17 @@
       }
 
       /** Mobile only **/
+
       @media (max-width: 480px) {
+
+      /** Text stylings START **/
+      .fw400-fs28-lh32 *{
+      font-weight : 400 !important;
+      font-size: 28px !important;
+      line-height: 32px !important;
+      }
+      /** Text stylings END **/
+
       .guarantee-text div{
       text-align: left !important;
       }
@@ -99,6 +113,8 @@
       display: block;
       overflow : visible ;
       }
+
+
 
       .hide-on-mobile {
       display: none !important;
@@ -126,70 +142,9 @@
       padding-right: 8px;
       }
       }
-
-
     </mj-style>
   </mj-head>
   <mj-body>
-
-    <!-- START: 2 properties with USPs FOR DESKTOP-->
-    <mj-section mj-class="section" css-class="hide-on-mobile">
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
-      </mj-column>
-      <mj-column width="10px">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
-      </mj-column>
-    </mj-section>
-    <!-- MOBILE -->
-    <mj-section mj-class="section" css-class="hide-on-desktop">
-      <mj-group>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
-        </mj-column>
-        <mj-column width="4%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- Content for both devices -->
-    <!-- First checkmark -->
-    <mj-section mj-class="checkmark-section">
-      <mj-column vertical-align="middle">
-        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
-            All inclusive offer
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <mj-section mj-class="checkmark-section">
-      <mj-column vertical-align="middle">
-        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
-            Extra spacious family suites
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <mj-section mj-class="checkmark-section">
-      <mj-column vertical-align="middle">
-        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
-            Super Maro playrooms, indoor playground and cinema
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <!-- END: 2 properties with USPs FOR DESKTOP-->
 
     <!-- START: Header -->
     <mj-section mj-class="section" css-class="valign">
@@ -492,6 +447,72 @@
       </mj-column>
     </mj-section>
     <!-- END: Voucher gift block-->
+
+    <!-- START: 2 properties with USPs FOR DESKTOP-->
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Find your perfect winter holiday</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section" css-class="hide-on-mobile">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section mj-class="section" css-class="hide-on-desktop">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+        </mj-column>
+        <mj-column width="4%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Content for both devices -->
+    <!-- First checkmark -->
+    <mj-section mj-class="checkmark-section">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+            All inclusive offer
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="checkmark-section">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+            Extra spacious family suites
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="checkmark-section">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="general-text" font-size="16px" icon-size="42px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/42x42.png" href="https://mjml.io/" padding-right="10px">
+            Super Maro playrooms, indoor playground and cinema
+          </mj-social-element>
+        </mj-social>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="intro-button" css-class="intro-button" align="left">Book now</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 properties with USPs FOR DESKTOP-->
 
     <!-- START: This is the ZigZag block with CTA -->
     <!-- First section -->
