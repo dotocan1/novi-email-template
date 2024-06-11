@@ -16,6 +16,7 @@
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
+      <mj-class name="fw400-14fs-21lh" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
       <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
       <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
@@ -43,6 +44,10 @@
 
       .align-left *{
       text-align: left !important;
+      }
+
+      .align-center *{
+      text-align: center !important;
       }
 
       ul{
@@ -107,6 +112,18 @@
       font-weight : 700 !important;
       font-size: 20px !important;
       line-height: 32px !important;
+      }
+
+      .fw700-fs20-lh24 *{
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 24px !important;
+      }
+
+      .fw400-16fs-24lh *{
+      font-weight: 400 !important;
+      font-size:16px !important;
+      line-height: 24px !important;
       }
       /** Text stylings END **/
 
@@ -530,8 +547,8 @@
       </mj-column>
     </mj-section>
     <!-- END: 2 properties with USPs FOR DESKTOP-->
-    
-     <!-- START: 2 property recommendations FOR DESKTOP -->
+
+    <!-- START: 2 property recommendations FOR DESKTOP -->
     <mj-section css-class="hide-on-mobile">
       <mj-column>
         <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
@@ -699,8 +716,8 @@
       </mj-column>
     </mj-section>
     <!-- END: This is the ZigZag block with CTA -->
-    
-     <!-- START: This is the ZigZag block with CTA -->
+
+    <!-- START: This is the ZigZag block with CTA -->
     <!-- First section -->
     <mj-section>
       <mj-column width="50%">
@@ -747,3 +764,68 @@
       </mj-column>
     </mj-section>
     <!-- END: This is the ZigZag block with CTA -->
+    
+    <!-- START: 1 property with USPs FOR DESKTOP-->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Vaš smještaj</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="hide-on-mobile" padding-top="0px" padding-bottom="0px">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop" padding-bottom="0px">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+        </mj-column>
+        <mj-column width="4%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Content for both devices -->
+    <mj-section text-align="left">
+      <mj-column>
+        <mj-text mj-class="fw700-fs22-lh24" css-class="fw700-fs20-lh24 align-center">
+          Istra Premium Camping Resort 5*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="guarantee-text" css-class="fw400-16fs-24lh" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="guarantee-text" css-class="fw400-16fs-24lh" align="left">Telefon: +385 52 445 123</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="guarantee-text" css-class="fw400-16fs-24lh" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-14fs-21lh">Za jamstvo rezervacije u slučaju kasnog dolaska (poslije 20:00), molimo kontaktirajte recepciju na broj telefona +385 52 445 123</mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: 1 property with USPs FOR DESKTOP-->
