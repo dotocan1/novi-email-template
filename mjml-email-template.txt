@@ -885,7 +885,7 @@
     <mj-section>
       <!-- Image -->
       <mj-column width="30%">
-        <mj-image src="https://placehold.jp/150.png" width="150px" height="150px" fluid-on-mobile="true" />
+        <mj-image padding-top="20px" src="https://placehold.jp/160x160.png" width="160px" height="160px" fluid-on-mobile="true" />
       </mj-column>
       <!-- Empty space -->
       <mj-column width="2%">
@@ -896,6 +896,8 @@
         <mj-text mj-class="fw700-fs20-lh24">Napravite online Check-in unaprijed</mj-text>
         <mj-spacer height="20px"></mj-spacer>
         <mj-text mj-class="general-text">Kako biste počeli uživati u svojem odmoru čim stignete, od ovog treuntka imate mogućnost napraviti online prijavu u nekoliko jednostavnih koraka. Veselimo se Vašem dolasku!</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-button mj-class="general-button" width="50%">Online prijava</mj-button>
       </mj-column>
     </mj-section>
     <!-- END: Check in CTA -->
