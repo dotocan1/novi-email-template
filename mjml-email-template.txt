@@ -197,6 +197,76 @@
   </mj-head>
   <mj-body>
 
+    <!-- START: Experiences x3 -->
+    <!-- Text Content for both -->
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38">Our recommendations for a
+          fun-filled holiday</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- START: Experiences FOR DESKTOP-->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
+          <tr>
+            <td align="center">
+              <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
+            </td>
+            <td align="center">
+              <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
+            </td>
+            <td align="center">
+              <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
+            </td>
+          </tr>
+          <tr>
+            <td align="center">Panoramic trip to Biokovo</td>
+            <td align="center">Visit authentic Pelješac vineyards</td>
+            <td align="center">Discover the beauty of the Elaphiti islands</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experiences FOR DESKTOP-->
+    <!-- START: Experiences FOR MOBILE-->
+    <mj-section css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-heading">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-heading">MOB_Okusi Istru</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experiences FOR MOBILE -->
+    <!-- END: Experiences x3 -->
+
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
       <mj-column>
