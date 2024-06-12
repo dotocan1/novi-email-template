@@ -17,6 +17,7 @@
       <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
       <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw400-14fs-21lh" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
       <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
@@ -179,8 +180,6 @@
     </mj-style>
   </mj-head>
   <mj-body>
-
-
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
@@ -863,19 +862,6 @@
     </mj-section>
     <!-- END: Event -->
 
-    <!-- START: My valamar app-->
-    <mj-section>
-      <mj-column>
-        <mj-text mj-class="fw400-fs35-lh38">My Valamar app</mj-text>
-        <mj-spacer height="20px"></mj-spacer>
-        <!-- FOR DESKTOP -->
-        <mj-image src="https://placehold.jp/600x280.png" width="600px" height="280px" css-class="hide-on-mobile" />
-        <!-- FOR MOBILE -->
-        <mj-image src="https://placehold.jp/280x520.png" width="280px" height="520px" css-class="hide-on-desktop" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: My valamar app-->
-
     <!-- START: Experience concierge block -->
     <mj-section css-class="grey-background">
       <mj-column width="50%">
@@ -894,3 +880,35 @@
       </mj-column>
     </mj-section>
     <!-- END: Experience concierge block -->
+
+    <!-- START: Check in CTA -->
+    <mj-section>
+      <!-- Image -->
+      <mj-column width="30%">
+        <mj-image src="https://placehold.jp/150.png" width="150px" height="150px" fluid-on-mobile="true" />
+      </mj-column>
+      <!-- Empty space -->
+      <mj-column width="2%">
+        <mj-text></mj-text>
+      </mj-column>
+      <!-- Text content -->
+      <mj-column width="68%">
+        <mj-text mj-class="fw700-fs20-lh24">Napravite online Check-in unaprijed</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="general-text">Kako biste počeli uživati u svojem odmoru čim stignete, od ovog treuntka imate mogućnost napraviti online prijavu u nekoliko jednostavnih koraka. Veselimo se Vašem dolasku!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Check in CTA -->
+
+    <!-- START: My valamar app-->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38">My Valamar app</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <!-- FOR DESKTOP -->
+        <mj-image src="https://placehold.jp/600x280.png" width="600px" height="280px" css-class="hide-on-mobile" />
+        <!-- FOR MOBILE -->
+        <mj-image src="https://placehold.jp/280x520.png" width="280px" height="520px" css-class="hide-on-desktop" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: My valamar app-->
