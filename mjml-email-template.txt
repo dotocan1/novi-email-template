@@ -166,6 +166,8 @@
   </mj-head>
   <mj-body>
 
+   
+    
     <!-- START: Header -->
     <mj-section css-class="valign no-bottom-padding" padding-bottom="40px">
       <mj-column>
@@ -829,3 +831,20 @@
       </mj-column>
     </mj-section>
     <!-- END: 1 property with USPs FOR DESKTOP-->
+    
+     <!-- START: Event -->
+    <mj-section>
+    <mj-column>
+      <mj-image src="https://placehold.jp/540x270.png"  width="540px" height="270px" fluid-on-mobile = "true"/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding = "0px 30px 0px 30px">
+    <mj-column >
+      <mj-text mj-class = "general-text">
+        Get ready to start this season in style! Chart stormers Pizzera & Jaus are preparing to shake the stage with their most popular hits, such as “Hooligans”, or “Ein ins Leben”. Don’t miss out on this upcoming ski opening event and save the date!
+        </mj-text>
+      <mj-spacer height = "20px"></mj-spacer>
+      <mj-button mj-class = "general-button" width = "50%" align = "center">Learn more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Event -->
