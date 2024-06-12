@@ -180,6 +180,67 @@
     </mj-style>
   </mj-head>
   <mj-body>
+    
+    <!-- START: Valamar concierge FOR DESKTOP-->
+   <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
+          <tr>
+            <td align="left">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+            <td align="right">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+          </tr>
+          <tr>
+            <th align="left">Valamar Argosy Hotel 4*</th>
+            <th align="right">Girandella Valamar Collection Designed for
+              Adults*</th>
+          </tr>
+          <tr>
+            <td align="left">Island of Rab</td>
+            <td align="left">Dubrovnik</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="button">Book now</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="button">Book now</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR DESKTOP-->
+    
+    <!-- START: Valamar concierge FOR MOBILE-->
+   <mj-section css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-heading">FValamar Argosy Hotel 4*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Island of Rab</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Book now</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-heading">FGirandella Valamar Collection Designed for
+          Adults*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Dubrovnik</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Book now</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR MOBILE -->
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
