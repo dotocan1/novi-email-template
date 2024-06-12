@@ -197,34 +197,6 @@
   </mj-head>
   <mj-body>
 
-
-
-    <!-- START: Valamar concierge FOR MOBILE-->
-    <mj-section css-class="hide-on-desktop">
-      <!-- First recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-heading">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Second recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-heading">MOB_Okusi Istru</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- END: Valamar concierge FOR MOBILE -->
-
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
       <mj-column>
@@ -959,6 +931,19 @@
     </mj-section>
     <!-- END: My valamar app-->
 
+    <!-- START: Valamar concierge -->
+    <!-- Text Content for both -->
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38">Valamar Concierge</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="general-text" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
+      </mj-column>
+    </mj-section>
     <!-- START: Valamar concierge FOR DESKTOP-->
     <mj-section css-class="hide-on-mobile">
       <mj-column>
@@ -991,3 +976,29 @@
       </mj-column>
     </mj-section>
     <!-- END: Valamar concierge FOR DESKTOP-->
+    <!-- START: Valamar concierge FOR MOBILE-->
+    <mj-section css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-heading">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-heading">MOB_Okusi Istru</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="general-text">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR MOBILE -->
+    <!-- END: Valamar concierge -->
