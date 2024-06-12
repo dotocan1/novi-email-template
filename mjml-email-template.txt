@@ -179,6 +179,17 @@
     </mj-style>
   </mj-head>
   <mj-body>
+    
+    <!-- START: My valamar app-->
+    <mj-section>
+    <mj-column>
+      <mj-text mj-class = "fw400-fs35-lh38">My Valamar app</mj-text>
+      <mj-spacer height = "20px"></mj-spacer>
+      <!-- FOR DESKTOP -->
+     <mj-image src="https://placehold.jp/600x280.png" width="600px" height="280px" css-class = "hide-on-mobile" />
+      </mj-column>
+    </mj-section>
+    <!-- END: My valamar app-->
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
