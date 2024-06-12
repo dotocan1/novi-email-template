@@ -237,8 +237,93 @@
           <mj-text align="center" mj-class = "fw400-fs15-lh22">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
         </mj-column>
       </mj-section>
-      <!-- DESKTOP -->
-      <!-- MOBILE -->
+      <!-- START: Guarantee FOR DESKTOP -->
+      <!-- Images -->
+      <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
+        <mj-column width="20%">
+          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+        </mj-column>
+      </mj-section>
+      <!-- Text -->
+      <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
+        <mj-column width="20%">
+          <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
+        </mj-column>
+        <mj-column width="10%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
+        </mj-column>
+        <mj-column width="10%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END: Guarantee FOR DESKTOP -->
+  
+      <!-- START: Guarantee FOR MOBILE -->
+      <!-- First section -->
+      <mj-section css-class="hide-on-desktop align-left" text-align="left">
+        <mj-group>
+          <mj-column vertical-align="middle" width="19%">
+            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
+          </mj-column>
+          <mj-column width="1%">
+            <mj-text></mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+            <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- Second section -->
+      <mj-section css-class="hide-on-desktop align-left" text-align="left">
+        <mj-group>
+          <mj-column vertical-align="middle" width="19%">
+            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
+          </mj-column>
+          <mj-column width="1%">
+            <mj-text></mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+            <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- Third section -->
+      <mj-section css-class="hide-on-desktop align-left" text-align="left">
+        <mj-group>
+          <mj-column vertical-align="middle" width="19%">
+            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
+          </mj-column>
+          <mj-column width="1%">
+            <mj-text></mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+            <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END: Guarantee FOR MOBILE -->
       <!-- END: Valamar + Club-->
   
       <!-- START: Header -->
