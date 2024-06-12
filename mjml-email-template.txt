@@ -16,7 +16,7 @@
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
-       <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw400-14fs-21lh" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
       <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
@@ -54,12 +54,12 @@
       ul{
       margin-bottom: 0px;
       }
-   
-      .grey-background div  {
+
+      .grey-background div {
       background-color : #f2f2f2;
       }
-      
-   .grey-background div:nth-child(2)  {
+
+      .grey-background div:nth-child(2) {
       height: 265px;
       }
 
@@ -145,7 +145,12 @@
       overflow : visible ;
       }
 
-      .no-bottom-padding td{
+      .loyalty-block-no-bottom-padding td{
+      padding-bottom: 0px !important;
+      }
+
+      .experience-block-no-padding-on-mobile td:nth-child(1){
+      padding-top: 10px !important;
       padding-bottom: 0px !important;
       }
 
@@ -175,23 +180,8 @@
   </mj-head>
   <mj-body>
 
-   <mj-section css-class = "grey-background">
-<mj-column width = "50%" >
-     <mj-image src="https://placehold.jp/265x265.png"  width="265px" height="265px" fluid-on-mobile = "true"/>
-     </mj-column>    
-     <mj-column width = "50%" padding = "40px 20px 40px 20px">
-       <mj-text mj-class = "general-heading">Experience concierge</mj-text>
-       <mj-spacer height = "20px"></mj-spacer>
-       <mj-text mj-class = "fw400-fs15-lh20">
-       Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
-Equipment rental
-Ski or snoboarding school organization
-       </mj-text>
-     </mj-column>
-</mj-section>
-    
     <!-- START: Header -->
-    <mj-section css-class="valign no-bottom-padding" padding-bottom="40px">
+    <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
       <mj-column>
         <mj-spacer height="20px" />
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
@@ -788,7 +778,7 @@ Ski or snoboarding school organization
       </mj-column>
     </mj-section>
     <!-- END: This is the ZigZag block with CTA -->
-    
+
     <!-- START: 1 property with USPs FOR DESKTOP-->
     <mj-section>
       <mj-column>
@@ -853,20 +843,39 @@ Ski or snoboarding school organization
       </mj-column>
     </mj-section>
     <!-- END: 1 property with USPs FOR DESKTOP-->
-    
-     <!-- START: Event -->
+
+    <!-- START: Event -->
     <mj-section>
-    <mj-column>
-      <mj-image src="https://placehold.jp/540x270.png"  width="540px" height="270px" fluid-on-mobile = "true"/>
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
-    <mj-section padding = "0px 30px 0px 30px">
-    <mj-column >
-      <mj-text mj-class = "general-text">
-        Get ready to start this season in style! Chart stormers Pizzera & Jaus are preparing to shake the stage with their most popular hits, such as “Hooligans”, or “Ein ins Leben”. Don’t miss out on this upcoming ski opening event and save the date!
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="general-text">
+          Get ready to start this season in style! Chart stormers Pizzera & Jaus are preparing to shake the stage with their most popular hits, such as “Hooligans”, or “Ein ins Leben”. Don’t miss out on this upcoming ski opening event and save the date!
         </mj-text>
-      <mj-spacer height = "20px"></mj-spacer>
-      <mj-button mj-class = "general-button" width = "50%" align = "center">Learn more</mj-button>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-button mj-class="general-button" width="50%" align="center">Learn more</mj-button>
       </mj-column>
     </mj-section>
     <!-- END: Event -->
+
+    <!-- START: Experience concierge block -->
+    <mj-section css-class="grey-background">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" fluid-on-mobile="true" />
+      </mj-column>
+      <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile">
+        <mj-text mj-class="general-heading">Experience concierge</mj-text>
+        <mj-spacer height="20px" css-class="hide-on-mobile"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh20">
+          Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
+          <ul>
+            <li>Equipment rental</li>
+            <li>Ski or snoboarding school organization</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experience concierge block -->
