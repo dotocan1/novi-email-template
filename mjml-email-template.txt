@@ -30,6 +30,7 @@
       <mj-class name="voucher-text" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" />
       <!-- Button styling -->
       <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
+      <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
     </mj-attributes>
     <mj-style>
@@ -81,6 +82,21 @@
       color: white;
       font-size: 16px;
       padding: 9px 2px 9px 2px;
+      }
+
+      .secondary-button {
+      background-color: #ffffff;
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: #000000;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      border: 1px solid #000000;
       }
 
       .loyalty-track-text-bold{
@@ -180,64 +196,31 @@
     </mj-style>
   </mj-head>
   <mj-body>
-    
-    <!-- START: Valamar concierge FOR DESKTOP-->
-   <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
-          <tr>
-            <td align="left">
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-            </td>
-            <td align="right">
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-            </td>
-          </tr>
-          <tr>
-            <th align="left">Valamar Argosy Hotel 4*</th>
-            <th align="right">Girandella Valamar Collection Designed for
-              Adults*</th>
-          </tr>
-          <tr>
-            <td align="left">Island of Rab</td>
-            <td align="left">Dubrovnik</td>
-          </tr>
-          <tr>
-            <td valign="middle" style="line-height: 40px;" align="left">
-              <p class="button">Book now</p>
-            </td>
-            <td valign="middle" style="line-height: 40px;" align="left">
-              <p class="button">Book now</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <!-- END: Valamar concierge FOR DESKTOP-->
-    
+
+
+
     <!-- START: Valamar concierge FOR MOBILE-->
-   <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop">
       <!-- First recommendation -->
       <mj-column>
         <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
-        <mj-text mj-class="general-heading">FValamar Argosy Hotel 4*</mj-text>
+        <mj-text mj-class="general-heading">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
         <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">Island of Rab</mj-text>
+        <mj-text mj-class="general-text">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
         <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">Book now</mj-button>
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
         <mj-spacer height="20px" />
       </mj-column>
       <!-- Second recommendation -->
       <mj-column>
         <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
-        <mj-text mj-class="general-heading">FGirandella Valamar Collection Designed for
-          Adults*</mj-text>
+        <mj-text mj-class="general-heading">MOB_Okusi Istru</mj-text>
         <mj-spacer height="20px" />
-        <mj-text mj-class="general-text">Dubrovnik</mj-text>
+        <mj-text mj-class="general-text">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
         <mj-spacer height="20px" />
-        <mj-button mj-class="general-button">Book now</mj-button>
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
       </mj-column>
     </mj-section>
     <!-- END: Valamar concierge FOR MOBILE -->
@@ -975,3 +958,36 @@
       </mj-column>
     </mj-section>
     <!-- END: My valamar app-->
+
+    <!-- START: Valamar concierge FOR DESKTOP-->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
+          <tr>
+            <td align="left">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+            <td align="right">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+          </tr>
+          <tr>
+            <th align="left">Avanturistička degustacija vina: Wine cellar Escape</th>
+            <th align="right">Okusi Istru</th>
+          </tr>
+          <tr>
+            <td align="left">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</td>
+            <td align="left">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="secondary-button">Learn more</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="secondary-button">Learn more</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR DESKTOP-->
