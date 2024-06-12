@@ -1,1210 +1,1217 @@
 <mjml>
-    <mj-head>
-      <mj-preview>This is a preheader &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
-      <mj-attributes>
-        <!-- General styles -->
-        <mj-column padding="0px"></mj-column>
-        <mj-image padding="0px"></mj-image>
-        <mj-text padding="0px"></mj-text>
-        <mj-social padding="0px" padding-bottom="0px"></mj-social>
-        <mj-social-element padding="0px"></mj-social-element>
-        <mj-section padding="0px"></mj-section>
-        <mj-section padding="20px 30px 20px 30px" border="0px red solid"></mj-section>
-        <!-- Classes -->
-        <!-- Sections and columns -->
-        <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
-        <mj-class name="column" border="1px blue solid" />
-        <!-- Text styling -->
-        <!-- Font weight 400 -->
-        <mj-class name="fw400-fs13-lh18" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" />
-        <mj-class name="fw400-fs14-lh21" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
-        <mj-class name="fw400-fs15-lh22" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
-        <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
-        <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
-        <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
-         <!-- Font weight 700 -->
-        <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
-        <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="34px" />
-        <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
-        <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
-        <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
-        <!-- Specific text styling -->
-        <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
-        <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
-        <!-- Button styling -->
-        <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
-        <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
-        <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
-      </mj-attributes>
-      <mj-style>
-        *{
-        font-weight:400px;
-        font-family:Arial, sans-serif;
-        font-size:15px;
-        line-height: 22px;
-        color: #000000;
-        }
-  
-        /** Text stylings START **/
-        /** Text stylings END **/
-  
-        .align-left *{
-        text-align: left !important;
-        }
-  
-        .align-center *{
-        text-align: center !important;
-        }
-  
-        ul{
-        margin-bottom: 0px;
-        }
-  
-        .grey-background div {
-        background-color : #f2f2f2;
-        }
-  
-        .grey-background div:nth-child(2) {
-        height: 265px;
-        }
-  
-        .hide-on-desktop {
-        display: none;
-        overflow:hidden;
-        }
-  
-        .button {
-        background-color: #00C2BF; /* Teal color */
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        border-radius: 8px;
-        height: 40x;
-        width: 50%;
-        border: none;
-        color: white;
-        font-size: 16px;
-        padding: 9px 2px 9px 2px;
-        }
-  
-  
-  
-        .secondary-button {
-        background-color: #ffffff;
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        border-radius: 8px;
-        height: 40x;
-        width: 50%;
-        border: none;
-        color: #000000;
-        font-size: 16px;
-        padding: 9px 2px 9px 2px;
-        border: 1px solid #000000;
-        }
-  
-        .loyalty-track-text-bold{
-        font-weight: bold;
-        }
-  
-        th{
-        font-weight: 700;
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: left;
-        }
-  
-        .web-overview div {
-        text-align:center !important;
-        }
-  
-        .web-overview a {
-        color: #000000 !important;
-        color:inherit !important;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 20px;
-        }
-  
-        /** Mobile only **/
-  
-        @media (max-width: 480px) {
-  
-        /** Text stylings START **/
-        .fw400-fs28-lh32 *{
-        font-weight : 400 !important;
-        font-size: 28px !important;
-        line-height: 32px !important;
-        }
-  
-        .fw700-fs20-lh32 *{
-        font-weight : 700 !important;
-        font-size: 20px !important;
-        line-height: 32px !important;
-        }
-  
-        .fw700-fs20-lh24 *{
-        font-weight : 700 !important;
-        font-size: 20px !important;
-        line-height: 24px !important;
-        }
-  
-        .fw400-16fs-24lh *{
-        font-weight: 400 !important;
-        font-size:16px !important;
-        line-height: 24px !important;
-        }
-        /** Text stylings END **/
-  
-        .fw400-fs18-lh24 div{
-        text-align: left !important;
-        }
-  
-        .online-check-in-button {
-        background-color: #00C2BF; /* Teal color */
-        margin: 0px;
-        text-align: center !important;
-        border-radius: 8px;
-        height: 40x;
-        width: 100% !important;
-        border: none;
-        color: white;
-        font-size: 16px;
-        padding: 9px 2px 9px 2px;
-        }
-  
-        .online-check-in-button * {
-        text-align: center !important;
-        }
-  
-        .hide-on-desktop {
-        display: block;
-        overflow : visible ;
-        }
-  
-        .loyalty-block-no-bottom-padding td{
-        padding-bottom: 0px !important;
-        }
-  
-        .experience-block-no-padding-on-mobile td:nth-child(1){
-        padding-top: 10px !important;
-        padding-bottom: 0px !important;
-        }
-  
-        .hide-on-mobile {
-        display: none !important;
-        overflow:hidden;
-        }
-  
-        .intro-button table:first-child {
-        width : 100% !important;
-        }
-  
-        .loyalty-section{
-        padding: 0 30px 0 30px;
-        }
-  
-  
-        .loyalty-track {
-        width: 32% !important;
-        }
-  
-        .loyalty-padding-left{
-        padding-left: 8px;
-        }
-        }
-      </mj-style>
-    </mj-head>
-    <mj-body>
-  
-      <!-- START: Valamar + Club-->
-      <mj-section padding="0px 30px 0px 30px" text-align="center">
-        <mj-column>
-          <mj-text align="center" mj-class = "fw700-fs20-lh34">Valamar+Club</mj-text>
-          <mj-spacer height="20px"></mj-spacer>
+  <mj-head>
+    <mj-preview>This is a preheader &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
+    <mj-attributes>
+      <!-- General styles -->
+      <mj-column padding="0px"></mj-column>
+      <mj-image padding="0px"></mj-image>
+      <mj-text padding="0px"></mj-text>
+      <mj-social padding="0px" padding-bottom="0px"></mj-social>
+      <mj-social-element padding="0px"></mj-social-element>
+      <mj-section padding="0px"></mj-section>
+      <mj-section padding="20px 30px 20px 30px" border="0px red solid"></mj-section>
+      <!-- Classes -->
+      <!-- Sections and columns -->
+      <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
+      <mj-class name="column" border="1px blue solid" />
+      <!-- Text styling -->
+      <!-- Font weight 400 -->
+      <mj-class name="fw400-fs13-lh18" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" />
+      <mj-class name="fw400-fs14-lh21" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
+      <mj-class name="fw400-fs15-lh22" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
+      <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
+      <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
+      <!-- Font weight 700 -->
+      <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="34px" />
+      <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
+      <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
+      <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
+      <!-- Specific text styling -->
+      <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
+      <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
+      <!-- Button styling -->
+      <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
+      <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
+      <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
+    </mj-attributes>
+    <mj-style>
+      *{
+      font-weight:400px;
+      font-family:Arial, sans-serif;
+      font-size:15px;
+      line-height: 22px;
+      color: #000000;
+      }
+
+      /** Text stylings START **/
+      /** Text stylings END **/
+
+      .align-left *{
+      text-align: left !important;
+      }
+
+      .align-center *{
+      text-align: center !important;
+      }
+
+      ul{
+      margin-bottom: 0px;
+      }
+
+      .grey-background div {
+      background-color : #f2f2f2;
+      }
+
+      .grey-background div:nth-child(2) {
+      height: 265px;
+      }
+
+      .hide-on-desktop {
+      display: none;
+      overflow:hidden;
+      }
+
+      .button {
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      }
+
+
+
+      .secondary-button {
+      background-color: #ffffff;
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: #000000;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      border: 1px solid #000000;
+      }
+
+      .loyalty-track-text-bold{
+      font-weight: bold;
+      }
+
+      th{
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: left;
+      }
+
+      .web-overview div {
+      text-align:center !important;
+      }
+
+      .web-overview a {
+      color: #000000 !important;
+      color:inherit !important;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      }
+
+      /** Mobile only **/
+
+      @media (max-width: 480px) {
+
+      /** Text stylings START **/
+      .fw400-fs28-lh32 *{
+      font-weight : 400 !important;
+      font-size: 28px !important;
+      line-height: 32px !important;
+      }
+
+      .fw700-fs20-lh32 *{
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 32px !important;
+      }
+
+      .fw700-fs20-lh24 *{
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 24px !important;
+      }
+
+      .fw400-16fs-24lh *{
+      font-weight: 400 !important;
+      font-size:16px !important;
+      line-height: 24px !important;
+      }
+      /** Text stylings END **/
+
+      .fw400-fs18-lh24 div{
+      text-align: left !important;
+      }
+
+      .online-check-in-button {
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      text-align: center !important;
+      border-radius: 8px;
+      height: 40x;
+      width: 100% !important;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      }
+
+      .online-check-in-button * {
+      text-align: center !important;
+      }
+
+      .hide-on-desktop {
+      display: block;
+      overflow : visible ;
+      }
+
+      .loyalty-block-no-bottom-padding td{
+      padding-bottom: 0px !important;
+      }
+
+      .experience-block-no-padding-on-mobile td:nth-child(1){
+      padding-top: 10px !important;
+      padding-bottom: 0px !important;
+      }
+
+      .hide-on-mobile {
+      display: none !important;
+      overflow:hidden;
+      }
+
+      .intro-button table:first-child {
+      width : 100% !important;
+      }
+
+      .loyalty-section{
+      padding: 0 30px 0 30px;
+      }
+
+
+      .loyalty-track {
+      width: 32% !important;
+      }
+
+      .loyalty-padding-left{
+      padding-left: 8px;
+      }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+
+    <!-- START: Header -->
+    <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
+      <mj-column>
+        <mj-spacer height="20px" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column css-class="web-overview">
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Header -->
+
+    <!-- START: Loyalty -->
+    <mj-section mj-class="loyalty-section" css-class="loyalty-section">
+      <mj-group>
+        <!-- Valamar plus club logo -->
+        <mj-column vertical-align="middle" css-class="hide-on-mobile">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width="55.95px" height="31px" />
         </mj-column>
-      </mj-section>
-      <mj-section padding="0px 30px 0px 30px">
-        <mj-column>
-          <mj-text align="center" mj-class = "fw400-fs35-lh38">Belonging means entering a world of advantages</mj-text>
-          <mj-spacer height="20px"></mj-spacer>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0px 30px 0px 30px">
-        <mj-column>
-          <mj-text align="center" mj-class = "fw400-fs15-lh22">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- START: Guarantee FOR DESKTOP -->
-      <!-- Images -->
-      <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
-        <mj-column width="20%">
-          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
-        </mj-column>
-        <mj-column width="10%">
+        <!-- Empty Space -->
+        <mj-column vertical-align="middle" css-class="hide-on-mobile">
           <mj-text>
           </mj-text>
         </mj-column>
-        <mj-column width="20%">
-          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+        <!-- Card Number -->
+        <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-left">
+          <mj-text mj-class="loyalty-track-heading">
+            Card No.
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-left">100105613531</mj-text>
         </mj-column>
-        <mj-column width="10%">
+        <!-- Level -->
+        <mj-column vertical-align="middle" css-class="loyalty-track">
+          <mj-text mj-class="loyalty-track-heading">
+            Your Level
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
+        </mj-column>
+        <!-- Wallet Credit -->
+        <mj-column vertical-align="middle" css-class="loyalty-track">
+          <mj-text mj-class="loyalty-track-heading">
+            Wallet credit
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
+            71.66 E
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- END: Loyalty -->
+
+    <!-- START: Main banner FOR DESKTOP FIRST VARIANT -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column mj-class="image-container">
+        <mj-image src="https://placehold.jp/540x360.png" width="540px" height="360px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE FIRST VARIANT-->
+    <mj-section css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE FIRST VARIANT-->
+
+    <!-- START: Main banner FOR DESKTOP SECOND VARIANT -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" height="270px" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP SECOND VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE SECOND VARIANT-->
+    <mj-section css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE SECOND VARIANT-->
+
+    <!-- START: Main banner FOR DESKTOP THIRD VARIANT -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP THIRD VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE THIRD VARIANT-->
+    <mj-section css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE THIRD VARIANT-->
+
+    <!-- START: Main banner FOR DESKTOP FOURTH VARIANT -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" height="265px" />
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner FOR DESKTOP FOURTH VARIANT-->
+
+    <!-- START: Main banner FOR MOBILE FOURTH VARIANT-->
+    <mj-section css-class="hide-on-desktop">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x125.png" fluid-on-mobile="true" />
+        </mj-column>
+        <mj-column width="4%">
           <mj-text>
           </mj-text>
         </mj-column>
-        <mj-column width="20%">
-          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x125.png" width="135px" fluid-on-mobile="true" />
         </mj-column>
-      </mj-section>
-      <!-- Text -->
-      <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
-        <mj-column width="20%">
-          <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
+      </mj-group>
+    </mj-section>
+    <!-- END: Main banner FOR MOBILE FOURTH  VARIANT-->
+
+    <!-- START: Intro -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="fw400-fs28-lh32">
+          Dear Mr. Doe,
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
+          If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Intro -->
+
+    <!-- START: Guarantee FOR DESKTOP -->
+    <!-- Images -->
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+    </mj-section>
+    <!-- Text -->
+    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">No prepayment
+          needed</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">Best price
+          guaranteed</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Guarantee FOR DESKTOP -->
+
+    <!-- START: Guarantee FOR MOBILE -->
+    <!-- First section -->
+    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
         </mj-column>
-        <mj-column width="10%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="20%">
-          <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
-        </mj-column>
-        <mj-column width="10%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="20%">
-          <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- END: Guarantee FOR DESKTOP -->
-  
-      <!-- START: Guarantee FOR MOBILE -->
-      <!-- First section -->
-      <mj-section css-class="hide-on-desktop align-left" text-align="left">
-        <mj-group>
-          <mj-column vertical-align="middle" width="19%">
-            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-          </mj-column>
-          <mj-column width="1%">
-            <mj-text></mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-            <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- Second section -->
-      <mj-section css-class="hide-on-desktop align-left" text-align="left">
-        <mj-group>
-          <mj-column vertical-align="middle" width="19%">
-            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-          </mj-column>
-          <mj-column width="1%">
-            <mj-text></mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-            <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- Third section -->
-      <mj-section css-class="hide-on-desktop align-left" text-align="left">
-        <mj-group>
-          <mj-column vertical-align="middle" width="19%">
-            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-          </mj-column>
-          <mj-column width="1%">
-            <mj-text></mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-            <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- END: Guarantee FOR MOBILE -->
-      <!-- END: Valamar + Club-->
-  
-      <!-- START: Header -->
-      <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
-        <mj-column>
-          <mj-spacer height="20px" />
-          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
-        </mj-column>
-        <mj-column width="33%">
+        <mj-column width="1%">
           <mj-text></mj-text>
         </mj-column>
-        <mj-column css-class="web-overview">
-          <mj-spacer height="20px" />
-          <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
-          <mj-spacer height="20px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Header -->
-  
-      <!-- START: Loyalty -->
-      <mj-section mj-class="loyalty-section" css-class="loyalty-section">
-        <mj-group>
-          <!-- Valamar plus club logo -->
-          <mj-column vertical-align="middle" css-class="hide-on-mobile">
-            <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width="55.95px" height="31px" />
-          </mj-column>
-          <!-- Empty Space -->
-          <mj-column vertical-align="middle" css-class="hide-on-mobile">
-            <mj-text>
-            </mj-text>
-          </mj-column>
-          <!-- Card Number -->
-          <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-left">
-            <mj-text mj-class="loyalty-track-heading">
-              Card No.
-            </mj-text>
-            <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-left">100105613531</mj-text>
-          </mj-column>
-          <!-- Level -->
-          <mj-column vertical-align="middle" css-class="loyalty-track">
-            <mj-text mj-class="loyalty-track-heading">
-              Your Level
-            </mj-text>
-            <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
-          </mj-column>
-          <!-- Wallet Credit -->
-          <mj-column vertical-align="middle" css-class="loyalty-track">
-            <mj-text mj-class="loyalty-track-heading">
-              Wallet credit
-            </mj-text>
-            <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
-              71.66 E
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- END: Loyalty -->
-  
-      <!-- START: Main banner FOR DESKTOP FIRST VARIANT -->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column mj-class="image-container">
-          <mj-image src="https://placehold.jp/540x360.png" width="540px" height="360px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
-  
-      <!-- START: Main banner FOR MOBILE FIRST VARIANT-->
-      <mj-section css-class="hide-on-desktop">
-        <mj-column>
-          <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Main banner FOR MOBILE FIRST VARIANT-->
-  
-      <!-- START: Main banner FOR DESKTOP SECOND VARIANT -->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column>
-          <mj-image src="https://placehold.jp/540x270.png" height="270px" width="540px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Main banner FOR DESKTOP SECOND VARIANT-->
-  
-      <!-- START: Main banner FOR MOBILE SECOND VARIANT-->
-      <mj-section css-class="hide-on-desktop">
-        <mj-column>
-          <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Main banner FOR MOBILE SECOND VARIANT-->
-  
-      <!-- START: Main banner FOR DESKTOP THIRD VARIANT -->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column>
-          <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Main banner FOR DESKTOP THIRD VARIANT-->
-  
-      <!-- START: Main banner FOR MOBILE THIRD VARIANT-->
-      <mj-section css-class="hide-on-desktop">
-        <mj-column>
-          <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Main banner FOR MOBILE THIRD VARIANT-->
-  
-      <!-- START: Main banner FOR DESKTOP FOURTH VARIANT -->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column width="265px">
-          <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" height="265px" />
-        </mj-column>
-        <mj-column width="10px">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="265px">
-          <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Main banner FOR DESKTOP FOURTH VARIANT-->
-  
-      <!-- START: Main banner FOR MOBILE FOURTH VARIANT-->
-      <mj-section css-class="hide-on-desktop">
-        <mj-group>
-          <mj-column width="48%">
-            <mj-image src="https://placehold.jp/135x125.png" fluid-on-mobile="true" />
-          </mj-column>
-          <mj-column width="4%">
-            <mj-text>
-            </mj-text>
-          </mj-column>
-          <mj-column width="48%">
-            <mj-image src="https://placehold.jp/135x125.png" width="135px" fluid-on-mobile="true" />
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- END: Main banner FOR MOBILE FOURTH  VARIANT-->
-  
-      <!-- START: Intro -->
-      <mj-section>
-        <mj-column>
-          <mj-text mj-class="fw400-fs28-lh32">
-            Dear Mr. Doe,
-          </mj-text>
-          <mj-spacer height="20px"></mj-spacer>
-          <mj-text mj-class="fw400-fs15-lh22">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
-            If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
-          <mj-spacer height="20px"></mj-spacer>
-          <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button>
-        </mj-column>
-      </mj-section>
-      <!-- END: Intro -->
-  
-      <!-- START: Guarantee FOR DESKTOP -->
-      <!-- Images -->
-      <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
-        <mj-column width="20%">
-          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
-        </mj-column>
-        <mj-column width="10%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="20%">
-          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
-        </mj-column>
-        <mj-column width="10%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="20%">
-          <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
-        </mj-column>
-      </mj-section>
-      <!-- Text -->
-      <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
-        <mj-column width="20%">
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
           <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
         </mj-column>
-        <mj-column width="10%">
-          <mj-text>
-          </mj-text>
+      </mj-group>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
         </mj-column>
-        <mj-column width="20%">
-          <mj-text mj-class="fw400-fs18-lh24">No prepayment
-            needed</mj-text>
+        <mj-column width="1%">
+          <mj-text></mj-text>
         </mj-column>
-        <mj-column width="10%">
-          <mj-text>
-          </mj-text>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs18-lh24">No prepayment needed</mj-text>
         </mj-column>
-        <mj-column width="20%">
+      </mj-group>
+    </mj-section>
+    <!-- Third section -->
+    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
           <mj-text mj-class="fw400-fs18-lh24">Best price
             guaranteed</mj-text>
         </mj-column>
-      </mj-section>
-      <!-- END: Guarantee FOR DESKTOP -->
-  
-      <!-- START: Guarantee FOR MOBILE -->
-      <!-- First section -->
-      <mj-section css-class="hide-on-desktop align-left" text-align="left">
-        <mj-group>
-          <mj-column vertical-align="middle" width="19%">
-            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-          </mj-column>
-          <mj-column width="1%">
-            <mj-text></mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-            <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- Second section -->
-      <mj-section css-class="hide-on-desktop align-left" text-align="left">
-        <mj-group>
-          <mj-column vertical-align="middle" width="19%">
-            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-          </mj-column>
-          <mj-column width="1%">
-            <mj-text></mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-            <mj-text mj-class="fw400-fs18-lh24">No prepayment needed</mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- Third section -->
-      <mj-section css-class="hide-on-desktop align-left" text-align="left">
-        <mj-group>
-          <mj-column vertical-align="middle" width="19%">
-            <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-          </mj-column>
-          <mj-column width="1%">
-            <mj-text></mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-            <mj-text mj-class="fw400-fs18-lh24">Best price
-              guaranteed</mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- END: Guarantee FOR MOBILE -->
-  
-      <!-- START: Countdown timer FOR DESKTOP -->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column mj-class="image-container">
-          <mj-image mj-class="desktop-image" src="https://placehold.jp/540x94.png" width="540px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Countdown timer FOR DESKTOP -->
-  
-      <!-- START: Countdown timer FOR MOBILE FIRST VARIANT-->
-      <mj-section css-class="hide-on-desktop">
-        <mj-column>
-          <mj-image src="https://placehold.jp/280x90.png" width="280px" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Countdown timer FOR MOBILE -->
-  
-      <!-- START Voucher block FOR DESKTOP -->
-      <mj-section mj-class="voucher-section" css-class="hide-on-mobile" padding-bottom="0px">
-        <mj-column mj-class="image-container" width="540px">
-          <mj-image src="https://placehold.jp/540x200.png" width="540px" />
-        </mj-column>
-      </mj-section>
-      <!--  FOR MOBILE -->
-      <mj-section mj-class="voucher-section" css-class="hide-on-desktop" padding-bottom="0px">
-        <mj-column>
-          <mj-image src="https://placehold.jp/280x410.png" width="280px" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column width="100%">
-          <mj-text mj-class="fw400-fs13-lh18">
-            Vaučer vrijedi isključivo za nove rezervacije te se ponuda ne može kombinirati s drugim promocijama. Vaučer vrijedi za sve boravke u roku od 18 mjeseci od njegova zaprimanja. Primjenjuje se na sve boravke u trajanju od najmanje pet noći. Vaučer se može iskoristiti do 6 mjeseca od njegova zaprimanja. Moguća je primjena dodatnih ograničenja. Vaučer je moguće iskoristiti isključivo na web stranici www.valamar.com
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- END Voucher block for DESKTOP -->
-  
-      <!-- START: Voucher gift block-->
-      <mj-section>
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x265.png" fluid-on-mobile="true" width="265px" />
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="4%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column css-class="right-column" width="46%">
-          <mj-text mj-class="fw700-fs28-lh34">
-            Perfect gift
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">
-            This season, give the gift of travel with the Valamar Gift Voucher, redeemable at our properties in Croatia and Austria. Select the value, personalize the message and choose the delivery option!
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="general-button">
-            Shop now
-          </mj-button>
-        </mj-column>
-      </mj-section>
-      <!-- END: Voucher gift block-->
-  
-      <!-- START: 2 properties with USPs FOR DESKTOP-->
-      <mj-section>
-        <mj-column>
-          <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Find your perfect winter holiday</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section css-class="hide-on-mobile" padding-top="0px" padding-bottom="0px">
-        <mj-column width="265px">
-          <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
-        </mj-column>
-        <mj-column width="10px">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="265px">
-          <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
-        </mj-column>
-      </mj-section>
-      <!-- MOBILE -->
-      <mj-section css-class="hide-on-desktop" padding-bottom="0px">
-        <mj-group>
-          <mj-column width="48%">
-            <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
-          </mj-column>
-          <mj-column width="4%">
-            <mj-text>
-            </mj-text>
-          </mj-column>
-          <mj-column width="48%">
-            <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- Content for both devices -->
-      <!-- First checkmark -->
-      <mj-section text-align="left">
-        <mj-column>
-          <mj-text mj-class="fw700-fs22-lh24" css-class="fw700-fs20-lh32">
-            Girandella Valamar Collection Maro Suites 5*
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-bottom="0px" padding-top="0px">
-        <mj-column vertical-align="middle">
-          <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-            <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
-              All inclusive offer
-            </mj-social-element>
-          </mj-social>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-bottom="0px">
-        <mj-column vertical-align="middle">
-          <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-            <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
-              Extra spacious family suites
-            </mj-social-element>
-          </mj-social>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-bottom="0px">
-        <mj-column vertical-align="middle">
-          <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
-            <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
-              Super Maro playrooms, indoor playground and cinema
-            </mj-social-element>
-          </mj-social>
-          <mj-spacer height="20px" />
-        </mj-column>
-      </mj-section>
-      <mj-section padding-top="0px">
-        <mj-column>
-          <mj-button mj-class="intro-button" css-class="intro-button" align="left">Book now</mj-button>
-        </mj-column>
-      </mj-section>
-      <!-- END: 2 properties with USPs FOR DESKTOP-->
-  
-      <!-- START: 2 property recommendations FOR DESKTOP -->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column>
-          <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
-            <tr>
-              <td align="left">
-                <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-              </td>
-              <td align="right">
-                <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-              </td>
-            </tr>
-            <tr>
-              <th align="left">Valamar Argosy Hotel 4*</th>
-              <th align="right">Girandella Valamar Collection Designed for
-                Adults*</th>
-            </tr>
-            <tr>
-              <td align="left">Island of Rab</td>
-              <td align="left">Dubrovnik</td>
-            </tr>
-            <tr>
-              <td valign="middle" style="line-height: 40px;" align="left">
-                <p class="button">Book now</p>
-              </td>
-              <td valign="middle" style="line-height: 40px;" align="left">
-                <p class="button">Book now</p>
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
-      <!-- END: 2 property recommendations FOR DESKTOP -->
-      <!-- START: 2 property recommendations FOR MOBILE -->
-      <mj-section css-class="hide-on-desktop">
-        <!-- First recommendation -->
-        <mj-column>
-          <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw700-fs20-lh24">FValamar Argosy Hotel 4*</mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">Island of Rab</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="general-button">Book now</mj-button>
-          <mj-spacer height="20px" />
-        </mj-column>
-        <!-- Second recommendation -->
-        <mj-column>
-          <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw700-fs20-lh24">FGirandella Valamar Collection Designed for
-            Adults*</mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">Dubrovnik</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="general-button">Book now</mj-button>
-        </mj-column>
-      </mj-section>
-      <!-- END: 2 property recommendations FOR MOBILE -->
-  
-      <!-- START: This is the ZigZag block without CTA -->
-      <!-- First section -->
-      <mj-section>
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
+      </mj-group>
+    </mj-section>
+    <!-- END: Guarantee FOR MOBILE -->
+
+    <!-- START: Countdown timer FOR DESKTOP -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column mj-class="image-container">
+        <mj-image mj-class="desktop-image" src="https://placehold.jp/540x94.png" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Countdown timer FOR DESKTOP -->
+
+    <!-- START: Countdown timer FOR MOBILE FIRST VARIANT-->
+    <mj-section css-class="hide-on-desktop">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x90.png" width="280px" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Countdown timer FOR MOBILE -->
+
+    <!-- START Voucher block FOR DESKTOP -->
+    <mj-section mj-class="voucher-section" css-class="hide-on-mobile" padding-bottom="0px">
+      <mj-column mj-class="image-container" width="540px">
+        <mj-image src="https://placehold.jp/540x200.png" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!--  FOR MOBILE -->
+    <mj-section mj-class="voucher-section" css-class="hide-on-desktop" padding-bottom="0px">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x410.png" width="280px" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text mj-class="fw400-fs13-lh18">
+          Vaučer vrijedi isključivo za nove rezervacije te se ponuda ne može kombinirati s drugim promocijama. Vaučer vrijedi za sve boravke u roku od 18 mjeseci od njegova zaprimanja. Primjenjuje se na sve boravke u trajanju od najmanje pet noći. Vaučer se može iskoristiti do 6 mjeseca od njegova zaprimanja. Moguća je primjena dodatnih ograničenja. Vaučer je moguće iskoristiti isključivo na web stranici www.valamar.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END Voucher block for DESKTOP -->
+
+    <!-- START: Voucher gift block-->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x265.png" fluid-on-mobile="true" width="265px" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw700-fs28-lh34">
+          Perfect gift
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">
+          This season, give the gift of travel with the Valamar Gift Voucher, redeemable at our properties in Croatia and Austria. Select the value, personalize the message and choose the delivery option!
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          Shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Voucher gift block-->
+
+    <!-- START: 2 properties with USPs FOR DESKTOP-->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Find your perfect winter holiday</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="hide-on-mobile" padding-top="0px" padding-bottom="0px">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop" padding-bottom="0px">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
         </mj-column>
         <mj-column width="4%">
           <mj-text>
           </mj-text>
         </mj-column>
-        <mj-column css-class="right-column" width="46%">
-          <mj-text mj-class="fw400-fs15-lh22">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
-            <br />
-            <br />
-            <strong>Top 3 beaches in Rabac:</strong>
-            <ul>
-              <li>Girandella Beach</li>
-              <li>St Andrea Beach</li>
-              <li>Lanterna Beach</li>
-            </ul>
-          </mj-text>
-          <mj-spacer height="10px" />
-          <mj-text mj-class="fw400-fs15-lh22">P.S. There is another hidden gem in Brseč which you can reach easier by boat!</mj-text>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
         </mj-column>
-      </mj-section>
-      <!-- Second section -->
-      <mj-section direction="rtl">
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
+      </mj-group>
+    </mj-section>
+    <!-- Content for both devices -->
+    <!-- First checkmark -->
+    <mj-section text-align="left">
+      <mj-column>
+        <mj-text mj-class="fw700-fs22-lh24" css-class="fw700-fs20-lh32">
+          Girandella Valamar Collection Maro Suites 5*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
+            All inclusive offer
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
+            Extra spacious family suites
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
+            Super Maro playrooms, indoor playground and cinema
+          </mj-social-element>
+        </mj-social>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-button mj-class="intro-button" css-class="intro-button" align="left">Book now</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 properties with USPs FOR DESKTOP-->
+
+    <!-- START: 2 property recommendations FOR DESKTOP -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
+          <tr>
+            <td align="left">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+            <td align="right">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+          </tr>
+          <tr>
+            <th align="left">Valamar Argosy Hotel 4*</th>
+            <th align="right">Girandella Valamar Collection Designed for
+              Adults*</th>
+          </tr>
+          <tr>
+            <td align="left">Island of Rab</td>
+            <td align="left">Dubrovnik</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="button">Book now</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="button">Book now</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 property recommendations FOR DESKTOP -->
+    <!-- START: 2 property recommendations FOR MOBILE -->
+    <mj-section css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">FValamar Argosy Hotel 4*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Island of Rab</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Book now</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">FGirandella Valamar Collection Designed for
+          Adults*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Dubrovnik</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Book now</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 property recommendations FOR MOBILE -->
+
+    <!-- START: This is the ZigZag block without CTA -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw400-fs15-lh22">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
+          <br />
+          <br />
+          <strong>Top 3 beaches in Rabac:</strong>
+          <ul>
+            <li>Girandella Beach</li>
+            <li>St Andrea Beach</li>
+            <li>Lanterna Beach</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. There is another hidden gem in Brseč which you can reach easier by boat!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="fw400-fs15-lh22"><strong>3 things to do in Dubrovnik:</strong>
+          <ul>
+            <li>Visit Mount Srđ & descent by foot</li>
+            <li>Walk the Dubrovnik Walls</li>
+            <li>Take a kayak tour of the Old Town from the outside</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block without CTA -->
+
+    <!-- START: This is the ZigZag block with CTA -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Obertauern [PLACESHOTEL] by Valamar
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">TOP CHOICE FOR MILLENIALS
+          <ul>
+            <li>€60 daily credit per two persons for restaurants and bars</li>
+            <li>pool with serene indoor zones</li>
+            <li>evening DJ music programme</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 225
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Kesselspitze Valamar Collection Hotel 4* Superiror
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">PREMIUM ACCOMMODATION
+          <ul>
+            <li>Ski-in & ski-out hotel</li>
+            <li>NEW: free parking in the underground garage</li>
+            <li>NEW: upgraded gourmet offer</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. Check out our exclusive V level Chalet</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 278
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block with CTA -->
+
+    <!-- START: This is the ZigZag block with CTA -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Obertasty
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy a buffet breakfast and a buffet dinner. If you don’t make it to dinner, you can use €30 daily credit per person on food or drinks at our bars.
+          <br />
+          <br />
+          If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Start relaxing</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Oberfun
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Feel the Obervibes</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: This is the ZigZag block with CTA -->
+
+    <!-- START: 1 property with USPs FOR DESKTOP-->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Vaš smještaj</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="hide-on-mobile" padding-top="0px" padding-bottom="0px">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop" padding-bottom="0px">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
         </mj-column>
         <mj-column width="4%">
           <mj-text>
           </mj-text>
         </mj-column>
-        <mj-column css-class="left-column" width="46%">
-          <mj-text mj-class="fw400-fs15-lh22"><strong>3 things to do in Dubrovnik:</strong>
-            <ul>
-              <li>Visit Mount Srđ & descent by foot</li>
-              <li>Walk the Dubrovnik Walls</li>
-              <li>Take a kayak tour of the Old Town from the outside</li>
-            </ul>
-          </mj-text>
+        <mj-column width="48%">
+          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
         </mj-column>
-      </mj-section>
-      <!-- END: This is the ZigZag block without CTA -->
-  
-      <!-- START: This is the ZigZag block with CTA -->
-      <!-- First section -->
-      <mj-section>
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
+      </mj-group>
+    </mj-section>
+    <!-- Content for both devices -->
+    <mj-section text-align="left">
+      <mj-column>
+        <mj-text mj-class="fw700-fs22-lh24" css-class="fw700-fs20-lh24 align-center">
+          Istra Premium Camping Resort 5*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Telefon: +385 52 445 123</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs14-lh21">Za jamstvo rezervacije u slučaju kasnog dolaska (poslije 20:00), molimo kontaktirajte recepciju na broj telefona +385 52 445 123</mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: 1 property with USPs FOR DESKTOP-->
+
+    <!-- START: Event -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="fw400-fs15-lh22">
+          Get ready to start this season in style! Chart stormers Pizzera & Jaus are preparing to shake the stage with their most popular hits, such as “Hooligans”, or “Ein ins Leben”. Don’t miss out on this upcoming ski opening event and save the date!
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-button mj-class="general-button" width="50%" align="center">Learn more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Event -->
+
+    <!-- START: Experience concierge block -->
+    <mj-section css-class="grey-background">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" fluid-on-mobile="true" />
+      </mj-column>
+      <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile">
+        <mj-text mj-class="fw700-fs20-lh24">Experience concierge</mj-text>
+        <mj-spacer height="20px" css-class="hide-on-mobile"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh20">
+          Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
+          <ul>
+            <li>Equipment rental</li>
+            <li>Ski or snoboarding school organization</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experience concierge block -->
+
+    <!-- START: Check in CTA -->
+    <mj-section>
+      <!-- Image -->
+      <mj-column width="30%">
+        <mj-image padding-top="20px" src="https://placehold.jp/160x160.png" width="160px" height="160px" fluid-on-mobile="true" />
+      </mj-column>
+      <!-- Empty space -->
+      <mj-column width="2%">
+        <mj-text></mj-text>
+      </mj-column>
+      <!-- Text content -->
+      <mj-column width="68%">
+        <mj-text mj-class="fw700-fs20-lh24">Napravite online Check-in unaprijed</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22">Kako biste počeli uživati u svojem odmoru čim stignete, od ovog treuntka imate mogućnost napraviti online prijavu u nekoliko jednostavnih koraka. Veselimo se Vašem dolasku!</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-button mj-class="general-button" css-class="intro-button " width="50%">Online prijava</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Check in CTA -->
+
+    <!-- START: My valamar app-->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38">My Valamar app</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <!-- FOR DESKTOP -->
+        <mj-image src="https://placehold.jp/600x280.png" width="600px" height="280px" css-class="hide-on-mobile" />
+        <!-- FOR MOBILE -->
+        <mj-image src="https://placehold.jp/280x520.png" width="280px" height="520px" css-class="hide-on-desktop" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: My valamar app-->
+
+    <!-- START: Valamar concierge -->
+    <!-- Text Content for both -->
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38">Valamar Concierge</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- START: Valamar concierge FOR DESKTOP-->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
+          <tr>
+            <td align="left">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+            <td align="right">
+              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
+            </td>
+          </tr>
+          <tr>
+            <th align="left">Avanturistička degustacija vina: Wine cellar Escape</th>
+            <th align="right">Okusi Istru</th>
+          </tr>
+          <tr>
+            <td align="left">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</td>
+            <td align="left">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="secondary-button">Learn more</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="left">
+              <p class="secondary-button">Learn more</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR DESKTOP-->
+    <!-- START: Valamar concierge FOR MOBILE-->
+    <mj-section css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR MOBILE -->
+    <!-- END: Valamar concierge -->
+
+    <!-- START: Experiences x3 -->
+    <!-- Text Content for both -->
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Our recommendations for a
+          fun-filled holiday</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- START: Experiences FOR DESKTOP-->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
+          <tr>
+            <td align="center">
+              <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
+            </td>
+            <td align="center">
+              <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
+            </td>
+            <td align="center">
+              <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
+            </td>
+          </tr>
+          <tr>
+            <td align="center">Panoramic trip to Biokovo</td>
+            <td align="center">Visit authentic Pelješac vineyards</td>
+            <td align="center">Discover the beauty of the Elaphiti islands</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experiences FOR DESKTOP-->
+    <!-- START: Experiences FOR MOBILE-->
+    <mj-section css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Panoramic trip to Biokovo</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Visit authentic Pelješac vineyards</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Third recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Discover the beauty of the Elaphiti islands</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Experiences FOR MOBILE -->
+    <!-- END: Experiences x3 -->
+
+    <!-- START: Valamar + Club-->
+    <mj-section padding="0px 30px 0px 30px" text-align="center">
+      <mj-column>
+        <mj-text align="center" mj-class="fw700-fs20-lh34">Valamar+Club</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Belonging means entering a world of advantages</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs15-lh22">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- START: Guarantee FOR DESKTOP -->
+    <!-- Images -->
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+    </mj-section>
+    <!-- Text -->
+    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Guarantee FOR DESKTOP -->
+
+    <!-- START: Guarantee FOR MOBILE -->
+    <!-- First section -->
+    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
         </mj-column>
-        <mj-column width="4%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column css-class="right-column" width="46%">
-          <mj-text mj-class="fw700-fs20-lh24">
-            Obertauern [PLACESHOTEL] by Valamar
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">TOP CHOICE FOR MILLENIALS
-            <ul>
-              <li>€60 daily credit per two persons for restaurants and bars</li>
-              <li>pool with serene indoor zones</li>
-              <li>evening DJ music programme</li>
-            </ul>
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="general-button">
-            From 225
-          </mj-button>
-        </mj-column>
-      </mj-section>
-      <!-- Second section -->
-      <mj-section direction="rtl">
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="4%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column css-class="left-column" width="46%">
-          <mj-text mj-class="fw700-fs20-lh24">
-            Kesselspitze Valamar Collection Hotel 4* Superiror
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">PREMIUM ACCOMMODATION
-            <ul>
-              <li>Ski-in & ski-out hotel</li>
-              <li>NEW: free parking in the underground garage</li>
-              <li>NEW: upgraded gourmet offer</li>
-            </ul>
-          </mj-text>
-          <mj-spacer height="10px" />
-          <mj-text mj-class="fw400-fs15-lh22">P.S. Check out our exclusive V level Chalet</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="general-button">
-            From 278
-          </mj-button>
-        </mj-column>
-      </mj-section>
-      <!-- END: This is the ZigZag block with CTA -->
-  
-      <!-- START: This is the ZigZag block with CTA -->
-      <!-- First section -->
-      <mj-section>
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="4%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column css-class="right-column" width="46%">
-          <mj-text mj-class="fw700-fs20-lh24">
-            Obertasty
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">Enjoy a buffet breakfast and a buffet dinner. If you don’t make it to dinner, you can use €30 daily credit per person on food or drinks at our bars.
-            <br />
-            <br />
-            If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-text><a href="${clickthrough('View_onlinee')}">Start relaxing</a></mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- Second section -->
-      <mj-section direction="rtl">
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-        </mj-column>
-        <mj-column width="4%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column css-class="left-column" width="46%">
-          <mj-text mj-class="fw700-fs20-lh24">
-            Oberfun
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
-          </mj-text>
-          <mj-spacer height="20px" />
-          <mj-text><a href="${clickthrough('View_onlinee')}">Feel the Obervibes</a></mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- END: This is the ZigZag block with CTA -->
-  
-      <!-- START: 1 property with USPs FOR DESKTOP-->
-      <mj-section>
-        <mj-column>
-          <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Vaš smještaj</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section css-class="hide-on-mobile" padding-top="0px" padding-bottom="0px">
-        <mj-column width="265px">
-          <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" />
-        </mj-column>
-        <mj-column width="10px">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="265px">
-          <mj-image src="https://placehold.jp/265x200.png" width="265px" height="200px" padding="0px" />
-        </mj-column>
-      </mj-section>
-      <!-- MOBILE -->
-      <mj-section css-class="hide-on-desktop" padding-bottom="0px">
-        <mj-group>
-          <mj-column width="48%">
-            <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
-          </mj-column>
-          <mj-column width="4%">
-            <mj-text>
-            </mj-text>
-          </mj-column>
-          <mj-column width="48%">
-            <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <!-- Content for both devices -->
-      <mj-section text-align="left">
-        <mj-column>
-          <mj-text mj-class="fw700-fs22-lh24" css-class="fw700-fs20-lh24 align-center">
-            Istra Premium Camping Resort 5*
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-bottom="0px" padding-top="0px">
-        <mj-column vertical-align="middle">
-          <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-bottom="0px">
-        <mj-column vertical-align="middle">
-          <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Telefon: +385 52 445 123</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-bottom="0px">
-        <mj-column vertical-align="middle">
-          <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
-          <mj-spacer height="20px" />
-        </mj-column>
-      </mj-section>
-      <mj-section padding-top="0px">
-        <mj-column vertical-align="middle">
-          <mj-text mj-class="fw400-fs14-lh21">Za jamstvo rezervacije u slučaju kasnog dolaska (poslije 20:00), molimo kontaktirajte recepciju na broj telefona +385 52 445 123</mj-text>
-          <mj-spacer height="20px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: 1 property with USPs FOR DESKTOP-->
-  
-      <!-- START: Event -->
-      <mj-section>
-        <mj-column>
-          <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0px 30px 0px 30px">
-        <mj-column>
-          <mj-text mj-class="fw400-fs15-lh22">
-            Get ready to start this season in style! Chart stormers Pizzera & Jaus are preparing to shake the stage with their most popular hits, such as “Hooligans”, or “Ein ins Leben”. Don’t miss out on this upcoming ski opening event and save the date!
-          </mj-text>
-          <mj-spacer height="20px"></mj-spacer>
-          <mj-button mj-class="general-button" width="50%" align="center">Learn more</mj-button>
-        </mj-column>
-      </mj-section>
-      <!-- END: Event -->
-  
-      <!-- START: Experience concierge block -->
-      <mj-section css-class="grey-background">
-        <mj-column width="50%">
-          <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" fluid-on-mobile="true" />
-        </mj-column>
-        <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile">
-          <mj-text mj-class="fw700-fs20-lh24">Experience concierge</mj-text>
-          <mj-spacer height="20px" css-class="hide-on-mobile"></mj-spacer>
-          <mj-text mj-class="fw400-fs15-lh20">
-            Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
-            <ul>
-              <li>Equipment rental</li>
-              <li>Ski or snoboarding school organization</li>
-            </ul>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- END: Experience concierge block -->
-  
-      <!-- START: Check in CTA -->
-      <mj-section>
-        <!-- Image -->
-        <mj-column width="30%">
-          <mj-image padding-top="20px" src="https://placehold.jp/160x160.png" width="160px" height="160px" fluid-on-mobile="true" />
-        </mj-column>
-        <!-- Empty space -->
-        <mj-column width="2%">
+        <mj-column width="1%">
           <mj-text></mj-text>
         </mj-column>
-        <!-- Text content -->
-        <mj-column width="68%">
-          <mj-text mj-class="fw700-fs20-lh24">Napravite online Check-in unaprijed</mj-text>
-          <mj-spacer height="20px"></mj-spacer>
-          <mj-text mj-class="fw400-fs15-lh22">Kako biste počeli uživati u svojem odmoru čim stignete, od ovog treuntka imate mogućnost napraviti online prijavu u nekoliko jednostavnih koraka. Veselimo se Vašem dolasku!</mj-text>
-          <mj-spacer height="20px"></mj-spacer>
-          <mj-button mj-class="general-button" css-class="online-check-in-button " width="50%">Online prijava</mj-button>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
         </mj-column>
-      </mj-section>
-      <!-- END: Check in CTA -->
-  
-      <!-- START: My valamar app-->
-      <mj-section>
-        <mj-column>
-          <mj-text mj-class="fw400-fs35-lh38">My Valamar app</mj-text>
-          <mj-spacer height="20px"></mj-spacer>
-          <!-- FOR DESKTOP -->
-          <mj-image src="https://placehold.jp/600x280.png" width="600px" height="280px" css-class="hide-on-mobile" />
-          <!-- FOR MOBILE -->
-          <mj-image src="https://placehold.jp/280x520.png" width="280px" height="520px" css-class="hide-on-desktop" fluid-on-mobile="true" />
+      </mj-group>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
         </mj-column>
-      </mj-section>
-      <!-- END: My valamar app-->
-  
-      <!-- START: Valamar concierge -->
-      <!-- Text Content for both -->
-      <mj-section padding="0px 30px 0px 30px">
-        <mj-column>
-          <mj-text mj-class="fw400-fs35-lh38">Valamar Concierge</mj-text>
+        <mj-column width="1%">
+          <mj-text></mj-text>
         </mj-column>
-      </mj-section>
-      <mj-section padding="0px 30px 0px 30px">
-        <mj-column>
-          <mj-spacer height="20px"></mj-spacer>
-          <mj-text mj-class="fw400-fs15-lh22" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
         </mj-column>
-      </mj-section>
-      <!-- START: Valamar concierge FOR DESKTOP-->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column>
-          <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
-            <tr>
-              <td align="left">
-                <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-              </td>
-              <td align="right">
-                <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-              </td>
-            </tr>
-            <tr>
-              <th align="left">Avanturistička degustacija vina: Wine cellar Escape</th>
-              <th align="right">Okusi Istru</th>
-            </tr>
-            <tr>
-              <td align="left">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</td>
-              <td align="left">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</td>
-            </tr>
-            <tr>
-              <td valign="middle" style="line-height: 40px;" align="left">
-                <p class="secondary-button">Learn more</p>
-              </td>
-              <td valign="middle" style="line-height: 40px;" align="left">
-                <p class="secondary-button">Learn more</p>
-              </td>
-            </tr>
-          </mj-table>
+      </mj-group>
+    </mj-section>
+    <!-- Third section -->
+    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
         </mj-column>
-      </mj-section>
-      <!-- END: Valamar concierge FOR DESKTOP-->
-      <!-- START: Valamar concierge FOR MOBILE-->
-      <mj-section css-class="hide-on-desktop">
-        <!-- First recommendation -->
-        <mj-column>
-          <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="secondary-button">Learn more</mj-button>
-          <mj-spacer height="20px" />
+        <mj-column width="1%">
+          <mj-text></mj-text>
         </mj-column>
-        <!-- Second recommendation -->
-        <mj-column>
-          <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="secondary-button">Learn more</mj-button>
-          <mj-spacer height="20px" />
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
         </mj-column>
-      </mj-section>
-      <!-- END: Valamar concierge FOR MOBILE -->
-      <!-- END: Valamar concierge -->
-  
-      <!-- START: Experiences x3 -->
-      <!-- Text Content for both -->
-      <mj-section padding="0px 30px 0px 30px">
-        <mj-column>
-          <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Our recommendations for a
-            fun-filled holiday</mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- START: Experiences FOR DESKTOP-->
-      <mj-section css-class="hide-on-mobile">
-        <mj-column>
-          <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
-            <tr>
-              <td align="center">
-                <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
-              </td>
-              <td align="center">
-                <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
-              </td>
-              <td align="center">
-                <img src="https://placehold.jp/170x170.png" style="width:170px;height:170px;" height="170" width="170" />
-              </td>
-            </tr>
-            <tr>
-              <td align="center">Panoramic trip to Biokovo</td>
-              <td align="center">Visit authentic Pelješac vineyards</td>
-              <td align="center">Discover the beauty of the Elaphiti islands</td>
-            </tr>
-            <tr>
-              <td valign="middle" style="line-height: 40px;" align="center">
-                <p class="secondary-button">Find out more</p>
-              </td>
-              <td valign="middle" style="line-height: 40px;" align="center">
-                <p class="secondary-button">Find out more</p>
-              </td>
-              <td valign="middle" style="line-height: 40px;" align="center">
-                <p class="secondary-button">Find out more</p>
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
-      <!-- END: Experiences FOR DESKTOP-->
-      <!-- START: Experiences FOR MOBILE-->
-      <mj-section css-class="hide-on-desktop">
-        <!-- First recommendation -->
-        <mj-column>
-          <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22" align="center">Panoramic trip to Biokovo</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="secondary-button">Find out more</mj-button>
-          <mj-spacer height="20px" />
-        </mj-column>
-        <!-- Second recommendation -->
-        <mj-column>
-          <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22" align="center">Visit authentic Pelješac vineyards</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="secondary-button">Find out more</mj-button>
-          <mj-spacer height="20px" />
-        </mj-column>
-        <!-- Third recommendation -->
-        <mj-column>
-          <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-          <mj-spacer height="20px" />
-          <mj-text mj-class="fw400-fs15-lh22" align="center">Discover the beauty of the Elaphiti islands</mj-text>
-          <mj-spacer height="20px" />
-          <mj-button mj-class="secondary-button">Find out more</mj-button>
-          <mj-spacer height="20px" />
-        </mj-column>
-      </mj-section>
-      <!-- END: Experiences FOR MOBILE -->
-      <!-- END: Experiences x3 -->
+      </mj-group>
+    </mj-section>
+    <!-- END: Guarantee FOR MOBILE -->
+    <!-- Button -->
+    <mj-section padding="0 30px 0 30px">
+      <mj-column>
+        <mj-spacer css-class="hide-on-mobile" height="20px"></mj-spacer>
+        <mj-button mj-class="general-button" width="50%" align="center" css-class="intro-button">Join now for free</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar + Club-->
