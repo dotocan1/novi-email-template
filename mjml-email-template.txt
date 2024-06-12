@@ -16,6 +16,7 @@
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <mj-class name="general-text" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
+       <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw400-14fs-21lh" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
       <mj-class name="guarantee-text" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
@@ -52,6 +53,14 @@
 
       ul{
       margin-bottom: 0px;
+      }
+   
+      .grey-background div  {
+      background-color : #f2f2f2;
+      }
+      
+   .grey-background div:nth-child(2)  {
+      height: 265px;
       }
 
       .hide-on-desktop {
@@ -166,7 +175,20 @@
   </mj-head>
   <mj-body>
 
-   
+   <mj-section css-class = "grey-background">
+<mj-column width = "50%" >
+     <mj-image src="https://placehold.jp/265x265.png"  width="265px" height="265px" fluid-on-mobile = "true"/>
+     </mj-column>    
+     <mj-column width = "50%" padding = "40px 20px 40px 20px">
+       <mj-text mj-class = "general-heading">Experience concierge</mj-text>
+       <mj-spacer height = "20px"></mj-spacer>
+       <mj-text mj-class = "fw400-fs15-lh20">
+       Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
+Equipment rental
+Ski or snoboarding school organization
+       </mj-text>
+     </mj-column>
+</mj-section>
     
     <!-- START: Header -->
     <mj-section css-class="valign no-bottom-padding" padding-bottom="40px">
