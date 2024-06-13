@@ -219,7 +219,14 @@
   </mj-head>
   <mj-body>
 
-
+    <!-- START: Why book -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Belonging means entering a world of advantages</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <!-- END: Why book -->
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
