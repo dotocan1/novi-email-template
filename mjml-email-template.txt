@@ -28,6 +28,7 @@
       <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="34px" />
       <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
       <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
+      <mj-class name="fw700-fs35-lh38" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
       <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
       <!-- Specific text styling -->
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
@@ -224,6 +225,8 @@
     </mj-style>
   </mj-head>
   <mj-body>
+
+
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
@@ -1335,3 +1338,20 @@
       </mj-column>
     </mj-section>
     <!-- END: Why book -->
+
+    <!-- START: Moments -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="fw700-fs35-lh38" css-class="fw400-fs28-lh32">Budi dio<br />
+          #PlacesMoments</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 30px 20px 30px">
+      <mj-column>
+        <!-- Desktop -->
+        <mj-image src="https://placehold.jp/540x400.png" width="540px" height="400px" css-class="hide-on-mobile"></mj-image>
+        <mj-image src="https://placehold.jp/540x450.png" width="540px" height="450px" css-class="hide-on-desktop"></mj-image>
+        <!-- Mobile -->
+      </mj-column>
+    </mj-section>
+    <!-- END: Moments -->
