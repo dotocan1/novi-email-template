@@ -219,72 +219,7 @@
   </mj-head>
   <mj-body>
 
-    <!-- START: Inspiration block -->
-    <!-- Text Content for both -->
-    <mj-section padding="0px 30px 0px 30px">
-      <mj-column>
-        <mj-text mj-class="fw400-fs35-lh38" css-class = "fw400-fs28-lh32">Get inspired & come to the Adriatic!</mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- START: Valamar concierge FOR DESKTOP-->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
-          <tr>
-            <td align="left">
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-            </td>
-            <td align="right">
-              <img src="https://placehold.jp/260x200.png" style="width:260px;height:200px;" height="200" width="260" />
-            </td>
-          </tr>
-          <tr>
-            <th align="left">Avanturistička degustacija vina: Wine cellar Escape</th>
-            <th align="right">Okusi Istru</th>
-          </tr>
-          <tr>
-            <td align="left">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</td>
-            <td align="left">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</td>
-          </tr>
-          <tr>
-            <td valign="middle" style="line-height: 40px;" align="left">
-              <p class="secondary-button">Learn more</p>
-            </td>
-            <td valign="middle" style="line-height: 40px;" align="left">
-              <p class="secondary-button">Learn more</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <!-- END: Valamar concierge FOR DESKTOP-->
-    <!-- START: Valamar concierge FOR MOBILE-->
-    <mj-section css-class="hide-on-desktop">
-      <!-- First recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Second recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Valamar concierge FOR MOBILE -->
-    <!-- END: Inspiration block -->
+
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
@@ -1282,3 +1217,63 @@
       </mj-column>
     </mj-section>
     <!-- END: Valamar + Club-->
+
+    <!-- START: Inspiration block -->
+    <!-- Text Content for both -->
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Get inspired & come to the Adriatic!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- START: Valamar concierge FOR DESKTOP-->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
+          <tr>
+            <td align="left">
+              <img src="https://placehold.jp/265x265.png" style="width:265px;height:265px;" height="265" width="265" />
+            </td>
+            <td align="right">
+              <img src="https://placehold.jp/265x265.png" style="width:265px;height:265px;" height="265" width="265" />
+            </td>
+          </tr>
+          <tr>
+            <td align="center">Top Adriatic Destinations for Couples</td>
+            <td align="center">V Level: Holiday at the Highest Level</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+            <td valign="middle" style="line-height: 40px;" align="center">
+              <p class="secondary-button">Find out more</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR DESKTOP-->
+    <!-- START: Valamar concierge FOR MOBILE-->
+    <mj-section css-class="hide-on-desktop">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/265x265.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+
+        <mj-text mj-class="fw400-fs15-lh22">MOB_Top Adriatic Destinations for Couples</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button" width="75%" align="center">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/265x265.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">MOB_V Level: Holiday at the Highest Level</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button" width="75%" align="center">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge FOR MOBILE -->
+    <!-- END: Inspiration block -->
