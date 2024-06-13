@@ -221,8 +221,7 @@
   <mj-body>
 
     <!-- START: Why book -->
-    <mj-section>
-     	
+    <mj-section padding="20px 30px 0 30px">
       <mj-column>
         <mj-text align="center" mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Belonging means entering a world of advantages</mj-text>
         <mj-spacer height="20px"></mj-spacer>
@@ -230,36 +229,42 @@
     </mj-section>
     <!-- Checkmarks -->
     <!-- First checkmark -->
-    <mj-section text-align="left">
-      <mj-column width="28px">
-        <mj-image src="https://placehold.jp/28x28.png" width="28px" height="28px" align="left" />
-      </mj-column>
-      <mj-column width="12px">
-        <mj-text></mj-text>
-      </mj-column>
-      <mj-column width="140px">
-        <mj-text mj-class="fw400-fs15-lh24" align="left">Free cancelation</mj-text>
-      </mj-column>
+    <mj-section text-align="left" padding="0 30px 0 30px">
+      <mj-group>
+        <mj-column width="15%" padding="0px 0 20px 0">
+          <mj-image src="https://placehold.jp/28x28.png" width="28px" height="28px" align="left" />
+        </mj-column>
+        <mj-column width="8%" padding="0px 0 20px 0">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column width="77%" padding="0px 0 20px 0">
+          <mj-text mj-class="fw400-fs15-lh24" align="left">Free cancelation</mj-text>
+        </mj-column>
+      </mj-group>
       <!-- Second checkmark -->
-      <mj-column width="28px">
-        <mj-image src="https://placehold.jp/28x28.png" width="28px" height="28px" align="left" />
-      </mj-column>
-      <mj-column width="12px">
-        <mj-text></mj-text>
-      </mj-column>
-      <mj-column width="140px">
-        <mj-text mj-class="fw400-fs15-lh24" align="left">Free cancelation</mj-text>
-      </mj-column>
+      <mj-group>
+        <mj-column width="15%" padding="0px 0 20px 0">
+          <mj-image src="https://placehold.jp/28x28.png" width="28px" height="28px" align="left" />
+        </mj-column>
+        <mj-column width="8%" padding="0px 0 20px 0">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column width="77%" padding="0px 0 20px 0">
+          <mj-text mj-class="fw400-fs15-lh24" align="left">Free cancelation</mj-text>
+        </mj-column>
+      </mj-group>
       <!-- Third checkmark -->
-      <mj-column width="28px">
-        <mj-image src="https://placehold.jp/28x28.png" width="28px" height="28px" align="left" />
-      </mj-column>
-      <mj-column width="12px">
-        <mj-text></mj-text>
-      </mj-column>
-      <mj-column width="140px">
-        <mj-text mj-class="fw400-fs15-lh24" align="left">Free cancelation</mj-text>
-      </mj-column>
+      <mj-group>
+        <mj-column width="15%" padding="0px 0 0px 0">
+          <mj-image src="https://placehold.jp/28x28.png" width="28px" height="28px" align="left" />
+        </mj-column>
+        <mj-column width="8%" padding="0px 0 0px 0">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column width="77%" padding="0px 0 0px 0">
+          <mj-text mj-class="fw400-fs15-lh24" align="left">Free cancelation</mj-text>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <!-- END: Why book -->
 
