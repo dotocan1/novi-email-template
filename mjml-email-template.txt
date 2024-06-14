@@ -9,7 +9,7 @@
       <mj-social padding="0px" padding-bottom="0px"></mj-social>
       <mj-social-element padding="0px"></mj-social-element>
       <mj-section padding="0px" background-color="#ffffff"></mj-section>
-      <mj-section padding="20px 30px 20px 30px" border="0px red solid"></mj-section>
+      <mj-section padding="20px 30px 20px 30px"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
       <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
@@ -233,6 +233,46 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
+    <!-- START: Intro -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="fw400-fs28-lh32">
+          Dear Mr. Doe,
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
+          If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <!-- <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button> -->
+          <mj-text align = "center">
+            <mj-raw>
+            <p><!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:33px;v-text-anchor:middle;width:280px; letter-spacing:1px;font-family: 'Open Sans', sans-serif;" arcsize="60%" stroke="f" fillcolor="#1C295F"><w:anchorlock/><center><![endif]-->
+<a 
+   href="https://www.valamar.com/en/summer-holiday"
+   target="_blank"
+   style="background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Open Sans', sans-serif;
+          line-height:20px;
+          height: 52px;
+          padding: 16px 40px 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          width:fit-content;
+          -webkit-text-size-adjust:none;"
+   				>Discover more
+</a><!--[if mso]></center></v:roundrect><![endif]-->
+</p>
+          </mj-raw></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Intro -->
+
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
       <mj-column>
@@ -369,20 +409,7 @@
     </mj-section>
     <!-- END: Main banner FOR MOBILE FOURTH  VARIANT-->
 
-    <!-- START: Intro -->
-    <mj-section>
-      <mj-column>
-        <mj-text mj-class="fw400-fs28-lh32">
-          Dear Mr. Doe,
-        </mj-text>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-text mj-class="fw400-fs15-lh22">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
-          If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- END: Intro -->
+
 
     <!-- START: Guarantee FOR DESKTOP -->
     <!-- Images -->
