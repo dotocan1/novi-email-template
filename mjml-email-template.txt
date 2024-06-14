@@ -8,7 +8,7 @@
       <mj-text padding="0px"></mj-text>
       <mj-social padding="0px" padding-bottom="0px"></mj-social>
       <mj-social-element padding="0px"></mj-social-element>
-      <mj-section padding="0px"></mj-section>
+      <mj-section padding="0px" background-color ="#ffffff"></mj-section>
       <mj-section padding="20px 30px 20px 30px" border="0px red solid"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
@@ -224,9 +224,9 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body>
+  <mj-body background-color="#f2f2f2">
 
-
+<!--  -->
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
