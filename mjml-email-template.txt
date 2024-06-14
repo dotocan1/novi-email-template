@@ -8,7 +8,7 @@
       <mj-text padding="0px"></mj-text>
       <mj-social padding="0px" padding-bottom="0px"></mj-social>
       <mj-social-element padding="0px"></mj-social-element>
-      <mj-section padding="0px" background-color ="#ffffff"></mj-section>
+      <mj-section padding="0px" background-color="#ffffff"></mj-section>
       <mj-section padding="20px 30px 20px 30px" border="0px red solid"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
@@ -22,6 +22,7 @@
       <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw400-fs15-lh24" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="24px" />
       <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
+      <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
       <!-- Font weight 700 -->
       <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
@@ -29,7 +30,6 @@
       <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
       <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
       <mj-class name="fw700-fs35-lh38" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
-      <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
       <!-- Specific text styling -->
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
@@ -135,15 +135,20 @@
       @media (max-width: 480px) {
 
       /** Text stylings START **/
+
+      .fw400-16fs-lh24 *{
+      font-weight: 400 !important;
+      font-size:16px !important;
+      line-height: 24px !important;
+      }
+
+      .fw400-fs18-lh24 div{
+      text-align: left !important;
+      }
+
       .fw400-fs28-lh32 *{
       font-weight : 400 !important;
       font-size: 28px !important;
-      line-height: 32px !important;
-      }
-
-      .fw700-fs20-lh32 *{
-      font-weight : 700 !important;
-      font-size: 20px !important;
       line-height: 32px !important;
       }
 
@@ -153,17 +158,14 @@
       line-height: 24px !important;
       }
 
-      .fw400-16fs-24lh *{
-      font-weight: 400 !important;
-      font-size:16px !important;
-      line-height: 24px !important;
+      .fw700-fs20-lh32 *{
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 32px !important;
       }
+
+
       /** Text stylings END **/
-
-      .fw400-fs18-lh24 div{
-      text-align: left !important;
-      }
-
       .online-check-in-button {
       background-color: #00C2BF; /* Teal color */
       margin: 0px;
@@ -226,7 +228,7 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
-<!--  -->
+    <!--  -->
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
@@ -870,17 +872,17 @@
     </mj-section>
     <mj-section padding-bottom="0px" padding-top="0px">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-lh24" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Telefon: +385 52 445 123</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-lh24" align="left">Telefon: +385 52 445 123</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-24lh" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-lh24" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
