@@ -13,6 +13,7 @@
       <!-- Classes -->
       <!-- Sections and columns -->
       <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
+      <mj-class name="grey-background" background-color ="#f2f2f2"/>
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <!-- Font weight 400 -->
@@ -232,6 +233,22 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
+    <!-- START: Footer -->
+    <!-- Socials -->
+    <mj-section mj-class = "grey-background">
+    <mj-column>
+        <mj-social icon-size="30px" mode="horizontal" icon-padding = "0 10px 0 10px">
+          <mj-social-element  src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+           <mj-social-element  src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element  src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: Footer -->
+    
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
       <mj-column>
