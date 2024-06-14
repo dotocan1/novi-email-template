@@ -136,7 +136,7 @@
 
       /** Text stylings START **/
 
-      .fw400-16fs-lh24 *{
+      .fw400-fs16-lh24 *{
       font-weight: 400 !important;
       font-size:16px !important;
       line-height: 24px !important;
@@ -231,8 +231,6 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-
-
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
@@ -876,17 +874,17 @@
     </mj-section>
     <mj-section padding-bottom="0px" padding-top="0px">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-lh24" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-lh24" align="left">Telefon: +385 52 445 123</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Telefon: +385 52 445 123</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-16fs-lh24" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
@@ -1400,3 +1398,15 @@
       </mj-column>
     </mj-section>
     <!-- END: Brands  -->
+
+    <!-- START: FAQ -->
+    <mj-section>
+      <mj-column>
+        <mj-social font-size="20px" icon-size="48px" mode="horizontal" icon-padding="0 5px 0 5px" css-class="fw400-fs16-lh24">
+          <mj-social-element src="https://placehold.jp/48x48.png" href="https://mjml.io/">
+            Često postavljana pitanja ↗️
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: FAQ -->
