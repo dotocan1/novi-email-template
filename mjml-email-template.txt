@@ -230,8 +230,25 @@
 
     <!-- START: Brands  -->
     <mj-section>
-    <mj-column>
-      <mj-image src = "https://placehold.jp/200x50.png" align = "center" width = "200px" height = "50px" />
+      <mj-column>
+        <mj-image src="https://placehold.jp/200x50.png" align="center" width="200px" height="50px" />
+      </mj-column>
+    </mj-section>
+    <!-- Other elements -->
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-social icon-size="80px" mode="horizontal" icon-padding="5px">
+          <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/80x25.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/75x35.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/50x40.png" href="https://mjml.io/">
+          </mj-social-element>
+        </mj-social>
       </mj-column>
     </mj-section>
     <!-- END: Brands  -->
