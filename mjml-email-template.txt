@@ -39,6 +39,11 @@
       <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
     </mj-attributes>
+    <mj-style inline="inline">
+      .hide-on-outlook *{
+      mso-hide:all;
+      }
+    </mj-style>
     <mj-style>
       *{
       font-weight:400px;
@@ -89,8 +94,6 @@
       font-size: 16px;
       padding: 9px 2px 9px 2px;
       }
-
-
 
       .secondary-button {
       background-color: #ffffff;
@@ -244,15 +247,13 @@
           If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
         <mj-spacer height="20px"></mj-spacer>
         <!-- <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button> -->
-          <mj-text align = "center">
-            <mj-raw>
-            <p><!--[if mso]>
+        <mj-text align="center">
+          <mj-raw>
+            <p>
+              <!--[if mso]>
 <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-<a 
-   href="https://www.valamar.com/en/summer-holiday"
-   target="_blank"
-   style="background-color:#00C2BF;
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff !important;
           font-size:16px;
@@ -265,11 +266,12 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           text-decoration:none !important;
           width:fit-content;
           -webkit-text-size-adjust:none;
-          color:inherit;"
-   				>Discover more
-</a><!--[if mso]></center></v:roundrect><![endif]-->
-</p>
-          </mj-raw></mj-text>
+          color:inherit;">Discover more
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Intro -->
@@ -339,7 +341,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Main banner FOR DESKTOP FIRST VARIANT-->
 
     <!-- START: Main banner FOR MOBILE FIRST VARIANT-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <mj-column>
         <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
       </mj-column>
@@ -355,7 +357,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Main banner FOR DESKTOP SECOND VARIANT-->
 
     <!-- START: Main banner FOR MOBILE SECOND VARIANT-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <mj-column>
         <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
       </mj-column>
@@ -371,7 +373,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Main banner FOR DESKTOP THIRD VARIANT-->
 
     <!-- START: Main banner FOR MOBILE THIRD VARIANT-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <mj-column>
         <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
       </mj-column>
@@ -394,7 +396,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Main banner FOR DESKTOP FOURTH VARIANT-->
 
     <!-- START: Main banner FOR MOBILE FOURTH VARIANT-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://placehold.jp/135x125.png" fluid-on-mobile="true" />
@@ -459,7 +461,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Guarantee FOR MOBILE -->
     <!-- First section -->
-    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+    <mj-section css-class="hide-on-desktop align-left hide-on-outlook" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
@@ -473,7 +475,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Second section -->
-    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
@@ -487,7 +489,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Third section -->
-    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
@@ -512,7 +514,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Countdown timer FOR DESKTOP -->
 
     <!-- START: Countdown timer FOR MOBILE FIRST VARIANT-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook ">
       <mj-column>
         <mj-image src="https://placehold.jp/280x90.png" width="280px" fluid-on-mobile="true" />
       </mj-column>
@@ -526,7 +528,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!--  FOR MOBILE -->
-    <mj-section mj-class="voucher-section" css-class="hide-on-desktop" padding-bottom="0px">
+    <mj-section mj-class="voucher-section" css-class="hide-on-desktop hide-on-outlook" padding-bottom="0px">
       <mj-column>
         <mj-image src="https://placehold.jp/280x410.png" width="280px" fluid-on-mobile="true" />
       </mj-column>
@@ -585,7 +587,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop" padding-bottom="0px">
+    <mj-section css-class="hide-on-desktop hide-on-outlook " padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
@@ -677,7 +679,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: 2 property recommendations FOR DESKTOP -->
     <!-- START: 2 property recommendations FOR MOBILE -->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column>
         <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -879,7 +881,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop" padding-bottom="0px">
+    <mj-section css-class="hide-on-desktop hide-on-outlook" padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
@@ -990,7 +992,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <!-- FOR DESKTOP -->
         <mj-image src="https://placehold.jp/600x280.png" width="600px" height="280px" css-class="hide-on-mobile" />
         <!-- FOR MOBILE -->
-        <mj-image src="https://placehold.jp/280x520.png" width="280px" height="520px" css-class="hide-on-desktop" fluid-on-mobile="true" />
+        <mj-image src="https://placehold.jp/280x520.png" width="280px" height="520px" css-class="hide-on-desktop hide-on-outlook" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: My valamar app-->
@@ -1041,7 +1043,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Valamar concierge FOR DESKTOP-->
     <!-- START: Valamar concierge FOR MOBILE-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column>
         <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -1112,7 +1114,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Experiences FOR DESKTOP-->
     <!-- START: Experiences FOR MOBILE-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column>
         <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -1207,7 +1209,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Guarantee FOR MOBILE -->
     <!-- First section -->
-    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
@@ -1221,7 +1223,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Second section -->
-    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
@@ -1235,7 +1237,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Third section -->
-    <mj-section css-class="hide-on-desktop align-left" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
@@ -1294,7 +1296,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Valamar concierge FOR DESKTOP-->
     <!-- START: Valamar concierge FOR MOBILE-->
-    <mj-section css-class="hide-on-desktop">
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column>
         <mj-image src="https://placehold.jp/265x265.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -1383,7 +1385,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       <mj-column>
         <!-- Desktop -->
         <mj-image src="https://placehold.jp/540x400.png" width="540px" height="400px" css-class="hide-on-mobile"></mj-image>
-        <mj-image src="https://placehold.jp/540x450.png" width="540px" height="450px" css-class="hide-on-desktop"></mj-image>
+        <mj-image src="https://placehold.jp/540x450.png" width="540px" height="450px" css-class="hide-on-desktop hide-on-outlook"></mj-image>
         <!-- Mobile -->
       </mj-column>
     </mj-section>
