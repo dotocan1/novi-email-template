@@ -13,7 +13,7 @@
       <!-- Classes -->
       <!-- Sections and columns -->
       <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
-      <mj-class name="grey-background" background-color ="#f2f2f2"/>
+      <mj-class name="grey-background" background-color="#f2f2f2" />
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <!-- Font weight 400 -->
@@ -233,22 +233,6 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
-    <!-- START: Footer -->
-    <!-- Socials -->
-    <mj-section mj-class = "grey-background">
-    <mj-column>
-        <mj-social icon-size="30px" mode="horizontal" icon-padding = "0 10px 0 10px">
-          <mj-social-element  src="https://placehold.jp/30x30.png" href="https://mjml.io/">
-          </mj-social-element>
-           <mj-social-element  src="https://placehold.jp/30x30.png" href="https://mjml.io/">
-          </mj-social-element>
-          <mj-social-element  src="https://placehold.jp/30x30.png" href="https://mjml.io/">
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <!-- END: Footer -->
-    
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
       <mj-column>
@@ -1427,3 +1411,50 @@
       </mj-column>
     </mj-section>
     <!-- END: FAQ -->
+
+    <!-- START: Footer -->
+    <!-- Socials -->
+    <mj-section mj-class="grey-background">
+      <mj-column>
+        <mj-social icon-size="30px" mode="horizontal" icon-padding="0 10px 0 10px">
+          <mj-social-element src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- Button -->
+    <mj-section mj-class="grey-background">
+      <mj-column>
+        <mj-button mj-class="secondary-button grey-background" width="50%" align="center">Update your profile</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Text content -->
+    <mj-section css-class="align-left-mobile" mj-class="grey-background">
+      <mj-column padding-bottom="20px" width="100%">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br />johndoe@gmail.com. </mj-text>
+      </mj-column>
+      <mj-column padding-bottom="20px" width="100%">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our privacy policy.</mj-text>
+      </mj-column>
+      <mj-column padding-bottom="20px" width="100%">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>To unsubscribe</strong> from the newsletter, click here. </mj-text>
+      </mj-column>
+      <mj-column padding-bottom="20px" width="100%">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>To book</strong> or for information about your booking, please contact:<br /> reservations@valamar.com.</mj-text>
+      </mj-column>
+      <mj-column padding-bottom="20px" width="100%">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong>send us comments</strong>, please click here. </mj-text>
+      </mj-column>
+      <mj-column padding-bottom="20px" width="100%">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter. </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to newsletter@valamar.com.</mj-text>
+      </mj-column>
+
+    </mj-section>
+    <!-- END: Footer -->
