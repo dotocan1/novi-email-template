@@ -43,6 +43,10 @@
       .hide-on-outlook *{
       mso-hide:all;
       }
+
+      :has(+ .hide-on-outlook){
+      mso-hide:all;
+      }
     </mj-style>
     <mj-style>
       *{
@@ -250,12 +254,11 @@
         <mj-text align="center">
           <mj-raw>
             <p>
-              <!--[if mso]>
-<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="background-color:#00C2BF;
           border-radius:8px;
-          color:#ffffff !important;
+          color:#ffffff;
           font-size:16px;
           font-weight:700;
           font-family: 'Arial', sans-serif;
@@ -263,11 +266,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           height: 52px;
           padding: 16px 40px 16px 40px;
           text-align:center;
-          text-decoration:none !important;
+          text-decoration:none;
           width:fit-content;
-          -webkit-text-size-adjust:none;
-          color:inherit;">Discover more
-              </a>
+          -webkit-text-size-adjust:none;">Discover more </a>
               <!--[if mso]></center></v:roundrect><![endif]-->
             </p>
           </mj-raw>
@@ -459,8 +460,12 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Guarantee FOR DESKTOP -->
 
+
     <!-- START: Guarantee FOR MOBILE -->
+    <!--[if !mso]>-->
+    <!--<![endif]-->
     <!-- First section -->
+    <!--[if !mso]>-->
     <mj-section css-class="hide-on-desktop align-left hide-on-outlook" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
@@ -474,7 +479,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-column>
       </mj-group>
     </mj-section>
+    <!--<![endif]-->
     <!-- Second section -->
+    <!--[if !mso]>-->
     <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
@@ -488,7 +495,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-column>
       </mj-group>
     </mj-section>
+    <!--<![endif]-->
     <!-- Third section -->
+    <!--[if !mso]>-->
     <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
@@ -503,6 +512,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-column>
       </mj-group>
     </mj-section>
+    <!--<![endif]-->
     <!-- END: Guarantee FOR MOBILE -->
 
     <!-- START: Countdown timer FOR DESKTOP -->
