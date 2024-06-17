@@ -14,6 +14,7 @@
       <!-- Sections and columns -->
       <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
       <mj-class name="grey-background" background-color="#f2f2f2" />
+      <mj-class name="no-top-bottom-padding" padding="0 30px 0 30px" />
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <!-- Font weight 400 -->
@@ -240,50 +241,7 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
-   <!-- START: Voucher gift block-->
-    <mj-section>
-      <mj-column width="50%">
-        <mj-image src="https://placehold.jp/265x265.png" fluid-on-mobile="true" width="265px" />
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column width="4%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column css-class="right-column" width="46%">
-        <mj-text mj-class="fw700-fs28-lh34">
-          Perfect gift
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">
-          This season, give the gift of travel with the Valamar Gift Voucher, redeemable at our properties in Croatia and Austria. Select the value, personalize the message and choose the delivery option!
-        </mj-text>
-        <mj-spacer height="20px" />
-        <mj-text align="left">
-          <mj-raw>
-            <p>
-              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:220px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="background-color:#00C2BF;
-          border-radius:8px;
-          color:#ffffff;
-          font-size:16px;
-          font-weight:700;
-          font-family: 'Arial', sans-serif;
-          line-height:20px;
-          height: 52px;
-          padding: 16px 40px 16px 40px;
-          text-align:center;
-          text-decoration:none;
-          width:fit-content;
-          -webkit-text-size-adjust:none;">Shop now </a>
-              <!--[if mso]></center></v:roundrect><![endif]-->
-            </p>
-          </mj-raw>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- END: Voucher gift block-->
+
 
     <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
@@ -421,7 +379,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Main banner FOR MOBILE FOURTH  VARIANT-->
 
- <!-- START: Intro -->
+    <!-- START: Intro -->
     <mj-section>
       <mj-column>
         <mj-text mj-class="fw400-fs28-lh32">
@@ -595,7 +553,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END Voucher block for DESKTOP -->
 
-    
+
 
     <!-- START: 2 properties with USPs FOR DESKTOP-->
     <mj-section>
@@ -1471,6 +1429,53 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: FAQ -->
 
+
+
+    <!-- START: Voucher gift block-->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x265.png" fluid-on-mobile="true" width="265px" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw700-fs28-lh34">
+          Perfect gift
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">
+          This season, give the gift of travel with the Valamar Gift Voucher, redeemable at our properties in Croatia and Austria. Select the value, personalize the message and choose the delivery option!
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text align="left">
+          <mj-raw>
+            <p>
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:220px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          height: 52px;
+          padding: 16px 40px 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          width:fit-content;
+          -webkit-text-size-adjust:none;">Shop now </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Voucher gift block-->
+
     <!-- START: Footer -->
     <!-- Socials -->
     <mj-section mj-class="grey-background">
@@ -1492,28 +1497,42 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- Text content -->
-    <mj-section css-class="align-left-mobile" mj-class="grey-background">
-      <mj-column padding-bottom="20px" width="100%">
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br />johndoe@gmail.com. </mj-text>
       </mj-column>
-      <mj-column padding-bottom="20px" width="100%">
+    </mj-section>
+
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20">Read our privacy policy.</mj-text>
       </mj-column>
-      <mj-column padding-bottom="20px" width="100%">
+    </mj-section>
+
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>To unsubscribe</strong> from the newsletter, click here. </mj-text>
       </mj-column>
-      <mj-column padding-bottom="20px" width="100%">
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>To book</strong> or for information about your booking, please contact:<br /> reservations@valamar.com.</mj-text>
       </mj-column>
-      <mj-column padding-bottom="20px" width="100%">
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong>send us comments</strong>, please click here. </mj-text>
       </mj-column>
-      <mj-column padding-bottom="20px" width="100%">
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter. </mj-text>
       </mj-column>
-      <mj-column width="100%">
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
+      <mj-column>
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to newsletter@valamar.com.</mj-text>
       </mj-column>
-
     </mj-section>
+
     <!-- END: Footer -->
