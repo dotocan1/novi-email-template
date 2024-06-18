@@ -558,65 +558,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: My valamar app-->
 
-<!-- START: Inspiration block -->
-    <!-- Text Content for both -->
-    <mj-section padding="0px 30px 0px 30px">
-      <mj-column>
-        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Get inspired & come to the Adriatic!</mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- START: Valamar concierge FOR DESKTOP-->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-table align="center" cellpadding="5px" cellspacing="0px" line-height="100%" padding="0px">
-          <tr>
-            <td align="left">
-              <img src="https://placehold.jp/265x265.png" style="width:265px;height:265px;" height="265" width="265" />
-            </td>
-            <td align="right">
-              <img src="https://placehold.jp/265x265.png" style="width:265px;height:265px;" height="265" width="265" />
-            </td>
-          </tr>
-          <tr>
-            <td align="center">Top Adriatic Destinations for Couples</td>
-            <td align="center">V Level: Holiday at the Highest Level</td>
-          </tr>
-          <tr>
-            <td valign="middle" style="line-height: 40px;" align="center">
-              <p class="secondary-button">Find out more</p>
-            </td>
-            <td valign="middle" style="line-height: 40px;" align="center">
-              <p class="secondary-button">Find out more</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <!-- END: Valamar concierge FOR DESKTOP-->
-    <!-- START: Valamar concierge FOR MOBILE-->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
-      <!-- First recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/265x265.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
 
-        <mj-text mj-class="fw400-fs15-lh22">MOB_Top Adriatic Destinations for Couples</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button" width="75%" align="center">Find out more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Second recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/265x265.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">MOB_V Level: Holiday at the Highest Level</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button" width="75%" align="center">Find out more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Valamar concierge FOR MOBILE -->
-    <!-- END: Inspiration block -->
 
 <!-- START: Footer -->
     <!-- Socials -->
