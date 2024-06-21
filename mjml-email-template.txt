@@ -6,6 +6,7 @@
       <mj-column padding="0px"></mj-column>
       <mj-image padding="0px"></mj-image>
       <mj-text padding="0px"></mj-text>
+      <mj-table padding="0px"></mj-table>
       <mj-social padding="0px" padding-bottom="0px"></mj-social>
       <mj-social-element padding="0px"></mj-social-element>
       <mj-section padding="0px" background-color="#ffffff"></mj-section>
@@ -48,6 +49,14 @@
       :has(+ .hide-on-outlook){
       mso-hide:all;
       }
+
+      .align-center-outlook *{
+      text-align: center !important;
+      }
+       .align-left-outlook *{
+      text-align: left !important;
+      }
+
     </mj-style>
     <mj-style>
       *{
@@ -126,6 +135,7 @@
       line-height: 24px;
       text-align: left;
       }
+
 
       .web-overview div {
       text-align:center !important;
@@ -240,7 +250,7 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-    
+
     <!-- START: Inspiration block -->
     <!-- Text Content for both -->
     <mj-section padding="0px 30px 0px 30px">
@@ -249,7 +259,25 @@
       </mj-column>
     </mj-section>
     <!-- DESKTOP-->
-    <!-- FIXME: NEED TO ADD DESKTOP -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center"  cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
+          <tr>
+            <td style="width:265px;">
+              <img height="265" src="https://placehold.jp/265x265.png" style="border:0;display:block;outline:none;text-decoration:none;height:265px;width:100%;font-size:13px;" width="265"/>
+            </td>
+            <td style="width:265px;">
+              <img height="265" src="https://placehold.jp/265x265.png" style="border:0;display:block;outline:none;text-decoration:none;height:265px;width:100%;font-size:13px;" width="265"/>
+            </td>
+          </tr>
+          <tr>
+            <td style="width:265px;">Top Adriatic Destinations for Couples Top Adriatic Destinations for Couples</td>
+            <td style="width:265px;">V Level: Holiday at the Highest Level</td>
+
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
     <!-- MOBILE-->
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
@@ -274,7 +302,7 @@
     </mj-section>
     <!-- END: Inspiration block -->
 
- <!-- START: Valamar concierge -->
+    <!-- START: Valamar concierge -->
     <!-- Text Content for both -->
     <mj-section padding="0px 30px 0px 30px">
       <mj-column>
@@ -288,7 +316,7 @@
       </mj-column>
     </mj-section>
     <!-- START: Valamar concierge -->
-   <!-- FIXME: NEED TO ADD DESKTOP -->
+    <!-- FIXME: NEED TO ADD DESKTOP -->
     <!-- MOBILE-->
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
@@ -359,7 +387,7 @@
     </mj-section>
     <!-- END: Experiences x3 -->
 
-    
+
 
     <!-- START: Guarantee FOR DESKTOP -->
     <!-- Images -->
@@ -461,14 +489,14 @@
     <!--<![endif]-->
     <!-- END: Guarantee FOR MOBILE -->
 
-   
 
 
 
-    
+
+
 
     <!-- START: 2 property recommendations -->
-   <!-- FIXME: NEED TO ADD DESKTOP -->
+    <!-- FIXME: NEED TO ADD DESKTOP -->
     <!-- MOBILE -->
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
@@ -496,11 +524,11 @@
     </mj-section>
     <!-- END: 2 property recommendations -->
 
-    
 
-    
 
-   
+
+
+
 
     <!-- START: Experience concierge block -->
     <mj-section css-class="grey-background">
@@ -521,9 +549,9 @@
     </mj-section>
     <!-- END: Experience concierge block -->
 
-   
 
-   
+
+
 
     <!-- START: Valamar + Club-->
     <mj-section padding="0px 30px 0px 30px" text-align="center">
@@ -639,7 +667,7 @@
     </mj-section>
     <!-- END: Valamar + Club-->
 
-    
+
 
     <!-- START: Why book -->
     <mj-section padding="20px 30px 0 30px">
@@ -809,5 +837,3 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Voucher gift block-->
-
-    
