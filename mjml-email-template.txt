@@ -50,10 +50,10 @@
       mso-hide:all;
       }
 
-      .align-center-outlook *{
+      .align-center-outlook div{
       text-align: center !important;
       }
-       .align-left-outlook *{
+       .align-left-outlook div{
       text-align: left !important;
       }
 
@@ -271,9 +271,17 @@
             </td>
           </tr>
           <tr>
-            <td style="width:265px;">Top Adriatic Destinations for Couples Top Adriatic Destinations for Couples</td>
+            <td style="width:265px;">Top Adriatic Destinations for Couples</td>
             <td style="width:265px;">V Level: Holiday at the Highest Level</td>
 
+          </tr>
+          <tr>
+            <td align = "center" valign="middle" style="width:265px;">
+              <p class="secondary-button">Find out more</p>
+            </td>
+            <td valign="middle" align = "center" style="width:265px;">
+              <p class="secondary-button">Find out more</p>
+            </td>
           </tr>
         </mj-table>
       </mj-column>
