@@ -668,7 +668,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- MOBILE-->
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
-      <mj-column>
+      <mj-column width = "100%">
         <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
@@ -679,7 +679,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <mj-spacer height="20px" />
       </mj-column>
       <!-- Second recommendation -->
-      <mj-column>
+      <mj-column width = "100%">
         <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>

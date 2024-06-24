@@ -212,15 +212,7 @@
       overflow : visible !important;
       }
 
-      [data-ogsc] .hide-on-desktop {
-      display: none !important;
-      overflow: hidden !important;
-      }
-      
-      #converted-body .hide-on-desktop {
-      display: none !important;
-      overflow: hidden !important;
-      }
+
 
       .loyalty-block-no-bottom-padding td{
       padding-bottom: 0px !important;
@@ -235,16 +227,7 @@
       display: none !important;
       overflow: hidden !important;
       }
-      
-       [data-ogsc] .hide-on-mobile {
-      display: block !important;
-      overflow: visible !important;
-      }
-      
-      #converted-body .hide-on-mobile {
-      display: block !important;
-      overflow: visible !important;
-      }
+
 
       .intro-button table:first-child {
       width : 100% !important;
@@ -272,7 +255,9 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
-   <!-- START: Experiences x3 -->
+
+
+    <!-- START: Experiences x3 -->
     <!-- Text Content for both -->
     <mj-section padding="0px 30px 0px 30px">
       <mj-column>
@@ -764,5 +749,5 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Voucher gift block-->
-    
+
   </mj-body>
