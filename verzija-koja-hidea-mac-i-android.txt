@@ -1,0 +1,346 @@
+<mjml>
+  <mj-head>
+    <mj-preview>This is a preheader &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
+    <mj-attributes>
+      <!-- General styles -->
+      <mj-column padding="0px"></mj-column>
+      <mj-image padding="0px"></mj-image>
+      <mj-text padding="0px"></mj-text>
+      <mj-table padding="0px"></mj-table>
+      <mj-social padding="0px" padding-bottom="0px"></mj-social>
+      <mj-social-element padding="0px"></mj-social-element>
+      <mj-section padding="0px" background-color="#ffffff"></mj-section>
+      <mj-section padding="20px 30px 20px 30px"></mj-section>
+      <!-- Classes -->
+      <!-- Sections and columns -->
+      <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
+      <mj-class name="grey-background" background-color="#f2f2f2" />
+      <mj-class name="no-top-bottom-padding" padding="0 30px 0 30px" />
+      <mj-class name="column" border="1px blue solid" />
+      <!-- Text styling -->
+      <!-- Font weight 400 -->
+      <mj-class name="fw400-fs13-lh18" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" />
+      <mj-class name="fw400-fs14-lh21" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
+      <mj-class name="fw400-fs15-lh22" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
+      <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw400-fs15-lh24" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="24px" />
+      <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
+      <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
+      <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
+      <!-- Font weight 700 -->
+      <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="34px" />
+      <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
+      <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
+      <mj-class name="fw700-fs35-lh38" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
+      <!-- Specific text styling -->
+      <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
+      <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
+      <!-- Button styling -->
+      <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
+      <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
+      <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .hide-on-outlook *{
+      mso-hide:all;
+      }
+
+      .align-center-outlook div{
+      text-align: center !important;
+      }
+      .align-left-outlook div{
+      text-align: left !important;
+      }
+
+      }
+
+    </mj-style>
+    <mj-style>
+      *{
+      font-weight:400px;
+      font-family:Arial, sans-serif;
+      font-size:15px;
+      line-height: 22px;
+      color: #000000;
+      }
+
+      /** Text stylings START **/
+      /** Text stylings END **/
+
+      .align-left *{
+      text-align: left !important;
+      }
+
+      .align-center *{
+      text-align: center !important;
+      }
+
+      ul{
+      margin-bottom: 0px;
+      }
+
+      .grey-background div {
+      background-color : #f2f2f2;
+      }
+
+      .grey-background div:nth-child(2) {
+      height: 265px;
+      }
+
+
+
+      .hide-on-desktop {
+      display: none !important;
+      overflow: hidden !important;
+      }
+
+
+      .button {
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      }
+
+      .secondary-button {
+      background-color: #ffffff;
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: #000000;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      border: 1px solid #000000;
+      }
+
+      .loyalty-track-text-bold{
+      font-weight: bold;
+      }
+
+      th{
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: left;
+      }
+
+
+      .web-overview div {
+      text-align:center !important;
+      }
+
+      .web-overview a {
+      color: #000000 !important;
+      color:inherit !important;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      }
+
+      /** Mobile only **/
+
+      @media (max-width: 480px) {
+
+      /** Text stylings START **/
+
+      .fw400-fs16-lh24 *{
+      font-weight: 400 !important;
+      font-size:16px !important;
+      line-height: 24px !important;
+      }
+
+      .fw400-fs18-lh24 div{
+      text-align: left !important;
+      }
+
+      .fw400-fs28-lh32 *{
+      font-weight : 400 !important;
+      font-size: 28px !important;
+      line-height: 32px !important;
+      }
+
+      .fw700-fs20-lh24 *{
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 24px !important;
+      }
+
+      .fw700-fs20-lh32 *{
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 32px !important;
+      }
+
+
+      /** Text stylings END **/
+      .online-check-in-button {
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      text-align: center !important;
+      border-radius: 8px;
+      height: 40x;
+      width: 100% !important;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      }
+
+      .online-check-in-button * {
+      text-align: center !important;
+      }
+
+      .align-left-mobile *{
+      text-align: left !important;
+      }
+
+      .hide-on-desktop {
+      display: block !important;
+      overflow : visible !important;
+      }
+
+      [data-ogsc] .hide-on-desktop {
+      display: none !important;
+      overflow: hidden !important;
+      }
+      
+      #converted-body .hide-on-desktop {
+      display: none !important;
+      overflow: hidden !important;
+      }
+
+      .loyalty-block-no-bottom-padding td{
+      padding-bottom: 0px !important;
+      }
+
+      .experience-block-no-padding-on-mobile td:nth-child(1){
+      padding-top: 10px !important;
+      padding-bottom: 0px !important;
+      }
+
+      .hide-on-mobile {
+      display: none !important;
+      overflow: hidden !important;
+      }
+      
+       [data-ogsc] .hide-on-mobile {
+      display: block !important;
+      overflow: visible !important;
+      }
+      
+      #converted-body .hide-on-mobile {
+      display: block !important;
+      overflow: visible !important;
+      }
+
+      .intro-button table:first-child {
+      width : 100% !important;
+      }
+
+      .loyalty-section{
+      padding: 0 30px 0 30px;
+      }
+
+
+      .loyalty-track {
+      width: 32% !important;
+      }
+
+      .loyalty-padding-left{
+      padding-left: 8px;
+      }
+
+      .remove-border *{
+      border: none !important;
+      }
+
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+
+    <!-- START: Valamar concierge -->
+    <!-- Text Content for both -->
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38">Valamar Concierge</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- DESKTOP-->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center" cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
+          <tr>
+            <td style="width:260px;">
+              <img height="195" src="https://placehold.jp/260x195.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
+            </td>
+            <td style="width:260px;">
+              <img height="195" src="https://placehold.jp/260x195.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width:260px;">Avanturistička degustacija vina: Wine cellar Escape</td>
+            <td style="width:260px;">Okusi Istru</td>
+
+          </tr>
+          <tr>
+            <td style="width:260px;">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</td>
+            <td style="width:260px;">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</td>
+
+          </tr>
+          <tr>
+            <td align="left" valign="middle" style="width:260px;">
+              <p class="secondary-button">Learn more</p>
+            </td>
+            <td align="left" valign="middle" style="width:260px;">
+              <p class="secondary-button">Learn more</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE-->
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="secondary-button">Learn more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar concierge -->
