@@ -1,0 +1,29 @@
+<!-- DESKTOP-->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-table align="center"  cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
+          <tr>
+            <td style="width:265px;">
+              <img height="265" src="https://placehold.jp/265x265.png" style="border:0;display:block;outline:none;text-decoration:none;height:265px;width:100%;font-size:13px;" width="265"/>
+            </td>
+            <td style="width:265px;">
+              <img height="265" src="https://placehold.jp/265x265.png" style="border:0;display:block;outline:none;text-decoration:none;height:265px;width:100%;font-size:13px;" width="265"/>
+            </td>
+          </tr>
+          <tr>
+            <td style="width:265px;">Top Adriatic Destinations for Couples</td>
+            <td style="width:265px;">V Level: Holiday at the Highest Level</td>
+
+          </tr>
+          <tr>
+            <td align = "center" valign="middle" style="width:265px;">
+              <p class="secondary-button">Find out more</p>
+            </td>
+            <td valign="middle" align = "center" style="width:265px;">
+              <p class="secondary-button">Find out more</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+  
