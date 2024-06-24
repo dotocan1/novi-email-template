@@ -558,73 +558,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: My valamar app-->
 
- <!-- START: Valamar concierge -->
-    <!-- Text Content for both -->
-    <mj-section padding="0px 30px 0px 30px">
-      <mj-column>
-        <mj-text mj-class="fw400-fs35-lh38">Valamar Concierge</mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding="0px 30px 0px 30px">
-      <mj-column>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-text mj-class="fw400-fs15-lh22" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- DESKTOP-->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-table align="center" cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
-          <tr>
-            <td style="width:260px;">
-              <img height="195" src="https://placehold.jp/260x195.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
-            </td>
-            <td style="width:260px;">
-              <img height="195" src="https://placehold.jp/260x195.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
-            </td>
-          </tr>
-          <tr>
-            <td style="width:260px;">Top Adriatic Destinations for Couples</td>
-            <td style="width:260px;">V Level: Holiday at the Highest Level</td>
 
-          </tr>
-          <tr>
-            <td align="left" valign="middle" style="width:260px;">
-              <p class="secondary-button">Learn more</p>
-            </td>
-            <td align="left" valign="middle" style="width:260px;">
-              <p class="secondary-button">Learn more</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <!-- MOBILE-->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
-      <!-- First recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Second recommendation -->
-      <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Valamar concierge -->
 
 <!-- START: Inspiration block -->
     <!-- Text Content for both -->
