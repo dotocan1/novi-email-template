@@ -254,98 +254,7 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-<!-- START: Guarantee FOR DESKTOP -->
-    <!-- Images -->
-    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
-      <mj-column width="20%">
-        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
-      </mj-column>
-      <mj-column width="10%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
-      </mj-column>
-      <mj-column width="10%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
-      </mj-column>
-    </mj-section>
-    <!-- Text -->
-    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
-      <mj-column width="20%">
-        <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
-      </mj-column>
-      <mj-column width="10%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-text mj-class="fw400-fs18-lh24">No prepayment
-          needed</mj-text>
-      </mj-column>
-      <mj-column width="10%">
-        <mj-text>
-        </mj-text>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-text mj-class="fw400-fs18-lh24">Best price
-          guaranteed</mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- END: Guarantee FOR DESKTOP -->
 
-
-    <!-- START: Guarantee FOR MOBILE -->
-  <mj-raw> <span style="mso-element:field-begin;"></span> </mj-raw>
-     <!-- First section --> 
-    <mj-section css-class="hide-on-desktop align-left hide-on-outlook" text-align="left">
-      <mj-group>
-        <mj-column vertical-align="middle" width="19%">
-          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-        </mj-column>
-        <mj-column width="1%">
-          <mj-text></mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-          <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- Second section -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
-      <mj-group>
-        <mj-column vertical-align="middle" width="19%">
-          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-        </mj-column>
-        <mj-column width="1%">
-          <mj-text></mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-          <mj-text mj-class="fw400-fs18-lh24">No prepayment needed</mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <mj-section css-class="hide-on-desktop hide-on-outlook align-left" text-align="left">
-      <mj-group>
-        <mj-column vertical-align="middle" width="19%">
-          <mj-image src="https://placehold.jp/32x32.png" width="32px" height="32px" />
-        </mj-column>
-        <mj-column width="1%">
-          <mj-text></mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-          <mj-text mj-class="fw400-fs18-lh24">Best price
-            guaranteed</mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <mj-raw><span style="mso-element:field-end;"></span></mj-raw>
-    <!-- END: Guarantee FOR MOBILE -->
     
     <!-- START: Experience concierge block -->
     <mj-section css-class="grey-background">
@@ -365,12 +274,3 @@
       </mj-column>
     </mj-section>
     <!-- END: Experience concierge block -->
-
-
-
-
-
-
-
-
-    
