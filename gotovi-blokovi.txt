@@ -1112,6 +1112,44 @@ Adults*</td>
     </mj-section>
     <!-- END: Moments -->
 
+ <!-- START: Brands  -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://placehold.jp/200x50.png" align="center" width="200px" height="50px" />
+      </mj-column>
+    </mj-section>
+    <!-- Other elements -->
+    <mj-section padding-top="0px" text-align = "center" css-class = "vertical-align">
+      <mj-column vertical-align = "middle">
+        <mj-social mode="horizontal" icon-padding="5px">
+          <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/" icon-height="30px" icon-size="80px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/" icon-height="25px" icon-size="100px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/80x25.png" href="https://mjml.io/" icon-height="25px" icon-size="80px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/75x35.png" href="https://mjml.io/" icon-height="35px" icon-size="75px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/50x40.png" href="https://mjml.io/" icon-height="40px" icon-size="50px" align="center">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- Contact info -->
+    <mj-section padding-top="0px" text-align="center">
+      <mj-column border-top="1px solid lightgrey" padding-top="20px" css-class="align-center-mobile">
+        <mj-social font-size="15px" icon-size="28px" mode="horizontal" text-padding="5px 20px 0 10px" icon-padding="5px 0 0 0">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/">
+            reservations@valamar.com
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/">
+            +385 52 465 000
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: Brands  -->
+
 <!-- START: Footer -->
     <!-- Socials -->
     <mj-section mj-class="grey-background">

@@ -9,8 +9,7 @@
       <mj-table padding="0px"></mj-table>
       <mj-social padding="0px" padding-bottom="0px"></mj-social>
       <mj-social-element padding="0px"></mj-social-element>
-      <mj-section padding="0px" background-color="#ffffff"></mj-section>
-      <mj-section padding="20px 30px 20px 30px"></mj-section>
+      <mj-section padding="20px 30px 20px 30px" background-color="#ffffff"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
       <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
@@ -201,6 +200,10 @@
       .align-left-mobile *{
       text-align: left !important;
       }
+      
+      .align-left-center *{
+      text-align: left !important;
+      }
 
       .hide-on-desktop {
       display: block !important;
@@ -250,48 +253,7 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
-   
-
-    <!-- START: Brands  -->
-    <mj-section>
-      <mj-column>
-        <mj-image src="https://placehold.jp/200x50.png" align="center" width="200px" height="50px" />
-      </mj-column>
-    </mj-section>
-    <!-- Other elements -->
-    <mj-section padding-top="0px" text-align = "center" css-class = "vertical-align">
-      <mj-column vertical-align = "middle">
-        <mj-social mode="horizontal" icon-padding="5px">
-          <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/" icon-height="30px" icon-size="80px" align="center">
-          </mj-social-element>
-          <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/" icon-height="25px" icon-size="100px" align="center">
-          </mj-social-element>
-          <mj-social-element src="https://placehold.jp/80x25.png" href="https://mjml.io/" icon-height="25px" icon-size="80px" align="center">
-          </mj-social-element>
-          <mj-social-element src="https://placehold.jp/75x35.png" href="https://mjml.io/" icon-height="35px" icon-size="75px" align="center">
-          </mj-social-element>
-          <mj-social-element src="https://placehold.jp/50x40.png" href="https://mjml.io/" icon-height="40px" icon-size="50px" align="center">
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-
-    <!-- Contact info -->
-    <mj-section padding-top="0px" text-align="left">
-      <mj-column border-top="1px solid lightgrey" padding-top="20px" css-class="align-left-mobile">
-        <mj-social font-size="15px" icon-size="28px" mode="horizontal" text-padding="5px 20px 0 10px" icon-padding="5px 0 0 0">
-          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/">
-            reservations@valamar.com
-          </mj-social-element>
-          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/">
-            +385 52 465 000
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <!-- END: Brands  -->
-
-    <!-- START: FAQ -->
+<!-- START: FAQ -->
     <mj-section>
       <mj-column>
         <mj-social font-size="20px" icon-size="48px" mode="horizontal" icon-padding="0 5px 0 5px" css-class="fw400-fs16-lh24">
