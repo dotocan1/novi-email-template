@@ -1,0 +1,17 @@
+<!-- START: Header -->
+    <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
+      <mj-column>
+        <mj-spacer height="20px" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column css-class="web-overview">
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Header -->
+
