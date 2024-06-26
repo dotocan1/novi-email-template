@@ -15,3 +15,42 @@
     </mj-section>
     <!-- END: Header -->
 
+ <!-- START: Loyalty traka-->
+    <mj-section mj-class="loyalty-section">
+      <mj-group>
+        <!-- Valamar plus club logo -->
+        <mj-column vertical-align="middle" css-class="hide-on-mobile" width="20%">
+          <mj-image align="left" src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width="55.95px" height="31px" />
+        </mj-column>
+        <!-- Empty Space -->
+        <mj-column vertical-align="middle" css-class="hide-on-mobile" width="20%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <!-- Card Number -->
+        <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-left" width="20%">
+          <mj-text mj-class="loyalty-track-heading">
+            Card No.
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-left">100105613531</mj-text>
+        </mj-column>
+        <!-- Level -->
+        <mj-column vertical-align="middle" css-class="loyalty-track" width="20%">
+          <mj-text mj-class="loyalty-track-heading">
+            Your Level
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
+        </mj-column>
+        <!-- Wallet Credit -->
+        <mj-column vertical-align="middle" css-class="loyalty-track" width="20%">
+          <mj-text mj-class="loyalty-track-heading">
+            Wallet credit
+          </mj-text>
+          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
+            71.66 E
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- END: Loyalty traka -->
+

@@ -12,7 +12,7 @@
       <mj-section padding="20px 30px 20px 30px" background-color="#ffffff"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
-      <mj-class name="loyalty-section" padding="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
+      <mj-class name="loyalty-section" padding-top="0px" padding-bottom="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
       <mj-class name="grey-background" background-color="#f2f2f2" />
       <mj-class name="no-top-bottom-padding" padding="0 30px 0 30px" />
       <mj-class name="column" border="1px blue solid" />
@@ -231,11 +231,6 @@
       width : 100% !important;
       }
 
-      .loyalty-section{
-      padding: 0 30px 0 30px;
-      }
-
-
       .loyalty-track {
       width: 32% !important;
       }
@@ -252,45 +247,6 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-
-    <!-- START: Loyalty traka-->
-    <mj-section mj-class="loyalty-section" css-class="loyalty-section">
-      <mj-group>
-        <!-- Valamar plus club logo -->
-        <mj-column vertical-align="middle" css-class="hide-on-mobile">
-          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width="55.95px" height="31px" />
-        </mj-column>
-        <!-- Empty Space -->
-        <mj-column vertical-align="middle" css-class="hide-on-mobile">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <!-- Card Number -->
-        <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-left">
-          <mj-text mj-class="loyalty-track-heading">
-            Card No.
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-left">100105613531</mj-text>
-        </mj-column>
-        <!-- Level -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-heading">
-            Your Level
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
-        </mj-column>
-        <!-- Wallet Credit -->
-        <mj-column vertical-align="middle" css-class="loyalty-track">
-          <mj-text mj-class="loyalty-track-heading">
-            Wallet credit
-          </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
-            71.66 E
-          </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- END: Loyalty traka -->
 
     <!-- START: Main banner + CTA, photo 3:2 FOR DESKTOP -->
     <mj-section css-class="hide-on-mobile">
@@ -371,5 +327,3 @@
       </mj-group>
     </mj-section>
     <!-- END: Main banner 2 x foto, 1:1 FOR MOBILE -->
-
-    
