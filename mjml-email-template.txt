@@ -257,7 +257,7 @@
     <!-- Other elements -->
     <mj-section padding-top="0px">
       <mj-column>
-        <mj-social icon-size="80px" mode="horizontal" icon-padding="5px">
+        <mj-social  icon-size="140px" mode="horizontal" icon-padding="5px">
           <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/">
           </mj-social-element>
           <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/">
