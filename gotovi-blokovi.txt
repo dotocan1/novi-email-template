@@ -1095,6 +1095,23 @@ Adults*</td>
     </mj-section>
     <!-- END: Why book -->
 
+ <!-- START: Moments -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="fw700-fs35-lh38" css-class="fw400-fs28-lh32">Budi dio<br />
+          #PlacesMoments</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 30px 20px 30px">
+      <mj-column>
+        <!-- Desktop -->
+        <mj-image src="https://placehold.jp/540x400.png" width="540px" height="400px" css-class="hide-on-mobile"></mj-image>
+        <mj-image src="https://placehold.jp/540x450.png" width="540px" height="450px" css-class="hide-on-desktop hide-on-outlook"></mj-image>
+        <!-- Mobile -->
+      </mj-column>
+    </mj-section>
+    <!-- END: Moments -->
+
 <!-- START: Footer -->
     <!-- Socials -->
     <mj-section mj-class="grey-background">
