@@ -52,6 +52,10 @@
       .align-left-outlook div{
       text-align: left !important;
       }
+      
+      .vertical-align *{
+      vertical-align: middle !important;
+      }
 
 
     </mj-style>
@@ -255,18 +259,18 @@
       </mj-column>
     </mj-section>
     <!-- Other elements -->
-    <mj-section padding-top="0px">
-      <mj-column>
-        <mj-social  icon-size="140px" mode="horizontal" icon-padding="5px">
-          <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/">
+    <mj-section padding-top="0px" text-align = "center" css-class = "vertical-align">
+      <mj-column vertical-align = "middle">
+        <mj-social mode="horizontal" icon-padding="5px">
+          <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/" icon-height="30px" icon-size="80px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/">
+          <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/" icon-height="25px" icon-size="100px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/80x25.png" href="https://mjml.io/">
+          <mj-social-element src="https://placehold.jp/80x25.png" href="https://mjml.io/" icon-height="25px" icon-size="80px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/75x35.png" href="https://mjml.io/">
+          <mj-social-element src="https://placehold.jp/75x35.png" href="https://mjml.io/" icon-height="35px" icon-size="75px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/50x40.png" href="https://mjml.io/">
+          <mj-social-element src="https://placehold.jp/50x40.png" href="https://mjml.io/" icon-height="40px" icon-size="50px" align="center">
           </mj-social-element>
         </mj-social>
       </mj-column>
