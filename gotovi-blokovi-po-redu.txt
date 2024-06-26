@@ -54,3 +54,80 @@
     </mj-section>
     <!-- END: Loyalty traka -->
 
+<!-- START: Main banner + CTA, photo 3:2 -->
+    <!-- DESKTOP -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column mj-class="image-container">
+        <mj-image src="https://placehold.jp/540x360.png" width="540px" height="360px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner + CTA, photo 3:2 -->
+
+    <!-- START: Main banner CTA, foto 1:1 -->
+    <!-- DESKTOP -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" height="270px" width="540px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner CTA, foto 1:1 -->
+
+    <!-- START: Main banner, foto 2:1  -->
+    <!-- DESKTOP -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column>
+        <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
+      <mj-column>
+        <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Main banner, foto 2:1 -->
+
+    <!-- START: Main banner 2 x foto -->
+    <!-- DESKTOP -->
+    <mj-section css-class="hide-on-mobile">
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" height="265px" />
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
+      <mj-group>
+        <mj-column>
+          <mj-table align="center" cellpadding="1px" line-height="100%">
+            <tr>
+              <td style="width:135px;">
+                <img height="125" src="https://placehold.jp/135x125.png" style="border:0;display:block ;outline:none;text-decoration:none;height:125px;width:100%;font-size:13px;" width="135" />
+              </td>
+              <td style="width:135px;">
+                <img height="125" src="https://placehold.jp/135x125.png" style="border:0;display:block;outline:none;text-decoration:none;height:125px;width:100%;font-size:13px;" width="135" />
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- END: Main banner 2 x foto -->

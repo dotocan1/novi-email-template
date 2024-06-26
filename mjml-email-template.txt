@@ -248,82 +248,84 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
-    <!-- START: Main banner + CTA, photo 3:2 FOR DESKTOP -->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column mj-class="image-container">
-        <mj-image src="https://placehold.jp/540x360.png" width="540px" height="360px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner + CTA, photo 3:2 FOR DESKTOP -->
-
-    <!-- START: Main banner + CTA, photo 3:2 FOR MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
+    <!-- START: Paragraph + CTA -->
+    <mj-section>
       <mj-column>
-        <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
+        <mj-text mj-class="fw400-fs28-lh32">
+          Dear Mr. Doe,
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22">what are you waiting for? Hot temperatures, sun shining, refreshing sea, it doesn't get better than this!
+          If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <!-- <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button> -->
+        <mj-text align="center">
+          <mj-raw>
+            <p>
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          height: 52px;
+          padding: 16px 40px 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          width:fit-content;
+          -webkit-text-size-adjust:none;">Discover more </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
       </mj-column>
     </mj-section>
-    <!-- END: Main banner + CTA, photo 3:2 FOR MOBILE -->
+    <!-- END: Paragraph + CTA -->
 
-    <!-- START: Main banner CTA, foto 1:1 FOR DESKTOP -->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" height="270px" width="540px" />
+    <!-- START: USP FOR DESKTOP -->
+    <!-- Images -->
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px">
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
       </mj-column>
-    </mj-section>
-    <!-- END: Main banner CTA, foto 1:1 FOR DESKTOP -->
-
-    <!-- START: Main banner CTA, foto 1:1 FOR MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x416.png" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner CTA, foto 1:1 FOR MOBILE -->
-
-    <!-- START: Main banner, foto 2:1 FOR DESKTOP  -->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-image src="https://placehold.jp/540x270.png" width="540px" height="270px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner, foto 2:1 FOR DESKTOP -->
-
-    <!-- START: Main banner, foto 2:1 FOR MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
-      <mj-column>
-        <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Main banner, foto 2:1 FOR MOBILE -->
-
-    <!-- START: Main banner 2 x foto, 1:1 FOR DESKTOP  -->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" padding="0px" height="265px" />
-      </mj-column>
-      <mj-column width="10px">
+      <mj-column width="10%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="265px">
-        <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" />
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
       </mj-column>
     </mj-section>
-    <!-- END: Main banner 2 x foto, 1:1 FOR DESKTOP -->
-
-    <!-- START: Main banner 2 x foto, 1:1 FOR MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
-      <mj-group>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x125.png" fluid-on-mobile="true" />
-        </mj-column>
-        <mj-column width="4%">
-          <mj-text>
-          </mj-text>
-        </mj-column>
-        <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x125.png" width="135px" fluid-on-mobile="true" />
-        </mj-column>
-      </mj-group>
+    <!-- Text -->
+    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">No prepayment
+          needed</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs18-lh24">Best price
+          guaranteed</mj-text>
+      </mj-column>
     </mj-section>
-    <!-- END: Main banner 2 x foto, 1:1 FOR MOBILE -->
+    <!-- END: USP FOR DESKTOP -->
