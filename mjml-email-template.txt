@@ -264,165 +264,6 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-    <!-- START: My Valamar app CTA -->
-    <mj-section>
-      <mj-column>
-        <mj-text mj-class="fw400-fs35-lh38">My Valamar app</mj-text>
-        <mj-spacer height="20px"></mj-spacer>
-        <!-- FOR DESKTOP -->
-        <mj-image src="https://placehold.jp/600x280.png" width="600px" height="280px" css-class="hide-on-mobile" />
-        <!-- FOR MOBILE -->
-        <mj-image src="https://placehold.jp/280x520.png" width="280px" height="520px" css-class="hide-on-desktop hide-on-outlook" fluid-on-mobile="true" />
-      </mj-column>
-    </mj-section>
-    <!-- END: My Valamar app CTA -->
-
-    <!-- START: Experiences x2 -->
-    <!-- Text Content for both -->
-    <mj-section padding="0px 30px 0px 30px">
-      <mj-column>
-        <mj-text mj-class="fw400-fs35-lh38">Valamar Concierge</mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding="0px 30px 0px 30px">
-      <mj-column>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-text mj-class="fw400-fs15-lh22" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- DESKTOP-->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-table align="center" cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
-          <tr>
-            <td style="width:260px;">
-              <img height="195" src="https://placehold.jp/260x195.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
-            </td>
-            <td style="width:260px;">
-              <img height="195" src="https://placehold.jp/260x195.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
-            </td>
-          </tr>
-          <tr>
-            <td style="width:260px;">Avanturistička degustacija vina: Wine cellar Escape</td>
-            <td style="width:260px;">Okusi Istru</td>
-
-          </tr>
-          <tr>
-            <td style="width:260px;">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</td>
-            <td style="width:260px;">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</td>
-
-          </tr>
-          <tr>
-            <td align="left" valign="middle" style="width:260px;">
-              <p class="secondary-button">Learn more</p>
-            </td>
-            <td align="left" valign="middle" style="width:260px;">
-              <p class="secondary-button">Learn more</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <!-- MOBILE-->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
-      <!-- First recommendation -->
-      <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Second recommendation -->
-      <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Learn more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Experiences x2 -->
-
-    <!-- START: Experiences x3 -->
-    <!-- Text Content for both -->
-    <mj-section padding="0px 30px 0px 30px">
-      <mj-column>
-        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Our recommendations for a
-          fun-filled holiday</mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- DESKTOP-->
-    <mj-section css-class="hide-on-mobile">
-      <mj-column>
-        <mj-table align="center" cellpadding="2" css-class="align-center-outlook align-center" line-height="100%">
-          <tr>
-            <td style="width:170px;">
-              <img height="170" src="https://placehold.jp/170x170.png" style="border:0;display:block;outline:none;text-decoration:none;height:170px;width:100%;font-size:13px;" width="170" />
-            </td>
-            <td style="width:170px;">
-              <img height="170" src="https://placehold.jp/170x170.png" style="border:0;display:block;outline:none;text-decoration:none;height:170px;width:100%;font-size:13px;" width="170" />
-            </td>
-            <td style="width:170px;">
-              <img height="170" src="https://placehold.jp/170x170.png" style="border:0;display:block;outline:none;text-decoration:none;height:170px;width:100%;font-size:13px;" width="170" />
-            </td>
-          </tr>
-          <tr>
-            <td style="width:170px;">Panoramic trip to Biokovo</td>
-            <td style="width:170px;">Visit authentic Pelješac vineyards</td>
-            <td style="width:170px;">Discover the beauty of the Elaphiti islands</td>
-          </tr>
-          <tr>
-            <td align="center" valign="middle" style="width:170px;">
-              <p class="secondary-button">Find out more</p>
-            </td>
-            <td valign="middle" align="center" style="width:170px;">
-              <p class="secondary-button">Find out more</p>
-            </td>
-            <td valign="middle" align="center" style="width:170px;">
-              <p class="secondary-button">Find out more</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <!-- MOBILE-->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
-      <!-- First recommendation -->
-      <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22" align="center">Panoramic trip to Biokovo</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Find out more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Second recommendation -->
-      <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22" align="center">Visit authentic Pelješac vineyards</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Find out more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-      <!-- Third recommendation -->
-      <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
-        <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22" align="center">Discover the beauty of the Elaphiti islands</mj-text>
-        <mj-spacer height="20px" />
-        <mj-button mj-class="secondary-button">Find out more</mj-button>
-        <mj-spacer height="20px" />
-      </mj-column>
-    </mj-section>
-    <!-- END: Experiences x3 -->
 
     <!-- START: Valamar + Club-->
     <mj-section padding="0px 30px 0px 30px" text-align="center">
@@ -649,3 +490,130 @@
       </mj-column>
     </mj-section>
     <!-- END: Why book -->
+    
+    <!-- START: Moments -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="fw700-fs35-lh38" css-class="fw400-fs28-lh32">Budi dio<br />
+          #PlacesMoments</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 30px 20px 30px">
+      <mj-column>
+        <!-- Desktop -->
+        <mj-image src="https://placehold.jp/540x400.png" width="540px" height="400px" css-class="hide-on-mobile"></mj-image>
+        <mj-image src="https://placehold.jp/540x450.png" width="540px" height="450px" css-class="hide-on-desktop hide-on-outlook"></mj-image>
+        <!-- Mobile -->
+      </mj-column>
+    </mj-section>
+    <!-- END: Moments -->
+
+    <!-- START: Brands  -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://placehold.jp/200x50.png" align="center" width="200px" height="50px" />
+      </mj-column>
+    </mj-section>
+    <!-- Other elements -->
+    <mj-section padding-top="0px" text-align="center" css-class="vertical-align">
+      <mj-column vertical-align="middle">
+        <mj-social mode="horizontal" icon-padding="5px">
+          <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/" icon-height="30px" icon-size="80px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/" icon-height="25px" icon-size="100px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/80x25.png" href="https://mjml.io/" icon-height="25px" icon-size="80px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/75x35.png" href="https://mjml.io/" icon-height="35px" icon-size="75px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/50x40.png" href="https://mjml.io/" icon-height="40px" icon-size="50px" align="center">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- Contact info -->
+    <mj-section padding-top="0px" text-align="center">
+      <mj-column border-top="1px solid lightgrey" padding-top="20px" css-class="align-center-mobile">
+        <mj-social font-size="15px" icon-size="28px" mode="horizontal" text-padding="5px 20px 0 10px" icon-padding="5px 0 0 0">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/">
+            reservations@valamar.com
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/">
+            +385 52 465 000
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: Brands  -->
+
+    <!-- START: FAQ -->
+    <mj-section>
+      <mj-column>
+        <mj-social font-size="20px" icon-size="48px" mode="horizontal" icon-padding="0 5px 0 5px" css-class="fw400-fs16-lh24">
+          <mj-social-element src="https://placehold.jp/48x48.png" href="https://mjml.io/">
+            Često postavljana pitanja ↗️
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: FAQ -->
+
+    <!-- START: Footer -->
+    <!-- Socials -->
+    <mj-section mj-class="grey-background">
+      <mj-column>
+        <mj-social icon-size="30px" mode="horizontal" icon-padding="0 10px 0 10px">
+          <mj-social-element src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://placehold.jp/30x30.png" href="https://mjml.io/">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- Button -->
+    <mj-section mj-class="grey-background">
+      <mj-column>
+        <mj-button mj-class="secondary-button grey-background" width="50%" align="center">Update your profile</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Text content -->
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br />johndoe@gmail.com. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our privacy policy.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>To unsubscribe</strong> from the newsletter, click here. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>To book</strong> or for information about your booking, please contact:<br /> reservations@valamar.com.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong>send us comments</strong>, please click here. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong>Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to newsletter@valamar.com.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Footer -->
