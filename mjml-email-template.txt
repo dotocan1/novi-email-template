@@ -12,12 +12,13 @@
       <mj-section padding="20px 30px 20px 30px" background-color="#ffffff"></mj-section>
       <!-- Classes -->
       <!-- Sections and columns -->
-      <mj-class name="loyalty-section" padding-top="0px" padding-bottom="0px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
+      <mj-class name="loyalty-section" padding-top="4px" padding-bottom="8px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
       <mj-class name="grey-background" background-color="#f2f2f2" />
       <mj-class name="no-top-bottom-padding" padding="0 30px 0 30px" />
       <mj-class name="column" border="1px blue solid" />
       <!-- Text styling -->
       <!-- Font weight 400 -->
+      <mj-class name="fw400-fs12-lh20" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="20px" />
       <mj-class name="fw400-fs13-lh18" font-weight="400" font-family="Arial, sans-serif" font-size="13px" line-height="18px" />
       <mj-class name="fw400-fs14-lh21" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="14px" line-height="21px" />
       <mj-class name="fw400-fs15-lh22" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
@@ -27,6 +28,7 @@
       <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
       <!-- Font weight 700 -->
+      <mj-class name="fw700-fs12-lh18" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="18px" />
       <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="34px" />
       <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
@@ -286,34 +288,34 @@
     <mj-section mj-class="loyalty-section">
       <mj-group>
         <!-- Valamar plus club logo -->
-        <mj-column vertical-align="middle" css-class="loyalty-hide-on-mobile" width="20%">
+        <mj-column vertical-align="middle" css-class="loyalty-hide-on-mobile" width="20%" padding-bottom="0px" padding-top="0px">
           <mj-image align="left" src="https://email.valamar.com/assets/responsysimages/content/valamarri/LOY-ribbon_logo@3x.png" width="55.95px" height="31px" />
         </mj-column>
         <!-- Empty Space -->
-        <mj-column vertical-align="middle" css-class="loyalty-hide-on-mobile" width="20%">
+        <mj-column vertical-align="middle" css-class="loyalty-hide-on-mobile" width="20%" padding-bottom="0px" padding-top="0px">
           <mj-text>
           </mj-text>
         </mj-column>
         <!-- Card Number -->
         <mj-column vertical-align="middle" css-class="loyalty-track loyalty-padding-left" width="20%">
-          <mj-text mj-class="loyalty-track-heading">
+          <mj-text mj-class="loyalty-track-heading fw400-fs12-lh20">
             Card No.
           </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold loyalty-padding-left">100105613531</mj-text>
+          <mj-text mj-class="loyalty-track-text fw700-fs12-lh18" css-class="loyalty-track-text-bold loyalty-padding-left ">100105613531</mj-text>
         </mj-column>
         <!-- Level -->
         <mj-column vertical-align="middle" css-class="loyalty-track" width="20%">
-          <mj-text mj-class="loyalty-track-heading">
+          <mj-text mj-class="loyalty-track-heading fw400-fs12-lh20">
             Your Level
           </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">Elite</mj-text>
+          <mj-text mj-class="loyalty-track-text fw700-fs12-lh18" css-class="loyalty-track-text-bold">Elite</mj-text>
         </mj-column>
         <!-- Wallet Credit -->
         <mj-column vertical-align="middle" css-class="loyalty-track" width="20%">
-          <mj-text mj-class="loyalty-track-heading">
+          <mj-text mj-class="loyalty-track-heading fw400-fs12-lh20">
             Wallet credit
           </mj-text>
-          <mj-text mj-class="loyalty-track-text" css-class="loyalty-track-text-bold">
+          <mj-text mj-class="loyalty-track-text fw700-fs12-lh18" css-class="loyalty-track-text-bold">
             71.66 E
           </mj-text>
         </mj-column>
