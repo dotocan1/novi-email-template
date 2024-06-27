@@ -419,3 +419,208 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: 1xproperty,USP,2x foto -->
+
+<!-- START: 2 x property -->
+    <!-- DESKTOP-->
+    <mj-section css-class="hide-on-mobile align-center">
+      <mj-column>
+        <mj-table align="center" cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
+          <tr>
+            <td style="width:260px;">
+              <img height="260" src="https://placehold.jp/260x200.png" style="border:0;display:block;outline:none;text-decoration:none;height:200px;width:100%;font-size:13px;" width="260" />
+            </td>
+            <td style="width:260px;">
+              <img height="260" src="https://placehold.jp/260x200.png" style="border:0;display:block;outline:none;text-decoration:none;height:200px;width:100%;font-size:13px;" width="260" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width:260px;">Valamar Argosy Hotel 4*</td>
+            <td style="width:260px;">Girandella Valamar Collection Designed for
+              Adults*</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">FValamar Argosy Hotel 4*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Island of Rab</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Book now</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">FGirandella Valamar Collection Designed for
+          Adults*</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Dubrovnik</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Book now</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: 2 x property -->
+
+    <!-- START: Destination experience -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw400-fs15-lh22">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
+          <br />
+          <br />
+          <strong>Top 3 beaches in Rabac:</strong>
+          <ul>
+            <li>Girandella Beach</li>
+            <li>St Andrea Beach</li>
+            <li>Lanterna Beach</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. There is another hidden gem in Brseč which you can reach easier by boat!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="fw400-fs15-lh22"><strong>3 things to do in Dubrovnik:</strong>
+          <ul>
+            <li>Visit Mount Srđ & descent by foot</li>
+            <li>Walk the Dubrovnik Walls</li>
+            <li>Take a kayak tour of the Old Town from the outside</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Destination experience -->
+
+    <!-- START: Property -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Obertauern [PLACESHOTEL] by Valamar
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">TOP CHOICE FOR MILLENIALS
+          <ul>
+            <li>€60 daily credit per two persons for restaurants and bars</li>
+            <li>pool with serene indoor zones</li>
+            <li>evening DJ music programme</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 225
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Kesselspitze Valamar Collection Hotel 4* Superiror
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">PREMIUM ACCOMMODATION
+          <ul>
+            <li>Ski-in & ski-out hotel</li>
+            <li>NEW: free parking in the underground garage</li>
+            <li>NEW: upgraded gourmet offer</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. Check out our exclusive V level Chalet</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">
+          From 278
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Property -->
+
+    <!-- START: Activity -->
+    <!-- First section -->
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="right-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Obertasty
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy a buffet breakfast and a buffet dinner. If you don’t make it to dinner, you can use €30 daily credit per person on food or drinks at our bars.
+          <br />
+          <br />
+          If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Start relaxing</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl">
+      <mj-column width="50%">
+        <mj-image src="https://placehold.jp/265x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="left-column" width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Oberfun
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Feel the Obervibes</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Activity -->
