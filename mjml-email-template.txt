@@ -25,11 +25,12 @@
       <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw400-fs15-lh24" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="24px" />
       <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
+      <mj-class name="fw400-fs24-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="24px" line-height="32px" />
       <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
       <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="35px" line-height="38px" />
       <!-- Font weight 700 -->
       <mj-class name="fw700-fs12-lh18" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="18px" />
-      <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="24px" />
       <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="20px" line-height="34px" />
       <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, sans-serif" font-size="28px" line-height="34px" />
       <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, sans-serif" font-size="22px" line-height="24px" />
@@ -173,6 +174,12 @@
       font-size: 20px !important;
       line-height: 24px !important;
       }
+      
+      .fw700-fs28-lh28 *{
+      font-weight : 700 !important;
+      font-size: 28px !important;
+      line-height: 28px !important;
+      }
 
       .fw700-fs20-lh32 *{
       font-weight : 700 !important;
@@ -212,7 +219,9 @@
       overflow : visible !important;
       }
 
-
+			.mobile-full-width *{
+      width: 100% !important;
+      }
 
       .loyalty-block-no-bottom-padding td{
       padding-bottom: 0px !important;
@@ -404,7 +413,7 @@
     <!-- START: Paragraph + CTA -->
     <mj-section>
       <mj-column>
-        <mj-text mj-class="fw400-fs28-lh32">
+        <mj-text mj-class="fw400-fs24-lh32" css-class = "fw400-fs28-lh32">
           Dear Mr. Doe,
         </mj-text>
         <mj-spacer height="20px"></mj-spacer>
@@ -412,7 +421,7 @@
           If you want to join us, be quick and grab what’s left of the best rooms in our sustainable hotels or resorts on the beachfront locations.</mj-text>
         <mj-spacer height="20px"></mj-spacer>
         <!-- <mj-button mj-class="intro-button" css-class="intro-button">Discover more</mj-button> -->
-        <mj-text align="center">
+        <mj-text align="center" >
           <mj-raw>
             <p>
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
@@ -577,11 +586,11 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-text>
       </mj-column>
       <mj-column css-class="right-column" width="46%">
-        <mj-text mj-class="fw700-fs28-lh34">
+        <mj-text mj-class="fw700-fs28-lh34" css-class = "fw700-fs28-lh28">
           Perfect gift
         </mj-text>
         <mj-spacer height="20px" />
-        <mj-text mj-class="fw400-fs15-lh22">
+        <mj-text mj-class="fw400-fs15-lh22" >
           This season, give the gift of travel with the Valamar Gift Voucher, redeemable at our properties in Croatia and Austria. Select the value, personalize the message and choose the delivery option!
         </mj-text>
         <mj-spacer height="20px" />
@@ -649,14 +658,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- First checkmark -->
     <mj-section text-align="left">
       <mj-column>
-        <mj-text mj-class="fw700-fs22-lh24" css-class="fw700-fs20-lh32">
+        <mj-text mj-class="fw700-fs20-lh24" css-class="fw700-fs20-lh24">
           Girandella Valamar Collection Maro Suites 5*
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="0px" padding-top="0px">
       <mj-column vertical-align="middle">
-        <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+        <mj-social mj-class="fw400-fs18-lh24" css-class = "fw400-fs16-lh24"  icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
             All inclusive offer
           </mj-social-element>
@@ -665,7 +674,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+        <mj-social mj-class="fw400-fs18-lh24" css-class = "fw400-fs16-lh24" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
             Extra spacious family suites
           </mj-social-element>
@@ -674,7 +683,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-section padding-bottom="0px">
       <mj-column vertical-align="middle">
-        <mj-social mj-class="fw400-fs15-lh22" font-size="16px" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
+        <mj-social mj-class="fw400-fs18-lh24" css-class = "fw400-fs16-lh24" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" padding-right="10px">
             Super Maro playrooms, indoor playground and cinema
           </mj-social-element>
@@ -684,7 +693,32 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-section padding-top="0px">
       <mj-column>
-        <mj-button mj-class="intro-button" css-class="intro-button" align="left">Book now</mj-button>
+        <mj-text >
+        <mj-raw >
+            <p>
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+      <a 
+	  href="https://www.valamar.com/en/summer-holiday" 
+	  target="_blank" 
+	  style="background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          height: 52px;
+          padding: 16px 40px 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          width:fit-content;
+          -webkit-text-size-adjust:none;" 
+         >Book nowa</a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- END: 1xproperty,USP,2x foto -->
