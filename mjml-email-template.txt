@@ -447,7 +447,7 @@
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -457,7 +457,6 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -625,7 +624,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -635,7 +634,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
+          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -729,7 +728,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -739,7 +738,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
+          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -790,7 +789,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td style="width:260px;">
               <p>
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -800,7 +799,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
+          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -815,7 +814,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td style="width:260px;">
               <p>
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -825,7 +824,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
+          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -944,7 +943,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -954,7 +953,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: 100%;
-          height: 52px;
+          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -998,7 +997,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -1008,7 +1007,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: 100%;
-          height: 52px;
+          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -1195,7 +1194,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -1205,7 +1204,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
+          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -1282,7 +1281,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td align="left" valign="middle" style="width:260px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -1292,14 +1291,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
           display: inline-block;
           box-sizing: border-box;
           ">
-                  Learn more
+                  Find out more
                 </a>
                 <!--[if mso]></center></v:roundrect><![endif]-->
               </p>
@@ -1307,7 +1305,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td align="left" valign="middle" style="width:260px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="height:52px;v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -1317,14 +1315,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          height: 52px;
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
           display: inline-block;
           box-sizing: border-box;
           ">
-                  Learn more
+                  Find out more
                 </a>
                 <!--[if mso]></center></v:roundrect><![endif]-->
               </p>
@@ -1384,19 +1381,82 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:170px;">Panoramic trip to Biokovo</td>
-            <td style="width:170px;">Visit authentic Pelješac vineyards</td>
-            <td style="width:170px;">Discover the beauty of the Elaphiti islands</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22">Panoramic trip to Biokovo</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22">Visit authentic Pelješac vineyards</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22">Discover the beauty of the Elaphiti islands</td>
           </tr>
           <tr>
             <td align="center" valign="middle" style="width:170px;">
-              <p class="secondary-button">Find out more</p>
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width:auto;
+          padding: 16px 30px 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
             </td>
             <td valign="middle" align="center" style="width:170px;">
-              <p class="secondary-button">Find out more</p>
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width:auto;
+          padding: 16px 30px 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
             </td>
             <td valign="middle" align="center" style="width:170px;">
-              <p class="secondary-button">Find out more</p>
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width:auto;
+          padding: 16px 30px 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
             </td>
           </tr>
         </mj-table>
