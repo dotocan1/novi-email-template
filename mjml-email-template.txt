@@ -24,6 +24,7 @@
       <mj-class name="fw400-fs15-lh22" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="22px" />
       <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw400-fs15-lh24" align="left" font-weight="400" font-family="Arial, sans-serif" font-size="15px" line-height="24px" />
+      <mj-class name="fw400-fs16-lh20" font-weight="400" font-family="Arial, sans-serif" font-size="16px" line-height="20px" />
       <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, sans-serif" font-size="18px" line-height="24px" />
       <mj-class name="fw400-fs24-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="24px" line-height="32px" />
       <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, sans-serif" font-size="28px" line-height="32px" />
@@ -1536,21 +1537,21 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- Text -->
     <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
       <mj-column width="20%">
-        <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
+        <mj-text mj-class="fw400-fs16-lh20" align = "center">Up to 10% discount on bookings</mj-text>
       </mj-column>
       <mj-column width="10%">
         <mj-text>
         </mj-text>
       </mj-column>
       <mj-column width="20%">
-        <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
+        <mj-text mj-class="fw400-fs16-lh20" align = "center">Collect and redeem points</mj-text>
       </mj-column>
       <mj-column width="10%">
         <mj-text>
         </mj-text>
       </mj-column>
       <mj-column width="20%">
-        <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
+        <mj-text mj-class="fw400-fs16-lh20" align = "center">Tailored and exclusive benefits</mj-text>
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
@@ -1565,7 +1566,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-text></mj-text>
         </mj-column>
         <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-          <mj-text mj-class="fw400-fs18-lh24">Up to 10% discount on bookings</mj-text>
+          <mj-text mj-class="fw400-fs16-lh20">Up to 10% discount on bookings</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -1579,7 +1580,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-text></mj-text>
         </mj-column>
         <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-          <mj-text mj-class="fw400-fs18-lh24">Collect and redeem points</mj-text>
+          <mj-text mj-class="fw400-fs16-lh20">Collect and redeem points</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -1593,7 +1594,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-text></mj-text>
         </mj-column>
         <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
-          <mj-text mj-class="fw400-fs18-lh24">Tailored and exclusive benefits</mj-text>
+          <mj-text mj-class="fw400-fs16-lh20">Tailored and exclusive benefits</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -1602,7 +1603,32 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section padding="0 30px 20px 30px">
       <mj-column>
         <mj-spacer css-class="hide-on-mobile" height="20px"></mj-spacer>
-        <mj-button mj-class="general-button" width="50%" align="center" css-class="intro-button">Join now for free</mj-button>
+        <mj-text align = "center">
+        <mj-raw >
+           <p class = "mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+    Join now for free
+</a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Valamar + Club-->

@@ -1,0 +1,3 @@
+<#if DynamicVariable.HIDE_ON_DESKTOP == "ON">
+   	<#include "/contentlibrary/dominik_o/hide-on-desktop.txt">
+    </#if>
