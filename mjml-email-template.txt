@@ -433,10 +433,10 @@
           <mj-table align="center" cellpadding="1px" line-height="100%">
             <tr>
               <td style="width:135px;">
-                <img height="125" src="https://placehold.jp/135x125.png" style="border:0;display:block ;outline:none;text-decoration:none;height:125px;width:100%;font-size:13px;" width="135" />
+                <img height="125" src="https://email.valamar.com/assets/responsysimages/content/valamarri/04.png" style="border:0;display:block ;outline:none;text-decoration:none;height:125px;width:100%;font-size:13px;" width="135" />
               </td>
               <td style="width:135px;">
-                <img height="125" src="https://placehold.jp/135x125.png" style="border:0;display:block;outline:none;text-decoration:none;height:125px;width:100%;font-size:13px;" width="135" />
+                <img height="125" src="https://email.valamar.com/assets/responsysimages/content/valamarri/05.png" style="border:0;display:block;outline:none;text-decoration:none;height:125px;width:100%;font-size:13px;" width="135" />
               </td>
             </tr>
           </mj-table>
@@ -723,14 +723,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section css-class="hide-on-desktop hide-on-outlook " padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/08.png" fluid-on-mobile="true" />
         </mj-column>
         <mj-column width="4%">
           <mj-text>
           </mj-text>
         </mj-column>
         <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/09.png" fluid-on-mobile="true" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -892,7 +892,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/10.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw700-fs20-lh24">FValamar Argosy Hotel 4*</mj-text>
         <mj-spacer height="20px" />
@@ -903,7 +903,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
       <!-- Second recommendation -->
       <mj-column>
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/11.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw700-fs20-lh24">FGirandella Valamar Collection Designed for
           Adults*</mj-text>
@@ -1152,14 +1152,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section css-class="hide-on-desktop hide-on-outlook" padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/18.png" fluid-on-mobile="true" />
         </mj-column>
         <mj-column width="4%">
           <mj-text>
           </mj-text>
         </mj-column>
         <mj-column width="48%">
-          <mj-image src="https://placehold.jp/135x135.png" fluid-on-mobile="true" />
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/19.png" fluid-on-mobile="true" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -1451,7 +1451,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/23.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw700-fs20-lh24">MOB_Avanturistička degustacija vina: Wine cellar Escape</mj-text>
         <mj-spacer height="20px" />
@@ -1462,7 +1462,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
       <!-- Second recommendation -->
       <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/24.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw700-fs20-lh24">MOB_Okusi Istru</mj-text>
         <mj-spacer height="20px" />
@@ -1591,7 +1591,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/25.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw400-fs15-lh22" align="center">Panoramic trip to Biokovo</mj-text>
         <mj-spacer height="20px" />
@@ -1600,7 +1600,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
       <!-- Second recommendation -->
       <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/26.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw400-fs15-lh22" align="center">Visit authentic Pelješac vineyards</mj-text>
         <mj-spacer height="20px" />
@@ -1609,7 +1609,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
       <!-- Third recommendation -->
       <mj-column width="100%">
-        <mj-image src="https://placehold.jp/260x200.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/27.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw400-fs15-lh22" align="center">Discover the beauty of the Elaphiti islands</mj-text>
         <mj-spacer height="20px" />
@@ -1859,7 +1859,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <!-- First recommendation -->
       <mj-column>
-        <mj-image src="https://placehold.jp/265x265.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/28.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
 
         <mj-text mj-class="fw400-fs15-lh22">MOB_Top Adriatic Destinations for Couples</mj-text>
@@ -1869,7 +1869,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
       <!-- Second recommendation -->
       <mj-column>
-        <mj-image src="https://placehold.jp/265x265.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/29.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
         <mj-text mj-class="fw400-fs15-lh22">MOB_V Level: Holiday at the Highest Level</mj-text>
         <mj-spacer height="20px" />
