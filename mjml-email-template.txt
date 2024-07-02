@@ -485,7 +485,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Paragraph + CTA -->
-    
+
     <!-- START: USP FOR DESKTOP -->
     <!-- Images -->
     <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top="20px">
@@ -575,13 +575,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-raw><span style="mso-element:field-end;"></span></mj-raw>
     <!-- END: USP -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -599,13 +599,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Counter -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -631,13 +631,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Voucher  -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -690,13 +690,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Gift voucher CTA -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1119,13 +1119,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Activity -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1193,13 +1193,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Rezervacija, kontakt + adresa -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1250,7 +1250,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       <mj-column width="50%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/21.png" width="265px" height="265px" fluid-on-mobile="true" />
       </mj-column>
-      <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile" >
+      <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile">
         <mj-text mj-class="fw700-fs20-lh24">Experience concierge</mj-text>
         <mj-spacer css-class="hide-on-mobile "></mj-spacer>
         <mj-text mj-class="fw400-fs15-lh20">
@@ -1263,13 +1263,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Experience concierge -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1319,13 +1319,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Check in CTA -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1341,13 +1341,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: My Valamar app CTA -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1472,13 +1472,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Experiences x2 -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1617,13 +1617,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Experiences x3 -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1764,13 +1764,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Valamar + Club-->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1878,13 +1878,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Inspiration -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1941,13 +1941,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Why book -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
@@ -1967,35 +1967,35 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Moments -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
     <!-- START: Brands  -->
     <mj-section>
       <mj-column>
-        <mj-image src="https://placehold.jp/200x50.png" align="center" width="200px" height="50px" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" align="center" width="200px" height="50px" />
       </mj-column>
     </mj-section>
     <!-- Other elements -->
     <mj-section padding-top="0px" text-align="center" css-class="vertical-align">
       <mj-column vertical-align="middle">
-        <mj-social mode="horizontal" icon-padding="5px">
-          <mj-social-element src="https://placehold.jp/80x30.png" href="https://mjml.io/" icon-height="30px" icon-size="80px" align="center">
+        <mj-social mode="horizontal" icon-padding="15px">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-valamar-collection@3x.png" href="https://mjml.io/" icon-height="30px" icon-size="80px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/100x25.png" href="https://mjml.io/" icon-height="25px" icon-size="100px" align="center">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-valamar-hotels-resorts@3x.png" href="https://mjml.io/" icon-height="25px" icon-size="100px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/80x25.png" href="https://mjml.io/" icon-height="25px" icon-size="80px" align="center">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-places-by-valamar@3x.png" href="https://mjml.io/" icon-height="25px" icon-size="80px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/75x35.png" href="https://mjml.io/" icon-height="35px" icon-size="75px" align="center">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-sunny-by-valamar@3x.png" href="https://mjml.io/" icon-height="35px" icon-size="75px" align="center">
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/50x40.png" href="https://mjml.io/" icon-height="40px" icon-size="50px" align="center">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-camping-adriatic@3x.png" href="https://mjml.io/" icon-height="40px" icon-size="50px" align="center">
           </mj-social-element>
         </mj-social>
       </mj-column>
@@ -2014,13 +2014,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Brands  -->
-    
+
     <!-- START: Spacing starts here -->
-   <mj-section padding = "0px" background-color = "#f2f2f2">
-     <mj-column>
-     <mj-text height = "10px">
-       </mj-text>
-     </mj-column>
+    <mj-section padding="0px" background-color="#f2f2f2">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
 
