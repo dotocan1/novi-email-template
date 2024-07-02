@@ -213,12 +213,12 @@
 
 
       /** Text stylings END **/
-      
-      .mobile-padding-top-20  {
-      	padding-top: 20px !important;
+
+      .mobile-padding-top-20 {
+      padding-top: 20px !important;
       }
-      .mobile-padding-bottom-20  {
-      	padding-bottom: 20px !important;
+      .mobile-padding-bottom-20 {
+      padding-bottom: 20px !important;
       }
       .online-check-in-button {
       background-color: #00C2BF; /* Teal color */
@@ -243,6 +243,10 @@
 
       .align-left-center *{
       text-align: left !important;
+      }
+
+      .align-center-mobile *{
+      text-align: center !important;
       }
 
       .hide-on-desktop {
@@ -484,7 +488,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: USP FOR DESKTOP -->
     <!-- Images -->
-    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top = "20px">
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top="20px">
       <mj-column width="20%">
         <mj-image src="https://placehold.jp/42x42.png" width="42px" height="42px" />
       </mj-column>
@@ -589,7 +593,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Voucher -->
     <!-- DESKTOP -->
-    <mj-section mj-class="voucher-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top = "20px">
+    <mj-section mj-class="voucher-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top="20px">
       <mj-column mj-class="image-container" width="540px">
         <mj-image src="https://placehold.jp/540x200.png" width="540px" />
       </mj-column>
@@ -611,7 +615,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Voucher  -->
 
     <!-- START: Gift voucher CTA -->
-    <mj-section padding-bottom = "0px" css-class = "mobile-padding-bottom-20">
+    <mj-section padding-bottom="0px" css-class="mobile-padding-bottom-20">
       <mj-column width="50%">
         <mj-image src="https://placehold.jp/265x265.png" fluid-on-mobile="true" width="265px" />
         <mj-spacer height="20px" />
@@ -787,10 +791,10 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:260px;" class="fw400-fs15-lh18" valign="top">
+            <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh18" valign="top">
               <p>Island of Rab</p>
             </td>
-            <td style="width:260px;" class="fw400-fs15-lh18" valign="top">
+            <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh18" valign="top">
               <p>Dubrovnik</p>
             </td>
           </tr>
@@ -808,7 +812,6 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: 'Arial', sans-serif;
           line-height:20px;
           width: auto;
-          
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -1044,7 +1047,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column  width="46%">
+      <mj-column width="46%">
         <mj-text mj-class="fw700-fs20-lh24">
           Obertasty
         </mj-text>
@@ -1118,7 +1121,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- Content for both devices -->
     <mj-section text-align="left">
       <mj-column>
-        <mj-text mj-class="fw700-fs20-lh24" css-class="align-center">
+        <mj-text mj-class="fw700-fs20-lh24" css-class="align-center-mobile">
           Istra Premium Camping Resort 5*
         </mj-text>
       </mj-column>
@@ -1158,8 +1161,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           Get ready to start this season in style! Chart stormers Pizzera & Jaus are preparing to shake the stage with their most popular hits, such as “Hooligans”, or “Ein ins Leben”. Don’t miss out on this upcoming ski opening event and save the date!
         </mj-text>
         <mj-spacer height="20px"></mj-spacer>
-       <mj-text align = "center"><mj-raw>
-           <p class = "mobile-full-width">
+        <mj-text align="center">
+          <mj-raw>
+            <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
@@ -1177,11 +1181,12 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           display: inline-block;
           box-sizing: border-box;
           ">
-    Learn more 
-</a>
+                Learn more
+              </a>
               <!--[if mso]></center></v:roundrect><![endif]-->
             </p>
-          </mj-raw></mj-text>
+          </mj-raw>
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Event -->
@@ -1194,7 +1199,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile" background-color="#f2f2f2">
         <mj-text mj-class="fw700-fs20-lh24">Experience concierge</mj-text>
         <mj-spacer height="20px" css-class="hide-on-mobile "></mj-spacer>
-        <mj-text mj-class="fw400-fs15-lh20" >
+        <mj-text mj-class="fw400-fs15-lh20">
           Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
           <ul>
             <li>Equipment rental</li>
@@ -1217,7 +1222,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
       <!-- Text content -->
       <mj-column width="68%">
-        <mj-text mj-class="fw700-fs20-lh24" css-class = "mobile-padding-top-20">Napravite online Check-in unaprijed</mj-text>
+        <mj-text mj-class="fw700-fs20-lh24" css-class="mobile-padding-top-20">Napravite online Check-in unaprijed</mj-text>
         <mj-spacer height="20px"></mj-spacer>
         <mj-text mj-class="fw400-fs15-lh22">Kako biste počeli uživati u svojem odmoru čim stignete, od ovog treuntka imate mogućnost napraviti online prijavu u nekoliko jednostavnih koraka. Veselimo se Vašem dolasku!</mj-text>
         <mj-spacer height="20px"></mj-spacer>
@@ -1300,10 +1305,10 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
           </tr>
           <tr>
-            <td style="width:260px;" class="fw400-fs15-lh22" valign="top">
+            <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
               <p>Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</p>
             </td>
-            <td style="width:260px;" class="fw400-fs15-lh22" valign="top">
+            <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
               <p>Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</p>
             </td>
 
@@ -1536,7 +1541,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
-    <mj-section padding="0px 30px 0px 30px">
+    <mj-section padding="0px 30px 20px 30px">
       <mj-column>
         <mj-text align="center" mj-class="fw400-fs15-lh22">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
       </mj-column>
@@ -1681,10 +1686,10 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:265px;" class="fw400-fs15-lh22" valign="top">
+            <td style="width:265px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
               <p>Top Adriatic Destinations for Couples</p>
             </td>
-            <td style="width:265px;" class="fw400-fs15-lh22" valign="top">
+            <td style="width:265px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
               <p>V Level: Holiday at the Highest Level</p>
             </td>
 
