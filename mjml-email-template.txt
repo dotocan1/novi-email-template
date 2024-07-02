@@ -377,7 +377,7 @@
     <!-- MOBILE -->
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <mj-column>
-        <mj-image src="https://placehold.jp/280x360.png" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/h2l5kvti.png" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner + CTA, photo 3:2 -->
@@ -407,7 +407,7 @@
     <!-- MOBILE -->
     <mj-section css-class="hide-on-desktop hide-on-outlook">
       <mj-column>
-        <mj-image src="https://placehold.jp/280x270.png" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/7ue45k3q.png" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: Main banner, foto 2:1 -->
@@ -1206,7 +1206,10 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- START: Event -->
     <mj-section>
       <mj-column>
-        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/20.png" width="540px" height="270px" fluid-on-mobile="true" />
+        <!-- DESKTOP -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/20.png" width="540px" height="270px" fluid-on-mobile="true" css-class="hide-on-outlook hide-on-mobile" />
+        <!-- MOBILE -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/avrm42vz.png" fluid-on-mobile="true" css-class="hide-on-desktop" />
       </mj-column>
     </mj-section>
     <mj-section padding="0px 30px 20px 30px">
