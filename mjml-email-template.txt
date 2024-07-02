@@ -771,19 +771,19 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:260px;" class="fw700-fs20-lh24">
+            <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
               <p>Valamar Argosy Hotel 4*</p>
             </td>
-            <td style="width:260px;" class="fw700-fs20-lh24">
+            <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
               <p>Girandella Valamar Collection Designed for
                 Adults*</p>
             </td>
           </tr>
           <tr>
-            <td style="width:260px;" class="fw400-fs15-lh18">
+            <td style="width:260px;" class="fw400-fs15-lh18" valign="top">
               <p>Island of Rab</p>
             </td>
-            <td style="width:260px;" class="fw400-fs15-lh18">
+            <td style="width:260px;" class="fw400-fs15-lh18" valign="top">
               <p>Dubrovnik</p>
             </td>
           </tr>
@@ -1262,19 +1262,19 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:260px;" class="fw700-fs20-lh24">
+            <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
               <p>Avanturistička degustacija vina: Wine cellar Escape</p>
             </td>
-            <td style="width:260px;" class="fw700-fs20-lh24">
+            <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
               <p>Okusi Istru</p>
             </td>
 
           </tr>
           <tr>
-            <td style="width:260px;" class="fw400-fs15-lh22">
+            <td style="width:260px;" class="fw400-fs15-lh22" valign="top">
               <p>Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</p>
             </td>
-            <td style="width:260px;" class="fw400-fs15-lh22">
+            <td style="width:260px;" class="fw400-fs15-lh22" valign="top">
               <p>Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</p>
             </td>
 
@@ -1383,9 +1383,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22">Panoramic trip to Biokovo</td>
-            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22">Visit authentic Pelješac vineyards</td>
-            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22">Discover the beauty of the Elaphiti islands</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top">Panoramic trip to Biokovo</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top">Visit authentic Pelješac vineyards</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top">Discover the beauty of the Elaphiti islands</td>
           </tr>
           <tr>
             <td align="center" valign="middle" style="width:170px;">
@@ -1538,21 +1538,21 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- Text -->
     <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="10px" css-class="hide-on-mobile">
       <mj-column width="20%">
-        <mj-text mj-class="fw400-fs16-lh20" align = "center">Up to 10% discount on bookings</mj-text>
+        <mj-text mj-class="fw400-fs16-lh20" align="center">Up to 10% discount on bookings</mj-text>
       </mj-column>
       <mj-column width="10%">
         <mj-text>
         </mj-text>
       </mj-column>
       <mj-column width="20%">
-        <mj-text mj-class="fw400-fs16-lh20" align = "center">Collect and redeem points</mj-text>
+        <mj-text mj-class="fw400-fs16-lh20" align="center">Collect and redeem points</mj-text>
       </mj-column>
       <mj-column width="10%">
         <mj-text>
         </mj-text>
       </mj-column>
       <mj-column width="20%">
-        <mj-text mj-class="fw400-fs16-lh20" align = "center">Tailored and exclusive benefits</mj-text>
+        <mj-text mj-class="fw400-fs16-lh20" align="center">Tailored and exclusive benefits</mj-text>
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
@@ -1604,9 +1604,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section padding="0 30px 20px 30px">
       <mj-column>
         <mj-spacer css-class="hide-on-mobile" height="20px"></mj-spacer>
-        <mj-text align = "center">
-        <mj-raw >
-           <p class = "mobile-full-width">
+        <mj-text align="center">
+          <mj-raw>
+            <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
@@ -1624,8 +1624,8 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           display: inline-block;
           box-sizing: border-box;
           ">
-    Join now for free
-</a>
+                Join now for free
+              </a>
               <!--[if mso]></center></v:roundrect><![endif]-->
             </p>
           </mj-raw>
@@ -1654,16 +1654,20 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:265px;" class= "fw400-fs15-lh22"><p>Top Adriatic Destinations for Couples</p></td>
-            <td style="width:265px;" class= "fw400-fs15-lh22"><p>V Level: Holiday at the Highest Level</p></td>
+            <td style="width:265px;" class="fw400-fs15-lh22" valign="top">
+              <p>Top Adriatic Destinations for Couples</p>
+            </td>
+            <td style="width:265px;" class="fw400-fs15-lh22" valign="top">
+              <p>V Level: Holiday at the Highest Level</p>
+            </td>
 
           </tr>
           <tr>
             <td align="center" valign="middle" style="width:265px;">
-              <p class = "mobile-full-width">
-              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
@@ -1678,16 +1682,16 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           display: inline-block;
           box-sizing: border-box;
           ">
-    Find out more
-</a>
-              <!--[if mso]></center></v:roundrect><![endif]-->
-            </p>
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
             </td>
             <td valign="middle" align="center" style="width:265px;">
-              <p class = "mobile-full-width">
-              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
@@ -1702,10 +1706,10 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           display: inline-block;
           box-sizing: border-box;
           ">
-    Find out more
-</a>
-              <!--[if mso]></center></v:roundrect><![endif]-->
-            </p>
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
             </td>
           </tr>
         </mj-table>
@@ -1833,10 +1837,10 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section padding-top="0px" text-align="center">
       <mj-column border-top="1px solid lightgrey" padding-top="20px" css-class="align-center-mobile">
         <mj-social font-size="15px" icon-size="28px" mode="horizontal" text-padding="5px 20px 0 10px" icon-padding="5px 0 0 0">
-          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" mj-class = "fw400-fs15-lh24">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" mj-class="fw400-fs15-lh24">
             reservations@valamar.com
           </mj-social-element>
-          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" mj-class = "fw400-fs15-lh24">
+          <mj-social-element src="https://placehold.jp/28x28.png" href="https://mjml.io/" mj-class="fw400-fs15-lh24">
             +385 52 465 000
           </mj-social-element>
         </mj-social>
@@ -1848,7 +1852,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section>
       <mj-column>
         <mj-social font-size="20px" icon-size="48px" mode="horizontal" icon-padding="0 5px 0 5px" css-class="fw400-fs16-lh24">
-          <mj-social-element src="https://placehold.jp/48x48.png" href="https://mjml.io/" mj-class = "fw400-fs20-lh24">
+          <mj-social-element src="https://placehold.jp/48x48.png" href="https://mjml.io/" mj-class="fw400-fs20-lh24">
             Često postavljana pitanja ↗️
           </mj-social-element>
         </mj-social>
@@ -1873,9 +1877,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- Button -->
     <mj-section mj-class="grey-background">
       <mj-column>
-        <mj-text align = "center">
-        <mj-raw >
-           <p class = "mobile-full-width">
+        <mj-text align="center">
+          <mj-raw>
+            <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
@@ -1893,8 +1897,8 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           display: inline-block;
           box-sizing: border-box;
           ">
-    Update your profile 
-</a>
+                Update your profile
+              </a>
               <!--[if mso]></center></v:roundrect><![endif]-->
             </p>
           </mj-raw>
@@ -1910,23 +1914,23 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href = "">privacy policy.</a></mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href="">privacy policy.</a></mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href = "">here</a>.</mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href="">here</a>.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href = "">reservations@valamar.com.</a></mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href="">reservations@valamar.com.</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href = "">here</a>. </mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href="">here</a>. </mj-text>
       </mj-column>
     </mj-section>
     <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
@@ -1936,7 +1940,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
       <mj-column>
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href = "">newsletter@valamar.com.</a></mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href="">newsletter@valamar.com.</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Footer -->
