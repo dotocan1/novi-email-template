@@ -485,7 +485,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Paragraph + CTA -->
-
+    
     <!-- START: USP FOR DESKTOP -->
     <!-- Images -->
     <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top="20px">
@@ -575,6 +575,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-raw><span style="mso-element:field-end;"></span></mj-raw>
     <!-- END: USP -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Counter -->
     <!-- DESKTOP -->
@@ -590,6 +599,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Counter -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Voucher -->
     <!-- DESKTOP -->
@@ -613,6 +631,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Voucher  -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Gift voucher CTA -->
     <mj-section padding-bottom="0px" css-class="mobile-padding-bottom-20">
@@ -663,6 +690,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Gift voucher CTA -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: 1xproperty,USP,2x foto -->
     <mj-section>
@@ -1083,6 +1119,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Activity -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Rezervacija, kontakt + adresa -->
     <mj-section>
@@ -1148,6 +1193,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Rezervacija, kontakt + adresa -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Event -->
     <mj-section>
@@ -1209,6 +1263,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Experience concierge -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Check in CTA -->
     <mj-section>
@@ -1256,6 +1319,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Check in CTA -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: My Valamar app CTA -->
     <mj-section>
@@ -1269,6 +1341,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: My Valamar app CTA -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Experiences x2 -->
     <!-- Text Content for both -->
@@ -1391,6 +1472,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Experiences x2 -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Experiences x3 -->
     <!-- Text Content for both -->
@@ -1527,6 +1617,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Experiences x3 -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Valamar + Club-->
     <mj-section padding="20px 30px 0px 30px" text-align="center">
@@ -1665,6 +1764,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Valamar + Club-->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Inspiration -->
     <!-- Text Content for both -->
@@ -1770,6 +1878,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Inspiration -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Why book -->
     <mj-section padding="20px 30px 0 30px">
@@ -1824,6 +1941,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Why book -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Moments -->
     <mj-section>
@@ -1841,6 +1967,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Moments -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: Brands  -->
     <mj-section>
@@ -1879,6 +2014,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Brands  -->
+    
+    <!-- START: Spacing starts here -->
+   <mj-section padding = "0px" background-color = "#f2f2f2">
+     <mj-column>
+     <mj-text height = "10px">
+       </mj-text>
+     </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
 
     <!-- START: FAQ -->
     <mj-section>
