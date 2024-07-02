@@ -315,7 +315,13 @@
       /** DARK MODE **/
       @media (prefers-color-scheme: dark) {
       body, body > div:nth-child(2), .spacer * {
-      background: #232323 !important;
+      background: #000000 !important;
+      }
+      .dark-background td{
+      background:#232323 !important;
+      }
+      .dark-background * {
+      color: #ffffff !important;
       }
       }
 
@@ -324,7 +330,7 @@
   <mj-body background-color="#f2f2f2">
 
     <!-- START: Header -->
-    <mj-section css-class="valign loyalty-block-no-bottom-padding" padding-bottom="40px">
+    <mj-section css-class="valign loyalty-block-no-bottom-padding dark-background" padding-bottom="40px">
       <mj-column>
         <mj-spacer height="20px" />
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" mj-class="header-image" width="180px" height="48px" />
@@ -458,7 +464,7 @@
     <!-- END: Main banner 2 x foto -->
 
     <!-- START: Paragraph + CTA -->
-    <mj-section>
+    <mj-section css-class = "dark-background">
       <mj-column>
         <mj-text mj-class="fw400-fs24-lh32" css-class="fw400-fs28-lh32">
           Dear Mr. Doe,
@@ -2097,39 +2103,39 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- Text content -->
-    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br />johndoe@gmail.com. </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href="">privacy policy.</a></mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href="">here</a>.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href="">reservations@valamar.com.</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href="">here</a>. </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding">
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter. </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="align-left-mobile" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
       <mj-column>
         <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href="">newsletter@valamar.com.</a></mj-text>
       </mj-column>
