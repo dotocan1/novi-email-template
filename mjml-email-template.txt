@@ -313,11 +313,11 @@
       }
 
       /** DARK MODE **/
-     @media (prefers-color-scheme: dark) {
-  		body  {
+      @media (prefers-color-scheme: dark) {
+      body, body > div:nth-child(2), .spacer * {
       background: #232323 !important;
       }
-}
+      }
 
     </mj-style>
   </mj-head>
@@ -589,7 +589,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: USP -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -613,7 +613,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Counter -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -645,7 +645,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Voucher  -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -704,7 +704,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Gift voucher CTA -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1133,7 +1133,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Activity -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1207,7 +1207,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Rezervacija, kontakt + adresa -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1280,7 +1280,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Experience concierge -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1336,7 +1336,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Check in CTA -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1358,7 +1358,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: My Valamar app CTA -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1489,7 +1489,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Experiences x2 -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1634,7 +1634,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Experiences x3 -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1781,7 +1781,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Valamar + Club-->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1895,7 +1895,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Inspiration -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1958,7 +1958,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Why book -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -1984,7 +1984,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Moments -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
@@ -2031,7 +2031,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Brands  -->
 
     <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2">
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
         </mj-text>
