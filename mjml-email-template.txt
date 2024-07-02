@@ -1250,9 +1250,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       <mj-column width="50%">
         <mj-image src="https://placehold.jp/265x265.png" width="265px" height="265px" fluid-on-mobile="true" />
       </mj-column>
-      <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile" background-color="#f2f2f2">
+      <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile" >
         <mj-text mj-class="fw700-fs20-lh24">Experience concierge</mj-text>
-        <mj-spacer height="20px" css-class="hide-on-mobile "></mj-spacer>
+        <mj-spacer css-class="hide-on-mobile "></mj-spacer>
         <mj-text mj-class="fw400-fs15-lh20">
           Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
           <ul>
