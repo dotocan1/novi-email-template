@@ -4,7 +4,7 @@
       <meta name="color-scheme" content="light dark">
       <meta name="supported-color-schemes" content="light dark">
     </mj-raw>
-    <mj-preview>This is a preheader&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
+    <mj-preview>This is preheader&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
     <mj-attributes>
       <!-- General styles -->
       <mj-column padding="0px"></mj-column>
@@ -45,7 +45,7 @@
       <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
       <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
       <!-- Button styling -->
-      <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="48px" width="100%" />
+      <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="52px" width="100%" font-family ="Arial, sans-serif" font-weight = "700" font-size = "16px" line-height = "20px"/>
       <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
     </mj-attributes>
@@ -83,17 +83,20 @@
       /** Text stylings START **/
 
       .fw400-fs15-lh18 * {
+      font-family:Arial, sans-serif;
       font-weight:400 !important;
       font-size:15px !important;
       line-height: 18px !important;
       }
       .fw700-fs20-lh24 * {
+      font-family:Arial, sans-serif;
       font-weight:700 !important;
       font-size:20px !important;
       line-height: 24px !important;
       }
 
       .fw400-fs15-lh22 *{
+      font-family:Arial, sans-serif;
       font-weight:400 !important;
       font-size:15px !important;
       line-height: 22px !important;
@@ -182,34 +185,40 @@
       /** Text stylings START **/
 
       .fw400-fs16-lh24 *{
+      font-family:Arial, sans-serif;
       font-weight: 400 !important;
       font-size:16px !important;
       line-height: 24px !important;
       }
 
       .fw400-fs18-lh24 div{
+      
       text-align: left !important;
       }
 
       .fw400-fs28-lh32 *{
+      font-family:Arial, sans-serif;
       font-weight : 400 !important;
       font-size: 28px !important;
       line-height: 32px !important;
       }
 
       .fw700-fs20-lh24 *{
+      font-family:Arial, sans-serif;
       font-weight : 700 !important;
       font-size: 20px !important;
       line-height: 24px !important;
       }
 
       .fw700-fs28-lh28 *{
+      font-family:Arial, sans-serif;
       font-weight : 700 !important;
       font-size: 28px !important;
       line-height: 28px !important;
       }
 
       .fw700-fs20-lh32 *{
+      font-family:Arial, sans-serif;
       font-weight : 700 !important;
       font-size: 20px !important;
       line-height: 32px !important;
@@ -347,7 +356,7 @@
     <!-- END: Header -->
 
     <!-- START: Loyalty traka-->
-    <mj-section mj-class="loyalty-section">
+    <mj-section mj-class="loyalty-section" css-class = "dark-background">
       <mj-group>
         <!-- Valamar plus club logo -->
         <mj-column vertical-align="middle" css-class="loyalty-hide-on-mobile" width="20%" padding-bottom="0px" padding-top="0px">
@@ -387,13 +396,13 @@
 
     <!-- START: Main banner + CTA, photo 3:2 -->
     <!-- DESKTOP -->
-    <mj-section css-class="hide-on-mobile">
+    <mj-section css-class="hide-on-mobile dark-background">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/01.png" width="540px" height="360px" />
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/h2l5kvti.png" fluid-on-mobile="true" />
       </mj-column>
@@ -402,7 +411,7 @@
 
     <!-- START: Main banner CTA, foto 1:1 -->
     <!-- DESKTOP -->
-    <mj-section css-class="hide-on-mobile">
+    <mj-section css-class="hide-on-mobile dark-background">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/02--edited.png" height="270px" width="540px" />
       </mj-column>
@@ -417,7 +426,7 @@
 
     <!-- START: Main banner, foto 2:1  -->
     <!-- DESKTOP -->
-    <mj-section css-class="hide-on-mobile">
+    <mj-section css-class="hide-on-mobile dark-background">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/03.png" width="540px" height="270px" />
       </mj-column>
@@ -432,7 +441,7 @@
 
     <!-- START: Main banner 2 x foto -->
     <!-- DESKTOP -->
-    <mj-section css-class="hide-on-mobile">
+    <mj-section css-class="hide-on-mobile dark-background">
       <mj-column width="265px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/04.png" width="265px" padding="0px" height="265px" />
       </mj-column>
@@ -506,7 +515,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: USP FOR DESKTOP -->
     <!-- Images -->
-    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top="20px">
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile dark-background" padding-bottom="0px" padding-top="20px">
       <mj-column width="20%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="42px" height="42px" />
       </mj-column>
@@ -526,7 +535,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- Text -->
-    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="20px" css-class="hide-on-mobile">
+    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="20px" css-class="hide-on-mobile dark-background">
       <mj-column width="20%">
         <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
       </mj-column>
@@ -605,7 +614,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Counter -->
     <!-- DESKTOP -->
-    <mj-section>
+    <mj-section css-class = "dark-background">
       <mj-column>
         <mj-image mj-class="desktop-image" src="https://gen.sendtric.com/countdown/84ileb6dik" width="540px" fluid-on-mobile="true" />
       </mj-column>
