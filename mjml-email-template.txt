@@ -614,7 +614,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Counter -->
     <!-- DESKTOP -->
-    <mj-section css-class = "dark-background">
+    <mj-section>
       <mj-column>
         <mj-image mj-class="desktop-image" src="https://gen.sendtric.com/countdown/84ileb6dik" width="540px" fluid-on-mobile="true" />
       </mj-column>
@@ -632,19 +632,19 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Voucher -->
     <!-- DESKTOP -->
-    <mj-section mj-class="voucher-section" css-class="hide-on-mobile" padding-bottom="0px" padding-top="20px">
+    <mj-section mj-class="voucher-section" css-class="hide-on-mobile dark-background" padding-bottom="0px" padding-top="20px">
       <mj-column width="540px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/06--edited.png" width="540px" />
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section mj-class="voucher-section" css-class="hide-on-desktop hide-on-outlook" padding-bottom="0px">
+    <mj-section mj-class="voucher-section" css-class="hide-on-desktop hide-on-outlook dark-background" padding-bottom="0px">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/06--edite.png" width="280px" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- Text content for both versions -->
-    <mj-section>
+    <mj-section css-class = "dark-background">
       <mj-column width="100%">
         <mj-text mj-class="fw400-fs13-lh18">
           Vaučer vrijedi isključivo za nove rezervacije te se ponuda ne može kombinirati s drugim promocijama. Vaučer vrijedi za sve boravke u roku od 18 mjeseci od njegova zaprimanja. Primjenjuje se na sve boravke u trajanju od najmanje pet noći. Vaučer se može iskoristiti do 6 mjeseca od njegova zaprimanja. Moguća je primjena dodatnih ograničenja. Vaučer je moguće iskoristiti isključivo na web stranici www.valamar.com
@@ -663,7 +663,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Spacing ends here -->
 
     <!-- START: Gift voucher CTA -->
-    <mj-section padding-bottom="0px" css-class="mobile-padding-bottom-20">
+    <mj-section padding-bottom="0px" css-class="mobile-padding-bottom-20 dark-background">
       <mj-column width="50%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/07.png" fluid-on-mobile="true" width="265px" />
         <mj-spacer height="20px" />
@@ -722,13 +722,13 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Spacing ends here -->
 
     <!-- START: 1xproperty,USP,2x foto -->
-    <mj-section>
+    <mj-section css-class = "dark-background">
       <mj-column>
         <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Find your perfect winter holiday</mj-text>
       </mj-column>
     </mj-section>
     <!-- DESKTOP -->
-    <mj-section css-class="hide-on-mobile" padding-top="0px" padding-bottom="0px">
+    <mj-section css-class="hide-on-mobile dark-background" padding-top="0px" padding-bottom="0px">
       <mj-column width="265px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/08.png" width="265px" height="200px" />
       </mj-column>
@@ -741,7 +741,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook " padding-bottom="0px">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background " padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/08.png" fluid-on-mobile="true" />
@@ -773,7 +773,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section padding-bottom="0px">
+    <mj-section padding-bottom="0px" css-class = "dark-background">
       <mj-column vertical-align="middle">
         <mj-social mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" href="https://mjml.io/" padding-right="10px">
@@ -782,7 +782,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section padding-bottom="0px">
+    <mj-section padding-bottom="0px" css-class = "dark-background">
       <mj-column vertical-align="middle">
         <mj-social mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" href="https://mjml.io/" padding-right="10px">
