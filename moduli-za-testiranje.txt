@@ -1,0 +1,1217 @@
+<!-- START: Destination experience -->
+    <!-- First section -->
+    <mj-section css-class = "dark-background">
+      <mj-column width="50%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/12.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="46%">
+        <mj-text mj-class="fw400-fs15-lh22">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
+          <br />
+          <br />
+          <strong>Top 3 beaches in Rabac:</strong>
+          <ul>
+            <li>Girandella Beach</li>
+            <li>St Andrea Beach</li>
+            <li>Lanterna Beach</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. There is another hidden gem in Brseč which you can reach easier by boat!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl" css-class = "dark-background">
+      <mj-column width="50%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/13.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="46%">
+        <mj-text mj-class="fw400-fs15-lh22"><strong>3 things to do in Dubrovnik:</strong>
+          <ul>
+            <li>Visit Mount Srđ & descent by foot</li>
+            <li>Walk the Dubrovnik Walls</li>
+            <li>Take a kayak tour of the Old Town from the outside</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Destination experience -->
+
+    <!-- START: Property -->
+    <!-- First section -->
+    <mj-section css-class = "dark-background"> 
+      <mj-column width="50%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/14.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Obertauern [PLACESHOTEL] by Valamar
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">TOP CHOICE FOR MILLENIALS
+          <ul>
+            <li>€60 daily credit per two persons for restaurants and bars</li>
+            <li>pool with serene indoor zones</li>
+            <li>evening DJ music programme</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text>
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: 100%;
+          
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                From 225
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl" css-class = "dark-background">
+      <mj-column width="50%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/15.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Kesselspitze Valamar Collection Hotel 4* Superiror
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">PREMIUM ACCOMMODATION
+          <ul>
+            <li>Ski-in & ski-out hotel</li>
+            <li>NEW: free parking in the underground garage</li>
+            <li>NEW: upgraded gourmet offer</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. Check out our exclusive V level Chalet</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text>
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: 100%;
+          
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                From 278
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Property -->
+
+    <!-- START: Activity -->
+    <!-- First section -->
+    <mj-section css-class = "dark-background">
+      <mj-column width="50%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/16.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Obertasty
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy a buffet breakfast and a buffet dinner. If you don’t make it to dinner, you can use €30 daily credit per person on food or drinks at our bars.
+          <br />
+          <br />
+          If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Start relaxing</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl" css-class = "dark-background">
+      <mj-column width="50%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/17.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="4%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="46%">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Oberfun
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}">Feel the Obervibes</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Activity -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section  padding="0px" background-color="#f2f2f2" css-class = "spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Rezervacija, kontakt + adresa -->
+    <mj-section css-class = "dark-background">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Vaš smještaj</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- DESKTOP -->
+    <mj-section css-class="hide-on-mobile dark-background" padding-top="0px" padding-bottom="0px">
+      <mj-column width="265px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/18.png" width="265px" height="200px" />
+      </mj-column>
+      <mj-column width="10px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/19.png" width="265px" height="200px" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background" padding-bottom="0px">
+      <mj-group>
+        <mj-column width="48%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/18.png" fluid-on-mobile="true" />
+        </mj-column>
+        <mj-column width="4%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+        <mj-column width="48%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/19.png" fluid-on-mobile="true" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Content for both devices -->
+    <mj-section text-align="left" css-class = "dark-background">
+      <mj-column>
+        <mj-text mj-class="fw700-fs20-lh24" css-class="align-center-mobile">
+          Istra Premium Camping Resort 5*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="0px" css-class = "dark-background">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Adresa: Grgeti 35, 52452 Funtana</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" css-class = "dark-background">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Telefon: +385 52 445 123</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" css-class = "dark-background">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px" css-class = "dark-background">
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="fw400-fs14-lh21">Za jamstvo rezervacije u slučaju kasnog dolaska (poslije 20:00), molimo kontaktirajte recepciju na broj telefona +385 52 445 123</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Rezervacija, kontakt + adresa -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Event -->
+    <mj-section css-class = "dark-background">
+      <mj-column>
+        <!-- DESKTOP -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/20.png" width="540px" height="270px" fluid-on-mobile="true" css-class="hide-on-outlook hide-on-mobile" />
+        <!-- MOBILE -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/avrm42vz.png" fluid-on-mobile="true" css-class="hide-on-desktop" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 20px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-text mj-class="fw400-fs15-lh22">
+          Get ready to start this season in style! Chart stormers Pizzera & Jaus are preparing to shake the stage with their most popular hits, such as “Hooligans”, or “Ein ins Leben”. Don’t miss out on this upcoming ski opening event and save the date!
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text align="center">
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                Learn more
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Event -->
+
+    <!-- START: Experience concierge  -->
+    <mj-section css-class = "dark-background">
+      <mj-column width="50%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/21.png" width="265px" height="265px" fluid-on-mobile="true" />
+      </mj-column>
+      <mj-column width="50%" padding="40px 20px 40px 20px" css-class="experience-block-no-padding-on-mobile">
+        <mj-text mj-class="fw700-fs20-lh24">Experience concierge</mj-text>
+        <mj-spacer css-class="hide-on-mobile "></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh20">
+          Our Valamar Experience Concierge will be happy to plan all the activities related to your upcoming holiday, such as:
+          <ul>
+            <li>Equipment rental</li>
+            <li>Ski or snoboarding school organization</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experience concierge -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Check in CTA -->
+    <mj-section css-class = "dark-background">
+      <!-- Image -->
+      <mj-column width="30%">
+        <mj-image padding-top="20px" src="https://email.valamar.com/assets/responsysimages/content/valamarri/asdasasdffff213.png" width="160px" height="160px" />
+      </mj-column>
+      <!-- Empty space -->
+      <mj-column width="2%">
+        <mj-text></mj-text>
+      </mj-column>
+      <!-- Text content -->
+      <mj-column width="68%">
+        <mj-text mj-class="fw700-fs20-lh24" css-class="mobile-padding-top-20">Napravite online Check-in unaprijed</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22">Kako biste počeli uživati u svojem odmoru čim stignete, od ovog trenutka imate mogućnost napraviti online prijavu u nekoliko jednostavnih koraka. Veselimo se Vašem dolasku!</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text>
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                Online prijava
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Check in CTA -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: My Valamar app CTA -->
+    <mj-section css-class = "dark-background">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">My Valamar app</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <!-- FOR DESKTOP -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/22--edited-desktop.png" width="600px" height="280px" css-class="hide-on-mobile" />
+        <!-- FOR MOBILE -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/22--edited-mobile.png" width="280px" height="520px" css-class="hide-on-desktop hide-on-outlook" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: My Valamar app CTA -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Experiences x2 -->
+    <!-- Text Content for both -->
+    <mj-section padding="20px 30px 0px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Valamar Concierge</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- DESKTOP-->
+    <mj-section css-class="hide-on-mobile dark-background">
+      <mj-column>
+        <mj-table align="center" cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
+          <tr>
+            <td style="width:260px;">
+              <img height="195" src="https://email.valamar.com/assets/responsysimages/content/valamarri/23.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
+            </td>
+            <td style="width:260px;">
+              <img height="195" src="https://email.valamar.com/assets/responsysimages/content/valamarri/24.png" style="border:0;display:block;outline:none;text-decoration:none;height:195px;width:100%;font-size:13px;" width="260" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
+              <p>Avanturistička degustacija vina: Wine cellar Escape</p>
+            </td>
+            <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
+              <p>Okusi Istru</p>
+            </td>
+
+          </tr>
+          <tr>
+            <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
+              <p>Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</p>
+            </td>
+            <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
+              <p>Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</p>
+            </td>
+
+          </tr>
+          <tr>
+            <td align="left" valign="middle" style="width:260px;">
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+            <td align="left" valign="middle" style="width:260px;">
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE-->
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+      <!-- First recommendation -->
+      <mj-column width="100%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/23.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">Avanturistička degustacija vina: Wine cellar Escape</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Naoružajte se znanjem i povedite prijatelje u zabavnu vinsku pustolovinu!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Learn more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column width="100%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/24.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw700-fs20-lh24">Okusi Istru</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Vodimo te u obilazak OPG-a Chiavalon, jednog od najboljih svjetskih proizvođača maslinovog ulja i dobitnika maslinarskog oskara Il Premio Magnifico 2022!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Learn more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experiences x2 -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Experiences x3 -->
+    <!-- Text Content for both -->
+    <mj-section padding="20px 30px 0px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Our recommendations for a
+          fun-filled holiday</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- DESKTOP-->
+    <mj-section css-class="hide-on-mobile dark-background">
+      <mj-column>
+        <mj-table align="center" cellpadding="2" css-class="align-center-outlook align-center" line-height="100%">
+          <tr>
+            <td style="width:170px;">
+              <img height="170" src="https://email.valamar.com/assets/responsysimages/content/valamarri/25.png" style="border:0;display:block;outline:none;text-decoration:none;height:170px;width:100%;font-size:13px;" width="170" />
+            </td>
+            <td style="width:170px;">
+              <img height="170" src="https://email.valamar.com/assets/responsysimages/content/valamarri/26.png" style="border:0;display:block;outline:none;text-decoration:none;height:170px;width:100%;font-size:13px;" width="170" />
+            </td>
+            <td style="width:170px;">
+              <img height="170" src="https://email.valamar.com/assets/responsysimages/content/valamarri/27.png" style="border:0;display:block;outline:none;text-decoration:none;height:170px;width:100%;font-size:13px;" width="170" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top">Panoramic trip to Biokovo</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top">Visit authentic Pelješac vineyards</td>
+            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top">Discover the beauty of the Elaphiti islands</td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" style="width:170px;">
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width:auto;
+          padding: 16px 30px 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+            <td valign="middle" align="center" style="width:170px;">
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width:auto;
+          padding: 16px 30px 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+            <td valign="middle" align="center" style="width:170px;">
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width:auto;
+          padding: 16px 30px 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE-->
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+      <!-- First recommendation -->
+      <mj-column width="100%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/25.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Panoramic trip to Biokovo</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column width="100%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/26.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Visit authentic Pelješac vineyards</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Third recommendation -->
+      <mj-column width="100%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/27.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22" align="center">Discover the beauty of the Elaphiti islands</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button">Find out more</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Experiences x3 -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Valamar + Club-->
+    <mj-section padding="20px 30px 0px 30px" text-align="center" css-class = "dark-background">
+      <mj-column>
+        <mj-text align="center" mj-class="fw700-fs20-lh34">Valamar+Club</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 0px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Belonging means entering a world of advantages</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 30px 20px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs15-lh22">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- DESKTOP -->
+    <!-- Images -->
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile dark-background" padding-bottom="0px">
+      <mj-column width="20%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="42px" height="42px" />
+      </mj-column>
+    </mj-section>
+    <!-- Text -->
+    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="20px" css-class="hide-on-mobile dark-background">
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs16-lh20" align="center">Up to 10% discount on bookings</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs16-lh20" align="center">Collect and redeem points</mj-text>
+      </mj-column>
+      <mj-column width="10%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-text mj-class="fw400-fs16-lh20" align="center">Tailored and exclusive benefits</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-raw><span style="mso-element:field-begin;"></span></mj-raw>
+    <!-- First section -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs16-lh20">Up to 10% discount on bookings</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs16-lh20">Collect and redeem points</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Third section -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs16-lh20">Tailored and exclusive benefits</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-raw><span style="mso-element:field-end;"></span></mj-raw>
+    <!-- Button -->
+    <mj-section padding="0 30px 20px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-spacer css-class="hide-on-mobile" height="20px"></mj-spacer>
+        <mj-text align="center">
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                Join now for free
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Valamar + Club-->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Inspiration -->
+    <!-- Text Content for both -->
+    <mj-section padding="20px 30px 0px 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Get inspired & come to the Adriatic!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- DESKTOP-->
+    <mj-section css-class="hide-on-mobile dark-background ">
+      <mj-column>
+        <mj-table align="center" cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
+          <tr>
+            <td style="width:265px;">
+              <img height="265" src="https://email.valamar.com/assets/responsysimages/content/valamarri/28.png" style="border:0;display:block;outline:none;text-decoration:none;height:265px;width:100%;font-size:13px;" width="265" />
+            </td>
+            <td style="width:265px;">
+              <img height="265" src="https://email.valamar.com/assets/responsysimages/content/valamarri/29.png" style="border:0;display:block;outline:none;text-decoration:none;height:265px;width:100%;font-size:13px;" width="265" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width:265px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
+              <p>Top Adriatic Destinations for Couples</p>
+            </td>
+            <td style="width:265px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
+              <p>V Level: Holiday at the Highest Level</p>
+            </td>
+
+          </tr>
+          <tr>
+            <td align="center" valign="middle" style="width:265px;">
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+            <td valign="middle" align="center" style="width:265px;">
+              <p class="mobile-full-width">
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 30px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  Find out more
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE-->
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background        ">
+      <!-- First recommendation -->
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/28.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+
+        <mj-text mj-class="fw400-fs15-lh22">Top Adriatic Destinations for Couples</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button" width="75%" align="center">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <!-- Second recommendation -->
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/29.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">V Level: Holiday at the Highest Level</mj-text>
+        <mj-spacer height="20px" />
+        <mj-button mj-class="general-button" width="75%" align="center">Find out more</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Inspiration -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Why book -->
+    <mj-section padding="20px 30px 0 30px" css-class = "dark-background">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Why book with us</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <!-- Checkmarks -->
+    <!-- First checkmark -->
+    <mj-section text-align="left" css-class="remove-border dark-background" padding="20px 30px 0 30px" border-top="1px solid lightgrey">
+      <mj-group>
+        <mj-column width="15%" padding="0px 0 20px 0">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" width="28px" height="28px" align="left" />
+        </mj-column>
+        <mj-column width="8%" padding="0px 0 20px 0">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column width="77%" padding="0px 0 20px 0">
+          <mj-text mj-class="fw400-fs15-lh24" align="left">Free cancelation</mj-text>
+        </mj-column>
+      </mj-group>
+      <!-- Second checkmark -->
+      <mj-group>
+        <mj-column width="15%" padding="0px 0 20px 0">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" width="28px" height="28px" align="left" />
+        </mj-column>
+        <mj-column width="8%" padding="0px 0 20px 0">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column width="77%" padding="0px 0 20px 0">
+          <mj-text mj-class="fw400-fs15-lh24" align="left">No prepayment needed</mj-text>
+        </mj-column>
+      </mj-group>
+      <!-- Third checkmark -->
+      <mj-group>
+        <mj-column width="15%" padding="0px 0 20px 0">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" width="28px" height="28px" align="left" />
+        </mj-column>
+        <mj-column width="8%" padding="0px 0 20px 0">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column width="77%" padding="0px 0 20px 0">
+          <mj-text mj-class="fw400-fs15-lh24" align="left">Best price guarantee</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Image -->
+    <mj-section css-class = "dark-background">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/36.png" width="540px" height="256px" css-class="hide-on-mobile" />
+        <!-- MOBILE -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/36123123.png" fluid-on-mobile="true" css-class="hide-on-desktop hide-on-outlook " />
+      </mj-column>
+    </mj-section>
+    <!-- END: Why book -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Moments -->
+    <mj-section css-class = "dark-background">
+      <mj-column>
+        <mj-text align="center" mj-class="fw700-fs35-lh38" css-class="fw400-fs28-lh32">Budi dio<br />
+          #PlacesMoments</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 30px 20px 30px" css-class = "dark-background">
+      <mj-column>
+        <!-- Desktop -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/37.png" width="540px" height="400px" css-class="hide-on-mobile"></mj-image>
+        <!-- Mobile -->
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/372312312.png" css-class="hide-on-desktop hide-on-outlook" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- END: Moments -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: Brands  -->
+    <mj-section css-class = "dark-background">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" align="center" width="200px" height="50px" />
+      </mj-column>
+    </mj-section>
+    <!-- Other elements -->
+    <mj-section padding-top="0px" text-align="center" css-class="vertical-align dark-background">
+      <mj-column vertical-align="middle">
+        <mj-social mode="horizontal" icon-padding="15px">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-valamar-collection@3x.png" href="https://mjml.io/" icon-height="30px" icon-size="80px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-valamar-hotels-resorts@3x.png" href="https://mjml.io/" icon-height="25px" icon-size="100px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-places-by-valamar@3x.png" href="https://mjml.io/" icon-height="25px" icon-size="80px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-sunny-by-valamar@3x.png" href="https://mjml.io/" icon-height="35px" icon-size="75px" align="center">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-camping-adriatic@3x.png" href="https://mjml.io/" icon-height="40px" icon-size="50px" align="center">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- Contact info -->
+    <mj-section padding-top="0px" text-align="center" css-class = "dark-background">
+      <mj-column border-top="1px solid lightgrey" padding-top="20px" css-class="align-center-mobile">
+        <mj-social font-size="15px" icon-size="28px" mode="horizontal" text-padding="5px 20px 0 10px" icon-padding="5px 0 0 0">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/asdfsdgsd2213.png" href="https://mjml.io/" mj-class="fw400-fs15-lh24">
+            reservations@valamar.com
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/sdfsdg44.png" href="https://mjml.io/" mj-class="fw400-fs15-lh24">
+            +385 52 465 000
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: Brands  -->
+
+    <!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+
+    <!-- START: FAQ -->
+    <mj-section css-class = "dark-background">
+      <mj-column>
+        <mj-social font-size="20px" icon-size="48px" mode="horizontal" icon-padding="0 5px 0 5px" css-class="fw400-fs16-lh24">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/08qweqweq.png" href="https://mjml.io/" mj-class="fw400-fs20-lh24">
+            Često postavljana pitanja ↗️
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: FAQ -->
+<!-- START: Spacing starts here -->
+    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer hide-on-light">
+      <mj-column>
+        <mj-text height="10px">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Spacing ends here -->
+    <!-- START: Footer -->
+    <!-- Socials -->
+    <mj-section mj-class="grey-background" css-class = "dark-background">
+      <mj-column>
+        <mj-social icon-size="30px" mode="horizontal" icon-padding="0 10px 0 10px">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/sfasfadsf23.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/qwqsdas123.png" href="https://mjml.io/">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/123123fasf.png" href="https://mjml.io/">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- Button -->
+    <mj-section mj-class="grey-background" css-class = "dark-background">
+      <mj-column>
+        <mj-text align="center">
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#00C2BF;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: 'Arial', sans-serif;
+          line-height:20px;
+          width: auto;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                Update your profile
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Text content -->
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br />johndoe@gmail.com. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href="">privacy policy.</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href="">here</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href="">reservations@valamar.com.</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href="">here</a>. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href="">newsletter@valamar.com.</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Footer -->
