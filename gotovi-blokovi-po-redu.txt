@@ -596,4 +596,571 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: 2 x property -->
 
+<mjml>
+  <mj-head>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark">
+      <meta name="supported-color-schemes" content="light dark">
+    </mj-raw>
+    <mj-preview>This is preheader&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
+    <mj-attributes>
+      <!-- General styles -->
+      <mj-column padding="0px"></mj-column>
+      <mj-image padding="0px"></mj-image>
+      <mj-text padding="0px"></mj-text>
+      <mj-table padding="0px"></mj-table>
+      <mj-social padding="0px" padding-bottom="0px"></mj-social>
+      <mj-social-element padding="0px"></mj-social-element>
+      <mj-section padding="20px 30px 20px 30px" background-color="#ffffff"></mj-section>
+      <!-- Classes -->
+      <!-- Sections and columns -->
+      <mj-class name="loyalty-section" padding-top="4px" padding-bottom="8px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
+      <mj-class name="grey-background" background-color="#f2f2f2" />
+      <mj-class name="no-top-bottom-padding" padding="0 30px 0 30px" />
+      <mj-class name="column" border="1px blue solid" />
+      <!-- Text styling -->
+      <!-- Font weight 400 -->
+      <mj-class name="fw400-fs12-lh20" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="20px" />
+      <mj-class name="fw400-fs13-lh18" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="13px" line-height="18px" />
+      <mj-class name="fw400-fs14-lh21" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="14px" line-height="21px" />
+      <mj-class name="fw400-fs15-lh22" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="22px" />
+      <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw400-fs15-lh24" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="24px" />
+      <mj-class name="fw400-fs16-lh20" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="16px" line-height="20px" />
+      <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="18px" line-height="24px" />
+      <mj-class name="fw400-fs20-lh24" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="20px" line-height="24px" />
+      <mj-class name="fw400-fs24-lh32" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="24px" line-height="32px" />
+      <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="28px" line-height="32px" />
+      <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="35px" line-height="38px" />
+      <!-- Font weight 700 -->
+      <mj-class name="fw700-fs12-lh18" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="18px" />
+      <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="20px" line-height="24px" />
+      <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="20px" line-height="34px" />
+      <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="28px" line-height="34px" />
+      <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="22px" line-height="24px" />
+      <mj-class name="fw700-fs35-lh38" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="35px" line-height="38px" />
+      <!-- Specific text styling -->
+      <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
+      <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
+      <!-- Button styling -->
+      <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="52px" width="100%" font-family ="Arial, 'Open Sans', sans-serif" font-weight = "700" font-size = "16px" line-height = "20px" css-class = "cta-button" />
+      <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
+      <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .hide-on-outlook *{
+      mso-hide:all;
+      }
+
+      .align-center-outlook div{
+      text-align: center !important;
+      }
+      .align-left-outlook div{
+      text-align: left !important;
+      }
+
+      .vertical-align *{
+      vertical-align: middle !important;
+      }
+
+
+    </mj-style>
+    <mj-style>
+      *{
+      font-weight:400;
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-size:15px;
+      line-height: 22px;
+      color: #000000;
+      }
+      
+      .hide-on-light {
+      display: none !important;
+      overflow: hidden !important;
+      }
+
+      p{
+      margin: 0px;
+      }
+
+      /** Text stylings START **/
+
+      .fw400-fs15-lh18 * {
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight:400 !important;
+      font-size:15px !important;
+      line-height: 18px !important;
+      }
+      .fw700-fs20-lh24 * {
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight:700 !important;
+      font-size:20px !important;
+      line-height: 24px !important;
+      }
+
+      .fw400-fs15-lh22 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight:400 !important;
+      font-size:15px !important;
+      line-height: 22px !important;
+      }
+
+      /** Text stylings END **/
+
+      .align-left *{
+      text-align: left !important;
+      }
+
+      .align-center *{
+      text-align: center !important;
+      }
+
+      ul{
+      margin-bottom: 0px;
+      }
+
+
+
+      .hide-on-desktop {
+      display: none !important;
+      overflow: hidden !important;
+      }
+
+
+      .button {
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      }
+
+      .secondary-button {
+      background-color: #ffffff;
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 8px;
+      height: 40x;
+      width: 50%;
+      border: none;
+      color: #000000;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      border: 1px solid #000000;
+      }
+
+      .loyalty-track-text-bold{
+      font-weight: bold;
+      }
+
+      th{
+      font-weight: 700;
+      font-family: Arial, 'Open Sans', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: left;
+      }
+
+
+      .web-overview div {
+      text-align:center !important;
+      }
+
+      /** Mobile only **/
+
+      @media (max-width: 480px) {
+
+      /** Text stylings START **/
+
+      .fw400-fs16-lh24 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight: 400 !important;
+      font-size:16px !important;
+      line-height: 24px !important;
+      }
+
+      .fw400-fs18-lh24 div{
+      
+      text-align: left !important;
+      }
+
+      .fw400-fs28-lh32 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 400 !important;
+      font-size: 28px !important;
+      line-height: 32px !important;
+      }
+
+      .fw700-fs20-lh24 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 24px !important;
+      }
+
+      .fw700-fs28-lh28 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 700 !important;
+      font-size: 28px !important;
+      line-height: 28px !important;
+      }
+
+      .fw700-fs20-lh32 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 32px !important;
+      }
+
+
+      /** Text stylings END **/
+
+      .mobile-padding-top-20 {
+      padding-top: 20px !important;
+      }
+      .mobile-padding-bottom-20 {
+      padding-bottom: 20px !important;
+      }
+      .online-check-in-button {
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      text-align: center !important;
+      border-radius: 8px;
+      height: 40x;
+      width: 100% !important;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
+      }
+
+      .online-check-in-button * {
+      text-align: center !important;
+      }
+
+      .align-left-mobile *{
+      text-align: left !important;
+      }
+
+      .align-left-center *{
+      text-align: left !important;
+      }
+
+      .align-center-mobile *{
+      text-align: center !important;
+      }
+
+      .hide-on-desktop {
+      display: block !important;
+      overflow : visible !important;
+      }
+
+      .mobile-full-width a{
+      width: 100% !important;
+      }
+
+      .loyalty-block-no-bottom-padding td{
+      padding-bottom: 0px !important;
+      }
+
+      .experience-block-no-padding-on-mobile td:nth-child(1){
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+      }
+
+      .hide-on-mobile {
+      display: none !important;
+      overflow: hidden !important;
+      }
+
+      .loyalty-hide-on-mobile {
+      display: none !important;
+      overflow: hidden !important;
+      }
+
+
+      .intro-button table:first-child {
+      width : 100% !important;
+      }
+
+      .loyalty-track {
+      width: 32% !important;
+      }
+
+      .loyalty-padding-left{
+      padding-left: 8px;
+      }
+
+      .remove-border *{
+      border: none !important;
+      }
+
+      }
+
+      @media only screen and (min-width: 600px) {
+      .hide-on-desktop {
+      display: none !important;
+      overflow: hidden !important;
+      }
+
+      .hide-on-mobile {
+      display: block !important;
+      overflow: visible !important;
+      }
+      }
+
+      /** DARK MODE **/
+      @media (prefers-color-scheme: dark) {
+      body, body > div:nth-child(2), .spacer * {
+      background: #000000 !important;
+      }
+      .dark-background td{
+      background:#232323;
+      }
+      .dark-background * {
+      color: #ffffff !important;
+      }
+
+      .hide-on-light {
+      display: block !important;
+      overflow: visible !important;
+      }
+
+      .mobile-padding-top-20 {
+        background: #232323 !important;
+      }
+
+      .mobile-padding-bottom-20 {
+        background: #232323 !important;
+      }
+      .cta-button *{
+       background: #00C2BF !important;
+       border-radius: 8px;
+      }
+      a {
+      color: #ffffff !important;
+      }
+      }
+
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+
+   <!-- START: Destination experience -->
+    <!-- First section -->
+    <mj-section css-class = "dark-background">
+      <mj-column width="270px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/12.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-text mj-class="fw400-fs15-lh22">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
+          <br />
+          <br />
+          <strong>Top 3 beaches in Rabac:</strong>
+          <ul>
+            <li>Girandella Beach</li>
+            <li>St Andrea Beach</li>
+            <li>Lanterna Beach</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. There is another hidden gem in Brseč which you can reach easier by boat!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl" css-class = "dark-background">
+      <mj-column width="270px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/13.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-text mj-class="fw400-fs15-lh22"><strong>3 things to do in Dubrovnik:</strong>
+          <ul>
+            <li>Visit Mount Srđ & descent by foot</li>
+            <li>Walk the Dubrovnik Walls</li>
+            <li>Take a kayak tour of the Old Town from the outside</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Destination experience -->
+
+    <!-- START: Property -->
+    <!-- First section -->
+    <mj-section css-class = "dark-background"> 
+      <mj-column width="270px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/14.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Oberta
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">TOP CHOICE FOR MILLENIALS
+          <ul>
+            <li>€60 daily credit per two persons for restaurants and bars</li>
+            <li>pool with serene indoor zones</li>
+            <li>evening DJ music programme</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text>
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+      background-color: #00C2BF;
+      border-radius: 8px;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: Arial, 'Open Sans', sans-serif;
+      line-height: 20px;
+      padding: 16px 40px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      width: auto; 
+      max-width: 100%; 
+      box-sizing: border-box;
+      margin: auto;  
+      overflow: hidden;
+      white-space: nowrap;
+    ">
+                From 225
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl" css-class = "dark-background">
+      <mj-column width="270px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/15.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Kessels
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">PREMIUM ACCOMMODATION
+          <ul>
+            <li>Ski-in & ski-out hotel</li>
+            <li>NEW: free parking in the underground garage</li>
+            <li>NEW: upgraded gourmet offer</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-text mj-class="fw400-fs15-lh22">P.S. Check out our exclusive V level Chalet</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text>
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: Arial,'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+      background-color: #00C2BF;
+      border-radius: 8px;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: Arial, 'Open Sans', sans-serif;
+      line-height: 20px;
+      padding: 16px 40px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      width: auto; 
+      max-width: 100%; 
+      box-sizing: border-box;
+      margin: auto;  
+      overflow: hidden;
+      white-space: nowrap;
+    ">
+                From 278
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Property -->
+
+    <!-- START: Activity -->
+    <!-- First section -->
+    <mj-section css-class = "dark-background">
+      <mj-column width="270px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/16.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Obertasty
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy a buffet breakfast and a buffet dinner. If you don’t make it to dinner, you can use €30 daily credit per person on food or drinks at our bars.
+          <br />
+          <br />
+          If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Start relaxing</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section direction="rtl" css-class = "dark-background">
+      <mj-column width="270px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/17.png" mj-class="general-image" fluid-on-mobile="true" />
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="250px">
+        <mj-text mj-class="fw700-fs20-lh24">
+          Oberfun
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text mj-class="fw400-fs15-lh22">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Feel the Obervibes</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Activity -->
     
