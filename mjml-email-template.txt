@@ -358,15 +358,15 @@
    <!-- START: Destination experience -->
     <!-- First section -->
     <mj-section css-class = "dark-background">
-      <mj-column width="50%">
+      <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/12.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column width="4%">
+      <mj-column width="20px">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="46%">
+      <mj-column width="250px">
         <mj-text mj-class="fw400-fs15-lh22">Relax, sunbathe, and get vitamin D on the pristine Adriatic beaches.
           <br />
           <br />
@@ -383,15 +383,15 @@
     </mj-section>
     <!-- Second section -->
     <mj-section direction="rtl" css-class = "dark-background">
-      <mj-column width="50%">
+      <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/13.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column width="4%">
+      <mj-column width="20px">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="46%">
+      <mj-column width="250px">
         <mj-text mj-class="fw400-fs15-lh22"><strong>3 things to do in Dubrovnik:</strong>
           <ul>
             <li>Visit Mount Srđ & descent by foot</li>
@@ -406,15 +406,15 @@
     <!-- START: Property -->
     <!-- First section -->
     <mj-section css-class = "dark-background"> 
-      <mj-column width="50%">
+      <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/14.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column width="4%">
+      <mj-column width="20px">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="46%">
+      <mj-column width="250px">
         <mj-text mj-class="fw700-fs20-lh24">
           Obertauern [PLACESHOTEL] by Valamar
         </mj-text>
@@ -431,17 +431,16 @@
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial,'Open Sans' sans-serif;
           line-height:20px;
-          width: 100%;
-          
+          width: 100%;      
           padding: 16px 40px;
           text-align:center;
           text-decoration:none;
@@ -458,15 +457,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- Second section -->
     <mj-section direction="rtl" css-class = "dark-background">
-      <mj-column width="50%">
+      <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/15.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column width="4%">
+      <mj-column width="20px">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="46%">
+      <mj-column width="250px">
         <mj-text mj-class="fw700-fs20-lh24">
           Kesselspitze Valamar Collection Hotel 4* Superiror
         </mj-text>
@@ -485,14 +484,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:200px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: Arial,'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial,'Open Sans', sans-serif;
           line-height:20px;
           width: 100%;
           
@@ -515,15 +514,15 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- START: Activity -->
     <!-- First section -->
     <mj-section css-class = "dark-background">
-      <mj-column width="50%">
+      <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/16.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column width="4%">
+      <mj-column width="20px">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="46%">
+      <mj-column width="250px">
         <mj-text mj-class="fw700-fs20-lh24">
           Obertasty
         </mj-text>
@@ -534,20 +533,20 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
         </mj-text>
         <mj-spacer height="20px" />
-        <mj-text><a href="${clickthrough('View_onlinee')}">Start relaxing</a></mj-text>
+        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Start relaxing</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- Second section -->
     <mj-section direction="rtl" css-class = "dark-background">
-      <mj-column width="50%">
+      <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/17.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
       </mj-column>
-      <mj-column width="4%">
+      <mj-column width="20px">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="46%">
+      <mj-column width="250px">
         <mj-text mj-class="fw700-fs20-lh24">
           Oberfun
         </mj-text>
@@ -555,7 +554,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <mj-text mj-class="fw400-fs15-lh22">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
         </mj-text>
         <mj-spacer height="20px" />
-        <mj-text><a href="${clickthrough('View_onlinee')}">Feel the Obervibes</a></mj-text>
+        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Feel the Obervibes</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Activity -->
