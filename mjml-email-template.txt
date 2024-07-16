@@ -175,14 +175,6 @@
       text-align:center !important;
       }
 
-      .web-overview a {
-      color: #000000 !important;
-      color:inherit !important;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 20px;
-      }
-
       /** Mobile only **/
 
       @media (max-width: 480px) {
@@ -354,6 +346,9 @@
        background: #00C2BF !important;
        border-radius: 8px;
       }
+      a {
+      color: #ffffff !important;
+      }
       }
 
     </mj-style>
@@ -371,7 +366,7 @@
       </mj-column>
       <mj-column css-class="web-overview">
         <mj-spacer height="20px" />
-        <mj-text><a href="${clickthrough('View_onlinee')}">Web overview</a></mj-text>
+        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 20px; color:inherit !important; ">Web overview</a></mj-text>
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
