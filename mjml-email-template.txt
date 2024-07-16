@@ -538,42 +538,42 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- START: USP FOR DESKTOP -->
     <!-- Images -->
     <mj-section mj-class="guarantee-section" css-class="hide-on-mobile dark-background" padding-bottom="0px" padding-top="20px">
-      <mj-column width="20%">
+      <mj-column width="23%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="42px" height="42px" />
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="20%">
+      <mj-column width="23%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="42px" height="42px" />
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="20%">
+      <mj-column width="23%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="42px" height="42px" />
       </mj-column>
     </mj-section>
     <!-- Text -->
     <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="20px" css-class="hide-on-mobile dark-background">
-      <mj-column width="20%">
+      <mj-column width="23%">
         <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="20%">
+      <mj-column width="23%">
         <mj-text mj-class="fw400-fs18-lh24">No prepayment
           needed</mj-text>
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="20%">
+      <mj-column width="23%">
         <mj-text mj-class="fw400-fs18-lh24">Best price
           guaranteed</mj-text>
       </mj-column>
