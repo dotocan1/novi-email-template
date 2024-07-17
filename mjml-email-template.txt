@@ -74,6 +74,10 @@
       vertical-align: middle !important;
       }
 
+      .no-link * {
+      color: inherit;
+      text-decoration: none;
+      }
 
     </mj-style>
     <mj-style>
@@ -420,18 +424,18 @@
     </mj-section>
     <mj-section padding-bottom="0px" css-class="dark-background">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Telefon: +385 52 445 123</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Telefon: <a href="tel:+38552445123" style="color: #333; color:inherit !important; font-family: Arial, 'Open Sans', sans-serif;font-size: 18px; font-weight: 400; line-height: 24px; ">+385 52 445 123</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="0px" css-class="dark-background">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left">Prijava: 16:00h<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Odjava: 10:00h</mj-text>
+        <mj-text mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" align="left"><span class="no-link">Prijava: 16:00h</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="no-link">Odjava: 10:00h</span></mj-text>
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
     <mj-section padding-top="0px" css-class="dark-background">
       <mj-column vertical-align="middle">
-        <mj-text mj-class="fw400-fs14-lh21">Za jamstvo rezervacije u slučaju kasnog dolaska (poslije 20:00), molimo kontaktirajte recepciju na broj telefona +385 52 445 123</mj-text>
+        <mj-text mj-class="fw400-fs14-lh21">Za jamstvo rezervacije u slučaju kasnog dolaska (poslije <span class="no-link">20:00</span>), molimo kontaktirajte recepciju na broj telefona <a href="tel:+38552445123" style="color: #333; color:inherit !important; font-family: Arial, 'Open Sans', sans-serif;font-size: 18px; font-weight: 400; line-height: 24px; ">+385 52 445 123</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Rezervacija, kontakt + adresa -->
