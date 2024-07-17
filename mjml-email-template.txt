@@ -48,10 +48,19 @@
       <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="52px" width="100%" font-family="Arial, 'Open Sans', sans-serif" font-weight="700" font-size="16px" line-height="20px" css-class="cta-button" />
       <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
       <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
+
+      <mj-class name="hide-on-desktop" width="0" max-height="0" overflow=" hidden" float="left" />
     </mj-attributes>
     <mj-style inline="inline">
       .hide-on-outlook *{
       mso-hide:all;
+      }
+
+      .hide-on-desktop*{
+      width: 0;
+      max-height: 0;
+      overflow: hidden;
+      float: left;
       }
 
       .align-center-outlook div{
@@ -122,12 +131,12 @@
       }
 
 
-
+      /*
       .hide-on-desktop {
       display: none !important;
       overflow: hidden !important;
       }
-
+      */
 
       .button {
       background-color: #00C2BF; /* Teal color */
@@ -258,12 +267,12 @@
       .align-center-mobile *{
       text-align: center !important;
       }
-
+      /*
       .hide-on-desktop {
       display: block !important;
       overflow : visible !important;
       }
-
+      */
       .mobile-full-width a{
       width: 100% !important;
       }
@@ -302,6 +311,14 @@
 
       .remove-border *{
       border: none !important;
+      }
+
+      .show-on-mobile {
+      display: block !important;
+      width : auto !important;
+      max-height: inherit !important;
+      overflow : visible !important;
+      float : none !important;
       }
 
       }
@@ -355,6 +372,96 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
 
+    <!-- START: USP FOR DESKTOP -->
+    <!-- Images -->
+    <mj-section mj-class="guarantee-section" css-class="hide-on-mobile dark-background" padding-bottom="0px" padding-top="20px">
+      <mj-column width="23%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="15%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="23%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="42px" height="42px" />
+      </mj-column>
+      <mj-column width="15%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="23%">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="42px" height="42px" />
+      </mj-column>
+    </mj-section>
+    <!-- Text -->
+    <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="20px" css-class="hide-on-mobile dark-background">
+      <mj-column width="23%">
+        <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
+      </mj-column>
+      <mj-column width="15%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="23%">
+        <mj-text mj-class="fw400-fs18-lh24">No prepayment
+          needed</mj-text>
+      </mj-column>
+      <mj-column width="15%">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="23%">
+        <mj-text mj-class="fw400-fs18-lh24">Best price
+          guaranteed</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- MOBILE -->
+    <mj-raw> <span style="mso-element:field-begin;"></span> </mj-raw>
+    <!-- First section -->
+    <mj-section css-class="hide-on-desktop align-left hide-on-outlook dark-background show-on-mobile" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs18-lh24">Free cancelation</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Second section -->
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background show-on-mobile" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs18-lh24">No prepayment needed</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background show-on-mobile" text-align="left">
+      <mj-group>
+        <mj-column vertical-align="middle" width="19%">
+          <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="32px" height="32px" />
+        </mj-column>
+        <mj-column width="1%">
+          <mj-text></mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="80%" css-class="fw400-fs18-lh24">
+          <mj-text mj-class="fw400-fs18-lh24">Best price
+            guaranteed</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-raw><span style="mso-element:field-end;"></span></mj-raw>
+    <!-- END: USP -->
+
     <!-- START: Spacing starts here -->
     <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
@@ -384,7 +491,7 @@
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background" padding-bottom="0px">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile" padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/18.png" fluid-on-mobile="true" />
