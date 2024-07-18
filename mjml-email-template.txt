@@ -56,7 +56,7 @@
       mso-hide:all;
       }
 
-      .hide-on-desktop*{
+      .hide-on-desktop *{
       width: 0;
       max-height: 0;
       overflow: hidden;
@@ -81,7 +81,172 @@
 
     </mj-style>
         <mj-style inline="inline">
-     
+     .mj-column-per-33-333333333333336 {
+        max-width: 33.333333333333336%;
+      }
+
+      .mj-column-per-33 {
+        max-width: 33.333333333333336%;
+      }
+
+      .mj-column-per-100 {
+        max-width: 100%;
+      }
+
+      .mj-column-per-20 {
+        max-width: 20%;
+      }
+
+      .mj-column-px-265 {
+        max-width: 265px;
+      }
+
+      .mj-column-px-10 {
+        max-width: 10px;
+      }
+
+      .mj-column-per-10 {
+        max-width: 10%;
+      }
+
+      .mj-column-per-19 {
+        max-width: 19%;
+      }
+
+      .mj-column-per-1 {
+        max-width: 1%;
+      }
+
+      .mj-column-per-80 {
+        max-width: 80%;
+      }
+
+      .mj-column-px-540 {
+        max-width: 540px;
+      }
+
+      .mj-column-per-50 {
+        max-width: 50%;
+      }
+
+      .mj-column-per-4 {
+        max-width: 4%;
+      }
+
+      .mj-column-per-46 {
+        max-width: 46%;
+      }
+
+      .mj-column-per-48 {
+        max-width: 48%;
+      }
+
+      .mj-column-per-30 {
+        max-width: 30%;
+      }
+
+      .mj-column-per-2 {
+        max-width: 2%;
+      }
+
+      .mj-column-per-68 {
+        max-width: 68%;
+      }
+
+      .mj-column-per-15 {
+        max-width: 15%;
+      }
+
+      .mj-column-per-8 {
+        max-width: 8%;
+      }
+
+      .mj-column-per-77 {
+        max-width: 77%;
+      }
+      .moz-text-html .mj-column-per-33-333333333333336 {
+      max-width: 33.333333333333336%;
+    }
+
+    .moz-text-html .mj-column-per-33 {
+      max-width: 33.333333333333336%;
+    }
+
+    .moz-text-html .mj-column-per-100 {
+      max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-20 {
+      max-width: 20%;
+    }
+
+    .moz-text-html .mj-column-px-265 {
+      max-width: 265px;
+    }
+
+    .moz-text-html .mj-column-px-10 {
+      max-width: 10px;
+    }
+
+    .moz-text-html .mj-column-per-10 {
+      max-width: 10%;
+    }
+
+    .moz-text-html .mj-column-per-19 {
+      max-width: 19%;
+    }
+
+    .moz-text-html .mj-column-per-1 {
+      max-width: 1%;
+    }
+
+    .moz-text-html .mj-column-per-80 {
+      max-width: 80%;
+    }
+
+    .moz-text-html .mj-column-px-540 {
+      max-width: 540px;
+    }
+
+    .moz-text-html .mj-column-per-50 {
+      max-width: 50%;
+    }
+
+    .moz-text-html .mj-column-per-4 {
+      max-width: 4%;
+    }
+
+    .moz-text-html .mj-column-per-46 {
+      max-width: 46%;
+    }
+
+    .moz-text-html .mj-column-per-48 {
+      max-width: 48%;
+    }
+
+    .moz-text-html .mj-column-per-30 {
+      max-width: 30%;
+    }
+
+    .moz-text-html .mj-column-per-2 {
+      max-width: 2%;
+    }
+
+    .moz-text-html .mj-column-per-68 {
+      max-width: 68%;
+    }
+
+    .moz-text-html .mj-column-per-15 {
+      max-width: 15%;
+    }
+
+    .moz-text-html .mj-column-per-8 {
+      max-width: 8%;
+    }
+
+    .moz-text-html .mj-column-per-77 {
+      max-width: 77%;
+    }
         </mj-style>
     <mj-style>
       *{
@@ -442,7 +607,7 @@
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/h2l5kvti.png" fluid-on-mobile="true" />
       </mj-column>
@@ -457,7 +622,7 @@
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/02--edite.png" fluid-on-mobile="true" />
       </mj-column>
@@ -472,7 +637,7 @@
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/7ue45k3q.png" fluid-on-mobile="true" />
       </mj-column>
@@ -494,7 +659,7 @@
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <mj-group>
         <mj-column>
           <mj-table align="center" cellpadding="1px" line-height="100%">
@@ -599,7 +764,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- MOBILE -->
     <mj-raw> <span style="mso-element:field-begin;"></span> </mj-raw>
     <!-- First section -->
-    <mj-section css-class="hide-on-desktop align-left hide-on-outlook dark-background" text-align="left">
+    <mj-section css-class="hide-on-desktop align-left hide-on-outlook dark-background show-on-mobile" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="32px" height="32px" />
@@ -613,7 +778,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Second section -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background show-on-mobile" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="32px" height="32px" />
@@ -626,7 +791,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background show-on-mobile" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="32px" height="32px" />
@@ -678,7 +843,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section mj-class="voucher-section" css-class="hide-on-desktop hide-on-outlook dark-background" padding-bottom="0px">
+    <mj-section mj-class="voucher-section" css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile" padding-bottom="0px">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/06--edite.png" width="280px" fluid-on-mobile="true" />
       </mj-column>
@@ -781,7 +946,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background " padding-bottom="0px">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile" padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/08.png" fluid-on-mobile="true" />
@@ -950,7 +1115,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <!-- First recommendation -->
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/10.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -996,7 +1161,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile" padding-bottom="0px">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile show-on-mobile" padding-bottom="0px">
       <mj-group>
         <mj-column width="48%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/18.png" fluid-on-mobile="true" />
@@ -1069,14 +1234,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial,'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans','Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial','Open Sans', sans-serif;
+          font-family: Arial, 'Open Sans','Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           padding: 16px 40px;
@@ -1199,7 +1364,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
       background-color: #00C2BF;
       border-radius: 8px;
@@ -1256,7 +1421,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: Arial,'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:250px;font-family: Arial, 'Open Sans','Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
       background-color: #00C2BF;
       border-radius: 8px;
@@ -1354,14 +1519,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           
@@ -1398,7 +1563,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <!-- FOR DESKTOP -->
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/22--edited-desktop.png" width="600px" height="280px" css-class="hide-on-mobile" />
         <!-- FOR MOBILE -->
-        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/22--edited-mobile.png" width="280px" height="520px" css-class="hide-on-desktop hide-on-outlook" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/22--edited-mobile.png" width="280px" height="520px" css-class="hide-on-desktop hide-on-outlook show-on-mobile" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: My Valamar app CTA -->
@@ -1459,14 +1624,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td align="left" valign="middle" style="width:260px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           padding: 16px 40px;
@@ -1483,14 +1648,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td align="left" valign="middle" style="width:260px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           padding: 16px 40px;
@@ -1509,7 +1674,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE-->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <!-- First recommendation -->
       <mj-column width="100%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/23.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -1575,14 +1740,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td align="center" valign="middle" style="width:170px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width:auto;
           padding: 16px 30px 16px 30px;
@@ -1599,14 +1764,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td valign="middle" align="center" style="width:170px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width:auto;
           padding: 16px 30px 16px 30px;
@@ -1623,14 +1788,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td valign="middle" align="center" style="width:170px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:170px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width:auto;
           padding: 16px 30px 16px 30px;
@@ -1649,7 +1814,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE-->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <!-- First recommendation -->
       <mj-column width="100%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/25.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -1750,7 +1915,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- MOBILE -->
     <mj-raw><span style="mso-element:field-begin;"></span></mj-raw>
     <!-- First section -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background show-on-mobile" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="32px" height="32px" />
@@ -1764,7 +1929,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Second section -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background show-on-mobile" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="32px" height="32px" />
@@ -1778,7 +1943,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Third section -->
-    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background" text-align="left">
+    <mj-section css-class="hide-on-desktop hide-on-outlook align-left dark-background show-on-mobile" text-align="left">
       <mj-group>
         <mj-column vertical-align="middle" width="19%">
           <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="32px" height="32px" />
@@ -1800,14 +1965,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           padding: 16px 40px;
@@ -1867,14 +2032,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td align="center" valign="middle" style="width:265px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           padding: 16px 30px;
@@ -1891,14 +2056,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             <td valign="middle" align="center" style="width:265px;">
               <p class="mobile-full-width">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           padding: 16px 30px;
@@ -1917,7 +2082,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- MOBILE-->
-    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background        ">
+    <mj-section css-class="hide-on-desktop hide-on-outlook dark-background show-on-mobile">
       <!-- First recommendation -->
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/28.png" mj-class="general-image" fluid-on-mobile="true" />
@@ -2000,7 +2165,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/36.png" width="540px" height="256px" css-class="hide-on-mobile" />
         <!-- MOBILE -->
-        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/36123123.png" fluid-on-mobile="true" css-class="hide-on-desktop hide-on-outlook " />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/36123123.png" fluid-on-mobile="true" css-class="hide-on-desktop hide-on-outlook show-on-mobile" />
       </mj-column>
     </mj-section>
     <!-- END: Why book -->
@@ -2026,7 +2191,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <!-- Desktop -->
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/37.png" width="540px" height="400px" css-class="hide-on-mobile"></mj-image>
         <!-- Mobile -->
-        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/372312312.png" css-class="hide-on-desktop hide-on-outlook" fluid-on-mobile="true" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/372312312.png" css-class="hide-on-desktop hide-on-outlook show-on-mobile" fluid-on-mobile="true" />
       </mj-column>
     </mj-section>
     <!-- END: Moments -->
@@ -2127,14 +2292,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           <mj-raw>
             <p class="mobile-full-width">
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: 'Arial', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
           font-size:16px;
           font-weight:700;
-          font-family: 'Arial', sans-serif;
+          font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
           padding: 16px 40px;
