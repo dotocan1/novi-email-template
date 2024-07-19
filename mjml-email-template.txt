@@ -80,213 +80,213 @@
       }
 
     </mj-style>
-        <mj-style inline="inline">
+    <mj-style inline="inline">
 
       /*
-     .mj-column-per-33-333333333333336 {
-        max-width: 33.333333333333336%;
+      .mj-column-per-33-333333333333336 {
+      max-width: 33.333333333333336%;
       }
       /*
       .mj-column-per-33 {
-        max-width: 33.333333333333336%;
+      max-width: 33.333333333333336%;
       }
 
       .mj-column-per-100 {
-        max-width: 100%;
+      max-width: 100%;
       }
       /*
       .mj-column-per-20 {
-        max-width: 20%;
+      max-width: 20%;
       }
-*/
+      */
       .mj-column-px-265 {
-        max-width: 265px;
+      max-width: 265px;
       }
 
       .mj-column-px-10 {
-        max-width: 10px;
+      max-width: 10px;
       }
 
       .mj-column-per-23 {
-        max-width: 23%;
+      max-width: 23%;
       }
 
       .mj-column-per-15 {
-        max-width: 15%;
+      max-width: 15%;
       }
 
       .mj-column-per-19 {
-        max-width: 19%;
+      max-width: 19%;
       }
 
       .mj-column-per-1 {
-        max-width: 1%;
+      max-width: 1%;
       }
 
       .mj-column-per-80 {
-        max-width: 80%;
+      max-width: 80%;
       }
 
       .mj-column-px-540 {
-        max-width: 540px;
+      max-width: 540px;
       }
 
       .mj-column-px-20 {
-        max-width: 20px;
+      max-width: 20px;
       }
 
       .mj-column-px-255 {
-        max-width: 255px;
+      max-width: 255px;
       }
 
       .mj-column-per-48 {
-        max-width: 48%;
+      max-width: 48%;
       }
 
       .mj-column-per-4 {
-        max-width: 4%;
+      max-width: 4%;
       }/*
       .mj-column-per-50 {
-        max-width: 50%;
+      max-width: 50%;
       }
       */
       .mj-column-px-270 {
-        max-width: 270px;
+      max-width: 270px;
       }
 
       .mj-column-px-250 {
-        max-width: 250px;
+      max-width: 250px;
       }
       /*
       .mj-column-per-30 {
-        max-width: 30%;
+      max-width: 30%;
       }
       */
       .mj-column-per-2 {
-        max-width: 2%;
+      max-width: 2%;
       }
 
       .mj-column-per-68 {
-        max-width: 68%;
+      max-width: 68%;
       }
 
-      .mj-column-per-10 {      
-        max-width: 10%;
+      .mj-column-per-10 {
+      max-width: 10%;
       }
 
       .mj-column-per-8 {
-        max-width: 8%;
+      max-width: 8%;
       }
 
       .mj-column-per-77 {
-        max-width: 77%;
+      max-width: 77%;
       }
 
-    .moz-text-html .mj-column-per-33-333333333333336 {
+      .moz-text-html .mj-column-per-33-333333333333336 {
       max-width: 33.333333333333336%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-33 {
+      .moz-text-html .mj-column-per-33 {
       max-width: 33.333333333333336%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-100 {
+      .moz-text-html .mj-column-per-100 {
       max-width: 100%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-20 {
+      .moz-text-html .mj-column-per-20 {
       max-width: 20%;
-    }
+      }
 
-    .moz-text-html .mj-column-px-265 {
+      .moz-text-html .mj-column-px-265 {
       max-width: 265px;
-    }
+      }
 
-    .moz-text-html .mj-column-px-10 {
+      .moz-text-html .mj-column-px-10 {
       max-width: 10px;
-    }
+      }
 
-    .moz-text-html .mj-column-per-23 {
+      .moz-text-html .mj-column-per-23 {
       max-width: 23%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-15 {
+      .moz-text-html .mj-column-per-15 {
       max-width: 15%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-19 {
+      .moz-text-html .mj-column-per-19 {
       max-width: 19%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-1 {
+      .moz-text-html .mj-column-per-1 {
       max-width: 1%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-80 {
+      .moz-text-html .mj-column-per-80 {
       max-width: 80%;
-    }
+      }
 
-    .moz-text-html .mj-column-px-540 {
+      .moz-text-html .mj-column-px-540 {
       max-width: 540px;
-    }
+      }
 
-    .moz-text-html .mj-column-px-20 {
+      .moz-text-html .mj-column-px-20 {
       max-width: 20px;
-    }
+      }
 
-    .moz-text-html .mj-column-px-255 {
+      .moz-text-html .mj-column-px-255 {
       max-width: 255px;
-    }
+      }
 
-    .moz-text-html .mj-column-per-48 {
+      .moz-text-html .mj-column-per-48 {
       max-width: 48%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-4 {
+      .moz-text-html .mj-column-per-4 {
       max-width: 4%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-50 {
+      .moz-text-html .mj-column-per-50 {
       max-width: 50%;
-    }
+      }
 
-    .moz-text-html .mj-column-px-270 {
+      .moz-text-html .mj-column-px-270 {
       max-width: 270px;
-    }
+      }
 
-    .moz-text-html .mj-column-px-250 {
+      .moz-text-html .mj-column-px-250 {
       max-width: 250px;
-    }
+      }
 
-    .moz-text-html .mj-column-per-30 {
+      .moz-text-html .mj-column-per-30 {
       max-width: 30%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-2 {
+      .moz-text-html .mj-column-per-2 {
       max-width: 2%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-68 {
+      .moz-text-html .mj-column-per-68 {
       max-width: 68%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-10 {
+      .moz-text-html .mj-column-per-10 {
       max-width: 10%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-8 {
+      .moz-text-html .mj-column-per-8 {
       max-width: 8%;
-    }
+      }
 
-    .moz-text-html .mj-column-per-77 {
+      .moz-text-html .mj-column-per-77 {
       max-width: 77%;
-    }
+      }
 
-    .max-width-20{
+      .max-width-20{
       max-width: 20%;
-    }
-    
-        </mj-style>
+      }
+
+    </mj-style>
     <mj-style>
       *{
       font-weight:400;
@@ -582,7 +582,7 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-<!-- START: Header -->
+    <!-- START: Header -->
     <mj-section css-class="valign loyalty-block-no-bottom-padding dark-background" padding-bottom="40px">
       <mj-column>
         <mj-spacer height="20px" />
@@ -593,14 +593,14 @@
       </mj-column>
       <mj-column css-class="web-overview">
         <mj-spacer height="20px" />
-        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 20px; color:inherit !important; ">Web overview</a></mj-text>
+        <mj-text><a href="${clickthrough('View_onlinee')}" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 20px; color:inherit !important; ">Web overview</a></mj-text>
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
     <!-- END: Header -->
 
     <!-- START: Loyalty traka-->
-    <mj-section mj-class="loyalty-section" css-class = "dark-background">
+    <mj-section mj-class="loyalty-section" css-class="dark-background">
       <mj-group>
         <!-- Valamar plus club logo -->
         <mj-column vertical-align="middle" css-class="loyalty-hide-on-mobile" width="20%" padding-bottom="0px" padding-top="0px">
@@ -847,14 +847,19 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-raw><span style="mso-element:field-end;"></span></mj-raw>
     <!-- END: USP -->
 
-    <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
-      <mj-column>
-        <mj-text height="10px">
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- END: Spacing ends here -->
+<!-- START: Spacing starts here -->
+<mj-raw>
+<div class = "spacer">
+<table>
+  <tr>
+    <td style="background: #f2f2f2;">
+      <div>&nbsp;</div>
+    </td>
+  </tr>
+</table>
+</div>
+</mj-raw>
+<!-- END: Spacing ends here --> 
 
     <!-- START: Counter -->
     <!-- DESKTOP -->
@@ -865,14 +870,19 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Counter -->
 
-    <!-- START: Spacing starts here -->
-    <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
-      <mj-column>
-        <mj-text height="10px">
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- END: Spacing ends here -->
+<!-- START: Spacing starts here -->
+<mj-raw>
+<div class = "spacer">
+<table>
+  <tr>
+    <td style="background: #f2f2f2;">
+      <div>&nbsp;</div>
+    </td>
+  </tr>
+</table>
+</div>
+</mj-raw>
+<!-- END: Spacing ends here --> 
 
     <!-- START: Voucher -->
     <!-- DESKTOP -->
@@ -888,7 +898,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- Text content for both versions -->
-    <mj-section css-class = "dark-background">
+    <mj-section css-class="dark-background">
       <mj-column width="100%">
         <mj-text mj-class="fw400-fs13-lh18">
           Vaučer vrijedi isključivo za nove rezervacije te se ponuda ne može kombinirati s drugim promocijama. Vaučer vrijedi za sve boravke u roku od 18 mjeseci od njegova zaprimanja. Primjenjuje se na sve boravke u trajanju od najmanje pet noći. Vaučer se može iskoristiti do 6 mjeseca od njegova zaprimanja. Moguća je primjena dodatnih ograničenja. Vaučer je moguće iskoristiti isključivo na web stranici www.valamar.com
@@ -966,7 +976,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Spacing ends here -->
 
     <!-- START: 1xproperty,USP,2x foto -->
-    <mj-section css-class = "dark-background">
+    <mj-section css-class="dark-background">
       <mj-column>
         <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Find your perfect winter holiday</mj-text>
       </mj-column>
@@ -1008,7 +1018,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding-bottom="0px" padding-top="0px" css-class = "dark-background">
+    <mj-section padding-bottom="0px" padding-top="0px" css-class="dark-background">
       <mj-column vertical-align="middle">
         <mj-social mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" href="https://mjml.io/" padding-right="10px">
@@ -1017,7 +1027,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section padding-bottom="0px" css-class = "dark-background">
+    <mj-section padding-bottom="0px" css-class="dark-background">
       <mj-column vertical-align="middle">
         <mj-social mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" href="https://mjml.io/" padding-right="10px">
@@ -1026,7 +1036,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section padding-bottom="0px" css-class = "dark-background">
+    <mj-section padding-bottom="0px" css-class="dark-background">
       <mj-column vertical-align="middle">
         <mj-social mj-class="fw400-fs18-lh24" css-class="fw400-fs16-lh24" icon-size="28px" mode="horizontal" align="left" text-padding="0px 30px 0px 20px">
           <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/afasfafsaf244.png" href="https://mjml.io/" padding-right="10px">
@@ -1036,7 +1046,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
-    <mj-section padding-top="0px" css-class = "dark-background">
+    <mj-section padding-top="0px" css-class="dark-background">
       <mj-column>
         <mj-text>
           <mj-raw>
@@ -1084,24 +1094,24 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           </tr>
           <tr>
             <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
-              <p style = "font-family: Arial, 'Open Sans', sans-serif; font-weight: 700; font-size: 20px; line-height: 24px;">Valamar Argosy Hotel 4*</p>
+              <p style="font-family: Arial, 'Open Sans', sans-serif; font-weight: 700; font-size: 20px; line-height: 24px;">Valamar Argosy Hotel 4*</p>
             </td>
             <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
-              <p style = "font-family: Arial, 'Open Sans', sans-serif; font-weight: 700; font-size: 20px; line-height: 24px;">Girandella Valamar Collection Designed for
+              <p style="font-family: Arial, 'Open Sans', sans-serif; font-weight: 700; font-size: 20px; line-height: 24px;">Girandella Valamar Collection Designed for
                 Adults*</p>
             </td>
           </tr>
           <tr>
             <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh18" valign="top">
-              <p style = "font-family: Arial, 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 18px;">Island of Rab</p>
+              <p style="font-family: Arial, 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 18px;">Island of Rab</p>
             </td>
             <td style="width:260px; padding-bottom: 20px;" class="fw400-fs15-lh18" valign="top">
-              <p style = "font-family: Arial, 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 18px;">Dubrovnik</p>
+              <p style="font-family: Arial, 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 18px;">Dubrovnik</p>
             </td>
           </tr>
           <tr>
             <td style="width:260px;">
-              <p css-class = "">
+              <p css-class="">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
@@ -1180,7 +1190,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: 2 x property -->
 
-  <!-- START: Spacing starts here -->
+    <!-- START: Spacing starts here -->
     <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
         <mj-text height="10px">
@@ -1189,9 +1199,9 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Spacing ends here -->
 
-<!-- START: Destination experience -->
+    <!-- START: Destination experience -->
     <!-- First section -->
-    <mj-section css-class = "dark-background">
+    <mj-section css-class="dark-background">
       <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/12.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
@@ -1216,7 +1226,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- Second section -->
-    <mj-section direction="rtl" css-class = "dark-background">
+    <mj-section direction="rtl" css-class="dark-background">
       <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/13.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
@@ -1239,7 +1249,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Property -->
     <!-- First section -->
-    <mj-section css-class = "dark-background"> 
+    <mj-section css-class="dark-background">
       <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/14.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
@@ -1294,7 +1304,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- Second section -->
-    <mj-section direction="rtl" css-class = "dark-background">
+    <mj-section direction="rtl" css-class="dark-background">
       <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/15.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
@@ -1354,7 +1364,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
     <!-- START: Activity -->
     <!-- First section -->
-    <mj-section css-class = "dark-background">
+    <mj-section css-class="dark-background">
       <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/16.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
@@ -1374,11 +1384,11 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           If you don’t spend your daily credit in one day, the remaining balance will be carried over to the next day.
         </mj-text>
         <mj-spacer height="20px" />
-        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Start relaxing</a></mj-text>
+        <mj-text><a href="${clickthrough('View_onlinee')}" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Start relaxing</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- Second section -->
-    <mj-section direction="rtl" css-class = "dark-background">
+    <mj-section direction="rtl" css-class="dark-background">
       <mj-column width="270px">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/17.png" mj-class="general-image" fluid-on-mobile="true" />
         <mj-spacer height="20px" />
@@ -1395,12 +1405,12 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <mj-text mj-class="fw400-fs15-lh22">Enjoy our in-house entertainment options and everything from multimedia games to old-school games like billiards or foosball. You can also get your groove on with our specially curated SOUNDS OF [PLACES] music programme.
         </mj-text>
         <mj-spacer height="20px" />
-        <mj-text><a href="${clickthrough('View_onlinee')}" style = "color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Feel the Obervibes</a></mj-text>
+        <mj-text><a href="${clickthrough('View_onlinee')}" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 12px; font-weight: 400; line-height: 24px; color:inherit !important; ">Feel the Obervibes</a></mj-text>
       </mj-column>
     </mj-section>
-    <!-- END: Activity --> 
+    <!-- END: Activity -->
 
-<!-- START: Rezervacija, kontakt + adresa -->
+    <!-- START: Rezervacija, kontakt + adresa -->
     <mj-section css-class="dark-background">
       <mj-column>
         <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32" padding-bottom="0px">Vaš smještaj</mj-text>
@@ -1547,7 +1557,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Spacing ends here -->
 
-    
+
 
     <!-- START: Spacing starts here -->
     <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
@@ -1557,10 +1567,5 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
-
-   
-
-    
-    
-      </mj-body>
+</mj-body>
 </mjml>
