@@ -616,9 +616,9 @@
             </td>
           </tr>
           <tr>
-            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top" align = "left">Panoramic trip to Biokovo</td>
-            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top" align = "left">Visit authentic Pelješac vineyards</td>
-            <td style="width:170px; padding: 10px 0 40px 0;" class="fw400-fs15-lh22" valign="top" align = "left">Discover the beauty of the Elaphiti islands</td>
+            <td style="width:170px; padding: 20px 0 20px 0;" class="fw400-fs15-lh22" valign="top" align = "left">Panoramic trip to Biokovo</td>
+            <td style="width:170px; padding: 20px 0 20px 0;" class="fw400-fs15-lh22" valign="top" align = "left">Visit authentic Pelješac vineyards</td>
+            <td style="width:170px; padding: 20px 0 20px 0;" class="fw400-fs15-lh22" valign="top" align = "left">Discover the beauty of the Elaphiti islands</td>
           </tr>
           <tr>
             <td align="center" valign="middle" style="width:170px;">
@@ -727,6 +727,20 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Experiences x3 -->
+    
+    <!-- START: Spacing starts here -->
+<mj-raw>
+<div class = "spacer">
+<table>
+  <tr>
+    <td style="background: #f2f2f2;">
+      <div>&nbsp;</div>
+    </td>
+  </tr>
+</table>
+</div>
+</mj-raw>
+<!-- END: Spacing ends here --> 
 
 <!-- START: Valamar + Club-->
     <mj-section padding="20px 30px 0px 30px" text-align="center" css-class = "dark-background">
@@ -749,41 +763,41 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- DESKTOP -->
     <!-- Images -->
     <mj-section mj-class="guarantee-section" css-class="hide-on-mobile dark-background" padding-bottom="0px">
-      <mj-column css-class = "max-width-20" width="20%">
+      <mj-column css-class = "max-width-20" width="23%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/label%25209.png" width="42px" height="42px" />
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column css-class = "max-width-20" width="20%">
+      <mj-column css-class = "max-width-20" width="23%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/wallet-43%252010.png" width="42px" height="42px" />
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column css-class = "max-width-20" width="20%">
+      <mj-column css-class = "max-width-20" width="23%">
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/bow%252012.png" width="42px" height="42px" />
       </mj-column>
     </mj-section>
     <!-- Text -->
     <mj-section mj-class="guarantee-section" text-align="center" padding-top="10px" padding-bottom="20px" css-class="hide-on-mobile dark-background">
-      <mj-column css-class = "max-width-20" width="20%">
+      <mj-column css-class = "max-width-20" width="23%">
         <mj-text mj-class="fw400-fs16-lh20" align="center">Up to 10% discount on bookings</mj-text>
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column css-class = "max-width-20" width="20%">
+      <mj-column css-class = "max-width-20" width="23%">
         <mj-text mj-class="fw400-fs16-lh20" align="center">Collect and redeem points</mj-text>
       </mj-column>
-      <mj-column width="10%">
+      <mj-column width="15%">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column css-class = "max-width-20" width="20%">
+      <mj-column css-class = "max-width-20" width="23%">
         <mj-text mj-class="fw400-fs16-lh20" align="center">Tailored and exclusive benefits</mj-text>
       </mj-column>
     </mj-section>
