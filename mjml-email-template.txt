@@ -612,10 +612,10 @@
             </td>
           </tr>
           <tr>
-            <td style="width:265px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
+            <td style="width:265px; padding-bottom: 20px;padding-top: 20px;" class="fw400-fs15-lh22" valign="top">
               <p>Top Adriatic Destinations for Couples</p>
             </td>
-            <td style="width:265px; padding-bottom: 20px;" class="fw400-fs15-lh22" valign="top">
+            <td style="width:265px; padding-bottom: 20px;padding-top: 20px;" class="fw400-fs15-lh22" valign="top">
               <p>V Level: Holiday at the Highest Level</p>
             </td>
 
@@ -692,7 +692,6 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
         <mj-text mj-class="fw400-fs15-lh22">V Level: Holiday at the Highest Level</mj-text>
         <mj-spacer height="20px" />
         <mj-button mj-class="general-button" width="75%" align="center">Find out more</mj-button>
-        <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
     <!-- END: Inspiration -->
