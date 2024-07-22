@@ -582,19 +582,19 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-
+    
     <!-- START: Check in CTA -->
     <mj-section css-class = "dark-background">
       <!-- Image -->
-      <mj-column width="30%">
+      <mj-column width="160px">
         <mj-image padding-top="20px" src="https://email.valamar.com/assets/responsysimages/content/valamarri/asdasasdffff213.png" width="160px" height="160px" />
       </mj-column>
       <!-- Empty space -->
-      <mj-column width="2%">
+      <mj-column width="20px">
         <mj-text></mj-text>
       </mj-column>
       <!-- Text content -->
-      <mj-column width="68%">
+      <mj-column width="360px">
         <mj-text mj-class="fw700-fs20-lh24" css-class="mobile-padding-top-20">Napravite online Check-in unaprijed</mj-text>
         <mj-spacer height="20px"></mj-spacer>
         <mj-text mj-class="fw400-fs15-lh22">Kako biste počeli uživati u svojem odmoru čim stignete, od ovog trenutka imate mogućnost napraviti online prijavu u nekoliko jednostavnih koraka. Veselimo se Vašem dolasku!</mj-text>
@@ -670,7 +670,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-section padding="0px 30px 0px 30px" css-class = "dark-background">
       <mj-column>
-        <mj-spacer height="20px"></mj-spacer>
+        <mj-spacer height="30px"></mj-spacer>
         <mj-text mj-class="fw400-fs15-lh22" align="center">Valamarov program s potpisom, osmišljen kako bi Vas inspirirao da istražite i doživite najbolje od destinacije koju ste odabrali za svoj odmor.</mj-text>
       </mj-column>
     </mj-section>
@@ -687,7 +687,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
             </td>
           </tr>
           <tr>
-            <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
+            <td style="width:260px; padding-top: 20px;" class="fw700-fs20-lh24" valign="top">
               <p>Avanturistička degustacija vina: Wine cellar Escape</p>
             </td>
             <td style="width:260px;" class="fw700-fs20-lh24" valign="top">
