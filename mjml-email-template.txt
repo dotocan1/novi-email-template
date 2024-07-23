@@ -582,7 +582,7 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-    
+
     <!-- START: Spacing starts here -->
     <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
       <mj-column>
@@ -594,13 +594,13 @@
 
     <!-- START: Inspiration -->
     <!-- Text Content for both -->
-    <mj-section padding="20px 30px 0px 30px" css-class = "dark-background">
+    <mj-section padding="20px 30px 0px 30px" css-class="dark-background">
       <mj-column>
         <mj-text mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Get inspired & come to the Adriatic!</mj-text>
       </mj-column>
     </mj-section>
     <!-- DESKTOP-->
-    <mj-section css-class="hide-on-mobile dark-background ">
+    <mj-section css-class="hide-on-mobile align-center dark-background">
       <mj-column>
         <mj-table align="center" cellpadding="3.33" css-class="align-center-outlook" line-height="100%">
           <tr>
@@ -612,19 +612,18 @@
             </td>
           </tr>
           <tr>
-            <td style="width:265px; padding-bottom: 20px;padding-top: 20px;" class="fw400-fs15-lh22" valign="top">
-              <p>Top Adriatic Destinations for Couples</p>
+            <td style="width:265px; padding-bottom: 20px; padding-top: 20px;" valign="top">
+              <p style="font-family: Arial, 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 22px;">Top Adriatic Destinations for Couples</p>
             </td>
-            <td style="width:265px; padding-bottom: 20px;padding-top: 20px;" class="fw400-fs15-lh22" valign="top">
-              <p>V Level: Holiday at the Highest Level</p>
+            <td style="width:265px; padding-bottom: 20px;padding-top: 20px;" valign="top">
+              <p style="font-family: Arial, 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 22px;">V Level: Holiday at the Highest Level</p>
             </td>
-
           </tr>
           <tr>
-            <td align="center" valign="middle" style="width:265px;">
-              <p class="mobile-full-width">
+            <td style="width:260px;">
+              <p css-class="">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -634,7 +633,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
-          padding: 16px 30px;
+          padding: 16px 40px;
           text-align:center;
           text-decoration:none;
           display: inline-block;
@@ -645,10 +644,10 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
                 <!--[if mso]></center></v:roundrect><![endif]-->
               </p>
             </td>
-            <td valign="middle" align="center" style="width:265px;">
-              <p class="mobile-full-width">
+            <td style="width:260px;">
+              <p>
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
                 <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
@@ -658,7 +657,8 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           font-family: Arial, 'Open Sans', sans-serif;
           line-height:20px;
           width: auto;
-          padding: 16px 30px;
+          
+          padding: 16px 40px;
           text-align:center;
           text-decoration:none;
           display: inline-block;
@@ -706,7 +706,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Spacing ends here -->
 
     <!-- START: Why book -->
-    <mj-section padding="20px 30px 0 30px" css-class = "dark-background">
+    <mj-section padding="20px 30px 0 30px" css-class="dark-background">
       <mj-column>
         <mj-text align="center" mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Why book with us</mj-text>
         <mj-spacer height="20px"></mj-spacer>
@@ -752,7 +752,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Image -->
-    <mj-section css-class = "dark-background">
+    <mj-section css-class="dark-background">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/36.png" width="540px" height="256px" css-class="hide-on-mobile" />
         <!-- MOBILE -->
@@ -761,14 +761,14 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Why book -->
 
-<!-- START: Moments -->
-    <mj-section css-class = "dark-background">
+    <!-- START: Moments -->
+    <mj-section css-class="dark-background">
       <mj-column>
         <mj-text align="center" mj-class="fw700-fs35-lh38" css-class="fw400-fs28-lh32">Budi dio<br />
           #PlacesMoments</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0 30px 20px 30px" css-class = "dark-background">
+    <mj-section padding="0 30px 20px 30px" css-class="dark-background">
       <mj-column>
         <!-- Desktop -->
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/37.png" width="540px" height="400px" css-class="hide-on-mobile"></mj-image>
@@ -788,7 +788,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- END: Spacing ends here -->
 
     <!-- START: Brands  -->
-    <mj-section css-class = "dark-background">
+    <mj-section css-class="dark-background">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" align="center" width="200px" height="50px" />
       </mj-column>
@@ -811,7 +811,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- Contact info -->
-    <mj-section padding-top="0px" text-align="center" css-class = "dark-background">
+    <mj-section padding-top="0px" text-align="center" css-class="dark-background">
       <mj-column border-top="1px solid lightgrey" padding-top="20px" css-class="align-center-mobile">
         <mj-social font-size="15px" icon-size="28px" mode="horizontal" text-padding="5px 20px 0 10px" icon-padding="5px 0 0 0">
           <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/asdfsdgsd2213.png" href="https://mjml.io/" mj-class="fw400-fs15-lh24">
@@ -825,6 +825,6 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Brands  -->
 
-    
-</mj-body>
+
+  </mj-body>
 </mjml>
