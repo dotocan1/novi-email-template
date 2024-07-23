@@ -709,7 +709,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <mj-section padding="20px 30px 0 30px" css-class="dark-background">
       <mj-column>
         <mj-text align="center" mj-class="fw400-fs35-lh38" css-class="fw400-fs28-lh32">Why book with us</mj-text>
-        <mj-spacer height="20px"></mj-spacer>
+        <mj-spacer height="20px" css-class="hide-on-mobile"></mj-spacer>
       </mj-column>
     </mj-section>
     <!-- Checkmarks -->
@@ -752,7 +752,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-group>
     </mj-section>
     <!-- Image -->
-    <mj-section css-class="dark-background">
+    <mj-section css-class="dark-background" padding-top="0px">
       <mj-column>
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/36.png" width="540px" height="256px" css-class="hide-on-mobile" />
         <!-- MOBILE -->
