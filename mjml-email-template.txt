@@ -333,7 +333,7 @@
 
     </mj-style>
     <mj-style>
-      
+
       /*
       *{
       font-weight:400;
@@ -342,7 +342,7 @@
       line-height: 22px;
       color: #000000;
       }
-*/
+      */
 
       .hide-on-light {
       display: none !important;
@@ -630,8 +630,8 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
-    
-    
+
+
 
     <!-- START: Spacing starts here -->
     <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer">
@@ -709,29 +709,29 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- Text content -->
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br />johndoe@gmail.com. </mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br /><span style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">johndoe@gmail.com.</span> </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href="">privacy policy.</a></mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">privacy policy.</a></mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href="">here</a>.</mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href="">reservations@valamar.com.</a></mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href="mailto:reservations@valamar.com" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">reservations@valamar.com.</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href="">here</a>. </mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>. </mj-text>
       </mj-column>
     </mj-section>
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
@@ -741,7 +741,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
       <mj-column>
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href="">newsletter@valamar.com.</a></mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">newsletter@valamar.com.</a></mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Footer -->
