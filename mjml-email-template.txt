@@ -630,6 +630,99 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
+    <mj-section direction="rtl">
+      <mj-column width="260px">
+        <mj-text mj-class="fw700-fs20-lh24">Planirajte odmor</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh20">
+          <ul>
+            <li>Izbjegnite gužve uz online check-in / check-out
+            </li>
+            <li>Planirajte aktivnosti kroz naš interaktivni kalendar
+            </li>
+            <li>Rezervirajte doživljaje
+            </li>
+            <li>Pristupite svom Valamar Plus Club profilu</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-table>
+          <tr>
+            <td width="125" height="40" style = "background: #000000; border-radius: 8px; max-height: 40px;">
+              <p >
 
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#000000;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: Arial, 'Open Sans', sans-serif;
+          line-height:20px;
+          width: 125px;
+          padding: 5px 5px;
+          text-align:left;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" style = "background: #000000 !important;">
+                    <tr>
+                      <td align="center" valign="middle" style="padding: 0px 10px 0 0px;line-height: 16px; vertical-align: middle;"><img src="https://email.valamar.com/assets/responsysimages/content/valamarri/google-play-store-logo-A9F117BED5-seeklogo.com.png" width="20px"></img></td>
+                      <td><span style="font-size: 8px; color: #ffffff;">GET IT ON</span><br />
+                        <span style="font-size: 13px;color: #ffffff;">Google Play</span>
+                      </td>
+                    </tr>
+                  </table>
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+            <td width="10"></td>
+             <td width="125" height="40" style = "background: #000000; border-radius: 8px; max-height: 40px;">
+              <p >
+
+                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
+                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#000000;
+          border-radius:8px;
+          color:#ffffff;
+          font-size:16px;
+          font-weight:700;
+          font-family: Arial, 'Open Sans', sans-serif;
+          line-height:20px;
+          width: 125px;
+          padding: 5px 5px;
+          text-align:left;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" style = "background: #000000 !important;">
+                    <tr>
+                      <td align="center" valign="middle" style="padding: 0px 10px 0 0px;line-height: 16px; vertical-align: middle;"><img src="https://email.valamar.com/assets/responsysimages/content/valamarri/google-play-store-logo-A9F117BED5-seeklogo.com.png" width="20px"></img></td>
+                      <td><span style="font-size: 8px; color: #ffffff;">GET IT ON</span><br />
+                        <span style="font-size: 13px;color: #ffffff;">Google Play</span>
+                      </td>
+                    </tr>
+                  </table>
+                </a>
+                <!--[if mso]></center></v:roundrect><![endif]-->
+              </p>
+            </td>
+          </tr>
+
+        </mj-table>
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column width="260px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/mob_new_templ.png" fluid-on-mobile="true"></mj-image>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
