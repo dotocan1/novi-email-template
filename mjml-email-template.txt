@@ -648,73 +648,46 @@
         <mj-spacer height="20px"></mj-spacer>
         <mj-table>
           <tr>
-            <td width="125" height="40" style = "background: #000000; border-radius: 8px; max-height: 40px;">
-              <p >
-
-                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
-          background-color:#000000;
-          border-radius:8px;
-          color:#ffffff;
-          font-size:16px;
-          font-weight:700;
-          font-family: Arial, 'Open Sans', sans-serif;
-          line-height:20px;
-          width: 125px;
-          padding: 5px 5px;
-          text-align:left;
-          text-decoration:none;
-          display: inline-block;
-          box-sizing: border-box;
-          ">
-                  <table cellpadding="0" cellspacing="0" border="0" align="center" style = "background: #000000 !important;">
+            <td style="padding: 0px;font-family: 'Open Sans', Arial, sans-serif;font-size: 10px;line-height: 40px;font-weight: bold; background-color:#ffffff;">
+              <div style="text-align: center;">
+                <!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="
+https://www.valamar.com/hr/newsletter/update?MasterProfileId=${CUSTOMER_ID_}"style="height:44px;v-text-anchor:middle;width:270px;
+letter-spacing:2px;font-family: 'Open Sans', sans-serif;" arcsize="60%" stroke="f" fillcolor="#d9dce1 "><w:anchorlock/><center><![endif]-->
+                <a 
+                   href="https://www.valamar.com/hr/newsletter/update?MasterProfileId=${CUSTOMER_ID_}" 
+                   style="background-color:#000000;
+                          border-radius:8px;
+                          color:#ffffff;
+                          display:inline-block;
+                          font-size:12px;
+                          font-weight:bold;font-family: 'Open Sans', sans-serif;
+                          line-height:20px;
+                          text-align:center;
+                          text-decoration:none;
+                          width:125px;
+                          -webkit-text-size-adjust:none;
+                          letter-spacing:2px;" 
+                   target="_blank">
+                  <table cellpadding="0" cellspacing="0" border="0" align="center">
                     <tr>
-                      <td align="center" valign="middle" style="padding: 0px 10px 0 0px;line-height: 16px; vertical-align: middle;"><img src="https://email.valamar.com/assets/responsysimages/content/valamarri/google-play-store-logo-A9F117BED5-seeklogo.com.png" width="20px"></img></td>
-                      <td><span style="font-size: 8px; color: #ffffff;">GET IT ON</span><br />
-                        <span style="font-size: 13px;color: #ffffff;">Google Play</span>
+                      <td align="center" valign="middle" style="padding:0px;
+                                                                line-height: 20px;
+                                                                vertical-align: middle;"
+                          width = "1">
+                        <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/google-play-store-logo-A9F117BED5-seeklogo.com.png" width = "20"/>
+                      </td>
+                      <td>
+                        <div style="font-size:10px;font-weight:bold;font-family: 'Open Sans', sans-serif;line-height:40px;text-align:center;text-decoration:none; letter-spacing:2px;color:#ffffff; font-weight: 900;"><strong>UPDATE PROFIE</strong>
+                        </div>
                       </td>
                     </tr>
                   </table>
                 </a>
                 <!--[if mso]></center></v:roundrect><![endif]-->
-              </p>
-            </td>
-            <td width="10"></td>
-             <td width="125" height="40" style = "background: #000000; border-radius: 8px; max-height: 40px;">
-              <p >
-
-                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:260px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-                <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
-          background-color:#000000;
-          border-radius:8px;
-          color:#ffffff;
-          font-size:16px;
-          font-weight:700;
-          font-family: Arial, 'Open Sans', sans-serif;
-          line-height:20px;
-          width: 125px;
-          padding: 5px 5px;
-          text-align:left;
-          text-decoration:none;
-          display: inline-block;
-          box-sizing: border-box;
-          ">
-                  <table cellpadding="0" cellspacing="0" border="0" align="center" style = "background: #000000 !important;">
-                    <tr>
-                      <td align="center" valign="middle" style="padding: 0px 10px 0 0px;line-height: 16px; vertical-align: middle;"><img src="https://email.valamar.com/assets/responsysimages/content/valamarri/google-play-store-logo-A9F117BED5-seeklogo.com.png" width="20px"></img></td>
-                      <td><span style="font-size: 8px; color: #ffffff;">GET IT ON</span><br />
-                        <span style="font-size: 13px;color: #ffffff;">Google Play</span>
-                      </td>
-                    </tr>
-                  </table>
-                </a>
-                <!--[if mso]></center></v:roundrect><![endif]-->
-              </p>
+              </div>
             </td>
           </tr>
-
         </mj-table>
       </mj-column>
       <mj-column width="20px">
