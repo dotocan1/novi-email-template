@@ -124,6 +124,10 @@
       max-height: 25px !important;
       }
 
+      .grey-background * {
+      background-color: #f2f2f2;
+      }
+
     </mj-style>
     <mj-style inline="inline">
 
@@ -202,8 +206,8 @@
       .mj-column-px-250 {
       max-width: 250px;
       }
-      
-       .mj-column-px-260 {
+
+      .mj-column-px-260 {
       max-width: 260px;
       }
       /*
@@ -634,6 +638,30 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#f2f2f2">
+    <!-- START: Voucher -->
+    <mj-section>
+      <mj-column width="260px">
+        <mj-image src="https://placehold.co/265x200" />
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="260px" css-class="grey-background">
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text align="center">
+          Vaučer 50 €
+        </mj-text>
+        <mj-spacer height="80px"></mj-spacer>
+        <mj-text align="center">Kod vaučera</mj-text>
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-text align="center">CCA22237-1C44-E011</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Voucher -->
+
+
+    <!-- START: Mobile app -->
     <mj-section direction="rtl">
       <mj-column width="260px">
         <mj-text mj-class="fw700-fs20-lh24">Planirajte odmor</mj-text>
@@ -651,14 +679,14 @@
         </mj-text>
         <mj-spacer height="20px"></mj-spacer>
         <mj-table align="center" cellpadding="1px" line-height="100%">
-        <tr>
-          <td width = "125">
-          <img src = "https://email.valamar.com/assets/responsysimages/content/valamarri/valamar-android-app%25201.png" />
-          </td>
-          <td width = "125">
-          <img src = "https://email.valamar.com/assets/responsysimages/content/valamarri/valamar-iphone-app%25201.png" />
-          </td>
-          </tr>  
+          <tr>
+            <td width="125">
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/valamar-android-app%25201.png" />
+            </td>
+            <td width="125">
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/valamar-iphone-app%25201.png" />
+            </td>
+          </tr>
         </mj-table>
       </mj-column>
       <mj-column width="20px">
@@ -668,5 +696,7 @@
         <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/mob_new_templ.png" fluid-on-mobile="true"></mj-image>
       </mj-column>
     </mj-section>
+    <!-- END: Mobile app -->
+
   </mj-body>
-</mjml> 
+</mjml>
