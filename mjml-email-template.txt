@@ -202,6 +202,10 @@
       .mj-column-px-250 {
       max-width: 250px;
       }
+      
+       .mj-column-px-260 {
+      max-width: 260px;
+      }
       /*
       .mj-column-per-30 {
       max-width: 30%;
@@ -665,4 +669,4 @@
       </mj-column>
     </mj-section>
   </mj-body>
-</mjml>
+</mjml> 
