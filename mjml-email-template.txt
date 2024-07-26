@@ -124,8 +124,13 @@
       max-height: 25px !important;
       }
 
-      .grey-background * {
+      .grey-background * div:nth-child(3) {
       background-color: #f2f2f2;
+      height: 200px;
+      }
+
+      .white-background *{
+      background: #ffffff;
       }
 
     </mj-style>
@@ -587,7 +592,6 @@
       overflow : visible !important;
       float : none !important;
       }
-
       }
 
       @media only screen and (min-width: 600px) {
@@ -600,6 +604,13 @@
       display: block !important;
       overflow: visible !important;
       }
+
+      .hide-on-mobile-inline {
+      display: inline-block !important;
+      overflow: visible !important;
+      }
+
+
       }
 
       /** DARK MODE **/
@@ -639,15 +650,16 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
     <!-- START: Voucher -->
-    <mj-section>
-      <mj-column width="260px">
+    <mj-section css-class="grey-background">
+      <mj-column width="265px">
         <mj-image src="https://placehold.co/265x200" />
+        <mj-spacer height="20px" css-class="white-background hide-on-desktop"></mj-spacer>
       </mj-column>
-      <mj-column width="20px">
+      <mj-column width="10px" css-class="hide-on-mobile-inline hide-on-outlook">
         <mj-text>
         </mj-text>
       </mj-column>
-      <mj-column width="260px" css-class="grey-background">
+      <mj-column width="265px">
         <mj-spacer height="20px"></mj-spacer>
         <mj-text align="center">
           Vaučer 50 €
