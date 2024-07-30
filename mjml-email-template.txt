@@ -29,6 +29,7 @@
       <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="20px" />
       <mj-class name="fw400-fs15-lh24" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="24px" />
       <mj-class name="fw400-fs16-lh20" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="16px" line-height="20px" />
+      <mj-class name="fw400-fs16-lh22" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="16px" line-height="22px" />
       <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="18px" line-height="24px" />
       <mj-class name="fw400-fs20-lh24" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="20px" line-height="24px" />
       <mj-class name="fw400-fs24-lh32" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="24px" line-height="32px" />
@@ -124,7 +125,7 @@
       max-height: 25px !important;
       }
 
-      .grey-background * div:nth-child(3) {
+      .grey-background * div:nth-child(4) {
       background-color: #f2f2f2;
       height: 200px;
       }
@@ -562,6 +563,11 @@
       display: none !important;
       overflow: hidden !important;
       }
+      
+       .hide-on-mobile-inline {
+      display: none !important;
+      overflow: hidden !important;
+      }
 
       .loyalty-hide-on-mobile {
       display: none !important;
@@ -650,31 +656,59 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
     <!-- START: Voucher -->
-    <mj-section css-class="grey-background">
+    <mj-section css-class="grey-background dark-background">
       <mj-column width="265px">
-        <mj-image src="https://placehold.co/265x200" />
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/20243007voucher_block_image.png" />
         <mj-spacer height="20px" css-class="white-background hide-on-desktop"></mj-spacer>
       </mj-column>
       <mj-column width="10px" css-class="hide-on-mobile-inline hide-on-outlook">
         <mj-text>
         </mj-text>
       </mj-column>
+      <mj-column width="10px" css-class="hide-on-desktop show-on-mobile">
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
       <mj-column width="265px">
         <mj-spacer height="20px"></mj-spacer>
-        <mj-text align="center">
+        <mj-text align="center" mj-class = "fw700-fs28-lh34">
           Vaučer 50 €
         </mj-text>
-        <mj-spacer height="80px"></mj-spacer>
-        <mj-text align="center">Kod vaučera</mj-text>
         <mj-spacer height="40px"></mj-spacer>
-        <mj-text align="center">CCA22237-1C44-E011</mj-text>
+        <mj-text align="center" mj-class = "fw400-fs16-lh22">Kod vaučera</mj-text>
+        <mj-spacer height="10px"></mj-spacer>
+        <mj-text align="center">
+          <mj-raw>
+            <p>
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:240px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="48%" stroke="f" fillcolor="#00C2BF" color= "#213585"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#FFE000;
+          border-radius:48px;
+          color: #213585;
+          font-size:16px;
+          font-weight:700;
+          font-family: Arial, 'Open Sans', sans-serif;
+          line-height:20px;
+          width: 220px;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                620T-781G-KTW6
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- END: Voucher -->
 
 
     <!-- START: Mobile app -->
-    <mj-section direction="rtl">
+    <mj-section direction="rtl" css-class = "dark-background">
       <mj-column width="260px">
         <mj-text mj-class="fw700-fs20-lh24">Planirajte odmor</mj-text>
         <mj-spacer height="20px"></mj-spacer>
