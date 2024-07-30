@@ -650,6 +650,9 @@
       a {
       color: #ffffff !important;
       }
+      .grey-background *  {
+      background-color: #232323 !important;
+      }
       }
 
     </mj-style>
@@ -680,11 +683,11 @@
           <mj-raw>
             <p>
               <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:240px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="48%" stroke="f" fillcolor="#00C2BF" color= "#213585"><w:anchorlock/><center><![endif]-->
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:220px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="48%" stroke="f" fillcolor="#FFE000" color= "#213585"><w:anchorlock/><center><![endif]-->
               <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
-          background-color:#FFE000;
+          background-color:#FFE000 !important;
           border-radius:48px;
-          color: #213585;
+          color: #213585 !important;
           font-size:16px;
           font-weight:700;
           font-family: Arial, 'Open Sans', sans-serif;
