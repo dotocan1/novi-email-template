@@ -1809,17 +1809,8 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Mobile app -->
 
-    <!-- START: FAQ -->
-    <mj-section css-class="dark-background">
-      <mj-column>
-        <mj-social font-size="20px" icon-size="48px" mode="horizontal" icon-padding="0 5px 0 5px" css-class="fw400-fs16-lh24">
-          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/08qweqweq.png" href="https://mjml.io/" mj-class="fw400-fs20-lh24">
-            Često postavljana pitanja ↗️
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <!-- END: FAQ -->
+
+
     <!-- START: Spacing starts here -->
     <mj-section padding="0px" background-color="#f2f2f2" css-class="spacer hide-on-light">
       <mj-column>
