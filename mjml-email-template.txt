@@ -679,7 +679,7 @@
       <mj-column>
         <mj-social font-size="20px" icon-size="48px" mode="horizontal" icon-padding="0 5px 0 5px" css-class="fw400-fs16-lh24">
           <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/08qweqweq.png" href="https://mjml.io/" mj-class="fw400-fs20-lh24">
-            Često postavljana pitanja ↗️
+            Često postavljana pitanja ↗
           </mj-social-element>
         </mj-social>
       </mj-column>
@@ -772,7 +772,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     <!-- Text content -->
     <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
       <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br /><span style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">johndoe@gmail.com.</span> </mj-text>
+        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br /><a href="mailto:johndoe@gmail.com" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">johndoe@gmail.com.</a> </mj-text>
       </mj-column>
     </mj-section>
 
