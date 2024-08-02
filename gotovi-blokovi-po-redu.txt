@@ -1720,6 +1720,95 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
     </mj-section>
     <!-- END: Spacing ends here -->
 
+<!-- START: Voucher -->
+    <mj-section css-class="grey-background dark-background">
+      <mj-column width="265px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/20243007voucher_block_image.png" />
+        <mj-spacer height="20px" css-class="white-background hide-on-desktop"></mj-spacer>
+      </mj-column>
+      <mj-column width="10px" css-class="hide-on-mobile-inline hide-on-outlook">
+        <mj-text>
+        </mj-text>
+      </mj-column>
+      <mj-column width="10px" css-class="hide-on-desktop show-on-mobile">
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text align="center" mj-class="fw700-fs28-lh34">
+          Vaučer 50 €
+        </mj-text>
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-text align="center" mj-class="fw400-fs16-lh22">Kod vaučera</mj-text>
+        <mj-spacer height="10px"></mj-spacer>
+        <mj-text align="center">
+          <mj-raw>
+            <p>
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:220px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="48%" stroke="f" fillcolor="#FFE000" color= "#213585"><w:anchorlock/><center><![endif]-->
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+          background-color:#FFE000 !important;
+          border-radius:48px;
+          color: #213585 !important;
+          font-size:16px;
+          font-weight:700;
+          font-family: Arial, 'Open Sans', sans-serif;
+          line-height:20px;
+          width: 220px;
+          padding: 16px 40px;
+          text-align:center;
+          text-decoration:none;
+          display: inline-block;
+          box-sizing: border-box;
+          ">
+                620T-781G-KTW6
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Voucher -->
+
+
+    <!-- START: Mobile app -->
+    <mj-section direction="rtl" css-class="dark-background">
+      <mj-column width="260px">
+        <mj-text mj-class="fw700-fs20-lh24">Planirajte odmor</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text mj-class="fw400-fs15-lh20">
+          <ul>
+            <li>Izbjegnite gužve uz online check-in / check-out
+            </li>
+            <li>Planirajte aktivnosti kroz naš interaktivni kalendar
+            </li>
+            <li>Rezervirajte doživljaje
+            </li>
+            <li>Pristupite svom Valamar Plus Club profilu</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-table align="center" cellpadding="1px" line-height="100%">
+          <tr>
+            <td width="125">
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/valamar-android-app%25201.png" />
+            </td>
+            <td width="125">
+              <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/valamar-iphone-app%25201.png" />
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+      <mj-column width="20px">
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column width="260px">
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/mob_new_templ.png" fluid-on-mobile="true"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- END: Mobile app -->
+
     <!-- START: FAQ -->
     <mj-section css-class="dark-background">
       <mj-column>
@@ -1739,87 +1828,4 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
       </mj-column>
     </mj-section>
     <!-- END: Spacing ends here -->
-    <!-- START: Footer -->
-    <!-- Socials -->
-    <mj-section mj-class="grey-background" css-class="dark-background">
-      <mj-column>
-        <mj-social icon-size="30px" mode="horizontal" icon-padding="0 10px 0 10px">
-          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/sfasfadsf23.png" href="https://mjml.io/">
-          </mj-social-element>
-          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/qwqsdas123.png" href="https://mjml.io/">
-          </mj-social-element>
-          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/123123fasf.png" href="https://mjml.io/">
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <!-- Button -->
-    <mj-section mj-class="grey-background" css-class="dark-background">
-      <mj-column>
-        <mj-text align="center">
-          <mj-raw>
-            <p class="mobile-full-width">
-              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
-etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
-          background-color:#00C2BF;
-          border-radius:8px;
-          color:#ffffff;
-          font-size:16px;
-          font-weight:700;
-          font-family: Arial, 'Open Sans', sans-serif;
-          line-height:20px;
-          width: auto;
-          padding: 16px 40px;
-          text-align:center;
-          text-decoration:none;
-          display: inline-block;
-          box-sizing: border-box;
-          ">
-                Update your profile
-              </a>
-              <!--[if mso]></center></v:roundrect><![endif]-->
-            </p>
-          </mj-raw>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- Text content -->
-    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
-      <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br /><span style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">johndoe@gmail.com.</span> </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
-      <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">privacy policy.</a></mj-text>
-      </mj-column>
-    </mj-section>
-
-    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
-      <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>.</mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
-      <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href="mailto:reservations@valamar.com" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">reservations@valamar.com.</a></mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
-      <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>. </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
-      <mj-column padding-bottom="20px">
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter. </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
-      <mj-column>
-        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">newsletter@valamar.com.</a></mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- END: Footer -->
+  
