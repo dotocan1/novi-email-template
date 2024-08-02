@@ -1,88 +1,363 @@
-<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<mjml>
+  <mj-head>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+    <mj-preview>This is preheader&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</mj-preview>
+    <mj-attributes>
+      <!-- General styles -->
+      <mj-column padding="0px"></mj-column>
+      <mj-image padding="0px"></mj-image>
+      <mj-text padding="0px"></mj-text>
+      <mj-table padding="0px"></mj-table>
+      <mj-social padding="0px" padding-bottom="0px"></mj-social>
+      <mj-social-element padding="0px"></mj-social-element>
+      <mj-section padding="20px 30px 20px 30px" background-color="#ffffff"></mj-section>
+      <!-- Classes -->
+      <!-- Sections and columns -->
+      <mj-class name="loyalty-section" padding-top="4px" padding-bottom="8px" border-top="1px solid lightgrey" border-bottom="1px solid lightgrey" />
+      <mj-class name="grey-background" background-color="#f2f2f2" />
+      <mj-class name="no-top-bottom-padding" padding="0 30px 0 30px" />
+      <mj-class name="column" border="1px blue solid" />
+      <!-- Text styling -->
+      <!-- Font weight 400 -->
+      <mj-class name="fw400-fs12-lh20" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="20px" />
+      <mj-class name="fw400-fs13-lh18" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="13px" line-height="18px" />
+      <mj-class name="fw400-fs14-lh21" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="14px" line-height="21px" />
+      <mj-class name="fw400-fs15-lh22" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="22px" />
+      <mj-class name="fw400-fs15-lh20" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="20px" />
+      <mj-class name="fw400-fs15-lh24" align="left" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="15px" line-height="24px" />
+      <mj-class name="fw400-fs16-lh20" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="16px" line-height="20px" />
+      <mj-class name="fw400-fs16-lh22" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="16px" line-height="22px" />
+      <mj-class name="fw400-fs18-lh24" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="18px" line-height="24px" />
+      <mj-class name="fw400-fs20-lh24" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="20px" line-height="24px" />
+      <mj-class name="fw400-fs24-lh32" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="24px" line-height="32px" />
+      <mj-class name="fw400-fs28-lh32" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="28px" line-height="32px" />
+      <mj-class name="fw400-fs35-lh38" align="center" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="35px" line-height="38px" />
+      <!-- Font weight 700 -->
+      <mj-class name="fw700-fs12-lh18" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="18px" />
+      <mj-class name="fw700-fs20-lh24" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="20px" line-height="24px" />
+      <mj-class name="fw700-fs20-lh34" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="20px" line-height="34px" />
+      <mj-class name="fw700-fs28-lh34" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="28px" line-height="34px" />
+      <mj-class name="fw700-fs22-lh24" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="22px" line-height="24px" />
+      <mj-class name="fw700-fs35-lh38" align="left" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="35px" line-height="38px" />
+      <!-- Specific text styling -->
+      <mj-class name="loyalty-track-heading" font-weight="400" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="18px" padding="5px 0px 0px 0px" />
+      <mj-class name="loyalty-track-text" font-weight="700" font-family="Arial, 'Open Sans', sans-serif" font-size="12px" line-height="22px" padding="5px 0px 0px 0px" />
+      <!-- Button styling -->
+      <mj-class name="general-button" background-color="#00C2BF" padding="0px" align="left" border-radius="8px" height="52px" width="100%" font-family="Arial, 'Open Sans', sans-serif" font-weight="700" font-size="16px" line-height="20px" css-class="cta-button" />
+      <mj-class name="secondary-button" background-color="#ffffff" color="#000000" padding="0px" align="left" border-radius="8px" height="48px" width="100%" border="1px solid #000000" />
+      <mj-class name="intro-button" background-color="#00C2BF" padding="0px" align="center" border-radius="8px" height="48px" width="50%" />
 
-<head>
-  <title>
-  </title>
-  <!--[if !mso]><!-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--<![endif]-->
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style type="text/css">
-    #outlook a {
-      padding: 0;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-    }
-
-    table,
-    td {
-      border-collapse: collapse;
-      mso-table-lspace: 0pt;
-      mso-table-rspace: 0pt;
-    }
-
-    img {
-      border: 0;
-      height: auto;
-      line-height: 100%;
-      outline: none;
-      text-decoration: none;
-      -ms-interpolation-mode: bicubic;
-    }
-
-    p {
-      display: block;
-      margin: 13px 0;
-    }
-  </style>
-  <!--[if mso]>
-        <noscript>
-        <xml>
-        <o:OfficeDocumentSettings>
-          <o:AllowPNG/>
-          <o:PixelsPerInch>96</o:PixelsPerInch>
-        </o:OfficeDocumentSettings>
-        </xml>
-        </noscript>
-        <![endif]-->
-  <!--[if lte mso 11]>
-        <style type="text/css">
-          .mj-outlook-group-fix { width:100% !important; }
-        </style>
-        <![endif]-->
-  <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700);
-    @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
-  </style>
-  <!--<![endif]-->
-  <style type="text/css">
-    @media only screen and (min-width:480px) {
-      .mj-column-per-100 {
-        width: 100% !important;
-        max-width: 100%;
+      <mj-class name="hide-on-desktop" width="0" max-height="0" overflow=" hidden" float="left" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .hide-on-outlook *{
+      mso-hide:all;
       }
-    }
-  </style>
-  <style media="screen and (min-width:480px)">
-    .moz-text-html .mj-column-per-100 {
-      width: 100% !important;
+
+      .hide-on-desktop*{
+      width: 0;
+      max-height: 0;
+      overflow: hidden;
+      float: left;
+      }
+
+      .align-center-outlook *{
+      text-align: center !important;
+      }
+      .align-left-outlook div{
+      text-align: left !important;
+      }
+
+      .vertical-align *{
+      vertical-align: middle !important;
+      }
+
+      .no-link * {
+      color: inherit;
+      text-decoration: none;
+      }
+
+      .img-w80-h33 * img {
+      width: 80px !important;
+      min-width: 80px !important;
+      max-width: 80px !important;
+      height: 33px !important;
+      min-height: 33px !important;
+      max-height: 33px !important;
+      }
+
+      .img-w100-h25 * img {
+      width: 100px !important;
+      min-width: 100px !important;
+      max-width: 100px !important;
+      height: 25px !important;
+      min-height: 25px !important;
+      max-height: 25px !important;
+      }
+
+      .img-w80-h26 * img {
+      width: 80px !important;
+      min-width: 80px !important;
+      max-width: 80px !important;
+      height: 26px !important;
+      min-height: 26px !important;
+      max-height: 26px !important;
+      }
+
+      .img-w75-h63 * img {
+      width: 75px !important;
+      min-width: 75px !important;
+      max-width: 75px !important;
+      height: 63px !important;
+      min-height: 63px !important;
+      max-height: 63px !important;
+      }
+
+      .img-w50-h25 * img {
+      width: 50px !important;
+      min-width: 50px !important;
+      max-width: 50px !important;
+      height: 25px !important;
+      min-height: 25px !important;
+      max-height: 25px !important;
+      }
+      
+      .img-wh30{
+      width: 30px !important;
+      min-width: 30px !important;
+      max-width: 30px !important;
+      height: 30px !important;
+      min-height: 30px !important;
+      max-height: 30px !important;
+      }
+
+      .grey-background * div:nth-child(4) {
+      background-color: #f2f2f2;
+      height: 200px;
+      }
+
+      .white-background *{
+      background: #ffffff;
+      }
+
+    </mj-style>
+    <mj-style inline="inline">
+
+      /*
+      .mj-column-per-33-333333333333336 {
+      max-width: 33.333333333333336%;
+      }
+      /*
+      .mj-column-per-33 {
+      max-width: 33.333333333333336%;
+      }
+
+      .mj-column-per-100 {
       max-width: 100%;
-    }
-  </style>
-  <style type="text/css">
-  </style>
-  <style type="text/css">
-    /*
+      }
+      /*
+      .mj-column-per-20 {
+      max-width: 20%;
+      }
+      */
+      .mj-column-px-265 {
+      max-width: 265px;
+      }
+
+      .mj-column-px-10 {
+      max-width: 10px;
+      }
+
+      .mj-column-per-23 {
+      max-width: 23%;
+      }
+
+      .mj-column-per-15 {
+      max-width: 15%;
+      }
+
+      .mj-column-per-19 {
+      max-width: 19%;
+      }
+
+      .mj-column-per-1 {
+      max-width: 1%;
+      }
+
+      .mj-column-per-80 {
+      max-width: 80%;
+      }
+
+      .mj-column-px-540 {
+      max-width: 540px;
+      }
+
+      .mj-column-px-20 {
+      max-width: 20px;
+      }
+
+      .mj-column-px-255 {
+      max-width: 255px;
+      }
+
+      .mj-column-per-48 {
+      max-width: 48%;
+      }
+
+      .mj-column-per-4 {
+      max-width: 4%;
+      }/*
+      .mj-column-per-50 {
+      max-width: 50%;
+      }
+      */
+      .mj-column-px-270 {
+      max-width: 270px;
+      }
+
+      .mj-column-px-250 {
+      max-width: 250px;
+      }
+
+      .mj-column-px-260 {
+      max-width: 260px;
+      }
+      /*
+      .mj-column-per-30 {
+      max-width: 30%;
+      }
+      */
+      .mj-column-per-2 {
+      max-width: 2%;
+      }
+
+      .mj-column-per-68 {
+      max-width: 68%;
+      }
+
+      .mj-column-per-10 {
+      max-width: 10%;
+      }
+
+      .mj-column-per-8 {
+      max-width: 8%;
+      }
+
+      .mj-column-per-77 {
+      max-width: 77%;
+      }
+
+      .moz-text-html .mj-column-per-33-333333333333336 {
+      max-width: 33.333333333333336%;
+      }
+
+      .moz-text-html .mj-column-per-33 {
+      max-width: 33.333333333333336%;
+      }
+
+      .moz-text-html .mj-column-per-100 {
+      max-width: 100%;
+      }
+
+      .moz-text-html .mj-column-per-20 {
+      max-width: 20%;
+      }
+
+      .moz-text-html .mj-column-px-265 {
+      max-width: 265px;
+      }
+
+      .moz-text-html .mj-column-px-10 {
+      max-width: 10px;
+      }
+
+      .moz-text-html .mj-column-per-23 {
+      max-width: 23%;
+      }
+
+      .moz-text-html .mj-column-per-15 {
+      max-width: 15%;
+      }
+
+      .moz-text-html .mj-column-per-19 {
+      max-width: 19%;
+      }
+
+      .moz-text-html .mj-column-per-1 {
+      max-width: 1%;
+      }
+
+      .moz-text-html .mj-column-per-80 {
+      max-width: 80%;
+      }
+
+      .moz-text-html .mj-column-px-540 {
+      max-width: 540px;
+      }
+
+      .moz-text-html .mj-column-px-20 {
+      max-width: 20px;
+      }
+
+      .moz-text-html .mj-column-px-255 {
+      max-width: 255px;
+      }
+
+      .moz-text-html .mj-column-per-48 {
+      max-width: 48%;
+      }
+
+      .moz-text-html .mj-column-per-4 {
+      max-width: 4%;
+      }
+
+      .moz-text-html .mj-column-per-50 {
+      max-width: 50%;
+      }
+
+      .moz-text-html .mj-column-px-270 {
+      max-width: 270px;
+      }
+
+      .moz-text-html .mj-column-px-250 {
+      max-width: 250px;
+      }
+
+      .moz-text-html .mj-column-per-30 {
+      max-width: 30%;
+      }
+
+      .moz-text-html .mj-column-per-2 {
+      max-width: 2%;
+      }
+
+      .moz-text-html .mj-column-per-68 {
+      max-width: 68%;
+      }
+
+      .moz-text-html .mj-column-per-10 {
+      max-width: 10%;
+      }
+
+      .moz-text-html .mj-column-per-8 {
+      max-width: 8%;
+      }
+
+      .moz-text-html .mj-column-per-77 {
+      max-width: 77%;
+      }
+
+      .max-width-20{
+      max-width: 20%;
+      }
+
+    </mj-style>
+    <mj-style>
+
+      /*
       *{
       font-weight:400;
       font-family:Arial, 'Open Sans', sans-serif;
@@ -91,59 +366,62 @@
       color: #000000;
       }
       */
-    .hide-on-light {
+
+      .hide-on-light {
       display: none !important;
       overflow: hidden !important;
-    }
+      }
 
-    p {
+      p{
       margin: 0px;
-    }
+      }
 
-    /** Text stylings START **/
-    .fw400-fs15-lh18 * {
-      font-family: Arial, 'Open Sans', sans-serif;
-      font-weight: 400 !important;
-      font-size: 15px !important;
+      /** Text stylings START **/
+
+      .fw400-fs15-lh18 * {
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight:400 !important;
+      font-size:15px !important;
       line-height: 18px !important;
-    }
-
-    .fw700-fs20-lh24 * {
-      font-family: Arial, 'Open Sans', sans-serif;
-      font-weight: 700 !important;
-      font-size: 20px !important;
+      }
+      .fw700-fs20-lh24 * {
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight:700 !important;
+      font-size:20px !important;
       line-height: 24px !important;
-    }
+      }
 
-    .fw400-fs15-lh22 * {
-      font-family: Arial, 'Open Sans', sans-serif;
-      font-weight: 400 !important;
-      font-size: 15px !important;
+      .fw400-fs15-lh22 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight:400 !important;
+      font-size:15px !important;
       line-height: 22px !important;
-    }
+      }
 
-    /** Text stylings END **/
-    .align-left * {
+      /** Text stylings END **/
+
+      .align-left *{
       text-align: left !important;
-    }
+      }
 
-    .align-center * {
+      .align-center *{
       text-align: center !important;
-    }
+      }
 
-    ul {
+      ul{
       margin-bottom: 0px;
-    }
+      }
 
-    /*
+
+      /*
       .hide-on-desktop {
       display: none !important;
       overflow: hidden !important;
       }
       */
-    .button {
-      background-color: #00C2BF;
-      /* Teal color */
+
+      .button {
+      background-color: #00C2BF; /* Teal color */
       margin: 0px;
       padding: 0px;
       text-align: center;
@@ -154,9 +432,9 @@
       color: white;
       font-size: 16px;
       padding: 9px 2px 9px 2px;
-    }
+      }
 
-    .secondary-button {
+      .secondary-button {
       background-color: #ffffff;
       margin: 0px;
       padding: 0px;
@@ -169,347 +447,295 @@
       font-size: 16px;
       padding: 9px 2px 9px 2px;
       border: 1px solid #000000;
-    }
+      }
 
-    .loyalty-track-text-bold {
+      .loyalty-track-text-bold{
       font-weight: bold;
-    }
+      }
 
-    th {
+      th{
       font-weight: 700;
       font-family: Arial, 'Open Sans', sans-serif;
       font-size: 20px;
       line-height: 24px;
       text-align: left;
-    }
+      }
 
-    .web-overview div {
-      text-align: center !important;
-    }
 
-    /** Mobile only **/
-    @media (max-width: 480px) {
+      .web-overview div {
+      text-align:center !important;
+      }
+
+      /** Mobile only **/
+
+      @media (max-width: 480px) {
 
       /** Text stylings START **/
-      .fw400-fs16-lh24 * {
-        font-family: Arial, 'Open Sans', sans-serif;
-        font-weight: 400 !important;
-        font-size: 16px !important;
-        line-height: 24px !important;
+
+      .fw400-fs16-lh24 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight: 400 !important;
+      font-size:16px !important;
+      line-height: 24px !important;
       }
 
-      .fw400-fs18-lh24 div {
-        text-align: left !important;
+      .fw400-fs18-lh24 div{
+
+      text-align: left !important;
       }
 
-      .fw400-fs28-lh32 * {
-        font-family: Arial, 'Open Sans', sans-serif;
-        font-weight: 400 !important;
-        font-size: 28px !important;
-        line-height: 32px !important;
+      .fw400-fs28-lh32 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 400 !important;
+      font-size: 28px !important;
+      line-height: 32px !important;
       }
 
-      .fw700-fs20-lh24 * {
-        font-family: Arial, 'Open Sans', sans-serif;
-        font-weight: 700 !important;
-        font-size: 20px !important;
-        line-height: 24px !important;
+      .fw700-fs20-lh24 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 24px !important;
       }
 
-      .fw700-fs28-lh28 * {
-        font-family: Arial, 'Open Sans', sans-serif;
-        font-weight: 700 !important;
-        font-size: 28px !important;
-        line-height: 28px !important;
+      .fw700-fs28-lh28 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 700 !important;
+      font-size: 28px !important;
+      line-height: 28px !important;
       }
 
-      .fw700-fs20-lh32 * {
-        font-family: Arial, 'Open Sans', sans-serif;
-        font-weight: 700 !important;
-        font-size: 20px !important;
-        line-height: 32px !important;
+      .fw700-fs20-lh32 *{
+      font-family:Arial, 'Open Sans', sans-serif;
+      font-weight : 700 !important;
+      font-size: 20px !important;
+      line-height: 32px !important;
       }
+
 
       /** Text stylings END **/
+
       .mobile-padding-top-20 {
-        padding-top: 20px !important;
+      padding-top: 20px !important;
       }
-
       .mobile-padding-bottom-20 {
-        padding-bottom: 20px !important;
+      padding-bottom: 20px !important;
       }
-
       .online-check-in-button {
-        background-color: #00C2BF;
-        /* Teal color */
-        margin: 0px;
-        text-align: center !important;
-        border-radius: 8px;
-        height: 40x;
-        width: 100% !important;
-        border: none;
-        color: white;
-        font-size: 16px;
-        padding: 9px 2px 9px 2px;
+      background-color: #00C2BF; /* Teal color */
+      margin: 0px;
+      text-align: center !important;
+      border-radius: 8px;
+      height: 40x;
+      width: 100% !important;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 9px 2px 9px 2px;
       }
 
       .online-check-in-button * {
-        text-align: center !important;
+      text-align: center !important;
       }
 
-      .align-left-mobile * {
-        text-align: left !important;
+      .align-left-mobile *{
+      text-align: left !important;
       }
 
-      .align-left-center * {
-        text-align: left !important;
+      .align-left-center *{
+      text-align: left !important;
       }
 
-      .align-center-mobile * {
-        text-align: center !important;
+      .align-center-mobile *{
+      text-align: center !important;
       }
-
       /*
       .hide-on-desktop {
       display: block !important;
       overflow : visible !important;
       }
       */
-      .mobile-full-width a {
-        width: 100% !important;
+      .mobile-full-width a{
+      width: 100% !important;
       }
 
-      .loyalty-block-no-bottom-padding td {
-        padding-bottom: 0px !important;
+      .loyalty-block-no-bottom-padding td{
+      padding-bottom: 0px !important;
       }
 
-      .experience-block-no-padding-on-mobile td:nth-child(1) {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
+      .experience-block-no-padding-on-mobile td:nth-child(1){
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
       }
 
       .hide-on-mobile {
-        display: none !important;
-        overflow: hidden !important;
+      display: none !important;
+      overflow: hidden !important;
       }
 
       .hide-on-mobile-inline {
-        display: none !important;
-        overflow: hidden !important;
+      display: none !important;
+      overflow: hidden !important;
       }
 
       .loyalty-hide-on-mobile {
-        display: none !important;
-        overflow: hidden !important;
+      display: none !important;
+      overflow: hidden !important;
       }
 
+
       .intro-button table:first-child {
-        width: 100% !important;
+      width : 100% !important;
       }
 
       .loyalty-track {
-        width: 32% !important;
+      width: 32% !important;
       }
 
-      .loyalty-padding-left {
-        padding-left: 8px;
+      .loyalty-padding-left{
+      padding-left: 8px;
       }
 
-      .remove-border * {
-        border: none !important;
+      .remove-border *{
+      border: none !important;
       }
 
       .show-on-mobile {
-        display: block !important;
-        width: auto !important;
-        max-height: inherit !important;
-        overflow: visible !important;
-        float: none !important;
+      display: block !important;
+      width : auto !important;
+      max-height: inherit !important;
+      overflow : visible !important;
+      float : none !important;
       }
-
       .show-on-mobile-inline {
-        display: inline-block !important;
-        width: auto !important;
-        max-height: inherit !important;
-        overflow: visible !important;
-        float: none !important;
+      display: inline-block !important;
+      width : auto !important;
+      max-height: inherit !important;
+      overflow : visible !important;
+      float : none !important;
       }
-    }
+      }
 
-    @media only screen and (min-width: 600px) {
+      @media only screen and (min-width: 600px) {
       .hide-on-desktop {
-        display: none !important;
-        overflow: hidden !important;
+      display: none !important;
+      overflow: hidden !important;
       }
 
       .hide-on-mobile {
-        display: block !important;
-        overflow: visible !important;
+      display: block !important;
+      overflow: visible !important;
       }
 
       .hide-on-mobile-inline {
-        display: inline-block !important;
-        overflow: visible !important;
-      }
-    }
-
-    /** DARK MODE **/
-    @media (prefers-color-scheme: dark) {
-
-      body,
-      body>div:nth-child(2),
-      .spacer * {
-        background: #000000 !important;
+      display: inline-block !important;
+      overflow: visible !important;
       }
 
-      .dark-background td {
-        background: #232323;
+
       }
 
+      /** DARK MODE **/
+      @media (prefers-color-scheme: dark) {
+      body, body > div:nth-child(2), .spacer * {
+      background: #000000 !important;
+      }
+      .dark-background td{
+      background:#232323;
+      }
       .dark-background * {
-        color: #ffffff !important;
+      color: #ffffff !important;
       }
 
       .hide-on-light {
-        display: block !important;
-        overflow: visible !important;
+      display: block !important;
+      overflow: visible !important;
       }
 
       .mobile-padding-top-20 {
-        background: #232323 !important;
+      background: #232323 !important;
       }
 
       .mobile-padding-bottom-20 {
-        background: #232323 !important;
+      background: #232323 !important;
       }
-
-      .cta-button * {
-        background: #00C2BF !important;
-        border-radius: 8px;
+      .cta-button *{
+      background: #00C2BF !important;
+      border-radius: 8px;
       }
-
       a {
-        color: #ffffff !important;
+      color: #ffffff !important;
       }
-
       .grey-background * {
-        background-color: #232323 !important;
+      background-color: #232323 !important;
       }
-    }
-  </style>
-  <meta name="color-scheme" content="light dark">
-  <meta name="supported-color-schemes" content="light dark">
-</head>
+      }
 
-<body style="word-spacing:normal;background-color:#f2f2f2;">
-  <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> This is preheader&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; </div>
-  <div style="background-color:#f2f2f2;">
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+	
+     <!-- START: Brands  -->
+    <mj-section css-class="dark-background">
+      <mj-column>
+        <mj-image src="https://email.valamar.com/assets/responsysimages/content/valamarri/Header_logo@3x.png" align="center" width="200px" height="50px" />
+      </mj-column>
+    </mj-section>
+    <!-- Other elements -->
+    <mj-section padding-top="0px" text-align="center" css-class="vertical-align dark-background">
+      <mj-column vertical-align="middle">
+        <mj-social mode="horizontal" icon-padding="15px">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-valamar-collection@3x.png" href="https://mjml.io/" icon-height="27px" icon-size="80px"  css-class="img-w80-h33">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-valamar-hotels-resorts@3x.png" href="https://mjml.io/" icon-height="25px" icon-size="100px"  css-class="img-w100-h25">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-places-by-valamar@3x.png" href="https://mjml.io/" icon-height="26px" icon-size="80px"  css-class="img-w80-h26">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-sunny-by-valamar@3x.png" href="https://mjml.io/" icon-height="63px" icon-size="75px"  css-class="img-w75-h63">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/Footer_brands-camping-adriatic@3x.png" href="https://mjml.io/" icon-height="25px" icon-size="50px"  css-class="img-w50-h25">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- Contact info -->
+    <mj-section padding-top="0px" text-align="center" css-class="dark-background">
+      <mj-column border-top="1px solid lightgrey" padding-top="20px" css-class="align-center-mobile">
+        <mj-social font-size="15px" icon-size="28px" mode="horizontal" text-padding="5px 20px 0 10px" icon-padding="5px 0 0 0">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/asdfsdgsd2213.png" href="https://mjml.io/" mj-class="fw400-fs15-lh24">
+            reservations@valamar.com
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/sdfsdg44.png" href="https://mjml.io/" mj-class="fw400-fs15-lh24">
+            +385 52 465 000
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- END: Brands  -->
+    
     <!-- START: Footer -->
     <!-- Socials -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 30px 20px 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;padding-bottom:0px;word-break:break-word;">
-                                <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td><![endif]-->
-                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                  <tr>
-                                    <td style="padding:0px;vertical-align:middle;">
-                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:30px;">
-                                        <tr>
-                                          <td style="padding:0 10px 0 10px;font-size:0;height:30px;vertical-align:middle;width:30px;">
-                                            <a href="https://mjml.io/" target="_blank">
-                                              <img height="30" src="https://email.valamar.com/assets/responsysimages/content/valamarri/sfasfadsf23.png" style="border-radius:3px;display:block;" width="30">
-                                            </a>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                                <!--[if mso | IE]></td><td><![endif]-->
-                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                  <tr>
-                                    <td style="padding:0px;vertical-align:middle;">
-                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:30px;">
-                                        <tr>
-                                          <td style="padding:0 10px 0 10px;font-size:0;height:30px;vertical-align:middle;width:30px;">
-                                            <a href="https://mjml.io/" target="_blank">
-                                              <img height="30" src="https://email.valamar.com/assets/responsysimages/content/valamarri/qwqsdas123.png" style="border-radius:3px;display:block;" width="30">
-                                            </a>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                                <!--[if mso | IE]></td><td><![endif]-->
-                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                  <tr>
-                                    <td style="padding:0px;vertical-align:middle;">
-                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:30px;">
-                                        <tr>
-                                          <td style="padding:0 10px 0 10px;font-size:0;height:30px;vertical-align:middle;width:30px;">
-                                            <a href="https://mjml.io/" target="_blank">
-                                              <img height="30" src="https://email.valamar.com/assets/responsysimages/content/valamarri/123123fasf.png" style="border-radius:3px;display:block;" width="30">
-                                            </a>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                                <!--[if mso | IE]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <mj-section mj-class="grey-background" css-class="dark-background">
+      <mj-column>
+        <mj-social mode="horizontal" icon-padding="0 10px 0 10px">
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/sfasfadsf23.png" href="https://mjml.io/" css-class="img-wh30" icon-height="30px" icon-size="30px">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/qwqsdas123.png" href="https://mjml.io/" css-class="img-wh30" icon-height="30px" icon-size="30px">
+          </mj-social-element>
+          <mj-social-element src="https://email.valamar.com/assets/responsysimages/content/valamarri/123123fasf.png" href="https://mjml.io/" css-class="img-wh30" icon-height="30px" icon-size="30px">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
     <!-- Button -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 30px 20px 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#000000;">
-                                  <mj-raw>
-                                    <p class="mobile-full-width">
-                                      <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
+    <mj-section mj-class="grey-background" css-class="dark-background">
+      <mj-column>
+        <mj-text align="center">
+          <mj-raw>
+            <p class="mobile-full-width">
+              <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.valamar.com/en/summer-holiday?utm_source=Valamar_newsl
 etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style="v-text-anchor:middle;width:280px;font-family: Arial, 'Open Sans', sans-serif;" arcsize="8%" stroke="f" fillcolor="#00C2BF"><w:anchorlock/><center><![endif]-->
-                                      <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
+              <a href="https://www.valamar.com/en/summer-holiday" target="_blank" style="
           background-color:#00C2BF;
           border-radius:8px;
           color:#ffffff;
@@ -523,255 +749,54 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
           text-decoration:none;
           display: inline-block;
           box-sizing: border-box;
-          "> Update your profile </a>
-                                      <!--[if mso]></center></v:roundrect><![endif]-->
-                                    </p>
-                                  </mj-raw>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
+          ">
+                Update your profile
+              </a>
+              <!--[if mso]></center></v:roundrect><![endif]-->
+            </p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
     <!-- Text content -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="align-left-mobile-outlook dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="align-left-mobile dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 30px 0 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;padding-bottom:20px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Arial, 'Open Sans', sans-serif;font-size:15px;font-weight:400;line-height:20px;text-align:center;color:#000000;">This newsletter was sent to the following address: <br><span style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">johndoe@gmail.com.</span></div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="align-left-mobile-outlook dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="align-left-mobile dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 30px 0 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;padding-bottom:20px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Arial, 'Open Sans', sans-serif;font-size:15px;font-weight:400;line-height:20px;text-align:center;color:#000000;">Read our <a href style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">privacy policy.</a></div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="align-left-mobile-outlook dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="align-left-mobile dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 30px 0 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;padding-bottom:20px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Arial, 'Open Sans', sans-serif;font-size:15px;font-weight:400;line-height:20px;text-align:center;color:#000000;"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>.</div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="align-left-mobile-outlook dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="align-left-mobile dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 30px 0 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;padding-bottom:20px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Arial, 'Open Sans', sans-serif;font-size:15px;font-weight:400;line-height:20px;text-align:center;color:#000000;"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br> <a href="mailto:reservations@valamar.com" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">reservations@valamar.com.</a></div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="align-left-mobile-outlook dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="align-left-mobile dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 30px 0 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;padding-bottom:20px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Arial, 'Open Sans', sans-serif;font-size:15px;font-weight:400;line-height:20px;text-align:center;color:#000000;">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>.</div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="align-left-mobile-outlook dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="align-left-mobile dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 30px 0 30px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;padding-bottom:20px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Arial, 'Open Sans', sans-serif;font-size:15px;font-weight:400;line-height:20px;text-align:center;color:#000000;"><strong style="font-weight: bold;">Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter.</div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="align-left-mobile-outlook dark-background-outlook" style="width:600px;" width="600" bgcolor="#f2f2f2" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="align-left-mobile dark-background" style="background:#f2f2f2;background-color:#f2f2f2;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f2f2;background-color:#f2f2f2;width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 30px 0 30px;padding-bottom:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
-                          <tbody>
-                            <tr>
-                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                <div style="font-family:Arial, 'Open Sans', sans-serif;font-size:15px;font-weight:400;line-height:20px;text-align:center;color:#000000;"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">newsletter@valamar.com.</a></div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- END: Footer -->
-  </div>
-</body>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">This newsletter was sent to the following address: <br /><span style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">johndoe@gmail.com.</span> </mj-text>
+      </mj-column>
+    </mj-section>
 
-</html>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">Read our <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">privacy policy.</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To unsubscribe</strong> from the newsletter, click <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">To book</strong> or for information about your booking, please contact:<br /> <a href="mailto:reservations@valamar.com" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">reservations@valamar.com.</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20">If you wish to <strong style="font-weight: bold;">send us comments</strong>, please click <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">here</a>. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding">
+      <mj-column padding-bottom="20px">
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Keep in mind:</strong> if this email is forwarded, the recipient may also receive your personal data and a possibility to change it, as well as to unsubscribe you from this newsletter. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="align-left-mobile dark-background" mj-class="grey-background no-top-bottom-padding" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" mj-class="fw400-fs15-lh20"><strong style="font-weight: bold;">Please note:</strong> the email address that you received this message from is used exclusively for sending email and cannot receive replies. If you wish to contact us, please write to <a href="" style="color: #333; font-family: Arial, 'Open Sans', sans-serif;font-size: 15px; font-weight: 400; line-height: 20px; color:inherit !important; ">newsletter@valamar.com.</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END: Footer -->
+
+  </mj-body>
+</mjml>
