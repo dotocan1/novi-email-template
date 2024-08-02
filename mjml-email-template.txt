@@ -563,8 +563,8 @@
       display: none !important;
       overflow: hidden !important;
       }
-      
-       .hide-on-mobile-inline {
+
+      .hide-on-mobile-inline {
       display: none !important;
       overflow: hidden !important;
       }
@@ -593,6 +593,13 @@
 
       .show-on-mobile {
       display: block !important;
+      width : auto !important;
+      max-height: inherit !important;
+      overflow : visible !important;
+      float : none !important;
+      }
+      .show-on-mobile-inline {
+      display: inline-block !important;
       width : auto !important;
       max-height: inherit !important;
       overflow : visible !important;
@@ -650,7 +657,7 @@
       a {
       color: #ffffff !important;
       }
-      .grey-background *  {
+      .grey-background * {
       background-color: #232323 !important;
       }
       }
@@ -673,11 +680,11 @@
       </mj-column>
       <mj-column width="265px">
         <mj-spacer height="20px"></mj-spacer>
-        <mj-text align="center" mj-class = "fw700-fs28-lh34">
+        <mj-text align="center" mj-class="fw700-fs28-lh34">
           Vaučer 50 €
         </mj-text>
         <mj-spacer height="40px"></mj-spacer>
-        <mj-text align="center" mj-class = "fw400-fs16-lh22">Kod vaučera</mj-text>
+        <mj-text align="center" mj-class="fw400-fs16-lh22">Kod vaučera</mj-text>
         <mj-spacer height="10px"></mj-spacer>
         <mj-text align="center">
           <mj-raw>
@@ -711,7 +718,7 @@ etter&utm_medium=email&utm_campaign=${CAMPAIGN_NAME}&C_ID=${CUSTOMER_ID_}"style=
 
 
     <!-- START: Mobile app -->
-    <mj-section direction="rtl" css-class = "dark-background">
+    <mj-section direction="rtl" css-class="dark-background">
       <mj-column width="260px">
         <mj-text mj-class="fw700-fs20-lh24">Planirajte odmor</mj-text>
         <mj-spacer height="20px"></mj-spacer>
