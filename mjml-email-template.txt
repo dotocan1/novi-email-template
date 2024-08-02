@@ -637,7 +637,7 @@
       }
 
       .secondary-cta a{
-      border: 1px solid white;
+      border: 1px solid #ffffff !important;
       }
 
       .hide-on-light {
@@ -692,15 +692,15 @@
                 <!--[if mso]>
 <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href=""style="height:44px;v-text-anchor:middle;width:270px;
 letter-spacing:2px;font-family: 'Open Sans', sans-serif;" arcsize="60%" stroke="f" fillcolor="#d9dce1 "><w:anchorlock/><center><![endif]-->
-                <a href="" style="background:#d9dce1;border-radius:30px;display:inline-block;line-height:100%;text-align:center;text-decoration:none;width:270px;-webkit-text-size-adjust:none; vertical-align: middle !important;" target="_blank">
+                <a href="" style="background:#f2f2f2;border-radius:8px;display:inline-block;line-height:100%;text-align:center;text-decoration:none;width:270px;-webkit-text-size-adjust:none; vertical-align: middle !important;border: 1px solid #000000;" target="_blank">
                   <table cellpadding="0" cellspacing="0" border="0" align="center">
                     <tr>
                       <td align="center" valign="middle" style="line-height: 100%; vertical-align: middle; width: auto; padding-right: 10px;">
-                        <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/profile_crni.png" alt="Profile Image" style="display: block; border: 0;" />
+                        <img src="https://email.valamar.com/assets/responsysimages/content/valamarri/ui-a-user.png" alt="Profile Image" style="display: block; border: 0;" />
                       </td>
                       <td>
                         <div style="font-size: 14px;  font-family: Arial, 'Open Sans', sans-serif; line-height: 52px; text-align: center;  color: #000000; font-weight: 700;">
-                          <strong>UPDATE PROFILE</strong>
+                          <strong>Update your profile</strong>
                         </div>
                       </td>
                     </tr>
